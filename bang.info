@@ -4,4 +4,4 @@ description = KKB site theme. Herman Joachim Bang was a Danish author, one of th
 core = 7.x
 release = 7.x-1.x
 
-stylesheets[all][] = css/bang.styles.css
+stylesheets[all][] = stylesheets/bang.styles.css
