@@ -1,0 +1,7 @@
+base theme = ddbasic
+name = Bang, Herman
+description = KKB site theme. Herman Joachim Bang was a Danish author, one of the men of the Modern Breakthrough.
+core = 7.x
+release = 7.x-1.x
+
+stylesheets[all][] = css/bang.styles.css
