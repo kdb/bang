@@ -1,3 +1,89 @@
-body {
-  background-color: green !important;
+html {
+  body {
+    // Inherit background color among others.
+    @extend body;
+    .topbar-inner {
+      padding-top: 70px;
+    }
+    .site-header {
+
+      // Resetting logo and site-name.
+      // @todo this could be cleaned up in ddbasic.
+      .site-name-wrapper {
+        display: none;
+      }
+      .logo {
+        float:none;
+        width: auto;
+        margin: 0;
+        img {
+          width: auto;
+          height: auto;
+        }
+      }
+
+      // Resetting the background and other parts of the carousel since it was
+      // moved from the content container to the top.
+      .rs-carousel .rs-carousel-inner {
+        background-color: transparent;
+      }
+
+      // Reset the menus in the header and inherit from styleguide.
+      // All things in header is positioned except from the menus,
+      // which should be aligned right.
+      text-align: right;
+      ul.main-menu,
+      ul.topbar-menu {
+        width: auto;
+        display: block;
+        float: right;
+        margin: 0;
+        @extend .nav.navbar-nav;
+        a {
+          margin: 0;
+          padding: 10px;
+          margin-left: 30px !important;
+        }
+      }
+      // Hide second level from the main menu.
+      ul.main-menu {
+        ul {
+          display: none;
+        }
+      }
+      ul.topbar-menu {
+        a {
+          border-bottom: 5px solid transparent;
+        }
+      }
+    }
+  }
 }
+
+
+
+
+
+/**
+ * Header color handling.
+ **/
+body{
+  &.front{
+    .site-header .topbar {
+      ul.topbar-menu {
+        a {
+          &.active {
+            background-color: $purple-dark;
+          }
+        }
+      }
+      background-color: $color-purple;
+    }
+    .header-wrapper {
+      background-color: $purple-dark;
+    }
+  }
+
+}
+
+

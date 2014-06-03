@@ -1,7 +1,11 @@
+
+
 /**
  * Import the styleguide as basic refference.
  */
-@import '../../../../libraries/kkb_styleguide/_/sass/style';
 
+@import "settings";
+@import '../../../../libraries/kkb_styleguide/_/sass/main';
 
+//@import "fonts";
 @import 'layout';

@@ -1,0 +1,8 @@
+/**
+ * @file
+ * Settings in a seperate file so they can be overridden in implementation.
+ */
+
+$styleguide-path: '../../../libraries/kkb_styleguide';
+$fa-font-path: "#{$styleguide-path}/_/css/fonts" !default;
+$font-path: "#{$styleguide-path}/_/css/fonts/merriweatherweb/";

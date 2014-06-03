@@ -28,13 +28,15 @@ module.exports = function (grunt) {
         httpPath: '/profiles/ding2/themes/bang',
         cssDir: 'stylesheets',
         sassDir: 'stylesheets/scss',
-        imagesDir: '../../libraries/kkb_styleguide/_/img',
+        imagesDir: 'images',
+        //javascriptsDir: 'scripts',
+        //fontsDir: 'css/fonts',
         assetCacheBuster: 'none'
       },
       prod: {
         options: {
           environment: 'production',
-          outputStyle: 'compressed',
+          outputStyle: 'expanded',
           noLineComments : true,
           force: true,
         }
