@@ -29,8 +29,6 @@ module.exports = function (grunt) {
         cssDir: 'stylesheets',
         sassDir: 'stylesheets/scss',
         imagesDir: 'images',
-        //javascriptsDir: 'scripts',
-        //fontsDir: 'css/fonts',
         assetCacheBuster: 'none'
       },
       prod: {
