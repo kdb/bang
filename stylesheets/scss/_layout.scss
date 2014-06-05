@@ -1,3 +1,5 @@
+@import "mixins";
+
 html {
   body {
     // Inherit background color among others.
@@ -22,16 +24,17 @@ html {
         }
       }
 
+      .topbar {
+        // Reset the menus in the header and inherit from styleguide.
+        // All things in header is positioned except from the menus,
+        // which should be aligned right.
+        text-align: right;
+      }
       // Resetting the background and other parts of the carousel since it was
       // moved from the content container to the top.
       .rs-carousel .rs-carousel-inner {
         background-color: transparent;
       }
-
-      // Reset the menus in the header and inherit from styleguide.
-      // All things in header is positioned except from the menus,
-      // which should be aligned right.
-      text-align: right;
       ul.main-menu,
       ul.topbar-menu {
         width: auto;
@@ -51,9 +54,83 @@ html {
           display: none;
         }
       }
+      // DDBasic does a lot of funky stuff with custom fonts, shades and sizes.
       ul.topbar-menu {
         a {
+          font-family: 'proxima-nova',sans-serif;
+          text-shadow: none;
+          font-size: 100%;
           border-bottom: 5px solid transparent;
+          &.active {
+            // The color was set to 50% in the styleguide, but overridden
+            // somehow.
+            background-color: rgba(0, 0, 0, .2);
+          }
+
+        }
+      }
+      // This is the block that contains the search and the login bar.
+      .header-wrapper {
+        @extend .search-bar;
+        // The color was set to 50% in the styleguide, but overridden somehow.
+
+        // Somehow the height is set here. Should be set by size of content
+        // instead.
+        height: auto;
+        background-color: rgba(0, 0, 0, .2);
+        form input[type='text']{
+          font-family: 'proxima-nova', sans-serif;
+          font-size: 100%;
+        }
+
+        // Search pane specific resets.
+        .search {
+          padding:0;
+          label {
+            display: none;
+          }
+          form input[type='text']{
+            margin-left: 120px;
+          }
+          .form-submit {
+            // The form submit button is not visible in styleguide.
+            height: 0;
+            width: 0;
+            font-size: 0;
+            margin: 0;
+            background: transparent;
+
+          }
+        }
+        // Login pane specific resets.
+        .user {
+          padding: 0;
+        }
+        #user-login-form {
+
+          @extend .login;
+          label {
+            @extend .meta-form;
+            font-weight: normal;
+            font-family: 'proxima-nova',sans-serif;
+          }
+          input {
+            font-family: 'proxima-nova',sans-serif;
+            border-radius:$border-radius;
+            @extend input;
+            @include placeholder {
+              color: #d8dcda;
+              //color: $placeholdercolor;
+              font-family: 'proxima-nova', sans-serif;
+            }
+            min-height: 0;
+            &.form-submit {
+              @extend .btn;
+              @extend .btn-secondary;
+              margin-top: 0;
+              min-width: 0;
+            }
+          }
         }
       }
     }
@@ -69,21 +146,16 @@ html {
  **/
 body{
   &.front{
-    .site-header .topbar {
+    .site-header {
+      .topbar {
+        background: transparent;
+      }
       ul.topbar-menu {
-        a {
-          &.active {
-            background-color: $purple-dark;
-          }
-        }
+
       }
       background-color: $color-purple;
     }
-    .header-wrapper {
-      background-color: $purple-dark;
-    }
   }
-
 }
 
 

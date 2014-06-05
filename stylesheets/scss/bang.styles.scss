@@ -4,8 +4,9 @@
  * Import the styleguide as basic refference.
  */
 
+@import "mixins";
+
 @import "settings";
 @import '../../../../libraries/kkb_styleguide/_/sass/main';
 
-//@import "fonts";
 @import 'layout';
