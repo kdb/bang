@@ -1789,20 +1789,20 @@ body, html body {
   line-height: 24px;
 }
 
-h1, h1 a, h1 a:hover, h2, h2 a, h2 a:hover, .news-list-item .news-heading, h3, h3 a, h3 a:hover, .popover h3, html body footer.footer h2, html body footer.footer h2 a, h2 html body footer.footer a, html body footer.footer .news-list-item .news-heading, .news-list-item html body footer.footer .news-heading, h4, h4 a, h4 a:hover,
+h1, h1 a, h1 a:hover, h1.page-title, h2, h2 a, h2 a:hover, .news-list-item .news-heading, .sub-menu-title, h3, h3 a, h3 a:hover, .popover h3, html body footer.footer h2, html body footer.footer h2 a, h2 html body footer.footer a, html body footer.footer .news-list-item .news-heading, .news-list-item html body footer.footer .news-heading, html body footer.footer .sub-menu-title, h4, h4 a, h4 a:hover,
 h5 a, h5 a:hover,
 h6 a, h6 a:hover, h5, h6, p, a {
   margin: 0;
   padding: 0;
 }
-h1.underline, h1 a.underline, h2.underline, h2 a.underline, .news-list-item .underline.news-heading, h3.underline, h3 a.underline, html body footer.footer h2.underline, html body footer.footer h2 a.underline, h2 html body footer.footer a.underline, html body footer.footer .news-list-item .underline.news-heading, .news-list-item html body footer.footer .underline.news-heading, h4.underline, h4 a.underline,
+h1.underline, h1 a.underline, h2.underline, h2 a.underline, .news-list-item .underline.news-heading, .underline.sub-menu-title, h3.underline, h3 a.underline, html body footer.footer h2.underline, html body footer.footer h2 a.underline, h2 html body footer.footer a.underline, html body footer.footer .news-list-item .underline.news-heading, .news-list-item html body footer.footer .underline.news-heading, html body footer.footer .underline.sub-menu-title, h4.underline, h4 a.underline,
 h5 a.underline,
 h6 a.underline, h5.underline, h6.underline, p.underline, a.underline {
   margin-top: 24px;
   padding-bottom: 16px;
 }
 
-h1, h1 a, h1 a:hover {
+h1, h1 a, h1 a:hover, h1.page-title {
   font-weight: 700;
   font-family: 'merriweatherbold', serif;
   font-size: 42px;
@@ -1824,7 +1824,7 @@ h1.subject, h1 a.subject {
   font-size: 26px;
 }
 
-h2, h2 a, h2 a:hover, .news-list-item .news-heading {
+h2, h2 a, h2 a:hover, .news-list-item .news-heading, .sub-menu-title {
   font-family: 'Merriweather', serif;
   font-weight: 700;
   font-size: 20px;
@@ -1834,7 +1834,7 @@ h2, h2 a, h2 a:hover, .news-list-item .news-heading {
   margin-bottom: 24px;
 }
 
-h3, h3 a, h3 a:hover, .popover h3, html body footer.footer h2, html body footer.footer h2 a, h2 html body footer.footer a, html body footer.footer .news-list-item .news-heading, .news-list-item html body footer.footer .news-heading {
+h3, h3 a, h3 a:hover, .popover h3, html body footer.footer h2, html body footer.footer h2 a, h2 html body footer.footer a, html body footer.footer .news-list-item .news-heading, .news-list-item html body footer.footer .news-heading, html body footer.footer .sub-menu-title {
   font-family: 'Merriweather', serif;
   font-weight: 300;
   font-size: 18px;
@@ -1843,7 +1843,7 @@ h3, h3 a, h3 a:hover, .popover h3, html body footer.footer h2, html body footer.
   margin-top: 0px;
   margin-bottom: 24px;
 }
-h3.title, h3 a.title, html body footer.footer h2.title, html body footer.footer h2 a.title, h2 html body footer.footer a.title, html body footer.footer .news-list-item .title.news-heading, .news-list-item html body footer.footer .title.news-heading {
+h3.title, h3 a.title, html body footer.footer h2.title, html body footer.footer h2 a.title, h2 html body footer.footer a.title, html body footer.footer .news-list-item .title.news-heading, .news-list-item html body footer.footer .title.news-heading, html body footer.footer .title.sub-menu-title {
   min-height: 48px;
   padding-top: 21px;
   padding-bottom: 3px;
@@ -1868,20 +1868,20 @@ h6 a.big, h5.big, h6.big, legend.big {
   font-weight: 100;
 }
 
-h1, h1 a, h1 a:hover, h1 a, h1 a:hover a, h1 a:hover, h2, h2 a, h2 a:hover, .news-list-item .news-heading, h2 a, h2 a:hover a, .news-list-item .news-heading a, h2 a:hover, .news-list-item .news-heading a:hover {
+h1, h1 a, h1 a:hover, h1.page-title, h1 a, h1 a:hover a, h1.page-title a, h1 a:hover, h2, h2 a, h2 a:hover, .news-list-item .news-heading, .sub-menu-title, h2 a, h2 a:hover a, .news-list-item .news-heading a, .sub-menu-title a, h2 a:hover, .news-list-item .news-heading a:hover, .sub-menu-title a:hover {
   font-family: 'merriweatherbold', serif;
   font-weight: normal;
 }
 
-h3, h3 a, h3 a:hover, .popover h3, html body footer.footer h2, html body footer.footer h2 a, h2 html body footer.footer a, html body footer.footer .news-list-item .news-heading, .news-list-item html body footer.footer .news-heading, h3 a, h3 a:hover a, .popover h3 a, html body footer.footer h2 a, h2 html body footer.footer a a, html body footer.footer .news-list-item .news-heading a, .news-list-item html body footer.footer .news-heading a, h3 a:hover, html body footer.footer h2 a:hover, h2 html body footer.footer a a:hover, html body footer.footer .news-list-item .news-heading a:hover, .news-list-item html body footer.footer .news-heading a:hover {
+h3, h3 a, h3 a:hover, .popover h3, html body footer.footer h2, html body footer.footer h2 a, h2 html body footer.footer a, html body footer.footer .news-list-item .news-heading, .news-list-item html body footer.footer .news-heading, html body footer.footer .sub-menu-title, h3 a, h3 a:hover a, .popover h3 a, html body footer.footer h2 a, h2 html body footer.footer a a, html body footer.footer .news-list-item .news-heading a, .news-list-item html body footer.footer .news-heading a, html body footer.footer .sub-menu-title a, h3 a:hover, html body footer.footer h2 a:hover, h2 html body footer.footer a a:hover, html body footer.footer .news-list-item .news-heading a:hover, .news-list-item html body footer.footer .news-heading a:hover, html body footer.footer .sub-menu-title a:hover {
   font-family: 'merriweatherlight', serif;
   font-weight: normal;
 }
 
-.windows.firefox h1, .windows.firefox h1 a, h1 .windows.firefox a, .windows.firefox h1 a, h1 .windows.firefox a a, .windows.firefox h1 a:hover, h1 .windows.firefox a a:hover, .windows.firefox h2, .windows.firefox h2 a, h2 .windows.firefox a, .windows.firefox .news-list-item .news-heading, .news-list-item .windows.firefox .news-heading, .windows.firefox h2 a, h2 .windows.firefox a a, .windows.firefox .news-list-item .news-heading a, .news-list-item .windows.firefox .news-heading a, .windows.firefox h2 a:hover, h2 .windows.firefox a a:hover, .windows.firefox .news-list-item .news-heading a:hover, .news-list-item .windows.firefox .news-heading a:hover, .windows.firefox h3, .windows.firefox h3 a, h3 .windows.firefox a, .windows.firefox html body footer.footer h2, html body footer.footer .windows.firefox h2, .windows.firefox html body footer.footer h2 a, html body footer.footer h2 .windows.firefox a, .windows.firefox h2 html body footer.footer a, h2 html body footer.footer .windows.firefox a, .windows.firefox html body footer.footer .news-list-item .news-heading, html body footer.footer .news-list-item .windows.firefox .news-heading, .windows.firefox .news-list-item html body footer.footer .news-heading, .news-list-item html body footer.footer .windows.firefox .news-heading, .windows.firefox h3 a, h3 .windows.firefox a a, .windows.firefox html body footer.footer h2 a, html body footer.footer .windows.firefox h2 a, html body footer.footer h2 .windows.firefox a a, .windows.firefox h2 html body footer.footer a a, h2 html body footer.footer .windows.firefox a a, .windows.firefox html body footer.footer .news-list-item .news-heading a, html body footer.footer .news-list-item .windows.firefox .news-heading a, .windows.firefox .news-list-item html body footer.footer .news-heading a, .news-list-item html body footer.footer .windows.firefox .news-heading a, .windows.firefox h3 a:hover, h3 .windows.firefox a a:hover, .windows.firefox html body footer.footer h2 a:hover, html body footer.footer .windows.firefox h2 a:hover, html body footer.footer h2 .windows.firefox a a:hover, .windows.firefox h2 html body footer.footer a a:hover, h2 html body footer.footer .windows.firefox a a:hover, .windows.firefox html body footer.footer .news-list-item .news-heading a:hover, html body footer.footer .news-list-item .windows.firefox .news-heading a:hover, .windows.firefox .news-list-item html body footer.footer .news-heading a:hover, .news-list-item html body footer.footer .windows.firefox .news-heading a:hover {
+.windows.firefox h1, .windows.firefox h1 a, h1 .windows.firefox a, .windows.firefox h1 a, h1 .windows.firefox a a, .windows.firefox h1 a:hover, h1 .windows.firefox a a:hover, .windows.firefox h2, .windows.firefox h2 a, h2 .windows.firefox a, .windows.firefox .news-list-item .news-heading, .news-list-item .windows.firefox .news-heading, .windows.firefox .sub-menu-title, .windows.firefox h2 a, h2 .windows.firefox a a, .windows.firefox .news-list-item .news-heading a, .news-list-item .windows.firefox .news-heading a, .windows.firefox .sub-menu-title a, .windows.firefox h2 a:hover, h2 .windows.firefox a a:hover, .windows.firefox .news-list-item .news-heading a:hover, .news-list-item .windows.firefox .news-heading a:hover, .windows.firefox .sub-menu-title a:hover, .windows.firefox h3, .windows.firefox h3 a, h3 .windows.firefox a, .windows.firefox html body footer.footer h2, html body footer.footer .windows.firefox h2, .windows.firefox html body footer.footer h2 a, html body footer.footer h2 .windows.firefox a, .windows.firefox h2 html body footer.footer a, h2 html body footer.footer .windows.firefox a, .windows.firefox html body footer.footer .news-list-item .news-heading, html body footer.footer .news-list-item .windows.firefox .news-heading, .windows.firefox .news-list-item html body footer.footer .news-heading, .news-list-item html body footer.footer .windows.firefox .news-heading, .windows.firefox html body footer.footer .sub-menu-title, html body footer.footer .windows.firefox .sub-menu-title, .windows.firefox h3 a, h3 .windows.firefox a a, .windows.firefox html body footer.footer h2 a, html body footer.footer .windows.firefox h2 a, html body footer.footer h2 .windows.firefox a a, .windows.firefox h2 html body footer.footer a a, h2 html body footer.footer .windows.firefox a a, .windows.firefox html body footer.footer .news-list-item .news-heading a, html body footer.footer .news-list-item .windows.firefox .news-heading a, .windows.firefox .news-list-item html body footer.footer .news-heading a, .news-list-item html body footer.footer .windows.firefox .news-heading a, .windows.firefox html body footer.footer .sub-menu-title a, html body footer.footer .windows.firefox .sub-menu-title a, .windows.firefox h3 a:hover, h3 .windows.firefox a a:hover, .windows.firefox html body footer.footer h2 a:hover, html body footer.footer .windows.firefox h2 a:hover, html body footer.footer h2 .windows.firefox a a:hover, .windows.firefox h2 html body footer.footer a a:hover, h2 html body footer.footer .windows.firefox a a:hover, .windows.firefox html body footer.footer .news-list-item .news-heading a:hover, html body footer.footer .news-list-item .windows.firefox .news-heading a:hover, .windows.firefox .news-list-item html body footer.footer .news-heading a:hover, .news-list-item html body footer.footer .windows.firefox .news-heading a:hover, .windows.firefox html body footer.footer .sub-menu-title a:hover, html body footer.footer .windows.firefox .sub-menu-title a:hover {
   font-family: Georgia, serif;
 }
-.windows.firefox h1, .windows.firefox h1 a, h1 .windows.firefox a, .windows.firefox h1 a, h1 .windows.firefox a a, .windows.firefox h1 a:hover, h1 .windows.firefox a a:hover, .windows.firefox h2, .windows.firefox h2 a, h2 .windows.firefox a, .windows.firefox .news-list-item .news-heading, .news-list-item .windows.firefox .news-heading, .windows.firefox h2 a, h2 .windows.firefox a a, .windows.firefox .news-list-item .news-heading a, .news-list-item .windows.firefox .news-heading a, .windows.firefox h2 a:hover, h2 .windows.firefox a a:hover, .windows.firefox .news-list-item .news-heading a:hover, .news-list-item .windows.firefox .news-heading a:hover {
+.windows.firefox h1, .windows.firefox h1 a, h1 .windows.firefox a, .windows.firefox h1 a, h1 .windows.firefox a a, .windows.firefox h1 a:hover, h1 .windows.firefox a a:hover, .windows.firefox h2, .windows.firefox h2 a, h2 .windows.firefox a, .windows.firefox .news-list-item .news-heading, .news-list-item .windows.firefox .news-heading, .windows.firefox .sub-menu-title, .windows.firefox h2 a, h2 .windows.firefox a a, .windows.firefox .news-list-item .news-heading a, .news-list-item .windows.firefox .news-heading a, .windows.firefox .sub-menu-title a, .windows.firefox h2 a:hover, h2 .windows.firefox a a:hover, .windows.firefox .news-list-item .news-heading a:hover, .news-list-item .windows.firefox .news-heading a:hover, .windows.firefox .sub-menu-title a:hover {
   font-weight: bold;
 }
 
@@ -1938,14 +1938,14 @@ a.link-danger:hover, a.link-danger:active {
   display: inline-block;
 }
 
-.meta-primary, .meta-primary a, .news-list-item .news-sub-heading .news-date, .meta-secondary, .meta-secondary a, .meta-location a, .meta-location, .news-list-item .news-sub-heading .news-author {
+.meta-primary, .meta-primary a, .news-list-item .news-sub-heading .news-date, .meta-secondary, .meta-secondary a, .meta-location a, .library-ref a, .meta-location, .library-ref, .news-list-item .news-sub-heading .news-author {
   font-size: 12px;
   line-height: 16px;
   text-transform: uppercase;
   display: inline-block;
   margin-right: 4px;
 }
-.meta-primary i.fa, .news-list-item .news-sub-heading .news-date i.fa, .meta-secondary i.fa, .meta-location i.fa, .news-list-item .news-sub-heading .news-author i.fa, .meta-primary span, .news-list-item .news-sub-heading .news-date span, .meta-secondary span, .meta-location span, .news-list-item .news-sub-heading .news-author span {
+.meta-primary i.fa, .news-list-item .news-sub-heading .news-date i.fa, .meta-secondary i.fa, .meta-location i.fa, .library-ref i.fa, .news-list-item .news-sub-heading .news-author i.fa, .meta-primary span, .news-list-item .news-sub-heading .news-date span, .meta-secondary span, .meta-location span, .library-ref span, .news-list-item .news-sub-heading .news-author span {
   margin-right: 4px;
   text-align: center;
   min-width: 12px;
@@ -1971,14 +1971,14 @@ a.link-danger:hover, a.link-danger:active {
   color: #009a76;
 }
 
-.meta-secondary, .meta-secondary a, .meta-location a, .meta-location, .news-list-item .news-sub-heading .news-author {
+.meta-secondary, .meta-secondary a, .meta-location a, .library-ref a, .meta-location, .library-ref, .news-list-item .news-sub-heading .news-author {
   color: #b1b1ad;
 }
 
-.meta-secondary a, .meta-location a, .news-list-item .news-sub-heading .news-author a, .meta-location a {
+.meta-secondary a, .meta-location a, .library-ref a, .news-list-item .news-sub-heading .news-author a, .meta-location a, .library-ref a {
   margin-right: 0;
 }
-.meta-secondary a:hover, .meta-location a:hover, .news-list-item .news-sub-heading .news-author a:hover, .meta-location a:hover {
+.meta-secondary a:hover, .meta-location a:hover, .library-ref a:hover, .news-list-item .news-sub-heading .news-author a:hover, .meta-location a:hover, .library-ref a:hover {
   color: #989893;
 }
 
@@ -1986,24 +1986,24 @@ a.link-danger:hover, a.link-danger:active {
   font-weight: 600;
 }
 
-.tags {
+.tags, .news-tags {
   display: inline-block;
 }
 @media only screen and (max-width: 480px) {
-  .tags {
+  .tags, .news-tags {
     margin-bottom: 24px;
   }
 }
 
 .tag, .news-list-item .news-label a,
-.news-list-item .views-field-field-ding-news-tags a {
+.news-list-item .views-field-field-ding-news-tags a, .news-tags a {
   display: inline-block;
 }
 
 @media only screen and (max-width: 480px) {
   body .tag, body .news-list-item .news-label a, .news-list-item .news-label body a,
   body .news-list-item .views-field-field-ding-news-tags a,
-  .news-list-item .views-field-field-ding-news-tags body a {
+  .news-list-item .views-field-field-ding-news-tags body a, body .news-tags a, .news-tags body a {
     width: auto;
   }
 }
@@ -2119,7 +2119,7 @@ Markup: <div class="vertical-list">
 
 Styleguide 3.4
 */
-.vertical-list h2, html body footer.footer .vertical-list h2, .vertical-list h2 a, h2 .vertical-list a, html body footer.footer .vertical-list h2 a, h2 html body footer.footer .vertical-list a, .vertical-list .news-list-item .news-heading, .news-list-item .vertical-list .news-heading, .vertical-list h3, html body footer.footer .vertical-list h3, .vertical-list h3 a, h3 .vertical-list a, html body footer.footer .vertical-list h3 a, h3 html body footer.footer .vertical-list a, .vertical-list html body footer.footer h2, html body footer.footer .vertical-list h2, .vertical-list html body footer.footer h2 a, html body footer.footer .vertical-list h2 a, html body footer.footer h2 .vertical-list a, .vertical-list h2 html body footer.footer a, h2 html body footer.footer .vertical-list a, .vertical-list html body footer.footer .news-list-item .news-heading, html body footer.footer .vertical-list .news-list-item .news-heading, html body footer.footer .news-list-item .vertical-list .news-heading, .vertical-list .news-list-item html body footer.footer .news-heading, .news-list-item html body footer.footer .vertical-list .news-heading {
+.vertical-list h2, html body footer.footer .vertical-list h2, .vertical-list h2 a, h2 .vertical-list a, html body footer.footer .vertical-list h2 a, h2 html body footer.footer .vertical-list a, .vertical-list .news-list-item .news-heading, .news-list-item .vertical-list .news-heading, .vertical-list .sub-menu-title, html body footer.footer .vertical-list .sub-menu-title, .vertical-list h3, html body footer.footer .vertical-list h3, .vertical-list h3 a, h3 .vertical-list a, html body footer.footer .vertical-list h3 a, h3 html body footer.footer .vertical-list a, .vertical-list html body footer.footer h2, html body footer.footer .vertical-list h2, .vertical-list html body footer.footer h2 a, html body footer.footer .vertical-list h2 a, html body footer.footer h2 .vertical-list a, .vertical-list h2 html body footer.footer a, h2 html body footer.footer .vertical-list a, .vertical-list html body footer.footer .news-list-item .news-heading, html body footer.footer .vertical-list .news-list-item .news-heading, html body footer.footer .news-list-item .vertical-list .news-heading, .vertical-list .news-list-item html body footer.footer .news-heading, .news-list-item html body footer.footer .vertical-list .news-heading, .vertical-list html body footer.footer .sub-menu-title, html body footer.footer .vertical-list .sub-menu-title {
   margin-top: 0;
 }
 .vertical-list h4, html body footer.footer .vertical-list h4, .vertical-list h4 a, h4 .vertical-list a, html body footer.footer .vertical-list h4 a, h4 html body footer.footer .vertical-list a,
@@ -2175,14 +2175,14 @@ html body footer.footer .vertical-list h6 {
 .vertical-list.vertical-list-separator a:hover {
   color: #00b38a;
 }
-.vertical-list ul.vertical-list-nav a, html body footer.footer .vertical-list ul a {
+.vertical-list ul.vertical-list-nav a, .vertical-list ul.sub-menu a, html body footer.footer .vertical-list ul a {
   color: #b1b1ad;
   font-weight: 300;
 }
-.vertical-list ul.vertical-list-nav a:hover, html body footer.footer .vertical-list ul a:hover {
+.vertical-list ul.vertical-list-nav a:hover, .vertical-list ul.sub-menu a:hover, html body footer.footer .vertical-list ul a:hover {
   color: #00b38a;
 }
-.vertical-list ul.vertical-list-nav li.active a, html body footer.footer .vertical-list ul li.active a {
+.vertical-list ul.vertical-list-nav li.active a, .vertical-list ul.sub-menu li.active a, html body footer.footer .vertical-list ul li.active a {
   color: #00b38a;
 }
 .vertical-list ul.vertical-list-plain li, html body footer.footer .vertical-list ul.vertical-list-plain li {
@@ -2529,7 +2529,7 @@ Markup: <button type="button" class="btn {$modifiers}">
 Styleguide 99.1
 */
 .btn, .tag, .news-list-item .news-label a,
-.news-list-item .views-field-field-ding-news-tags a, .news-list-item .news-link a, html body .site-header .header-wrapper #user-login-form input.form-submit {
+.news-list-item .views-field-field-ding-news-tags a, .news-tags a, .news-list-item .news-link a, .news-category a, html body .site-header .header-wrapper #user-login-form input.form-submit {
   display: inline-block;
   padding: 5px 16px;
   margin-bottom: 14px;
@@ -2552,8 +2552,8 @@ Styleguide 99.1
   box-shadow: 0px 1px 2px #004d3b;
 }
 .btn span.glyphicon, .tag span.glyphicon, .news-list-item .news-label a span.glyphicon,
-.news-list-item .views-field-field-ding-news-tags a span.glyphicon, .news-list-item .news-link a span.glyphicon, html body .site-header .header-wrapper #user-login-form input.form-submit span.glyphicon, .btn i.fa, .tag i.fa, .news-list-item .news-label a i.fa,
-.news-list-item .views-field-field-ding-news-tags a i.fa, .news-list-item .news-link a i.fa, html body .site-header .header-wrapper #user-login-form input.form-submit i.fa {
+.news-list-item .views-field-field-ding-news-tags a span.glyphicon, .news-tags a span.glyphicon, .news-list-item .news-link a span.glyphicon, .news-category a span.glyphicon, html body .site-header .header-wrapper #user-login-form input.form-submit span.glyphicon, .btn i.fa, .tag i.fa, .news-list-item .news-label a i.fa,
+.news-list-item .views-field-field-ding-news-tags a i.fa, .news-tags a i.fa, .news-list-item .news-link a i.fa, .news-category a i.fa, html body .site-header .header-wrapper #user-login-form input.form-submit i.fa {
   color: black;
   -moz-opacity: 0.25;
   opacity: .25;
@@ -2563,59 +2563,59 @@ Styleguide 99.1
   display: inline-block;
 }
 .btn:active, .tag:active, .news-list-item .news-label a:active,
-.news-list-item .views-field-field-ding-news-tags a:active, .news-list-item .news-link a:active, html body .site-header .header-wrapper #user-login-form input.form-submit:active, .btn.pseudo-class-active, .pseudo-class-active.tag, .news-list-item .news-label a.pseudo-class-active,
-.news-list-item .views-field-field-ding-news-tags a.pseudo-class-active, .news-list-item .news-link a.pseudo-class-active, html body .site-header .header-wrapper #user-login-form input.pseudo-class-active.form-submit {
+.news-list-item .views-field-field-ding-news-tags a:active, .news-tags a:active, .news-list-item .news-link a:active, .news-category a:active, html body .site-header .header-wrapper #user-login-form input.form-submit:active, .btn.pseudo-class-active, .pseudo-class-active.tag, .news-list-item .news-label a.pseudo-class-active,
+.news-list-item .views-field-field-ding-news-tags a.pseudo-class-active, .news-tags a.pseudo-class-active, .news-list-item .news-link a.pseudo-class-active, .news-category a.pseudo-class-active, html body .site-header .header-wrapper #user-login-form input.pseudo-class-active.form-submit {
   padding: 4px 16px 6px 16px;
   box-shadow: inset 1px 1px 4px #008063;
   color: #d8f3ed;
 }
 .btn:hover, .tag:hover, .news-list-item .news-label a:hover,
-.news-list-item .views-field-field-ding-news-tags a:hover, .news-list-item .news-link a:hover, html body .site-header .header-wrapper #user-login-form input.form-submit:hover, .btn.pseudo-class-hover, .pseudo-class-hover.tag, .news-list-item .news-label a.pseudo-class-hover,
-.news-list-item .views-field-field-ding-news-tags a.pseudo-class-hover, .news-list-item .news-link a.pseudo-class-hover, html body .site-header .header-wrapper #user-login-form input.pseudo-class-hover.form-submit {
+.news-list-item .views-field-field-ding-news-tags a:hover, .news-tags a:hover, .news-list-item .news-link a:hover, .news-category a:hover, html body .site-header .header-wrapper #user-login-form input.form-submit:hover, .btn.pseudo-class-hover, .pseudo-class-hover.tag, .news-list-item .news-label a.pseudo-class-hover,
+.news-list-item .views-field-field-ding-news-tags a.pseudo-class-hover, .news-tags a.pseudo-class-hover, .news-list-item .news-link a.pseudo-class-hover, .news-category a.pseudo-class-hover, html body .site-header .header-wrapper #user-login-form input.pseudo-class-hover.form-submit {
   color: white;
   background-color: #00a982;
 }
 .btn.btn-right, .btn-right.tag, .news-list-item .news-label a.btn-right,
-.news-list-item .views-field-field-ding-news-tags a.btn-right, .news-list-item .news-link a, html body .site-header .header-wrapper #user-login-form input.btn-right.form-submit {
+.news-list-item .views-field-field-ding-news-tags a.btn-right, .news-tags a.btn-right, .news-list-item .news-link a, .news-category a.btn-right, html body .site-header .header-wrapper #user-login-form input.btn-right.form-submit {
   float: right;
   margin-bottom: 0;
 }
 @media only screen and (max-width: 480px) {
   .btn, .tag, .news-list-item .news-label a,
-  .news-list-item .views-field-field-ding-news-tags a, .news-list-item .news-link a, html body .site-header .header-wrapper #user-login-form input.form-submit {
+  .news-list-item .views-field-field-ding-news-tags a, .news-tags a, .news-list-item .news-link a, .news-category a, html body .site-header .header-wrapper #user-login-form input.form-submit {
     width: 100%;
   }
   .btn.btn-right, .btn-right.tag, .news-list-item .news-label a.btn-right,
-  .news-list-item .views-field-field-ding-news-tags a.btn-right, .news-list-item .news-link a, html body .site-header .header-wrapper #user-login-form input.btn-right.form-submit {
+  .news-list-item .views-field-field-ding-news-tags a.btn-right, .news-tags a.btn-right, .news-list-item .news-link a, .news-category a.btn-right, html body .site-header .header-wrapper #user-login-form input.btn-right.form-submit {
     float: none;
   }
 }
 
 .btn-small, .tag, .news-list-item .news-label a,
-.news-list-item .views-field-field-ding-news-tags a {
+.news-list-item .views-field-field-ding-news-tags a, .news-tags a {
   font-size: 12px;
   line-height: 22px;
   padding: 0px 6px;
 }
 .btn-small:active, .tag:active, .news-list-item .news-label a:active,
-.news-list-item .views-field-field-ding-news-tags a:active {
+.news-list-item .views-field-field-ding-news-tags a:active, .news-tags a:active {
   padding: 0px 6px 1px 6px;
   line-height: 21px;
 }
 
 .btn-secondary, .tag, .news-list-item .news-label a,
-.news-list-item .views-field-field-ding-news-tags a, .dropdown .dropdown-title.secondary, html body .site-header .header-wrapper #user-login-form input.form-submit {
+.news-list-item .views-field-field-ding-news-tags a, .news-tags a, .dropdown .dropdown-title.secondary, html body .site-header .header-wrapper #user-login-form input.form-submit {
   background-color: #b1b1ad;
   box-shadow: 0px 1px 2px #656560;
 }
 .btn-secondary:hover, .tag:hover, .news-list-item .news-label a:hover,
-.news-list-item .views-field-field-ding-news-tags a:hover, .dropdown .dropdown-title.secondary:hover, html body .site-header .header-wrapper #user-login-form input.form-submit:hover, .btn-secondary.pseudo-class-hover, .pseudo-class-hover.tag, .news-list-item .news-label a.pseudo-class-hover,
-.news-list-item .views-field-field-ding-news-tags a.pseudo-class-hover, .dropdown .pseudo-class-hover.dropdown-title.secondary, html body .site-header .header-wrapper #user-login-form input.pseudo-class-hover.form-submit {
+.news-list-item .views-field-field-ding-news-tags a:hover, .news-tags a:hover, .dropdown .dropdown-title.secondary:hover, html body .site-header .header-wrapper #user-login-form input.form-submit:hover, .btn-secondary.pseudo-class-hover, .pseudo-class-hover.tag, .news-list-item .news-label a.pseudo-class-hover,
+.news-list-item .views-field-field-ding-news-tags a.pseudo-class-hover, .news-tags a.pseudo-class-hover, .dropdown .pseudo-class-hover.dropdown-title.secondary, html body .site-header .header-wrapper #user-login-form input.pseudo-class-hover.form-submit {
   background-color: #a7a7a3;
 }
 .btn-secondary:active, .tag:active, .news-list-item .news-label a:active,
-.news-list-item .views-field-field-ding-news-tags a:active, .dropdown .dropdown-title.secondary:active, html body .site-header .header-wrapper #user-login-form input.form-submit:active, .btn-secondary.pseudo-class-active, .pseudo-class-active.tag, .news-list-item .news-label a.pseudo-class-active,
-.news-list-item .views-field-field-ding-news-tags a.pseudo-class-active, .dropdown .pseudo-class-active.dropdown-title.secondary, html body .site-header .header-wrapper #user-login-form input.pseudo-class-active.form-submit {
+.news-list-item .views-field-field-ding-news-tags a:active, .news-tags a:active, .dropdown .dropdown-title.secondary:active, html body .site-header .header-wrapper #user-login-form input.form-submit:active, .btn-secondary.pseudo-class-active, .pseudo-class-active.tag, .news-list-item .news-label a.pseudo-class-active,
+.news-list-item .views-field-field-ding-news-tags a.pseudo-class-active, .news-tags a.pseudo-class-active, .dropdown .pseudo-class-active.dropdown-title.secondary, html body .site-header .header-wrapper #user-login-form input.pseudo-class-active.form-submit {
   box-shadow: inset 1px 1px 4px #8c8c86;
   color: #efefee;
 }
@@ -3632,7 +3632,7 @@ right - Right placement
 
 Styleguide 99.2
 */
-.popover h3 a, h3 .popover a, .popover h3, .popover html body footer.footer h2, html body footer.footer .popover h2, .popover html body footer.footer h2 a, html body footer.footer h2 .popover a, .popover h2 html body footer.footer a, h2 html body footer.footer .popover a, .popover html body footer.footer .news-list-item .news-heading, html body footer.footer .news-list-item .popover .news-heading, .popover .news-list-item html body footer.footer .news-heading, .news-list-item html body footer.footer .popover .news-heading {
+.popover h3 a, h3 .popover a, .popover h3, .popover html body footer.footer h2, html body footer.footer .popover h2, .popover html body footer.footer h2 a, html body footer.footer h2 .popover a, .popover h2 html body footer.footer a, h2 html body footer.footer .popover a, .popover html body footer.footer .news-list-item .news-heading, html body footer.footer .news-list-item .popover .news-heading, .popover .news-list-item html body footer.footer .news-heading, .news-list-item html body footer.footer .popover .news-heading, .popover html body footer.footer .sub-menu-title, html body footer.footer .popover .sub-menu-title {
   border-bottom: none;
   border-radius: 4px;
   background-color: transparent;
@@ -3764,9 +3764,9 @@ Styleguide 99.2
 }
 .modal-footer .btn + .btn, .modal-footer .tag + .btn, .modal-footer .news-list-item .news-label a + .btn, .news-list-item .news-label .modal-footer a + .btn,
 .modal-footer .news-list-item .views-field-field-ding-news-tags a + .btn,
-.news-list-item .views-field-field-ding-news-tags .modal-footer a + .btn, .modal-footer .news-list-item .news-link a + .btn, .news-list-item .news-link .modal-footer a + .btn, .modal-footer html body .site-header .header-wrapper #user-login-form input.form-submit + .btn, html body .site-header .header-wrapper #user-login-form .modal-footer input.form-submit + .btn, .modal-footer .btn + .tag, .modal-footer .tag + .tag, .modal-footer .news-list-item .news-label a + .tag, .news-list-item .news-label .modal-footer a + .tag,
+.news-list-item .views-field-field-ding-news-tags .modal-footer a + .btn, .modal-footer .news-tags a + .btn, .news-tags .modal-footer a + .btn, .modal-footer .news-list-item .news-link a + .btn, .news-list-item .news-link .modal-footer a + .btn, .modal-footer .news-category a + .btn, .news-category .modal-footer a + .btn, .modal-footer html body .site-header .header-wrapper #user-login-form input.form-submit + .btn, html body .site-header .header-wrapper #user-login-form .modal-footer input.form-submit + .btn, .modal-footer .btn + .tag, .modal-footer .tag + .tag, .modal-footer .news-list-item .news-label a + .tag, .news-list-item .news-label .modal-footer a + .tag,
 .modal-footer .news-list-item .views-field-field-ding-news-tags a + .tag,
-.news-list-item .views-field-field-ding-news-tags .modal-footer a + .tag, .modal-footer .news-list-item .news-link a + .tag, .news-list-item .news-link .modal-footer a + .tag, .modal-footer html body .site-header .header-wrapper #user-login-form input.form-submit + .tag, html body .site-header .header-wrapper #user-login-form .modal-footer input.form-submit + .tag, .modal-footer .news-list-item .news-label .btn + a, .news-list-item .news-label .modal-footer .btn + a, .modal-footer .news-list-item .news-label .tag + a, .news-list-item .news-label .modal-footer .tag + a, .modal-footer .news-list-item .news-label a + a, .news-list-item .news-label .modal-footer a + a, .modal-footer html body .site-header .header-wrapper #user-login-form .news-list-item .news-label input.form-submit + a, .news-list-item .news-label .modal-footer html body .site-header .header-wrapper #user-login-form input.form-submit + a, html body .site-header .header-wrapper #user-login-form .modal-footer .news-list-item .news-label input.form-submit + a, .news-list-item .news-label html body .site-header .header-wrapper #user-login-form .modal-footer input.form-submit + a,
+.news-list-item .views-field-field-ding-news-tags .modal-footer a + .tag, .modal-footer .news-tags a + .tag, .news-tags .modal-footer a + .tag, .modal-footer .news-list-item .news-link a + .tag, .news-list-item .news-link .modal-footer a + .tag, .modal-footer .news-category a + .tag, .news-category .modal-footer a + .tag, .modal-footer html body .site-header .header-wrapper #user-login-form input.form-submit + .tag, html body .site-header .header-wrapper #user-login-form .modal-footer input.form-submit + .tag, .modal-footer .news-list-item .news-label .btn + a, .news-list-item .news-label .modal-footer .btn + a, .modal-footer .news-list-item .news-label .tag + a, .news-list-item .news-label .modal-footer .tag + a, .modal-footer .news-list-item .news-label a + a, .news-list-item .news-label .modal-footer a + a, .modal-footer html body .site-header .header-wrapper #user-login-form .news-list-item .news-label input.form-submit + a, .news-list-item .news-label .modal-footer html body .site-header .header-wrapper #user-login-form input.form-submit + a, html body .site-header .header-wrapper #user-login-form .modal-footer .news-list-item .news-label input.form-submit + a, .news-list-item .news-label html body .site-header .header-wrapper #user-login-form .modal-footer input.form-submit + a,
 .modal-footer .news-list-item .views-field-field-ding-news-tags .btn + a,
 .news-list-item .views-field-field-ding-news-tags .modal-footer .btn + a,
 .modal-footer .news-list-item .views-field-field-ding-news-tags .tag + a,
@@ -3776,19 +3776,19 @@ Styleguide 99.2
 .modal-footer html body .site-header .header-wrapper #user-login-form .news-list-item .views-field-field-ding-news-tags input.form-submit + a,
 .news-list-item .views-field-field-ding-news-tags .modal-footer html body .site-header .header-wrapper #user-login-form input.form-submit + a,
 html body .site-header .header-wrapper #user-login-form .modal-footer .news-list-item .views-field-field-ding-news-tags input.form-submit + a,
-.news-list-item .views-field-field-ding-news-tags html body .site-header .header-wrapper #user-login-form .modal-footer input.form-submit + a, .modal-footer .news-list-item .news-link .btn + a, .news-list-item .news-link .modal-footer .btn + a, .modal-footer .news-list-item .news-link .tag + a, .news-list-item .news-link .modal-footer .tag + a, .modal-footer .news-list-item .news-link a + a, .news-list-item .news-link .modal-footer a + a, .modal-footer html body .site-header .header-wrapper #user-login-form .news-list-item .news-link input.form-submit + a, .news-list-item .news-link .modal-footer html body .site-header .header-wrapper #user-login-form input.form-submit + a, html body .site-header .header-wrapper #user-login-form .modal-footer .news-list-item .news-link input.form-submit + a, .news-list-item .news-link html body .site-header .header-wrapper #user-login-form .modal-footer input.form-submit + a, .modal-footer html body .site-header .header-wrapper #user-login-form .btn + input.form-submit, html body .site-header .header-wrapper #user-login-form .modal-footer .btn + input.form-submit, .modal-footer html body .site-header .header-wrapper #user-login-form .tag + input.form-submit, html body .site-header .header-wrapper #user-login-form .modal-footer .tag + input.form-submit, .modal-footer .news-list-item .news-label html body .site-header .header-wrapper #user-login-form a + input.form-submit, html body .site-header .header-wrapper #user-login-form .modal-footer .news-list-item .news-label a + input.form-submit, .news-list-item .news-label .modal-footer html body .site-header .header-wrapper #user-login-form a + input.form-submit, html body .site-header .header-wrapper #user-login-form .news-list-item .news-label .modal-footer a + input.form-submit,
+.news-list-item .views-field-field-ding-news-tags html body .site-header .header-wrapper #user-login-form .modal-footer input.form-submit + a, .modal-footer .news-tags .btn + a, .news-tags .modal-footer .btn + a, .modal-footer .news-tags .tag + a, .news-tags .modal-footer .tag + a, .modal-footer .news-tags a + a, .news-tags .modal-footer a + a, .modal-footer html body .site-header .header-wrapper #user-login-form .news-tags input.form-submit + a, .news-tags .modal-footer html body .site-header .header-wrapper #user-login-form input.form-submit + a, html body .site-header .header-wrapper #user-login-form .modal-footer .news-tags input.form-submit + a, .news-tags html body .site-header .header-wrapper #user-login-form .modal-footer input.form-submit + a, .modal-footer .news-list-item .news-link .btn + a, .news-list-item .news-link .modal-footer .btn + a, .modal-footer .news-list-item .news-link .tag + a, .news-list-item .news-link .modal-footer .tag + a, .modal-footer .news-list-item .news-link a + a, .news-list-item .news-link .modal-footer a + a, .modal-footer html body .site-header .header-wrapper #user-login-form .news-list-item .news-link input.form-submit + a, .news-list-item .news-link .modal-footer html body .site-header .header-wrapper #user-login-form input.form-submit + a, html body .site-header .header-wrapper #user-login-form .modal-footer .news-list-item .news-link input.form-submit + a, .news-list-item .news-link html body .site-header .header-wrapper #user-login-form .modal-footer input.form-submit + a, .modal-footer .news-category .btn + a, .news-category .modal-footer .btn + a, .modal-footer .news-category .tag + a, .news-category .modal-footer .tag + a, .modal-footer .news-category a + a, .news-category .modal-footer a + a, .modal-footer html body .site-header .header-wrapper #user-login-form .news-category input.form-submit + a, .news-category .modal-footer html body .site-header .header-wrapper #user-login-form input.form-submit + a, html body .site-header .header-wrapper #user-login-form .modal-footer .news-category input.form-submit + a, .news-category html body .site-header .header-wrapper #user-login-form .modal-footer input.form-submit + a, .modal-footer html body .site-header .header-wrapper #user-login-form .btn + input.form-submit, html body .site-header .header-wrapper #user-login-form .modal-footer .btn + input.form-submit, .modal-footer html body .site-header .header-wrapper #user-login-form .tag + input.form-submit, html body .site-header .header-wrapper #user-login-form .modal-footer .tag + input.form-submit, .modal-footer .news-list-item .news-label html body .site-header .header-wrapper #user-login-form a + input.form-submit, html body .site-header .header-wrapper #user-login-form .modal-footer .news-list-item .news-label a + input.form-submit, .news-list-item .news-label .modal-footer html body .site-header .header-wrapper #user-login-form a + input.form-submit, html body .site-header .header-wrapper #user-login-form .news-list-item .news-label .modal-footer a + input.form-submit,
 .modal-footer .news-list-item .views-field-field-ding-news-tags html body .site-header .header-wrapper #user-login-form a + input.form-submit,
 html body .site-header .header-wrapper #user-login-form .modal-footer .news-list-item .views-field-field-ding-news-tags a + input.form-submit,
 .news-list-item .views-field-field-ding-news-tags .modal-footer html body .site-header .header-wrapper #user-login-form a + input.form-submit,
-html body .site-header .header-wrapper #user-login-form .news-list-item .views-field-field-ding-news-tags .modal-footer a + input.form-submit, .modal-footer .news-list-item .news-link html body .site-header .header-wrapper #user-login-form a + input.form-submit, html body .site-header .header-wrapper #user-login-form .modal-footer .news-list-item .news-link a + input.form-submit, .news-list-item .news-link .modal-footer html body .site-header .header-wrapper #user-login-form a + input.form-submit, html body .site-header .header-wrapper #user-login-form .news-list-item .news-link .modal-footer a + input.form-submit, .modal-footer html body .site-header .header-wrapper #user-login-form input.form-submit + input.form-submit, html body .site-header .header-wrapper #user-login-form .modal-footer input.form-submit + input.form-submit {
+html body .site-header .header-wrapper #user-login-form .news-list-item .views-field-field-ding-news-tags .modal-footer a + input.form-submit, .modal-footer .news-tags html body .site-header .header-wrapper #user-login-form a + input.form-submit, html body .site-header .header-wrapper #user-login-form .modal-footer .news-tags a + input.form-submit, .news-tags .modal-footer html body .site-header .header-wrapper #user-login-form a + input.form-submit, html body .site-header .header-wrapper #user-login-form .news-tags .modal-footer a + input.form-submit, .modal-footer .news-list-item .news-link html body .site-header .header-wrapper #user-login-form a + input.form-submit, html body .site-header .header-wrapper #user-login-form .modal-footer .news-list-item .news-link a + input.form-submit, .news-list-item .news-link .modal-footer html body .site-header .header-wrapper #user-login-form a + input.form-submit, html body .site-header .header-wrapper #user-login-form .news-list-item .news-link .modal-footer a + input.form-submit, .modal-footer .news-category html body .site-header .header-wrapper #user-login-form a + input.form-submit, html body .site-header .header-wrapper #user-login-form .modal-footer .news-category a + input.form-submit, .news-category .modal-footer html body .site-header .header-wrapper #user-login-form a + input.form-submit, html body .site-header .header-wrapper #user-login-form .news-category .modal-footer a + input.form-submit, .modal-footer html body .site-header .header-wrapper #user-login-form input.form-submit + input.form-submit, html body .site-header .header-wrapper #user-login-form .modal-footer input.form-submit + input.form-submit {
   margin-left: 5px;
   margin-bottom: 0;
 }
 .modal-footer .btn-group .btn + .btn, .modal-footer .btn-group .tag + .btn, .modal-footer .btn-group .news-list-item .news-label a + .btn, .news-list-item .news-label .modal-footer .btn-group a + .btn,
 .modal-footer .btn-group .news-list-item .views-field-field-ding-news-tags a + .btn,
-.news-list-item .views-field-field-ding-news-tags .modal-footer .btn-group a + .btn, .modal-footer .btn-group .news-list-item .news-link a + .btn, .news-list-item .news-link .modal-footer .btn-group a + .btn, .modal-footer .btn-group html body .site-header .header-wrapper #user-login-form input.form-submit + .btn, html body .site-header .header-wrapper #user-login-form .modal-footer .btn-group input.form-submit + .btn, .modal-footer .btn-group .btn + .tag, .modal-footer .btn-group .tag + .tag, .modal-footer .btn-group .news-list-item .news-label a + .tag, .news-list-item .news-label .modal-footer .btn-group a + .tag,
+.news-list-item .views-field-field-ding-news-tags .modal-footer .btn-group a + .btn, .modal-footer .btn-group .news-tags a + .btn, .news-tags .modal-footer .btn-group a + .btn, .modal-footer .btn-group .news-list-item .news-link a + .btn, .news-list-item .news-link .modal-footer .btn-group a + .btn, .modal-footer .btn-group .news-category a + .btn, .news-category .modal-footer .btn-group a + .btn, .modal-footer .btn-group html body .site-header .header-wrapper #user-login-form input.form-submit + .btn, html body .site-header .header-wrapper #user-login-form .modal-footer .btn-group input.form-submit + .btn, .modal-footer .btn-group .btn + .tag, .modal-footer .btn-group .tag + .tag, .modal-footer .btn-group .news-list-item .news-label a + .tag, .news-list-item .news-label .modal-footer .btn-group a + .tag,
 .modal-footer .btn-group .news-list-item .views-field-field-ding-news-tags a + .tag,
-.news-list-item .views-field-field-ding-news-tags .modal-footer .btn-group a + .tag, .modal-footer .btn-group .news-list-item .news-link a + .tag, .news-list-item .news-link .modal-footer .btn-group a + .tag, .modal-footer .btn-group html body .site-header .header-wrapper #user-login-form input.form-submit + .tag, html body .site-header .header-wrapper #user-login-form .modal-footer .btn-group input.form-submit + .tag, .modal-footer .btn-group .news-list-item .news-label .btn + a, .news-list-item .news-label .modal-footer .btn-group .btn + a, .modal-footer .btn-group .news-list-item .news-label .tag + a, .news-list-item .news-label .modal-footer .btn-group .tag + a, .modal-footer .btn-group .news-list-item .news-label a + a, .news-list-item .news-label .modal-footer .btn-group a + a, .modal-footer .btn-group html body .site-header .header-wrapper #user-login-form .news-list-item .news-label input.form-submit + a, .news-list-item .news-label .modal-footer .btn-group html body .site-header .header-wrapper #user-login-form input.form-submit + a, html body .site-header .header-wrapper #user-login-form .modal-footer .btn-group .news-list-item .news-label input.form-submit + a, .news-list-item .news-label html body .site-header .header-wrapper #user-login-form .modal-footer .btn-group input.form-submit + a,
+.news-list-item .views-field-field-ding-news-tags .modal-footer .btn-group a + .tag, .modal-footer .btn-group .news-tags a + .tag, .news-tags .modal-footer .btn-group a + .tag, .modal-footer .btn-group .news-list-item .news-link a + .tag, .news-list-item .news-link .modal-footer .btn-group a + .tag, .modal-footer .btn-group .news-category a + .tag, .news-category .modal-footer .btn-group a + .tag, .modal-footer .btn-group html body .site-header .header-wrapper #user-login-form input.form-submit + .tag, html body .site-header .header-wrapper #user-login-form .modal-footer .btn-group input.form-submit + .tag, .modal-footer .btn-group .news-list-item .news-label .btn + a, .news-list-item .news-label .modal-footer .btn-group .btn + a, .modal-footer .btn-group .news-list-item .news-label .tag + a, .news-list-item .news-label .modal-footer .btn-group .tag + a, .modal-footer .btn-group .news-list-item .news-label a + a, .news-list-item .news-label .modal-footer .btn-group a + a, .modal-footer .btn-group html body .site-header .header-wrapper #user-login-form .news-list-item .news-label input.form-submit + a, .news-list-item .news-label .modal-footer .btn-group html body .site-header .header-wrapper #user-login-form input.form-submit + a, html body .site-header .header-wrapper #user-login-form .modal-footer .btn-group .news-list-item .news-label input.form-submit + a, .news-list-item .news-label html body .site-header .header-wrapper #user-login-form .modal-footer .btn-group input.form-submit + a,
 .modal-footer .btn-group .news-list-item .views-field-field-ding-news-tags .btn + a,
 .news-list-item .views-field-field-ding-news-tags .modal-footer .btn-group .btn + a,
 .modal-footer .btn-group .news-list-item .views-field-field-ding-news-tags .tag + a,
@@ -3798,11 +3798,11 @@ html body .site-header .header-wrapper #user-login-form .news-list-item .views-f
 .modal-footer .btn-group html body .site-header .header-wrapper #user-login-form .news-list-item .views-field-field-ding-news-tags input.form-submit + a,
 .news-list-item .views-field-field-ding-news-tags .modal-footer .btn-group html body .site-header .header-wrapper #user-login-form input.form-submit + a,
 html body .site-header .header-wrapper #user-login-form .modal-footer .btn-group .news-list-item .views-field-field-ding-news-tags input.form-submit + a,
-.news-list-item .views-field-field-ding-news-tags html body .site-header .header-wrapper #user-login-form .modal-footer .btn-group input.form-submit + a, .modal-footer .btn-group .news-list-item .news-link .btn + a, .news-list-item .news-link .modal-footer .btn-group .btn + a, .modal-footer .btn-group .news-list-item .news-link .tag + a, .news-list-item .news-link .modal-footer .btn-group .tag + a, .modal-footer .btn-group .news-list-item .news-link a + a, .news-list-item .news-link .modal-footer .btn-group a + a, .modal-footer .btn-group html body .site-header .header-wrapper #user-login-form .news-list-item .news-link input.form-submit + a, .news-list-item .news-link .modal-footer .btn-group html body .site-header .header-wrapper #user-login-form input.form-submit + a, html body .site-header .header-wrapper #user-login-form .modal-footer .btn-group .news-list-item .news-link input.form-submit + a, .news-list-item .news-link html body .site-header .header-wrapper #user-login-form .modal-footer .btn-group input.form-submit + a, .modal-footer .btn-group html body .site-header .header-wrapper #user-login-form .btn + input.form-submit, html body .site-header .header-wrapper #user-login-form .modal-footer .btn-group .btn + input.form-submit, .modal-footer .btn-group html body .site-header .header-wrapper #user-login-form .tag + input.form-submit, html body .site-header .header-wrapper #user-login-form .modal-footer .btn-group .tag + input.form-submit, .modal-footer .btn-group .news-list-item .news-label html body .site-header .header-wrapper #user-login-form a + input.form-submit, html body .site-header .header-wrapper #user-login-form .modal-footer .btn-group .news-list-item .news-label a + input.form-submit, .news-list-item .news-label .modal-footer .btn-group html body .site-header .header-wrapper #user-login-form a + input.form-submit, html body .site-header .header-wrapper #user-login-form .news-list-item .news-label .modal-footer .btn-group a + input.form-submit,
+.news-list-item .views-field-field-ding-news-tags html body .site-header .header-wrapper #user-login-form .modal-footer .btn-group input.form-submit + a, .modal-footer .btn-group .news-tags .btn + a, .news-tags .modal-footer .btn-group .btn + a, .modal-footer .btn-group .news-tags .tag + a, .news-tags .modal-footer .btn-group .tag + a, .modal-footer .btn-group .news-tags a + a, .news-tags .modal-footer .btn-group a + a, .modal-footer .btn-group html body .site-header .header-wrapper #user-login-form .news-tags input.form-submit + a, .news-tags .modal-footer .btn-group html body .site-header .header-wrapper #user-login-form input.form-submit + a, html body .site-header .header-wrapper #user-login-form .modal-footer .btn-group .news-tags input.form-submit + a, .news-tags html body .site-header .header-wrapper #user-login-form .modal-footer .btn-group input.form-submit + a, .modal-footer .btn-group .news-list-item .news-link .btn + a, .news-list-item .news-link .modal-footer .btn-group .btn + a, .modal-footer .btn-group .news-list-item .news-link .tag + a, .news-list-item .news-link .modal-footer .btn-group .tag + a, .modal-footer .btn-group .news-list-item .news-link a + a, .news-list-item .news-link .modal-footer .btn-group a + a, .modal-footer .btn-group html body .site-header .header-wrapper #user-login-form .news-list-item .news-link input.form-submit + a, .news-list-item .news-link .modal-footer .btn-group html body .site-header .header-wrapper #user-login-form input.form-submit + a, html body .site-header .header-wrapper #user-login-form .modal-footer .btn-group .news-list-item .news-link input.form-submit + a, .news-list-item .news-link html body .site-header .header-wrapper #user-login-form .modal-footer .btn-group input.form-submit + a, .modal-footer .btn-group .news-category .btn + a, .news-category .modal-footer .btn-group .btn + a, .modal-footer .btn-group .news-category .tag + a, .news-category .modal-footer .btn-group .tag + a, .modal-footer .btn-group .news-category a + a, .news-category .modal-footer .btn-group a + a, .modal-footer .btn-group html body .site-header .header-wrapper #user-login-form .news-category input.form-submit + a, .news-category .modal-footer .btn-group html body .site-header .header-wrapper #user-login-form input.form-submit + a, html body .site-header .header-wrapper #user-login-form .modal-footer .btn-group .news-category input.form-submit + a, .news-category html body .site-header .header-wrapper #user-login-form .modal-footer .btn-group input.form-submit + a, .modal-footer .btn-group html body .site-header .header-wrapper #user-login-form .btn + input.form-submit, html body .site-header .header-wrapper #user-login-form .modal-footer .btn-group .btn + input.form-submit, .modal-footer .btn-group html body .site-header .header-wrapper #user-login-form .tag + input.form-submit, html body .site-header .header-wrapper #user-login-form .modal-footer .btn-group .tag + input.form-submit, .modal-footer .btn-group .news-list-item .news-label html body .site-header .header-wrapper #user-login-form a + input.form-submit, html body .site-header .header-wrapper #user-login-form .modal-footer .btn-group .news-list-item .news-label a + input.form-submit, .news-list-item .news-label .modal-footer .btn-group html body .site-header .header-wrapper #user-login-form a + input.form-submit, html body .site-header .header-wrapper #user-login-form .news-list-item .news-label .modal-footer .btn-group a + input.form-submit,
 .modal-footer .btn-group .news-list-item .views-field-field-ding-news-tags html body .site-header .header-wrapper #user-login-form a + input.form-submit,
 html body .site-header .header-wrapper #user-login-form .modal-footer .btn-group .news-list-item .views-field-field-ding-news-tags a + input.form-submit,
 .news-list-item .views-field-field-ding-news-tags .modal-footer .btn-group html body .site-header .header-wrapper #user-login-form a + input.form-submit,
-html body .site-header .header-wrapper #user-login-form .news-list-item .views-field-field-ding-news-tags .modal-footer .btn-group a + input.form-submit, .modal-footer .btn-group .news-list-item .news-link html body .site-header .header-wrapper #user-login-form a + input.form-submit, html body .site-header .header-wrapper #user-login-form .modal-footer .btn-group .news-list-item .news-link a + input.form-submit, .news-list-item .news-link .modal-footer .btn-group html body .site-header .header-wrapper #user-login-form a + input.form-submit, html body .site-header .header-wrapper #user-login-form .news-list-item .news-link .modal-footer .btn-group a + input.form-submit, .modal-footer .btn-group html body .site-header .header-wrapper #user-login-form input.form-submit + input.form-submit, html body .site-header .header-wrapper #user-login-form .modal-footer .btn-group input.form-submit + input.form-submit {
+html body .site-header .header-wrapper #user-login-form .news-list-item .views-field-field-ding-news-tags .modal-footer .btn-group a + input.form-submit, .modal-footer .btn-group .news-tags html body .site-header .header-wrapper #user-login-form a + input.form-submit, html body .site-header .header-wrapper #user-login-form .modal-footer .btn-group .news-tags a + input.form-submit, .news-tags .modal-footer .btn-group html body .site-header .header-wrapper #user-login-form a + input.form-submit, html body .site-header .header-wrapper #user-login-form .news-tags .modal-footer .btn-group a + input.form-submit, .modal-footer .btn-group .news-list-item .news-link html body .site-header .header-wrapper #user-login-form a + input.form-submit, html body .site-header .header-wrapper #user-login-form .modal-footer .btn-group .news-list-item .news-link a + input.form-submit, .news-list-item .news-link .modal-footer .btn-group html body .site-header .header-wrapper #user-login-form a + input.form-submit, html body .site-header .header-wrapper #user-login-form .news-list-item .news-link .modal-footer .btn-group a + input.form-submit, .modal-footer .btn-group .news-category html body .site-header .header-wrapper #user-login-form a + input.form-submit, html body .site-header .header-wrapper #user-login-form .modal-footer .btn-group .news-category a + input.form-submit, .news-category .modal-footer .btn-group html body .site-header .header-wrapper #user-login-form a + input.form-submit, html body .site-header .header-wrapper #user-login-form .news-category .modal-footer .btn-group a + input.form-submit, .modal-footer .btn-group html body .site-header .header-wrapper #user-login-form input.form-submit + input.form-submit, html body .site-header .header-wrapper #user-login-form .modal-footer .btn-group input.form-submit + input.form-submit {
   margin-left: -1px;
 }
 .modal-footer .btn-block + .btn-block {
@@ -3939,7 +3939,7 @@ h6 .alert a {
 }
 .alert .btn, .alert .tag, .alert .news-list-item .news-label a, .news-list-item .news-label .alert a,
 .alert .news-list-item .views-field-field-ding-news-tags a,
-.news-list-item .views-field-field-ding-news-tags .alert a, .alert .news-list-item .news-link a, .news-list-item .news-link .alert a, .alert html body .site-header .header-wrapper #user-login-form input.form-submit, html body .site-header .header-wrapper #user-login-form .alert input.form-submit {
+.news-list-item .views-field-field-ding-news-tags .alert a, .alert .news-tags a, .news-tags .alert a, .alert .news-list-item .news-link a, .news-list-item .news-link .alert a, .alert .news-category a, .news-category .alert a, .alert html body .site-header .header-wrapper #user-login-form input.form-submit, html body .site-header .header-wrapper #user-login-form .alert input.form-submit {
   margin: 10px 0 3px 0;
 }
 .alert p {
@@ -3972,7 +3972,7 @@ h6 .alert a {
   border-radius: 0;
   color: white;
 }
-.alert.alert-infomation h1, .alert.alert-infomation h1 a, h1 .alert.alert-infomation a, .alert.alert-infomation h2, .alert.alert-infomation h2 a, h2 .alert.alert-infomation a, .alert.alert-infomation .news-list-item .news-heading, .news-list-item .alert.alert-infomation .news-heading, .alert.alert-infomation h3, .alert.alert-infomation h3 a, h3 .alert.alert-infomation a, .alert.alert-infomation html body footer.footer h2, html body footer.footer .alert.alert-infomation h2, .alert.alert-infomation html body footer.footer h2 a, html body footer.footer h2 .alert.alert-infomation a, .alert.alert-infomation h2 html body footer.footer a, h2 html body footer.footer .alert.alert-infomation a, .alert.alert-infomation html body footer.footer .news-list-item .news-heading, html body footer.footer .news-list-item .alert.alert-infomation .news-heading, .alert.alert-infomation .news-list-item html body footer.footer .news-heading, .news-list-item html body footer.footer .alert.alert-infomation .news-heading, .alert.alert-infomation h4, .alert.alert-infomation h4 a, h4 .alert.alert-infomation a,
+.alert.alert-infomation h1, .alert.alert-infomation h1 a, h1 .alert.alert-infomation a, .alert.alert-infomation h2, .alert.alert-infomation h2 a, h2 .alert.alert-infomation a, .alert.alert-infomation .news-list-item .news-heading, .news-list-item .alert.alert-infomation .news-heading, .alert.alert-infomation .sub-menu-title, .alert.alert-infomation h3, .alert.alert-infomation h3 a, h3 .alert.alert-infomation a, .alert.alert-infomation html body footer.footer h2, html body footer.footer .alert.alert-infomation h2, .alert.alert-infomation html body footer.footer h2 a, html body footer.footer h2 .alert.alert-infomation a, .alert.alert-infomation h2 html body footer.footer a, h2 html body footer.footer .alert.alert-infomation a, .alert.alert-infomation html body footer.footer .news-list-item .news-heading, html body footer.footer .news-list-item .alert.alert-infomation .news-heading, .alert.alert-infomation .news-list-item html body footer.footer .news-heading, .news-list-item html body footer.footer .alert.alert-infomation .news-heading, .alert.alert-infomation html body footer.footer .sub-menu-title, html body footer.footer .alert.alert-infomation .sub-menu-title, .alert.alert-infomation h4, .alert.alert-infomation h4 a, h4 .alert.alert-infomation a,
 .alert.alert-infomation h5 a,
 h5 .alert.alert-infomation a,
 .alert.alert-infomation h6 a,
@@ -6724,6 +6724,10 @@ Styleguide 99.9
   margin-left: 0;
 }
 
+.sub-menu li:before {
+  display: none;
+}
+
 html body .topbar-inner {
   padding-top: 70px;
 }
@@ -6837,6 +6841,7 @@ html body footer.footer .vertical-list li:before {
   display: none;
 }
 
+.default-layout .layout-wrapper,
 .layout-wrapper {
   background-color: transparent;
 }
