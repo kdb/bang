@@ -57,7 +57,7 @@ html {
       // DDBasic does a lot of funky stuff with custom fonts, shades and sizes.
       ul.topbar-menu {
         a {
-          font-family: 'proxima-nova',sans-serif;
+          font-family: $proxima-nova-font-name;
           text-shadow: none;
           font-size: 100%;
           border-bottom: 5px solid transparent;
@@ -79,7 +79,7 @@ html {
         height: auto;
         background-color: rgba(0, 0, 0, .2);
         form input[type='text']{
-          font-family: 'proxima-nova', sans-serif;
+          font-family: $proxima-nova-font-name;
           font-size: 100%;
         }
 
@@ -112,16 +112,16 @@ html {
           label {
             @extend .meta-form;
             font-weight: normal;
-            font-family: 'proxima-nova',sans-serif;
+            font-family: $proxima-nova-font-name;
           }
           input {
-            font-family: 'proxima-nova',sans-serif;
+            font-family: $proxima-nova-font-name;
             border-radius:$border-radius;
             @extend input;
             @include placeholder {
               color: #d8dcda;
               //color: $placeholdercolor;
-              font-family: 'proxima-nova', sans-serif;
+              font-family: $proxima-nova-font-name;
             }
             min-height: 0;
             &.form-submit {
@@ -138,6 +138,41 @@ html {
 }
 
 
+
+// Theming for the site footer.
+html body footer.footer {
+  h2 {
+    @extend h3;
+  }
+  // In order to strengthen the selector for vertical-list since it was vague
+  // and easily overriden by DDBasic.
+  .vertical-list {
+    @extend .vertical-list;
+    ul {
+      @extend .vertical-list-nav;
+    }
+    .pane-title {
+      border-bottom: none;
+      &:before {
+        display: none;
+      }
+    }
+    li {
+      &:before {
+        display: none;
+      }
+      a {
+      }
+    }
+  }
+}
+
+
+// Theming of content area.
+
+.layout-wrapper {
+  background-color: transparent;
+}
 
 
 

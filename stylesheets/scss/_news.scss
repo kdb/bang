@@ -1,0 +1,52 @@
+.news-list-item {
+
+  .news-sub-heading {
+    @extend .meta;
+    margin: 0;
+    .news-date {
+      @extend .meta-primary;
+    }
+    .news-author {
+      @extend .meta-secondary;
+      a {
+        font-size: 12px;
+        color: #b1b1ad;
+      }
+    }
+  }
+  .news-label,
+  .views-field-field-ding-news-tags {
+    // Want to extend .news-list-content, but the sass is already included by
+    // DDBasic.
+    margin-left: 170px;
+    @include small-medium {
+      margin-left: 0;
+    }
+    a {
+      @extend .tag;
+    }
+  }
+  .news-label {
+    padding: 0;
+    background: transparent;
+    margin-left: 0;
+  }
+  .news-link a {
+    @extend .btn;
+    //@extend .btn-primary;
+    @extend .btn-right;
+  }
+
+  .news-heading {
+    @extend h2;
+  }
+
+}
+
+
+.layout-wrapper {
+  ul.list.news-list .news-list-item {
+    @extend .content-box;
+  }
+}
+
