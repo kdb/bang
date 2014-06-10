@@ -146,7 +146,7 @@ html body footer.footer {
   }
   // In order to strengthen the selector for vertical-list since it was vague
   // and easily overriden by DDBasic.
-  .vertical-list {
+  .panel-pane {
     @extend .vertical-list;
     ul {
       @extend .vertical-list-nav;
@@ -162,6 +162,7 @@ html body footer.footer {
         display: none;
       }
       a {
+        color: $color-grey-light !important;
       }
     }
   }
