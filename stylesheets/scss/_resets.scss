@@ -1,0 +1,50 @@
+
+
+
+
+/**
+ * Standard links
+ */
+html {
+  a:link,
+  a:visited{
+    color: $color-green;
+    &:hover {
+      color: darken($color-green, 20);
+    }
+  }
+  h2 a {
+    color:$color-black;
+  }
+}
+
+
+
+/**
+ * Pager reset.
+ */
+html body .pager {
+  li a,
+  li {
+    background-color: transparent !important;
+  }
+}
+
+
+.topbar-menu .menu-item.topbar-link-menu {
+  display: block;
+}
+.navigation-wrapper {
+  display: none;
+}
+.topbar-menu i[class^="icon-"]{
+  margin-right: 0;
+}
+
+
+.field-type-ting-reference {
+  .field-item {
+    @extend .content-box;
+    background-color: lighten($color-sand, 3) !important;
+  }
+}

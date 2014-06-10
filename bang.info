@@ -5,3 +5,8 @@ core = 7.x
 release = 7.x-1.x
 
 stylesheets[all][] = stylesheets/bang.styles.css
+
+
+
+; Overriding the scripts file from DDBasic.
+scripts[] = scripts/ddbasic.topbar.menu.min.js
