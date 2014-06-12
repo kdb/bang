@@ -1,6 +1,5 @@
 <?php
 
-
 /**
  * Implements template_preprocess_html().
  */
@@ -95,4 +94,11 @@ function bang_menu_link__menu_tabs_menu($vars) {
 
   $output = l($title_prefix . '<span>' . $element['#title'] . '</span>', $element['#href'], $element['#localized_options']);
   return '<li' . drupal_attributes($element['#attributes']) . '>' . $output . $sub_menu . "</li>\n";
+}
+
+/**
+ * Implements hook_js_alter().
+ */
+function bang_js_alter(&$js) {
+  unset($js['profiles/ding2/themes/ddbasic/scripts/ddbasic.topbar.menu.min.js']);
 }
