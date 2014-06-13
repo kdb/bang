@@ -5,18 +5,15 @@
 /**
  * Standard links
  */
-html {
+
   a:link,
-  a:visited{
+  a:visited {
     color: $color-green;
     &:hover {
       color: darken($color-green, 20);
     }
   }
-  h2 a {
-    color:$color-black;
-  }
-}
+
 
 
 

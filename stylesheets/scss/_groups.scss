@@ -1,0 +1,31 @@
+.groups-list {
+  @extend .content-list;
+  .groups-list-item {
+    @extend .content-box;
+    background-color: lighten($color-sand, 3) !important;
+  }
+  .groups-heading {
+    @extend h2;
+  }
+
+  .groups-arrow-link {
+    @extend .event-arrow-link;
+
+    top: auto;
+    bottom:12px;
+    a{
+      @extend .btn;
+      @extend .btn-right;
+
+      i {
+        width: auto;
+        &:before {
+          content : 'Læs mere';
+          font-weight: bold;
+        }
+      }
+    }
+  }
+
+}
+

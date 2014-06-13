@@ -1,0 +1,85 @@
+.pane-ding-event-ding-event-list,
+.pane-ding-event-ding-event-list-frontpage {
+  .view-content {
+
+    .event-list-leaf {
+      @extend .color-dark-sand;
+      .event-list-fulldate {
+        @extend h2;
+        margin: 17px 0 0 0;
+      }
+      .event-list-day {
+        @extend .color-red-bright;
+      }
+    }
+
+    & > .list > .event-list-item {
+      @extend .content-box;
+
+      .event-list-heading {
+        @extend h2;
+      }
+      .event-list-location {
+        @extend .meta-location;
+        @extend .fa;
+        &:before {
+          content: "\f041";
+          margin-right: 10px;
+        }
+        display: block;
+      }
+      .event-list-time {
+        @extend .fa;
+        &:before {
+          content: "\f073";
+          margin-right: 5px;
+        }
+        @extend .meta-secondary;
+
+      }
+      .event-list-price {
+        @extend .meta-secondary;
+        @extend .meta-strong;
+      }
+
+
+      .event-arrow-link {
+        position: static;
+
+        float: right;
+        a{
+          @extend .btn;
+          @extend .btn-right;
+
+          i {
+            width: auto;
+            &:before {
+              content : 'Læs mere';
+              font-weight: bold;
+            }
+          }
+        }
+      }
+    }
+  }
+}
+.pane-ding-event-ding-event-list .event-list-item {
+  // Repositioning the elements. Imaages were floating, but lead to wrapping
+  // underneath the image.
+  .event-image-wrapper {
+    float: none;
+    position: absolute;
+    @include small-medium {
+      display: none;
+    }
+  }
+  h3.event-list-heading,
+  .event-list-description,
+  .event-list-location,
+  .event-list-time {
+    margin-left: 170px !important;
+    @include small-medium {
+      margin-left: 0 !important;
+    }
+  }
+}
