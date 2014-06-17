@@ -49,3 +49,16 @@ html body .pager {
 .system-messages {
   float: none;
 }
+
+
+/**
+ * Tabs.
+ */
+
+.pane-page-tabs #tabs {
+  li {
+    a {
+      background-color: transparent;
+    }
+  }
+}

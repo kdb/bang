@@ -1,0 +1,145 @@
+.pane-ding-library-ding-library-libraries-list{
+  .library-list {
+    font-size: 0;
+    .field-label {
+      // Labels shoudn't wrap.
+      white-space: nowrap;
+    }
+
+    & > li.views-row {
+      // In order not for elements to cling to each other, we set spacing and
+      // min height.
+      margin-top: 20px;
+
+      font-size: 16px;
+      width: 50%;
+      display: inline-block;
+      padding: 0;
+      background-color: transparent;
+      vertical-align: top;
+      position: static;
+      & > div {
+        //@extend .content-box;
+        //Clearfix kills shadow on opening hours toggle.
+        padding-bottom: 3px;
+
+        .libraries {
+          float: none;
+          width: auto;
+          margin: 0;
+          padding: 0;
+          @include clearfix;
+          min-height: 180px;
+        }
+      }
+      &.views-row-odd > div {
+        padding-right: 10px;
+      }
+      &.views-row-even > div {
+        padding-left: 10px;
+      }
+    }
+    // The links can become pretty long and confusing to read anyway, so
+    // truncating to one line seems like the sane option.
+    .field-type-link-field a {
+      white-space: nowrap;
+      text-overflow: ellipsis;
+      overflow: hidden;
+      display: block;
+    }
+  }
+}
+
+
+
+// Theming the button to open and close opening hours.
+.library-list,
+#ding-library-front .primary-content {
+  .opening-hours-toggle {
+    width: auto;
+    margin: 0;
+    float:none;
+    padding: 3px 8px;
+    border-radius: 4px;
+    background-color: $color-grey-light;
+
+
+    display: block;
+    text-align: left;
+    margin-bottom: 5px;
+
+    @include border-radius(4px);
+    @include box-shadow(0px 1px 2px darken($color-grey-light, 30));
+    color: #fff;
+    &:hover {
+      color: #fff;
+      background-color: darken($color-grey-light, 4);
+    }
+    // When the button is active/pressed.
+    &.js-expanded {
+      box-shadow: inset 1px 1px 4px darken($color-grey-light, 15);
+      color: tint($color-grey-light, 80);
+      background-color: darken($color-grey-light, 4);
+    }
+    &:before {
+      content : '';
+    }
+    &:after {
+      margin-top: 4px;
+      margin-right: 7px;
+      float: right;
+      color: darken($color-grey-light, 20);
+      @extend .fa;
+      content: "\f078";
+      display: block;
+      @include transition(all .5s ease .1s);
+    }
+    &.js-expanded:after {
+      @include rotate(180deg);
+    }
+  }
+  .libraries-opening-hours,
+  .ding-library-opening-hours {
+    .pane-title {
+      display: none;
+    }
+    .opening-hours-week {
+      background-color: transparent;
+      padding: 10px;
+    }
+    float: none;
+    width: auto;
+    margin: 24px 0 0 0;
+    padding: 0;
+    background-color: #fff;
+    border-radius: 4px;
+    box-shadow: 0 1px 2px #b1b1ad;
+  }
+}
+
+/**
+ * Singular library view page.
+ */
+
+// Fixing up diffrent headings. All pane-titles are H2's and heavily overridden
+// in DDBasic.
+#ding-library-front{
+  .ding-library-address,
+  .ding-library-contact {
+    .pane-title {
+      @extend h3;
+    }
+  }
+  .ding-library-news,
+  .ding-library-events {
+    .pane-title {
+      @extend h2;
+    }
+  }
+}
+.pane-menu-title,
+.ding-library-contact {
+  .pane-title {
+    @extend h2;
+  }
+}

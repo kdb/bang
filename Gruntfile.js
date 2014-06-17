@@ -34,9 +34,9 @@ module.exports = function (grunt) {
       prod: {
         options: {
           environment: 'production',
-          outputStyle: 'expanded',
+          outputStyle: 'compressed',
           noLineComments : true,
-          force: true,
+          force: true
         }
       }
     }

@@ -1,5 +1,4 @@
-.pane-ding-event-ding-event-list,
-.pane-ding-event-ding-event-list-frontpage {
+.view-ding-event {
   .view-content {
 
     .event-list-leaf {
@@ -80,6 +79,31 @@
     margin-left: 170px !important;
     @include small-medium {
       margin-left: 0 !important;
+    }
+  }
+}
+
+.event-tags {
+  .event-category a {
+    @extend .btn;
+  }
+  .event-tags {
+    @extend .tags;
+    a {
+      @extend .tag;
+    }
+  }
+  .library-ref {
+    background-color: transparent;
+    a {
+      text-shadow: none;
+      @extend .meta-location;
+      @extend .fa;
+      &:before {
+        content: "\f041";
+        margin-right: 10px;
+      }
+      display: block;
     }
   }
 }
