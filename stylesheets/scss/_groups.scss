@@ -1,11 +1,14 @@
 .groups-list {
   @extend .content-list;
   .groups-list-item {
-    @extend .content-box;
+    @include content-box;
     background-color: lighten($color-sand, 3) !important;
   }
   .groups-heading {
-    @extend h2;
+    @include heading2;
+    a {
+      @include heading2;
+    }
   }
 
   .groups-arrow-link {
@@ -14,8 +17,8 @@
     top: auto;
     bottom:12px;
     a{
-      @extend .btn;
-      @extend .btn-right;
+      @include btn;
+      // // @extend .btn-right;
 
       i {
         width: auto;

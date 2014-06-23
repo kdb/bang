@@ -127,19 +127,19 @@
   .ding-library-address,
   .ding-library-contact {
     .pane-title {
-      @extend h3;
+      @include heading2;
     }
   }
   .ding-library-news,
   .ding-library-events {
     .pane-title {
-      @extend h2;
+      @include heading2;
     }
   }
 }
 .pane-menu-title,
 .ding-library-contact {
   .pane-title {
-    @extend h2;
+    @include heading2;
   }
 }

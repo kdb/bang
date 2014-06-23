@@ -8,11 +8,14 @@
 
 @import "mixins";
 @import "settings";
+
 @import '../../../../libraries/kkb_styleguide/_/sass/main';
 
-@import 'libraries';
 @import "resets";
+
+@import 'layout';
+
+@import 'libraries';
 @import "news";
 @import "events";
 @import "groups";
-@import 'layout';

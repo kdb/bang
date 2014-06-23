@@ -4,7 +4,7 @@
     .event-list-leaf {
       @extend .color-dark-sand;
       .event-list-fulldate {
-        @extend h2;
+        @include heading2;
         margin: 17px 0 0 0;
       }
       .event-list-day {
@@ -13,10 +13,10 @@
     }
 
     & > .list > .event-list-item {
-      @extend .content-box;
+      @include content-box;
 
-      .event-list-heading {
-        @extend h2;
+      .event-list-heading a {
+        @include heading2;
       }
       .event-list-location {
         @extend .meta-location;
@@ -47,8 +47,8 @@
 
         float: right;
         a{
-          @extend .btn;
-          @extend .btn-right;
+          @include btn;
+          // // @extend .btn-right;
 
           i {
             width: auto;
@@ -85,7 +85,7 @@
 
 .event-tags {
   .event-category a {
-    @extend .btn;
+    @include btn;
   }
   .event-tags {
     @extend .tags;

@@ -41,7 +41,7 @@ html body .pager {
 
 .field-type-ting-reference {
   .field-item {
-    @extend .content-box;
+    @include content-box;
     background-color: lighten($color-sand, 3) !important;
   }
 }
@@ -61,4 +61,11 @@ html body .pager {
       background-color: transparent;
     }
   }
+}
+
+// An example of a possible solution to the problem where it's
+// difficult to figure out what the tooltip is for. To be
+// discussed later in the process.
+div.instance:hover {
+  background-color: $color-grey-light;
 }

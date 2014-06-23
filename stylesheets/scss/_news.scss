@@ -1,7 +1,7 @@
 // Inherit the most basic from styleguide.
 .layout-wrapper {
   ul.list.news-list .news-list-item {
-    @extend .content-box;
+    @include content-box;
   }
 }
 
@@ -46,12 +46,15 @@
     }
   }
   .news-link a {
-    @extend .btn;
-    @extend .btn-right;
+    @include btn;
+    // @extend .btn-right;
   }
 
   .news-heading {
-    @extend h2;
+    @include heading2;
+    a {
+      @include heading2;
+    }
     margin-left: 170px;
     @include small-medium {
       margin-left: 0;
@@ -88,13 +91,13 @@ h1.page-title {
 
 
 .news-category a{
-  @extend .btn;
+  // @extend .btn;
 }
 
 .sub-menu-wrapper {
   @extend .vertical-list;
   .sub-menu-title {
-    @extend h2;
+    @include heading2;
   }
   .sub-menu {
     @extend .vertical-list-nav;
@@ -117,7 +120,7 @@ h1.page-title {
     @extend .select;
   }
   input[type="submit"] {
-    @extend .btn;
+     @include btn;
   }
 }
 .signature {

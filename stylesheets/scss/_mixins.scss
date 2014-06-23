@@ -4,3 +4,14 @@
   &::-moz-placeholder          {@content}
   &:-ms-input-placeholder      {@content}
 }
+
+
+@mixin heading2 {
+  font-family: 'merriweatherbold', serif;
+  font-weight: normal;
+  font-size: 20px;
+  color: #313233;
+  line-height: 24px;
+  margin-top: 0px;
+  margin-bottom: 24px;
+}
