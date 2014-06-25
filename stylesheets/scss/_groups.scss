@@ -1,5 +1,5 @@
 .groups-list {
-  @extend .content-list;
+  //@extend .content-list;
   .groups-list-item {
     @include content-box;
     background-color: lighten($color-sand, 3) !important;
@@ -29,6 +29,20 @@
       }
     }
   }
-
 }
 
+.group-blocks--inner {
+  margin:-20px;
+}
+.group-blocks--first,
+.group-blocks--second,
+.group-blocks--third,
+.group-blocks--fourth {
+  .inner-div {
+    @include content-box;
+
+  }
+  .group-link a {
+    @include btn;
+  }
+}

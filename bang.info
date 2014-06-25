@@ -10,3 +10,4 @@ stylesheets[all][] = stylesheets/bang.styles.css
 
 ; Overriding the scripts file from DDBasic.
 scripts[] = scripts/bang.topbar.menu.min.js
+scripts[] = scripts/basic.js

@@ -1621,434 +1621,6 @@ html body .site-header .lt-ie9 ul.topbar-menu li a {
   height: 10px;
 }
 
- /*
-Typografi
-
-Styleguide 1.0
-*/
- /*
-Headers
-
-Markup: <h1>H1: Merriweather 700 42/48</h1>
-<h2>H2: Merriweather 700 20/24</h2>
-<h3>H3: Merriweather 300 20/24</h3>
-<h4>H4: Proxima Nova 400 16/24</h4> <br>
-<p>P: Proxima Nova 300 16/24</p>
-
-Styleguide 1.1
-*/
-/*
-Links
-
-Markup: <a href="#" class="{$modifiers}">Lorem ipsum color deme</a>
-
-:hover - Highlight the button when hovered.
-:active - Highlight when active.
-.link-secondary - Secondary link.
-.link-danger - Warning/danger link.
-
-Styleguide 1.2
-*/
- /*
-Meta data
-
-Meta data kan bruges til at vise datoer, kategorier, forfattere, arrangementer etc. Brug <code>.meta-form</code> som hints til forms.
-
-Markup: <div class="meta">
-    <span class="meta-primary">21 okt. 2013</span>
-    <span class="meta-secondary">kort nyt</span>
-</div> <br>
-<div class="meta">
-    <span class="meta-primary"><a href="">21 okt. 2013</a></span>
-    <span class="meta-secondary">af <a href="">Lene Frandsen</a></span>
-</div> <br>
-<div class="meta">
-    <span class="meta-primary"><i class="fa fa-calendar"></i> <a href="">Torsdag 21. august 2014</a></span>
-    <span class="meta-secondary">19:00 til 20:00</span> <span class="meta-secondary meta-strong">GRATIS</span><br>
-    <span class="meta-location"><i class="fa fa-map-marker"></i> <a href="">Biblioteket Rentemestervej</a></span>
-</div><br>
-<span class="meta-form"><strong>Note:</strong> Lorem ipsum dolor sit amet, consectetur adipisicing elit. Lorem ipsum dolor sit amet, consectetur adipisicing elit.</span>
-
-Styleguide 1.2
-*/
- /*
-Tags
-
-Tags skal bruges som de bruges på ding2 websitet.
-
-Markup: <a href="" class="tag">Fantasy</a>
-<a href="" class="tag">Magi</a>
-<a href="" class="tag">Troldmænd</a>
-
-Styleguide 1.3
-*/
- /*
-Copy H1, H4
-
-Et eksempel på brug af <code>H1</code> kunne være ved overskrifter på materiale sider eller udstillingssider.
-Brug af <code>H4</code> kunne være til at vise forfatteren eller udstillingsbeskrivelse.
-
-Markup: <h4>Af <a href="">Joanne K. Rowling</a> (2007) [H4]</h4> <br>
-<h1>Harry Potter og dødsregalierne [H1]</h1>
-<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Dolores, necessitatibus soluta maxime recusandae voluptatem hic facilis veniam a dolorum eaque eius repudiandae veritatis doloremque commodi quam dolore odio sit accusamus fugit quidem vel reprehenderit possimus consectetur iure tempore quo omnis enim ipsa excepturi est. Aliquid inventore reprehenderit hic quidem libero. [P]</p>
-
-Styleguide 1.4
-*/
- /*
-Copy H2
-
-Brug af <code>H2</code> kunne være ved visning af content i form af: nyheder, arrangementer etc.
-
-Markup: 
-<span class="meta">
-    <span class="meta-primary">Tirsdag 10. december 2013</span>
-    <span class="meta-secondary">af <a href="">Lene Frandsen</a></span>
-</span>
-<h2>Klassisk julemusik [H2]</h2>
-<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Accusamus, quam ex quae et mollitia pariatur ea dolorem nesciunt iste eligendi? [P]</p>
-<a href="" class="tag">Klassisk</a>
-<a href="" class="tag">Jul</a>
-<a href="" class="tag">Hygge</a>
-
-Styleguide 1.4
-*/
- /*
-Copy H3
-
-Et eksempel på brug af <code>H3</code> kunne være ved adressevisning af et bibliotek.
-
-Markup: <h3>Biblioteket <br>
-        Rentemestervej [H3]</h3>
-<p>Rentemestervej 76 <br> 
-    2400 København NV [P]</p>
-<p>+45 82 32 16 00 <br>
-    <a href="">bibbro@kff.kk.dk [A]</a></p>
-
-Styleguide 1.4
-*/
- /*
-Copy H3, H4
-
-Brug af <code>H3</code> og <code>H4</code> kunne være ved en filtreringsmenu.
-
-Markup: <div class="vertical-list">
-    <h3>Filtrér din søgning [H3]</h3>
-    <h4>Efter materialetype [H4]</h4>
-    <ul class="vertical-list-nav">
-        <li><a href="">Resumé [A]</a></li>
-        <li><a href="">Anmeldelser</a></li>
-        <li class="active"><a href="">Om Joanne K. Rowling</a></li>
-        <li><a href="">Se alle eksemplarer</a></li>
-    </ul>
-    <a href="">+ Flere typer</a>
-</div>
-
-Styleguide 1.4
-*/
-@font-face {
-  font-family: 'merriweatherbold';
-  src: url("../../../libraries/kkb_styleguide/_/css/fonts/merriweatherweb/merriweather-bold-webfont.eot");
-  src: url("../../../libraries/kkb_styleguide/_/css/fonts/merriweatherweb/merriweather-bold-webfont.eot?#iefix") format("embedded-opentype"), url("../../../libraries/kkb_styleguide/_/css/fonts/merriweatherweb/merriweather-bold-webfont.woff") format("woff"), url("../../../libraries/kkb_styleguide/_/css/fonts/merriweatherweb/merriweather-bold-webfont.ttf") format("truetype"), url("../../../libraries/kkb_styleguide/_/css/fonts/merriweatherweb/merriweather-bold-webfont.svg#merriweatherbold") format("svg");
-  font-weight: normal;
-  font-style: normal;
-}
-@font-face {
-  font-family: 'merriweatherlight';
-  src: url("../../../libraries/kkb_styleguide/_/css/fonts/merriweatherweb/merriweather-light-webfont.eot");
-  src: url("../../../libraries/kkb_styleguide/_/css/fonts/merriweatherweb/merriweather-light-webfont.eot?#iefix") format("embedded-opentype"), url("../../../libraries/kkb_styleguide/_/css/fonts/merriweatherweb/merriweather-light-webfont.woff") format("woff"), url("../../../libraries/kkb_styleguide/_/css/fonts/merriweatherweb/merriweather-light-webfont.ttf") format("truetype"), url("../../../libraries/kkb_styleguide/_/css/fonts/merriweatherweb/merriweather-light-webfont.svg#merriweatherlight") format("svg");
-  font-weight: normal;
-  font-style: normal;
-}
-@font-face {
-  font-family: 'merriweatherregular';
-  src: url("../../../libraries/kkb_styleguide/_/css/fonts/merriweatherweb/merriweather-regular-webfont.eot");
-  src: url("../../../libraries/kkb_styleguide/_/css/fonts/merriweatherweb/merriweather-regular-webfont.eot?#iefix") format("embedded-opentype"), url("../../../libraries/kkb_styleguide/_/css/fonts/merriweatherweb/merriweather-regular-webfont.woff") format("woff"), url("../../../libraries/kkb_styleguide/_/css/fonts/merriweatherweb/merriweather-regular-webfont.ttf") format("truetype"), url("../../../libraries/kkb_styleguide/_/css/fonts/merriweatherweb/merriweather-regular-webfont.svg#merriweatherregular") format("svg");
-  font-weight: normal;
-  font-style: normal;
-}
-@media screen and (-webkit-min-device-pixel-ratio: 0) {
-  @font-face {
-    font-family: 'merriweatherbold';
-    src: url("../../../libraries/kkb_styleguide/_/css/fonts/merriweatherweb/merriweather-bold-webfont.svg#merriweatherbold") format("svg");
-  }
-  @font-face {
-    font-family: 'merriweatherlight';
-    src: url("../../../libraries/kkb_styleguide/_/css/fonts/merriweatherweb/merriweather-light-webfont.svg#merriweatherlight") format("svg");
-  }
-  @font-face {
-    font-family: 'merriweatherregular';
-    src: url("../../../libraries/kkb_styleguide/_/css/fonts/merriweatherweb/merriweather-regular-webfont.svg#merriweatherregular") format("svg");
-  }
-}
-body, html body {
-  background-color: #f1f1e7;
-  font-family: "proxima-nova";
-  font-size: 16px;
-  font-weight: 300;
-  color: #798881;
-  line-height: 24px;
-}
-
-h1, h1 a, h1 a:hover, h1.page-title, h2, h2 a, h2 a:hover, h3, h3 a, h3 a:hover, .popover h3, html body footer.footer h2, html body footer.footer h2 a, h2 html body footer.footer a, h4, h4 a, h4 a:hover,
-h5 a, h5 a:hover,
-h6 a, h6 a:hover, h5, h6, p, a {
-  margin: 0;
-  padding: 0;
-}
-h1.underline, h1 a.underline, h2.underline, h2 a.underline, h3.underline, h3 a.underline, html body footer.footer h2.underline, html body footer.footer h2 a.underline, h2 html body footer.footer a.underline, h4.underline, h4 a.underline,
-h5 a.underline,
-h6 a.underline, h5.underline, h6.underline, p.underline, a.underline {
-  margin-top: 24px;
-  padding-bottom: 16px;
-}
-
-h1, h1 a, h1 a:hover, h1.page-title {
-  font-weight: 700;
-  font-family: 'merriweatherbold', serif;
-  font-size: 32px;
-  color: #313233;
-  line-height: 48px;
-  margin-top: 0px;
-  margin-bottom: 24px;
-}
-h1 .results, h1 a:hover .results {
-  padding-left: 5px;
-  font-size: 26px;
-  height: 26px;
-  font-style: italic;
-  font-weight: 400;
-  color: #798881;
-  display: inline-block;
-}
-h1.subject, h1 a.subject {
-  font-size: 26px;
-}
-
-h2, h2 a, h2 a:hover {
-  font-family: 'Merriweather', serif;
-  font-weight: 700;
-  font-size: 20px;
-  color: #313233;
-  line-height: 24px;
-  margin-top: 0px;
-  margin-bottom: 24px;
-}
-
-h3, h3 a, h3 a:hover, .popover h3, html body footer.footer h2, html body footer.footer h2 a, h2 html body footer.footer a {
-  font-family: 'Merriweather', serif;
-  font-weight: 300;
-  font-size: 18px;
-  color: #313233;
-  line-height: 24px;
-  margin-top: 0px;
-  margin-bottom: 24px;
-}
-h3.title, h3 a.title, html body footer.footer h2.title, html body footer.footer h2 a.title, h2 html body footer.footer a.title {
-  min-height: 48px;
-  padding-top: 21px;
-  padding-bottom: 3px;
-}
-
-h4, h4 a, h4 a:hover,
-h5 a, h5 a:hover,
-h6 a, h6 a:hover, h5, h6, legend {
-  font-family: "proxima-nova";
-  font-weight: 400;
-  font-size: 16px;
-  color: #5f6062;
-  line-height: 24px;
-  margin-top: 0px;
-  margin-bottom: 0px;
-}
-h4.big, h4 a.big,
-h5 a.big,
-h6 a.big, h5.big, h6.big, legend.big {
-  font-size: 24px;
-  margin-bottom: 8px;
-  font-weight: 100;
-}
-
-h1, h1 a, h1 a:hover, h1.page-title, h1 a, h1 a:hover a, h1.page-title a, h1 a:hover, h2, h2 a, h2 a:hover, h2 a, h2 a:hover a, h2 a:hover {
-  font-family: 'merriweatherbold', serif;
-  font-weight: normal;
-}
-
-h3, h3 a, h3 a:hover, .popover h3, html body footer.footer h2, html body footer.footer h2 a, h2 html body footer.footer a, h3 a, h3 a:hover a, .popover h3 a, html body footer.footer h2 a, h2 html body footer.footer a a, h3 a:hover, html body footer.footer h2 a:hover, h2 html body footer.footer a a:hover {
-  font-family: 'merriweatherlight', serif;
-  font-weight: normal;
-}
-
-.windows.firefox h1, .windows.firefox h1 a, h1 .windows.firefox a, .windows.firefox h1 a, h1 .windows.firefox a a, .windows.firefox h1 a:hover, h1 .windows.firefox a a:hover, .windows.firefox h2, .windows.firefox h2 a, h2 .windows.firefox a, .windows.firefox h2 a, h2 .windows.firefox a a, .windows.firefox h2 a:hover, h2 .windows.firefox a a:hover, .windows.firefox h3, .windows.firefox h3 a, h3 .windows.firefox a, .windows.firefox html body footer.footer h2, html body footer.footer .windows.firefox h2, .windows.firefox html body footer.footer h2 a, html body footer.footer h2 .windows.firefox a, .windows.firefox h2 html body footer.footer a, h2 html body footer.footer .windows.firefox a, .windows.firefox h3 a, h3 .windows.firefox a a, .windows.firefox html body footer.footer h2 a, html body footer.footer .windows.firefox h2 a, html body footer.footer h2 .windows.firefox a a, .windows.firefox h2 html body footer.footer a a, h2 html body footer.footer .windows.firefox a a, .windows.firefox h3 a:hover, h3 .windows.firefox a a:hover, .windows.firefox html body footer.footer h2 a:hover, html body footer.footer .windows.firefox h2 a:hover, html body footer.footer h2 .windows.firefox a a:hover, .windows.firefox h2 html body footer.footer a a:hover, h2 html body footer.footer .windows.firefox a a:hover {
-  font-family: Georgia, serif;
-}
-.windows.firefox h1, .windows.firefox h1 a, h1 .windows.firefox a, .windows.firefox h1 a, h1 .windows.firefox a a, .windows.firefox h1 a:hover, h1 .windows.firefox a a:hover, .windows.firefox h2, .windows.firefox h2 a, h2 .windows.firefox a, .windows.firefox h2 a, h2 .windows.firefox a a, .windows.firefox h2 a:hover, h2 .windows.firefox a a:hover {
-  font-weight: bold;
-}
-
-p {
-  font-family: "proxima-nova";
-  font-size: 16px;
-  font-weight: 300;
-  color: #798881;
-  line-height: 24px;
-  margin-top: 0px;
-  margin-bottom: 24px;
-}
-p.light {
-  color: #b1b1ad;
-}
-p a {
-  display: inline;
-  line-height: inherit;
-  margin-top: 0;
-  margin-bottom: 0;
-}
-
-a {
-  font-family: "proxima-nova";
-  font-size: 16px;
-  font-weight: 400;
-  text-decoration: none;
-  color: #7cbf9e;
-  line-height: 24px;
-}
-a:hover, a:active, a.pseudo-class-hover, a.pseudo-class-active {
-  text-decoration: none;
-  color: #468f6b;
-}
-a.link {
-  display: inline-block;
-  margin-bottom: 8px;
-}
-a.link-secondary {
-  color: #b1b1ad;
-}
-a.link-secondary:hover, a.link-secondary:active {
-  color: #7f7f79;
-}
-a.link-danger {
-  color: #ff7275;
-}
-a.link-danger:hover, a.link-danger:active {
-  color: #d80005;
-}
-
-.meta, .news-list-item .news-sub-heading {
-  margin-bottom: 8px;
-  display: inline-block;
-}
-
-.meta-primary, .meta-primary a, .news-list-item .news-sub-heading .news-date, .meta-secondary, .meta-secondary a, .meta-location a, .library-ref a, .view-ding-event .view-content > .list > .event-list-item .event-list-location a, .meta-location, .library-ref, .view-ding-event .view-content > .list > .event-list-item .event-list-location, .event-tags .library-ref a, .news-list-item .news-sub-heading .news-author, .view-ding-event .view-content > .list > .event-list-item .event-list-time, .view-ding-event .view-content > .list > .event-list-item .event-list-price {
-  font-size: 12px;
-  line-height: 16px;
-  text-transform: uppercase;
-  display: inline-block;
-  margin-right: 4px;
-}
-.meta-primary i.fa, .news-list-item .news-sub-heading .news-date i.fa, .meta-secondary i.fa, .meta-location i.fa, .library-ref i.fa, .view-ding-event .view-content > .list > .event-list-item .event-list-location i.fa, .news-list-item .news-sub-heading .news-author i.fa, .view-ding-event .view-content > .list > .event-list-item .event-list-time i.fa, .view-ding-event .view-content > .list > .event-list-item .event-list-price i.fa, .meta-primary .library-list i.opening-hours-toggle:after, .library-list .meta-primary i.opening-hours-toggle:after, .news-list-item .news-sub-heading .news-date .library-list i.opening-hours-toggle:after, .library-list .news-list-item .news-sub-heading .news-date i.opening-hours-toggle:after, .meta-secondary .library-list i.opening-hours-toggle:after, .library-list .meta-secondary i.opening-hours-toggle:after, .meta-location .library-list i.opening-hours-toggle:after, .library-list .meta-location i.opening-hours-toggle:after, .library-ref .library-list i.opening-hours-toggle:after, .library-list .library-ref i.opening-hours-toggle:after, .view-ding-event .view-content > .list > .event-list-item .event-list-location .library-list i.opening-hours-toggle:after, .library-list .view-ding-event .view-content > .list > .event-list-item .event-list-location i.opening-hours-toggle:after, .news-list-item .news-sub-heading .news-author .library-list i.opening-hours-toggle:after, .library-list .news-list-item .news-sub-heading .news-author i.opening-hours-toggle:after, .view-ding-event .view-content > .list > .event-list-item .event-list-time .library-list i.opening-hours-toggle:after, .library-list .view-ding-event .view-content > .list > .event-list-item .event-list-time i.opening-hours-toggle:after, .view-ding-event .view-content > .list > .event-list-item .event-list-price .library-list i.opening-hours-toggle:after, .library-list .view-ding-event .view-content > .list > .event-list-item .event-list-price i.opening-hours-toggle:after,
-.meta-primary #ding-library-front .primary-content i.opening-hours-toggle:after,
-#ding-library-front .primary-content .meta-primary i.opening-hours-toggle:after,
-.news-list-item .news-sub-heading .news-date #ding-library-front .primary-content i.opening-hours-toggle:after,
-#ding-library-front .primary-content .news-list-item .news-sub-heading .news-date i.opening-hours-toggle:after,
-.meta-secondary #ding-library-front .primary-content i.opening-hours-toggle:after,
-#ding-library-front .primary-content .meta-secondary i.opening-hours-toggle:after,
-.meta-location #ding-library-front .primary-content i.opening-hours-toggle:after,
-#ding-library-front .primary-content .meta-location i.opening-hours-toggle:after,
-.library-ref #ding-library-front .primary-content i.opening-hours-toggle:after,
-#ding-library-front .primary-content .library-ref i.opening-hours-toggle:after,
-.view-ding-event .view-content > .list > .event-list-item .event-list-location #ding-library-front .primary-content i.opening-hours-toggle:after,
-#ding-library-front .primary-content .view-ding-event .view-content > .list > .event-list-item .event-list-location i.opening-hours-toggle:after,
-.news-list-item .news-sub-heading .news-author #ding-library-front .primary-content i.opening-hours-toggle:after,
-#ding-library-front .primary-content .news-list-item .news-sub-heading .news-author i.opening-hours-toggle:after,
-.view-ding-event .view-content > .list > .event-list-item .event-list-time #ding-library-front .primary-content i.opening-hours-toggle:after,
-#ding-library-front .primary-content .view-ding-event .view-content > .list > .event-list-item .event-list-time i.opening-hours-toggle:after,
-.view-ding-event .view-content > .list > .event-list-item .event-list-price #ding-library-front .primary-content i.opening-hours-toggle:after,
-#ding-library-front .primary-content .view-ding-event .view-content > .list > .event-list-item .event-list-price i.opening-hours-toggle:after, .meta-primary .view-ding-event .view-content > .list > .event-list-item i.event-list-location, .view-ding-event .view-content > .list > .event-list-item .meta-primary i.event-list-location, .news-list-item .news-sub-heading .news-date .view-ding-event .view-content > .list > .event-list-item i.event-list-location, .view-ding-event .view-content > .list > .event-list-item .news-list-item .news-sub-heading .news-date i.event-list-location, .meta-secondary .view-ding-event .view-content > .list > .event-list-item i.event-list-location, .view-ding-event .view-content > .list > .event-list-item .meta-secondary i.event-list-location, .meta-location .view-ding-event .view-content > .list > .event-list-item i.event-list-location, .view-ding-event .view-content > .list > .event-list-item .meta-location i.event-list-location, .library-ref .view-ding-event .view-content > .list > .event-list-item i.event-list-location, .view-ding-event .view-content > .list > .event-list-item .library-ref i.event-list-location, .view-ding-event .view-content > .list > .event-list-item .event-list-location i.event-list-location, .news-list-item .news-sub-heading .news-author .view-ding-event .view-content > .list > .event-list-item i.event-list-location, .view-ding-event .view-content > .list > .event-list-item .news-list-item .news-sub-heading .news-author i.event-list-location, .view-ding-event .view-content > .list > .event-list-item .event-list-time i.event-list-location, .view-ding-event .view-content > .list > .event-list-item .event-list-price i.event-list-location, .meta-primary .view-ding-event .view-content > .list > .event-list-item i.event-list-time, .view-ding-event .view-content > .list > .event-list-item .meta-primary i.event-list-time, .news-list-item .news-sub-heading .news-date .view-ding-event .view-content > .list > .event-list-item i.event-list-time, .view-ding-event .view-content > .list > .event-list-item .news-list-item .news-sub-heading .news-date i.event-list-time, .meta-secondary .view-ding-event .view-content > .list > .event-list-item i.event-list-time, .view-ding-event .view-content > .list > .event-list-item .meta-secondary i.event-list-time, .meta-location .view-ding-event .view-content > .list > .event-list-item i.event-list-time, .view-ding-event .view-content > .list > .event-list-item .meta-location i.event-list-time, .library-ref .view-ding-event .view-content > .list > .event-list-item i.event-list-time, .view-ding-event .view-content > .list > .event-list-item .library-ref i.event-list-time, .view-ding-event .view-content > .list > .event-list-item .event-list-location i.event-list-time, .news-list-item .news-sub-heading .news-author .view-ding-event .view-content > .list > .event-list-item i.event-list-time, .view-ding-event .view-content > .list > .event-list-item .news-list-item .news-sub-heading .news-author i.event-list-time, .view-ding-event .view-content > .list > .event-list-item .event-list-time i.event-list-time, .view-ding-event .view-content > .list > .event-list-item .event-list-price i.event-list-time, .meta-primary span, .news-list-item .news-sub-heading .news-date span, .meta-secondary span, .meta-location span, .library-ref span, .view-ding-event .view-content > .list > .event-list-item .event-list-location span, .event-tags .library-ref a span, .news-list-item .news-sub-heading .news-author span, .view-ding-event .view-content > .list > .event-list-item .event-list-time span, .view-ding-event .view-content > .list > .event-list-item .event-list-price span {
-  margin-right: 4px;
-  text-align: center;
-  min-width: 12px;
-}
-
-.meta-form, html body .site-header .header-wrapper #user-login-form label {
-  font-size: 12px;
-  color: #b1b1ad;
-  line-height: 16px;
-  display: inline-block;
-  margin: 6px 0 0 0;
-}
-
-.meta-primary, .meta-primary a, .news-list-item .news-sub-heading .news-date {
-  font-weight: 600;
-  color: #00b38a;
-}
-
-.meta-primary a, .news-list-item .news-sub-heading .news-date a {
-  margin-right: 0;
-}
-.meta-primary a:hover, .news-list-item .news-sub-heading .news-date a:hover {
-  color: #009a76;
-}
-
-.meta-secondary, .meta-secondary a, .meta-location a, .library-ref a, .view-ding-event .view-content > .list > .event-list-item .event-list-location a, .meta-location, .library-ref, .view-ding-event .view-content > .list > .event-list-item .event-list-location, .event-tags .library-ref a, .news-list-item .news-sub-heading .news-author, .view-ding-event .view-content > .list > .event-list-item .event-list-time, .view-ding-event .view-content > .list > .event-list-item .event-list-price {
-  color: #b1b1ad;
-}
-
-.meta-secondary a, .meta-location a, .library-ref a, .view-ding-event .view-content > .list > .event-list-item .event-list-location a, .event-tags .library-ref a a, .news-list-item .news-sub-heading .news-author a, .view-ding-event .view-content > .list > .event-list-item .event-list-time a, .view-ding-event .view-content > .list > .event-list-item .event-list-price a, .meta-location a, .library-ref a, .view-ding-event .view-content > .list > .event-list-item .event-list-location a, .event-tags .library-ref a a {
-  margin-right: 0;
-}
-.meta-secondary a:hover, .meta-location a:hover, .library-ref a:hover, .view-ding-event .view-content > .list > .event-list-item .event-list-location a:hover, .news-list-item .news-sub-heading .news-author a:hover, .view-ding-event .view-content > .list > .event-list-item .event-list-time a:hover, .view-ding-event .view-content > .list > .event-list-item .event-list-price a:hover, .meta-location a:hover, .library-ref a:hover, .view-ding-event .view-content > .list > .event-list-item .event-list-location a:hover {
-  color: #989893;
-}
-
-.meta-strong, .view-ding-event .view-content > .list > .event-list-item .event-list-price {
-  font-weight: 600;
-}
-
-.tags, .news-tags, .event-tags .event-tags {
-  display: inline-block;
-}
-@media only screen and (max-width: 480px) {
-  .tags, .news-tags, .event-tags .event-tags {
-    margin-bottom: 24px;
-  }
-}
-
-.tag, .news-list-item .news-label a,
-.news-list-item .views-field-field-ding-news-tags a, .news-tags a, .event-tags .event-tags a {
-  display: inline-block;
-}
-
-@media only screen and (max-width: 480px) {
-  body .tag, body .news-list-item .news-label a, .news-list-item .news-label body a,
-  body .news-list-item .views-field-field-ding-news-tags a,
-  .news-list-item .views-field-field-ding-news-tags body a, body .news-tags a, .news-tags body a, body .event-tags .event-tags a, .event-tags .event-tags body a {
-    width: auto;
-  }
-}
-
-.inline-block {
-  display: inline-block;
-}
-
-.center, .more {
-  text-align: center;
-}
-
-.left {
-  text-align: left;
-}
-
-.right {
-  text-align: right;
-}
-
-.more {
-  display: block;
-  clear: both;
-  margin-top: -8px;
-  margin-bottom: 24px;
-}
-
 /*
 Vertical List
 
@@ -2137,117 +1709,123 @@ Markup: <div class="vertical-list">
 
 Styleguide 3.4
 */
-.vertical-list h2, html body footer.footer .panel-pane h2, .sub-menu-wrapper h2, .vertical-list h2 a, h2 .vertical-list a, html body footer.footer .panel-pane h2 a, h2 html body footer.footer .panel-pane a, .sub-menu-wrapper h2 a, h2 .sub-menu-wrapper a, .vertical-list h3, html body footer.footer .panel-pane h3, .sub-menu-wrapper h3, .vertical-list h3 a, h3 .vertical-list a, html body footer.footer .panel-pane h3 a, h3 html body footer.footer .panel-pane a, .sub-menu-wrapper h3 a, h3 .sub-menu-wrapper a, .vertical-list html body footer.footer h2, html body footer.footer .vertical-list h2, html body footer.footer .panel-pane h2, .sub-menu-wrapper html body footer.footer h2, html body footer.footer .sub-menu-wrapper h2, .vertical-list html body footer.footer h2 a, html body footer.footer h2 .vertical-list a, html body footer.footer .panel-pane h2 a, html body footer.footer h2 .panel-pane a, .sub-menu-wrapper html body footer.footer h2 a, html body footer.footer h2 .sub-menu-wrapper a, .vertical-list h2 html body footer.footer a, h2 html body footer.footer .vertical-list a, h2 html body footer.footer .panel-pane a, .sub-menu-wrapper h2 html body footer.footer a, h2 html body footer.footer .sub-menu-wrapper a {
+.vertical-list h2, html body footer.footer .panel-pane h2, .sub-menu-wrapper h2, .pane-ding-eresource-categories h2, .vertical-list h2 a, h2 .vertical-list a, html body footer.footer .panel-pane h2 a, h2 html body footer.footer .panel-pane a, .sub-menu-wrapper h2 a, h2 .sub-menu-wrapper a, .pane-ding-eresource-categories h2 a, h2 .pane-ding-eresource-categories a, .vertical-list h3, html body footer.footer .panel-pane h3, .sub-menu-wrapper h3, .pane-ding-eresource-categories h3, .vertical-list h3 a, h3 .vertical-list a, html body footer.footer .panel-pane h3 a, h3 html body footer.footer .panel-pane a, .sub-menu-wrapper h3 a, h3 .sub-menu-wrapper a, .pane-ding-eresource-categories h3 a, h3 .pane-ding-eresource-categories a, .vertical-list html body footer.footer h2, html body footer.footer .vertical-list h2, html body footer.footer .panel-pane h2, .sub-menu-wrapper html body footer.footer h2, html body footer.footer .sub-menu-wrapper h2, .pane-ding-eresource-categories html body footer.footer h2, html body footer.footer .pane-ding-eresource-categories h2, .vertical-list html body footer.footer h2 a, html body footer.footer h2 .vertical-list a, html body footer.footer .panel-pane h2 a, html body footer.footer h2 .panel-pane a, .sub-menu-wrapper html body footer.footer h2 a, html body footer.footer h2 .sub-menu-wrapper a, .pane-ding-eresource-categories html body footer.footer h2 a, html body footer.footer h2 .pane-ding-eresource-categories a, .vertical-list h2 html body footer.footer a, h2 html body footer.footer .vertical-list a, h2 html body footer.footer .panel-pane a, .sub-menu-wrapper h2 html body footer.footer a, h2 html body footer.footer .sub-menu-wrapper a, .pane-ding-eresource-categories h2 html body footer.footer a, h2 html body footer.footer .pane-ding-eresource-categories a {
   margin-top: 0;
 }
-.vertical-list h4, html body footer.footer .panel-pane h4, .sub-menu-wrapper h4, .vertical-list h4 a, h4 .vertical-list a, html body footer.footer .panel-pane h4 a, h4 html body footer.footer .panel-pane a, .sub-menu-wrapper h4 a, h4 .sub-menu-wrapper a,
+.vertical-list h4, html body footer.footer .panel-pane h4, .sub-menu-wrapper h4, .pane-ding-eresource-categories h4, .vertical-list h4 a, h4 .vertical-list a, html body footer.footer .panel-pane h4 a, h4 html body footer.footer .panel-pane a, .sub-menu-wrapper h4 a, h4 .sub-menu-wrapper a, .pane-ding-eresource-categories h4 a, h4 .pane-ding-eresource-categories a,
 .vertical-list h5 a,
 h5 .vertical-list a,
 html body footer.footer .panel-pane h5 a,
 h5 html body footer.footer .panel-pane a,
 .sub-menu-wrapper h5 a,
 h5 .sub-menu-wrapper a,
+.pane-ding-eresource-categories h5 a,
+h5 .pane-ding-eresource-categories a,
 .vertical-list h6 a,
 h6 .vertical-list a,
 html body footer.footer .panel-pane h6 a,
 h6 html body footer.footer .panel-pane a,
 .sub-menu-wrapper h6 a,
 h6 .sub-menu-wrapper a,
+.pane-ding-eresource-categories h6 a,
+h6 .pane-ding-eresource-categories a,
 .vertical-list h5,
 html body footer.footer .panel-pane h5,
 .sub-menu-wrapper h5,
+.pane-ding-eresource-categories h5,
 .vertical-list h6,
 html body footer.footer .panel-pane h6,
-.sub-menu-wrapper h6 {
+.sub-menu-wrapper h6,
+.pane-ding-eresource-categories h6 {
   margin-bottom: 8px;
 }
-.vertical-list > a, html body footer.footer .panel-pane > a, .sub-menu-wrapper > a {
+.vertical-list > a, html body footer.footer .panel-pane > a, .sub-menu-wrapper > a, .pane-ding-eresource-categories > a {
   margin-top: 8px;
   display: inline-block;
 }
-.vertical-list ul, html body footer.footer .panel-pane ul, .sub-menu-wrapper ul, .vertical-list ol, html body footer.footer .panel-pane ol, .sub-menu-wrapper ol {
+.vertical-list ul, html body footer.footer .panel-pane ul, .sub-menu-wrapper ul, .pane-ding-eresource-categories ul, .vertical-list ol, html body footer.footer .panel-pane ol, .sub-menu-wrapper ol, .pane-ding-eresource-categories ol {
   margin: 0;
   padding: 0;
 }
-.vertical-list ul li, html body footer.footer .panel-pane ul li, .sub-menu-wrapper ul li, .vertical-list ol li, html body footer.footer .panel-pane ol li, .sub-menu-wrapper ol li {
+.vertical-list ul li, html body footer.footer .panel-pane ul li, .sub-menu-wrapper ul li, .pane-ding-eresource-categories ul li, .vertical-list ol li, html body footer.footer .panel-pane ol li, .sub-menu-wrapper ol li, .pane-ding-eresource-categories ol li {
   margin: 0;
   padding: 8px 0 0 0;
   color: #798881;
   list-style: none;
 }
-.vertical-list ul li:first-child, html body footer.footer .panel-pane ul li:first-child, .sub-menu-wrapper ul li:first-child, .vertical-list ol li:first-child, html body footer.footer .panel-pane ol li:first-child, .sub-menu-wrapper ol li:first-child {
+.vertical-list ul li:first-child, html body footer.footer .panel-pane ul li:first-child, .sub-menu-wrapper ul li:first-child, .pane-ding-eresource-categories ul li:first-child, .vertical-list ol li:first-child, html body footer.footer .panel-pane ol li:first-child, .sub-menu-wrapper ol li:first-child, .pane-ding-eresource-categories ol li:first-child {
   padding: 0;
 }
-.vertical-list ul li a, html body footer.footer .panel-pane ul li a, .sub-menu-wrapper ul li a, .vertical-list ol li a, html body footer.footer .panel-pane ol li a, .sub-menu-wrapper ol li a {
+.vertical-list ul li a, html body footer.footer .panel-pane ul li a, .sub-menu-wrapper ul li a, .pane-ding-eresource-categories ul li a, .vertical-list ol li a, html body footer.footer .panel-pane ol li a, .sub-menu-wrapper ol li a, .pane-ding-eresource-categories ol li a {
   display: block;
   margin: 0;
   padding: 0;
 }
-.vertical-list ul li p, html body footer.footer .panel-pane ul li p, .sub-menu-wrapper ul li p, .vertical-list ol li p, html body footer.footer .panel-pane ol li p, .sub-menu-wrapper ol li p {
+.vertical-list ul li p, html body footer.footer .panel-pane ul li p, .sub-menu-wrapper ul li p, .pane-ding-eresource-categories ul li p, .vertical-list ol li p, html body footer.footer .panel-pane ol li p, .sub-menu-wrapper ol li p, .pane-ding-eresource-categories ol li p {
   margin: 0;
   padding: 0;
 }
-.vertical-list.vertical-list-separator, html body footer.footer .vertical-list-separator.panel-pane, .vertical-list-separator.sub-menu-wrapper {
+.vertical-list.vertical-list-separator, html body footer.footer .vertical-list-separator.panel-pane, .vertical-list-separator.sub-menu-wrapper, .vertical-list-separator.pane-ding-eresource-categories {
   padding-bottom: 16px;
   margin-bottom: 47px;
   border-bottom: 1px solid #d6d6d4;
 }
-.vertical-list.vertical-list-separator a, html body footer.footer .vertical-list-separator.panel-pane a, .vertical-list-separator.sub-menu-wrapper a {
+.vertical-list.vertical-list-separator a, html body footer.footer .vertical-list-separator.panel-pane a, .vertical-list-separator.sub-menu-wrapper a, .vertical-list-separator.pane-ding-eresource-categories a {
   color: #b1b1ad;
   font-weight: 300;
 }
-.vertical-list.vertical-list-separator a:hover, html body footer.footer .vertical-list-separator.panel-pane a:hover, .vertical-list-separator.sub-menu-wrapper a:hover {
+.vertical-list.vertical-list-separator a:hover, html body footer.footer .vertical-list-separator.panel-pane a:hover, .vertical-list-separator.sub-menu-wrapper a:hover, .vertical-list-separator.pane-ding-eresource-categories a:hover {
   color: #00b38a;
 }
-.vertical-list ul.vertical-list-nav a, .sub-menu-wrapper ul.vertical-list-nav a, html body footer.footer .panel-pane ul a, .sub-menu-wrapper ul.sub-menu a {
+.vertical-list ul.vertical-list-nav a, .sub-menu-wrapper ul.vertical-list-nav a, .pane-ding-eresource-categories ul.vertical-list-nav a, html body footer.footer .panel-pane ul a, .sub-menu-wrapper ul.sub-menu a, .pane-ding-eresource-categories ul.sub-menu a {
   color: #b1b1ad;
   font-weight: 300;
 }
-.vertical-list ul.vertical-list-nav a:hover, .sub-menu-wrapper ul.vertical-list-nav a:hover, html body footer.footer .panel-pane ul a:hover, .sub-menu-wrapper ul.sub-menu a:hover {
+.vertical-list ul.vertical-list-nav a:hover, .sub-menu-wrapper ul.vertical-list-nav a:hover, .pane-ding-eresource-categories ul.vertical-list-nav a:hover, html body footer.footer .panel-pane ul a:hover, .sub-menu-wrapper ul.sub-menu a:hover, .pane-ding-eresource-categories ul.sub-menu a:hover {
   color: #00b38a;
 }
-.vertical-list ul.vertical-list-nav li.active a, .sub-menu-wrapper ul.vertical-list-nav li.active a, html body footer.footer .panel-pane ul li.active a, .sub-menu-wrapper ul.sub-menu li.active a {
+.vertical-list ul.vertical-list-nav li.active a, .sub-menu-wrapper ul.vertical-list-nav li.active a, .pane-ding-eresource-categories ul.vertical-list-nav li.active a, html body footer.footer .panel-pane ul li.active a, .sub-menu-wrapper ul.sub-menu li.active a, .pane-ding-eresource-categories ul.sub-menu li.active a {
   color: #00b38a;
 }
-.vertical-list ul.vertical-list-plain li, html body footer.footer .panel-pane ul.vertical-list-plain li, .sub-menu-wrapper ul.vertical-list-plain li {
+.vertical-list ul.vertical-list-plain li, html body footer.footer .panel-pane ul.vertical-list-plain li, .sub-menu-wrapper ul.vertical-list-plain li, .pane-ding-eresource-categories ul.vertical-list-plain li {
   list-style: none;
 }
-.vertical-list ul.vertical-list-icons li, html body footer.footer .panel-pane ul.vertical-list-icons li, .sub-menu-wrapper ul.vertical-list-icons li {
+.vertical-list ul.vertical-list-icons li, html body footer.footer .panel-pane ul.vertical-list-icons li, .sub-menu-wrapper ul.vertical-list-icons li, .pane-ding-eresource-categories ul.vertical-list-icons li {
   list-style: none;
   position: relative;
   padding: 0;
   margin: 0 0 8px 0;
 }
-.vertical-list ul.vertical-list-icons li a, html body footer.footer .panel-pane ul.vertical-list-icons li a, .sub-menu-wrapper ul.vertical-list-icons li a {
+.vertical-list ul.vertical-list-icons li a, html body footer.footer .panel-pane ul.vertical-list-icons li a, .sub-menu-wrapper ul.vertical-list-icons li a, .pane-ding-eresource-categories ul.vertical-list-icons li a {
   display: inline-block;
 }
-.vertical-list ul.vertical-list-icons li i, html body footer.footer .panel-pane ul.vertical-list-icons li i, .sub-menu-wrapper ul.vertical-list-icons li i, .vertical-list ul.vertical-list-icons li span, html body footer.footer .panel-pane ul.vertical-list-icons li span, .sub-menu-wrapper ul.vertical-list-icons li span {
+.vertical-list ul.vertical-list-icons li i, html body footer.footer .panel-pane ul.vertical-list-icons li i, .sub-menu-wrapper ul.vertical-list-icons li i, .pane-ding-eresource-categories ul.vertical-list-icons li i, .vertical-list ul.vertical-list-icons li span, html body footer.footer .panel-pane ul.vertical-list-icons li span, .sub-menu-wrapper ul.vertical-list-icons li span, .pane-ding-eresource-categories ul.vertical-list-icons li span {
   margin-left: -25px;
   padding-right: 11px;
 }
-.vertical-list ul.vertical-list-icons li p, html body footer.footer .panel-pane ul.vertical-list-icons li p, .sub-menu-wrapper ul.vertical-list-icons li p {
+.vertical-list ul.vertical-list-icons li p, html body footer.footer .panel-pane ul.vertical-list-icons li p, .sub-menu-wrapper ul.vertical-list-icons li p, .pane-ding-eresource-categories ul.vertical-list-icons li p {
   padding-left: 25px;
 }
-.vertical-list ul.vertical-list-bullet, html body footer.footer .panel-pane ul.vertical-list-bullet, .sub-menu-wrapper ul.vertical-list-bullet {
+.vertical-list ul.vertical-list-bullet, html body footer.footer .panel-pane ul.vertical-list-bullet, .sub-menu-wrapper ul.vertical-list-bullet, .pane-ding-eresource-categories ul.vertical-list-bullet {
   margin: 0px 0px 0px 20px;
 }
-.vertical-list ul.vertical-list-bullet li, html body footer.footer .panel-pane ul.vertical-list-bullet li, .sub-menu-wrapper ul.vertical-list-bullet li {
+.vertical-list ul.vertical-list-bullet li, html body footer.footer .panel-pane ul.vertical-list-bullet li, .sub-menu-wrapper ul.vertical-list-bullet li, .pane-ding-eresource-categories ul.vertical-list-bullet li {
   list-style: disc;
 }
-.vertical-list ol, html body footer.footer .panel-pane ol, .sub-menu-wrapper ol, .vertical-list ol.vertical-list-number, html body footer.footer .panel-pane ol.vertical-list-number, .sub-menu-wrapper ol.vertical-list-number {
+.vertical-list ol, html body footer.footer .panel-pane ol, .sub-menu-wrapper ol, .pane-ding-eresource-categories ol, .vertical-list ol.vertical-list-number, html body footer.footer .panel-pane ol.vertical-list-number, .sub-menu-wrapper ol.vertical-list-number, .pane-ding-eresource-categories ol.vertical-list-number {
   margin: 0px 0px 0px 23px;
 }
-.vertical-list ol li, html body footer.footer .panel-pane ol li, .sub-menu-wrapper ol li, .vertical-list ol.vertical-list-number li, html body footer.footer .panel-pane ol.vertical-list-number li, .sub-menu-wrapper ol.vertical-list-number li {
+.vertical-list ol li, html body footer.footer .panel-pane ol li, .sub-menu-wrapper ol li, .pane-ding-eresource-categories ol li, .vertical-list ol.vertical-list-number li, html body footer.footer .panel-pane ol.vertical-list-number li, .sub-menu-wrapper ol.vertical-list-number li, .pane-ding-eresource-categories ol.vertical-list-number li {
   list-style: decimal;
 }
-.vertical-list ul.vertical-list-number, html body footer.footer .panel-pane ul.vertical-list-number, .sub-menu-wrapper ul.vertical-list-number {
+.vertical-list ul.vertical-list-number, html body footer.footer .panel-pane ul.vertical-list-number, .sub-menu-wrapper ul.vertical-list-number, .pane-ding-eresource-categories ul.vertical-list-number {
   counter-reset: item;
 }
-.vertical-list ul.vertical-list-number li, html body footer.footer .panel-pane ul.vertical-list-number li, .sub-menu-wrapper ul.vertical-list-number li {
+.vertical-list ul.vertical-list-number li, html body footer.footer .panel-pane ul.vertical-list-number li, .sub-menu-wrapper ul.vertical-list-number li, .pane-ding-eresource-categories ul.vertical-list-number li {
   position: relative;
   padding-left: 25px;
 }
-.vertical-list ul.vertical-list-number li:before, html body footer.footer .panel-pane ul.vertical-list-number li:before, .sub-menu-wrapper ul.vertical-list-number li:before {
+.vertical-list ul.vertical-list-number li:before, html body footer.footer .panel-pane ul.vertical-list-number li:before, .sub-menu-wrapper ul.vertical-list-number li:before, .pane-ding-eresource-categories ul.vertical-list-number li:before {
   content: counter(item) ". ";
   counter-increment: item;
   width: 1em;
@@ -2256,11 +1834,11 @@ html body footer.footer .panel-pane h6,
   position: absolute;
   left: 0px;
 }
-.vertical-list ul.vertical-list-check li, html body footer.footer .panel-pane ul.vertical-list-check li, .sub-menu-wrapper ul.vertical-list-check li {
+.vertical-list ul.vertical-list-check li, html body footer.footer .panel-pane ul.vertical-list-check li, .sub-menu-wrapper ul.vertical-list-check li, .pane-ding-eresource-categories ul.vertical-list-check li {
   position: relative;
   padding-left: 25px;
 }
-.vertical-list ul.vertical-list-check li:before, html body footer.footer .panel-pane ul.vertical-list-check li:before, .sub-menu-wrapper ul.vertical-list-check li:before {
+.vertical-list ul.vertical-list-check li:before, html body footer.footer .panel-pane ul.vertical-list-check li:before, .sub-menu-wrapper ul.vertical-list-check li:before, .pane-ding-eresource-categories ul.vertical-list-check li:before {
   content: "";
   background: url('data:image/svg+xml;base64,PD94bWwgdmVyc2lvbj0iMS4wIiBlbmNvZGluZz0idXRmLTgiPz4NCjwhLS0gR2VuZXJhdG9yOiBBZG9iZSBJbGx1c3RyYXRvciAxNy4wLjIsIFNWRyBFeHBvcnQgUGx1Zy1JbiAuIFNWRyBWZXJzaW9uOiA2LjAwIEJ1aWxkIDApICAtLT4NCjwhRE9DVFlQRSBzdmcgUFVCTElDICItLy9XM0MvL0RURCBTVkcgMS4xLy9FTiIgImh0dHA6Ly93d3cudzMub3JnL0dyYXBoaWNzL1NWRy8xLjEvRFREL3N2ZzExLmR0ZCI+DQo8c3ZnIHZlcnNpb249IjEuMSIgaWQ9IkxheWVyXzEiIHhtbG5zPSJodHRwOi8vd3d3LnczLm9yZy8yMDAwL3N2ZyIgeG1sbnM6eGxpbms9Imh0dHA6Ly93d3cudzMub3JnLzE5OTkveGxpbmsiIHg9IjBweCIgeT0iMHB4Ig0KCSB3aWR0aD0iMTZweCIgaGVpZ2h0PSIxMi41cHgiIHZpZXdCb3g9IjAgMCAxNiAxMi41IiBlbmFibGUtYmFja2dyb3VuZD0ibmV3IDAgMCAxNiAxMi41IiB4bWw6c3BhY2U9InByZXNlcnZlIj4NCjxwYXRoIGZpbGw9IiNGRjcyNzUiIGQ9Ik0xMy41LDBMNiw3LjVMMi41LDRMMCw2LjVsNiw2bDEwLTEwTDEzLjUsMHoiLz4NCjwvc3ZnPg0K') no-repeat 0 5px;
   background-image: url('/profiles/ding2/themes/bang/images/checkmark2.png?1401712120') \9;
@@ -2275,7 +1853,7 @@ html body footer.footer .panel-pane h6,
 }
 
 @media only screen and (max-width: 768px) {
-  #footer .vertical-list, #footer html body footer.footer .panel-pane, html body footer.footer #footer .panel-pane, #footer .sub-menu-wrapper {
+  #footer .vertical-list, #footer html body footer.footer .panel-pane, html body footer.footer #footer .panel-pane, #footer .sub-menu-wrapper, #footer .pane-ding-eresource-categories {
     margin-bottom: 36px;
   }
 }
@@ -2552,8 +2130,7 @@ Markup: <button type="button" class="btn {$modifiers}">
 
 Styleguide 99.1
 */
-.btn, .tag, .news-list-item .news-label a,
-.news-list-item .views-field-field-ding-news-tags a, .news-tags a, .event-tags .event-tags a {
+.btn {
   display: inline-block;
   padding: 5px 16px;
   margin-bottom: 14px;
@@ -2575,27 +2152,9 @@ Styleguide 99.1
   background-color: #00b38a;
   box-shadow: 0px 1px 2px #004d3b;
 }
-.btn span.glyphicon, .tag span.glyphicon, .news-list-item .news-label a span.glyphicon,
-.news-list-item .views-field-field-ding-news-tags a span.glyphicon, .news-tags a span.glyphicon, .event-tags .event-tags a span.glyphicon, .btn i.fa, .tag i.fa, .news-list-item .news-label a i.fa,
-.news-list-item .views-field-field-ding-news-tags a i.fa, .news-tags a i.fa, .event-tags .event-tags a i.fa, .btn .library-list i.opening-hours-toggle:after, .library-list .btn i.opening-hours-toggle:after, .tag .library-list i.opening-hours-toggle:after, .library-list .tag i.opening-hours-toggle:after, .news-list-item .news-label a .library-list i.opening-hours-toggle:after, .library-list .news-list-item .news-label a i.opening-hours-toggle:after,
-.news-list-item .views-field-field-ding-news-tags a .library-list i.opening-hours-toggle:after,
-.library-list .news-list-item .views-field-field-ding-news-tags a i.opening-hours-toggle:after, .news-tags a .library-list i.opening-hours-toggle:after, .library-list .news-tags a i.opening-hours-toggle:after, .event-tags .event-tags a .library-list i.opening-hours-toggle:after, .library-list .event-tags .event-tags a i.opening-hours-toggle:after,
+.btn span.glyphicon, .btn i.fa, .btn .library-list i.opening-hours-toggle:after, .library-list .btn i.opening-hours-toggle:after,
 .btn #ding-library-front .primary-content i.opening-hours-toggle:after,
-#ding-library-front .primary-content .btn i.opening-hours-toggle:after,
-.tag #ding-library-front .primary-content i.opening-hours-toggle:after,
-#ding-library-front .primary-content .tag i.opening-hours-toggle:after,
-.news-list-item .news-label a #ding-library-front .primary-content i.opening-hours-toggle:after,
-#ding-library-front .primary-content .news-list-item .news-label a i.opening-hours-toggle:after,
-.news-list-item .views-field-field-ding-news-tags a #ding-library-front .primary-content i.opening-hours-toggle:after,
-#ding-library-front .primary-content .news-list-item .views-field-field-ding-news-tags a i.opening-hours-toggle:after,
-.news-tags a #ding-library-front .primary-content i.opening-hours-toggle:after,
-#ding-library-front .primary-content .news-tags a i.opening-hours-toggle:after,
-.event-tags .event-tags a #ding-library-front .primary-content i.opening-hours-toggle:after,
-#ding-library-front .primary-content .event-tags .event-tags a i.opening-hours-toggle:after, .btn .view-ding-event .view-content > .list > .event-list-item i.event-list-location, .view-ding-event .view-content > .list > .event-list-item .btn i.event-list-location, .tag .view-ding-event .view-content > .list > .event-list-item i.event-list-location, .view-ding-event .view-content > .list > .event-list-item .tag i.event-list-location, .news-list-item .news-label a .view-ding-event .view-content > .list > .event-list-item i.event-list-location, .view-ding-event .view-content > .list > .event-list-item .news-list-item .news-label a i.event-list-location,
-.news-list-item .views-field-field-ding-news-tags a .view-ding-event .view-content > .list > .event-list-item i.event-list-location,
-.view-ding-event .view-content > .list > .event-list-item .news-list-item .views-field-field-ding-news-tags a i.event-list-location, .news-tags a .view-ding-event .view-content > .list > .event-list-item i.event-list-location, .view-ding-event .view-content > .list > .event-list-item .news-tags a i.event-list-location, .event-tags .event-tags a .view-ding-event .view-content > .list > .event-list-item i.event-list-location, .view-ding-event .view-content > .list > .event-list-item .event-tags .event-tags a i.event-list-location, .btn .view-ding-event .view-content > .list > .event-list-item i.event-list-time, .view-ding-event .view-content > .list > .event-list-item .btn i.event-list-time, .tag .view-ding-event .view-content > .list > .event-list-item i.event-list-time, .view-ding-event .view-content > .list > .event-list-item .tag i.event-list-time, .news-list-item .news-label a .view-ding-event .view-content > .list > .event-list-item i.event-list-time, .view-ding-event .view-content > .list > .event-list-item .news-list-item .news-label a i.event-list-time,
-.news-list-item .views-field-field-ding-news-tags a .view-ding-event .view-content > .list > .event-list-item i.event-list-time,
-.view-ding-event .view-content > .list > .event-list-item .news-list-item .views-field-field-ding-news-tags a i.event-list-time, .news-tags a .view-ding-event .view-content > .list > .event-list-item i.event-list-time, .view-ding-event .view-content > .list > .event-list-item .news-tags a i.event-list-time, .event-tags .event-tags a .view-ding-event .view-content > .list > .event-list-item i.event-list-time, .view-ding-event .view-content > .list > .event-list-item .event-tags .event-tags a i.event-list-time {
+#ding-library-front .primary-content .btn i.opening-hours-toggle:after, .btn .view-ding-event .view-content > .list > .event-list-item i.event-list-location, .view-ding-event .view-content > .list > .event-list-item .btn i.event-list-location, .btn .view-ding-event .view-content > .list > .event-list-item i.event-list-time, .view-ding-event .view-content > .list > .event-list-item .btn i.event-list-time {
   color: black;
   -moz-opacity: 0.25;
   opacity: .25;
@@ -2604,60 +2163,46 @@ Styleguide 99.1
   margin-right: 8px;
   display: inline-block;
 }
-.btn:active, .tag:active, .news-list-item .news-label a:active,
-.news-list-item .views-field-field-ding-news-tags a:active, .news-tags a:active, .event-tags .event-tags a:active, .btn.pseudo-class-active, .pseudo-class-active.tag, .news-list-item .news-label a.pseudo-class-active,
-.news-list-item .views-field-field-ding-news-tags a.pseudo-class-active, .news-tags a.pseudo-class-active, .event-tags .event-tags a.pseudo-class-active {
+.btn:active, .btn.pseudo-class-active {
   padding: 4px 16px 6px 16px;
   box-shadow: inset 1px 1px 4px #008063;
   color: #d8f3ed;
 }
-.btn:hover, .tag:hover, .news-list-item .news-label a:hover,
-.news-list-item .views-field-field-ding-news-tags a:hover, .news-tags a:hover, .event-tags .event-tags a:hover, .btn.pseudo-class-hover, .pseudo-class-hover.tag, .news-list-item .news-label a.pseudo-class-hover,
-.news-list-item .views-field-field-ding-news-tags a.pseudo-class-hover, .news-tags a.pseudo-class-hover, .event-tags .event-tags a.pseudo-class-hover {
+.btn:hover, .btn.pseudo-class-hover {
   color: white;
   background-color: #00a982;
 }
-.btn.btn-right, .btn-right.tag, .news-list-item .news-label a.btn-right,
-.news-list-item .views-field-field-ding-news-tags a.btn-right, .news-tags a.btn-right, .event-tags .event-tags a.btn-right {
+.btn.btn-right {
   float: right;
   margin-bottom: 0;
 }
 @media only screen and (max-width: 480px) {
-  .btn, .tag, .news-list-item .news-label a,
-  .news-list-item .views-field-field-ding-news-tags a, .news-tags a, .event-tags .event-tags a {
+  .btn {
     width: 100%;
   }
-  .btn.btn-right, .btn-right.tag, .news-list-item .news-label a.btn-right,
-  .news-list-item .views-field-field-ding-news-tags a.btn-right, .news-tags a.btn-right, .event-tags .event-tags a.btn-right {
+  .btn.btn-right {
     float: none;
   }
 }
 
-.btn-small, .tag, .news-list-item .news-label a,
-.news-list-item .views-field-field-ding-news-tags a, .news-tags a, .event-tags .event-tags a {
+.btn-small {
   font-size: 12px;
   line-height: 22px;
   padding: 0px 6px;
 }
-.btn-small:active, .tag:active, .news-list-item .news-label a:active,
-.news-list-item .views-field-field-ding-news-tags a:active, .news-tags a:active, .event-tags .event-tags a:active {
+.btn-small:active {
   padding: 0px 6px 1px 6px;
   line-height: 21px;
 }
 
-.btn-secondary, .tag, .news-list-item .news-label a,
-.news-list-item .views-field-field-ding-news-tags a, .news-tags a, .event-tags .event-tags a, .dropdown .dropdown-title.secondary {
+.btn-secondary, .dropdown .dropdown-title.secondary {
   background-color: #b1b1ad;
   box-shadow: 0px 1px 2px #656560;
 }
-.btn-secondary:hover, .tag:hover, .news-list-item .news-label a:hover,
-.news-list-item .views-field-field-ding-news-tags a:hover, .news-tags a:hover, .event-tags .event-tags a:hover, .dropdown .dropdown-title.secondary:hover, .btn-secondary.pseudo-class-hover, .pseudo-class-hover.tag, .news-list-item .news-label a.pseudo-class-hover,
-.news-list-item .views-field-field-ding-news-tags a.pseudo-class-hover, .news-tags a.pseudo-class-hover, .event-tags .event-tags a.pseudo-class-hover, .dropdown .pseudo-class-hover.dropdown-title.secondary {
+.btn-secondary:hover, .dropdown .dropdown-title.secondary:hover, .btn-secondary.pseudo-class-hover, .dropdown .pseudo-class-hover.dropdown-title.secondary {
   background-color: #a7a7a3;
 }
-.btn-secondary:active, .tag:active, .news-list-item .news-label a:active,
-.news-list-item .views-field-field-ding-news-tags a:active, .news-tags a:active, .event-tags .event-tags a:active, .dropdown .dropdown-title.secondary:active, .btn-secondary.pseudo-class-active, .pseudo-class-active.tag, .news-list-item .news-label a.pseudo-class-active,
-.news-list-item .views-field-field-ding-news-tags a.pseudo-class-active, .news-tags a.pseudo-class-active, .event-tags .event-tags a.pseudo-class-active, .dropdown .pseudo-class-active.dropdown-title.secondary {
+.btn-secondary:active, .dropdown .dropdown-title.secondary:active, .btn-secondary.pseudo-class-active, .dropdown .pseudo-class-active.dropdown-title.secondary {
   box-shadow: inset 1px 1px 4px #8c8c86;
   color: #efefee;
 }
@@ -2702,10 +2247,534 @@ button.close:hover {
 }
 
 @-moz-document url-prefix() {
-  input[type="submit"].btn, input[type="submit"].tag, html body .site-header .header-wrapper #user-login-form input[type="submit"].tag, html body .site-header .header-wrapper #user-login-form input[type="submit"].btn {
+  input[type="submit"].btn, html body .site-header .header-wrapper #user-login-form input[type="submit"].btn {
     padding: 7px 16px;
   }
 }
+ /*
+Typografi
+
+Styleguide 1.0
+*/
+ /*
+Headers
+
+Markup: <h1>H1: Merriweather 700 42/48</h1>
+<h2>H2: Merriweather 700 20/24</h2>
+<h3>H3: Merriweather 300 20/24</h3>
+<h4>H4: Proxima Nova 400 16/24</h4> <br>
+<p>P: Proxima Nova 300 16/24</p>
+
+Styleguide 1.1
+*/
+/*
+Links
+
+Markup: <a href="#" class="{$modifiers}">Lorem ipsum color deme</a>
+
+:hover - Highlight the button when hovered.
+:active - Highlight when active.
+.link-secondary - Secondary link.
+.link-danger - Warning/danger link.
+
+Styleguide 1.2
+*/
+ /*
+Meta data
+
+Meta data kan bruges til at vise datoer, kategorier, forfattere, arrangementer etc. Brug <code>.meta-form</code> som hints til forms.
+
+Markup: <div class="meta">
+    <span class="meta-primary">21 okt. 2013</span>
+    <span class="meta-secondary">kort nyt</span>
+</div> <br>
+<div class="meta">
+    <span class="meta-primary"><a href="">21 okt. 2013</a></span>
+    <span class="meta-secondary">af <a href="">Lene Frandsen</a></span>
+</div> <br>
+<div class="meta">
+    <span class="meta-primary"><i class="fa fa-calendar"></i> <a href="">Torsdag 21. august 2014</a></span>
+    <span class="meta-secondary">19:00 til 20:00</span> <span class="meta-secondary meta-strong">GRATIS</span><br>
+    <span class="meta-location"><i class="fa fa-map-marker"></i> <a href="">Biblioteket Rentemestervej</a></span>
+</div><br>
+<span class="meta-form"><strong>Note:</strong> Lorem ipsum dolor sit amet, consectetur adipisicing elit. Lorem ipsum dolor sit amet, consectetur adipisicing elit.</span>
+
+Styleguide 1.2
+*/
+ /*
+Tags
+
+Tags skal bruges som de bruges på ding2 websitet.
+
+Markup: <a href="" class="tag">Fantasy</a>
+<a href="" class="tag">Magi</a>
+<a href="" class="tag">Troldmænd</a>
+
+Styleguide 1.3
+*/
+ /*
+Copy H1, H4
+
+Et eksempel på brug af <code>H1</code> kunne være ved overskrifter på materiale sider eller udstillingssider.
+Brug af <code>H4</code> kunne være til at vise forfatteren eller udstillingsbeskrivelse.
+
+Markup: <h4>Af <a href="">Joanne K. Rowling</a> (2007) [H4]</h4> <br>
+<h1>Harry Potter og dødsregalierne [H1]</h1>
+<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Dolores, necessitatibus soluta maxime recusandae voluptatem hic facilis veniam a dolorum eaque eius repudiandae veritatis doloremque commodi quam dolore odio sit accusamus fugit quidem vel reprehenderit possimus consectetur iure tempore quo omnis enim ipsa excepturi est. Aliquid inventore reprehenderit hic quidem libero. [P]</p>
+
+Styleguide 1.4
+*/
+ /*
+Copy H2
+
+Brug af <code>H2</code> kunne være ved visning af content i form af: nyheder, arrangementer etc.
+
+Markup: 
+<span class="meta">
+    <span class="meta-primary">Tirsdag 10. december 2013</span>
+    <span class="meta-secondary">af <a href="">Lene Frandsen</a></span>
+</span>
+<h2>Klassisk julemusik [H2]</h2>
+<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Accusamus, quam ex quae et mollitia pariatur ea dolorem nesciunt iste eligendi? [P]</p>
+<a href="" class="tag">Klassisk</a>
+<a href="" class="tag">Jul</a>
+<a href="" class="tag">Hygge</a>
+
+Styleguide 1.4
+*/
+ /*
+Copy H3
+
+Et eksempel på brug af <code>H3</code> kunne være ved adressevisning af et bibliotek.
+
+Markup: <h3>Biblioteket <br>
+        Rentemestervej [H3]</h3>
+<p>Rentemestervej 76 <br> 
+    2400 København NV [P]</p>
+<p>+45 82 32 16 00 <br>
+    <a href="">bibbro@kff.kk.dk [A]</a></p>
+
+Styleguide 1.4
+*/
+ /*
+Copy H3, H4
+
+Brug af <code>H3</code> og <code>H4</code> kunne være ved en filtreringsmenu.
+
+Markup: <div class="vertical-list">
+    <h3>Filtrér din søgning [H3]</h3>
+    <h4>Efter materialetype [H4]</h4>
+    <ul class="vertical-list-nav">
+        <li><a href="">Resumé [A]</a></li>
+        <li><a href="">Anmeldelser</a></li>
+        <li class="active"><a href="">Om Joanne K. Rowling</a></li>
+        <li><a href="">Se alle eksemplarer</a></li>
+    </ul>
+    <a href="">+ Flere typer</a>
+</div>
+
+Styleguide 1.4
+*/
+@font-face {
+  font-family: 'merriweatherbold';
+  src: url("../../../libraries/kkb_styleguide/_/css/fonts/merriweatherweb/merriweather-bold-webfont.eot");
+  src: url("../../../libraries/kkb_styleguide/_/css/fonts/merriweatherweb/merriweather-bold-webfont.eot?#iefix") format("embedded-opentype"), url("../../../libraries/kkb_styleguide/_/css/fonts/merriweatherweb/merriweather-bold-webfont.woff") format("woff"), url("../../../libraries/kkb_styleguide/_/css/fonts/merriweatherweb/merriweather-bold-webfont.ttf") format("truetype"), url("../../../libraries/kkb_styleguide/_/css/fonts/merriweatherweb/merriweather-bold-webfont.svg#merriweatherbold") format("svg");
+  font-weight: normal;
+  font-style: normal;
+}
+@font-face {
+  font-family: 'merriweatherlight';
+  src: url("../../../libraries/kkb_styleguide/_/css/fonts/merriweatherweb/merriweather-light-webfont.eot");
+  src: url("../../../libraries/kkb_styleguide/_/css/fonts/merriweatherweb/merriweather-light-webfont.eot?#iefix") format("embedded-opentype"), url("../../../libraries/kkb_styleguide/_/css/fonts/merriweatherweb/merriweather-light-webfont.woff") format("woff"), url("../../../libraries/kkb_styleguide/_/css/fonts/merriweatherweb/merriweather-light-webfont.ttf") format("truetype"), url("../../../libraries/kkb_styleguide/_/css/fonts/merriweatherweb/merriweather-light-webfont.svg#merriweatherlight") format("svg");
+  font-weight: normal;
+  font-style: normal;
+}
+@font-face {
+  font-family: 'merriweatherregular';
+  src: url("../../../libraries/kkb_styleguide/_/css/fonts/merriweatherweb/merriweather-regular-webfont.eot");
+  src: url("../../../libraries/kkb_styleguide/_/css/fonts/merriweatherweb/merriweather-regular-webfont.eot?#iefix") format("embedded-opentype"), url("../../../libraries/kkb_styleguide/_/css/fonts/merriweatherweb/merriweather-regular-webfont.woff") format("woff"), url("../../../libraries/kkb_styleguide/_/css/fonts/merriweatherweb/merriweather-regular-webfont.ttf") format("truetype"), url("../../../libraries/kkb_styleguide/_/css/fonts/merriweatherweb/merriweather-regular-webfont.svg#merriweatherregular") format("svg");
+  font-weight: normal;
+  font-style: normal;
+}
+@media screen and (-webkit-min-device-pixel-ratio: 0) {
+  @font-face {
+    font-family: 'merriweatherbold';
+    src: url("../../../libraries/kkb_styleguide/_/css/fonts/merriweatherweb/merriweather-bold-webfont.svg#merriweatherbold") format("svg");
+  }
+  @font-face {
+    font-family: 'merriweatherlight';
+    src: url("../../../libraries/kkb_styleguide/_/css/fonts/merriweatherweb/merriweather-light-webfont.svg#merriweatherlight") format("svg");
+  }
+  @font-face {
+    font-family: 'merriweatherregular';
+    src: url("../../../libraries/kkb_styleguide/_/css/fonts/merriweatherweb/merriweather-regular-webfont.svg#merriweatherregular") format("svg");
+  }
+}
+body, html body {
+  background-color: #f1f1e7;
+  font-family: "proxima-nova";
+  font-size: 16px;
+  font-weight: 300;
+  color: #798881;
+  line-height: 24px;
+}
+
+h1, h1 a, h1 a:hover, h1.page-title, h2, h2 a, h2 a:hover, h3, h3 a, h3 a:hover, .popover h3, html body footer.footer h2, html body footer.footer h2 a, h2 html body footer.footer a, h4, h4 a, h4 a:hover,
+h5 a, h5 a:hover,
+h6 a, h6 a:hover, h5, h6, p, a {
+  margin: 0;
+  padding: 0;
+}
+h1.underline, h1 a.underline, h2.underline, h2 a.underline, h3.underline, h3 a.underline, html body footer.footer h2.underline, html body footer.footer h2 a.underline, h2 html body footer.footer a.underline, h4.underline, h4 a.underline,
+h5 a.underline,
+h6 a.underline, h5.underline, h6.underline, p.underline, a.underline {
+  margin-top: 24px;
+  padding-bottom: 16px;
+}
+
+h1, h1 a, h1 a:hover, h1.page-title {
+  font-weight: 700;
+  font-family: 'merriweatherbold', serif;
+  font-size: 42px;
+  color: #313233;
+  line-height: 48px;
+  margin-top: 0px;
+  margin-bottom: 24px;
+}
+h1 .results, h1 a:hover .results {
+  padding-left: 5px;
+  font-size: 26px;
+  height: 26px;
+  font-style: italic;
+  font-weight: 400;
+  color: #798881;
+  display: inline-block;
+}
+h1.subject, h1 a.subject {
+  font-size: 26px;
+}
+
+h2, h2 a, h2 a:hover {
+  font-family: 'Merriweather', serif;
+  font-weight: 700;
+  font-size: 20px;
+  color: #313233;
+  line-height: 24px;
+  margin-top: 0px;
+  margin-bottom: 24px;
+}
+
+h3, h3 a, h3 a:hover, .popover h3, html body footer.footer h2, html body footer.footer h2 a, h2 html body footer.footer a {
+  font-family: 'Merriweather', serif;
+  font-weight: 300;
+  font-size: 18px;
+  color: #313233;
+  line-height: 24px;
+  margin-top: 0px;
+  margin-bottom: 24px;
+}
+h3.title, h3 a.title, html body footer.footer h2.title, html body footer.footer h2 a.title, h2 html body footer.footer a.title {
+  min-height: 48px;
+  padding-top: 21px;
+  padding-bottom: 3px;
+}
+
+h4, h4 a, h4 a:hover,
+h5 a, h5 a:hover,
+h6 a, h6 a:hover, h5, h6, legend {
+  font-family: "proxima-nova";
+  font-weight: 400;
+  font-size: 16px;
+  color: #5f6062;
+  line-height: 24px;
+  margin-top: 0px;
+  margin-bottom: 0px;
+}
+h4.big, h4 a.big,
+h5 a.big,
+h6 a.big, h5.big, h6.big, legend.big {
+  font-size: 24px;
+  margin-bottom: 8px;
+  font-weight: 100;
+}
+
+h1, h1 a, h1 a:hover, h1.page-title, h1 a, h1 a:hover a, h1.page-title a, h1 a:hover, h2, h2 a, h2 a:hover, h2 a, h2 a:hover a, h2 a:hover {
+  font-family: 'merriweatherbold', serif;
+  font-weight: normal;
+}
+
+h3, h3 a, h3 a:hover, .popover h3, html body footer.footer h2, html body footer.footer h2 a, h2 html body footer.footer a, h3 a, h3 a:hover a, .popover h3 a, html body footer.footer h2 a, h2 html body footer.footer a a, h3 a:hover, html body footer.footer h2 a:hover, h2 html body footer.footer a a:hover {
+  font-family: 'merriweatherlight', serif;
+  font-weight: normal;
+}
+
+.windows.firefox h1, .windows.firefox h1 a, h1 .windows.firefox a, .windows.firefox h1 a, h1 .windows.firefox a a, .windows.firefox h1 a:hover, h1 .windows.firefox a a:hover, .windows.firefox h2, .windows.firefox h2 a, h2 .windows.firefox a, .windows.firefox h2 a, h2 .windows.firefox a a, .windows.firefox h2 a:hover, h2 .windows.firefox a a:hover, .windows.firefox h3, .windows.firefox h3 a, h3 .windows.firefox a, .windows.firefox html body footer.footer h2, html body footer.footer .windows.firefox h2, .windows.firefox html body footer.footer h2 a, html body footer.footer h2 .windows.firefox a, .windows.firefox h2 html body footer.footer a, h2 html body footer.footer .windows.firefox a, .windows.firefox h3 a, h3 .windows.firefox a a, .windows.firefox html body footer.footer h2 a, html body footer.footer .windows.firefox h2 a, html body footer.footer h2 .windows.firefox a a, .windows.firefox h2 html body footer.footer a a, h2 html body footer.footer .windows.firefox a a, .windows.firefox h3 a:hover, h3 .windows.firefox a a:hover, .windows.firefox html body footer.footer h2 a:hover, html body footer.footer .windows.firefox h2 a:hover, html body footer.footer h2 .windows.firefox a a:hover, .windows.firefox h2 html body footer.footer a a:hover, h2 html body footer.footer .windows.firefox a a:hover {
+  font-family: Georgia, serif;
+}
+.windows.firefox h1, .windows.firefox h1 a, h1 .windows.firefox a, .windows.firefox h1 a, h1 .windows.firefox a a, .windows.firefox h1 a:hover, h1 .windows.firefox a a:hover, .windows.firefox h2, .windows.firefox h2 a, h2 .windows.firefox a, .windows.firefox h2 a, h2 .windows.firefox a a, .windows.firefox h2 a:hover, h2 .windows.firefox a a:hover {
+  font-weight: bold;
+}
+
+p {
+  font-family: "proxima-nova";
+  font-size: 16px;
+  font-weight: 300;
+  color: #798881;
+  line-height: 24px;
+  margin-top: 0px;
+  margin-bottom: 24px;
+}
+p.light {
+  color: #b1b1ad;
+}
+p a {
+  display: inline;
+  line-height: inherit;
+  margin-top: 0;
+  margin-bottom: 0;
+}
+
+a {
+  font-family: "proxima-nova";
+  font-size: 16px;
+  font-weight: 400;
+  text-decoration: none;
+  color: #7cbf9e;
+  line-height: 24px;
+}
+a:hover, a:active, a.pseudo-class-hover, a.pseudo-class-active {
+  text-decoration: none;
+  color: #468f6b;
+}
+a.link {
+  display: inline-block;
+  margin-bottom: 8px;
+}
+a.link-secondary {
+  color: #b1b1ad;
+}
+a.link-secondary:hover, a.link-secondary:active {
+  color: #7f7f79;
+}
+a.link-danger {
+  color: #ff7275;
+}
+a.link-danger:hover, a.link-danger:active {
+  color: #d80005;
+}
+
+.meta, .news-list-item .news-sub-heading {
+  margin-bottom: 8px;
+  display: inline-block;
+}
+
+.meta-primary, .meta-primary a, .news-list-item .news-sub-heading .news-date, .meta-secondary, .meta-secondary a, .meta-location a, .library-ref a, .view-ding-event .view-content > .list > .event-list-item .event-list-location a, .meta-location, .library-ref, .view-ding-event .view-content > .list > .event-list-item .event-list-location, .event-tags .library-ref a, .news-list-item .news-sub-heading .news-author, .view-ding-event .view-content > .list > .event-list-item .event-list-time, .view-ding-event .view-content > .list > .event-list-item .event-list-price {
+  font-size: 12px;
+  line-height: 16px;
+  text-transform: uppercase;
+  display: inline-block;
+  margin-right: 4px;
+}
+.meta-primary i.fa, .news-list-item .news-sub-heading .news-date i.fa, .meta-secondary i.fa, .meta-location i.fa, .library-ref i.fa, .view-ding-event .view-content > .list > .event-list-item .event-list-location i.fa, .news-list-item .news-sub-heading .news-author i.fa, .view-ding-event .view-content > .list > .event-list-item .event-list-time i.fa, .view-ding-event .view-content > .list > .event-list-item .event-list-price i.fa, .meta-primary .library-list i.opening-hours-toggle:after, .library-list .meta-primary i.opening-hours-toggle:after, .news-list-item .news-sub-heading .news-date .library-list i.opening-hours-toggle:after, .library-list .news-list-item .news-sub-heading .news-date i.opening-hours-toggle:after, .meta-secondary .library-list i.opening-hours-toggle:after, .library-list .meta-secondary i.opening-hours-toggle:after, .meta-location .library-list i.opening-hours-toggle:after, .library-list .meta-location i.opening-hours-toggle:after, .library-ref .library-list i.opening-hours-toggle:after, .library-list .library-ref i.opening-hours-toggle:after, .view-ding-event .view-content > .list > .event-list-item .event-list-location .library-list i.opening-hours-toggle:after, .library-list .view-ding-event .view-content > .list > .event-list-item .event-list-location i.opening-hours-toggle:after, .news-list-item .news-sub-heading .news-author .library-list i.opening-hours-toggle:after, .library-list .news-list-item .news-sub-heading .news-author i.opening-hours-toggle:after, .view-ding-event .view-content > .list > .event-list-item .event-list-time .library-list i.opening-hours-toggle:after, .library-list .view-ding-event .view-content > .list > .event-list-item .event-list-time i.opening-hours-toggle:after, .view-ding-event .view-content > .list > .event-list-item .event-list-price .library-list i.opening-hours-toggle:after, .library-list .view-ding-event .view-content > .list > .event-list-item .event-list-price i.opening-hours-toggle:after,
+.meta-primary #ding-library-front .primary-content i.opening-hours-toggle:after,
+#ding-library-front .primary-content .meta-primary i.opening-hours-toggle:after,
+.news-list-item .news-sub-heading .news-date #ding-library-front .primary-content i.opening-hours-toggle:after,
+#ding-library-front .primary-content .news-list-item .news-sub-heading .news-date i.opening-hours-toggle:after,
+.meta-secondary #ding-library-front .primary-content i.opening-hours-toggle:after,
+#ding-library-front .primary-content .meta-secondary i.opening-hours-toggle:after,
+.meta-location #ding-library-front .primary-content i.opening-hours-toggle:after,
+#ding-library-front .primary-content .meta-location i.opening-hours-toggle:after,
+.library-ref #ding-library-front .primary-content i.opening-hours-toggle:after,
+#ding-library-front .primary-content .library-ref i.opening-hours-toggle:after,
+.view-ding-event .view-content > .list > .event-list-item .event-list-location #ding-library-front .primary-content i.opening-hours-toggle:after,
+#ding-library-front .primary-content .view-ding-event .view-content > .list > .event-list-item .event-list-location i.opening-hours-toggle:after,
+.news-list-item .news-sub-heading .news-author #ding-library-front .primary-content i.opening-hours-toggle:after,
+#ding-library-front .primary-content .news-list-item .news-sub-heading .news-author i.opening-hours-toggle:after,
+.view-ding-event .view-content > .list > .event-list-item .event-list-time #ding-library-front .primary-content i.opening-hours-toggle:after,
+#ding-library-front .primary-content .view-ding-event .view-content > .list > .event-list-item .event-list-time i.opening-hours-toggle:after,
+.view-ding-event .view-content > .list > .event-list-item .event-list-price #ding-library-front .primary-content i.opening-hours-toggle:after,
+#ding-library-front .primary-content .view-ding-event .view-content > .list > .event-list-item .event-list-price i.opening-hours-toggle:after, .meta-primary .view-ding-event .view-content > .list > .event-list-item i.event-list-location, .view-ding-event .view-content > .list > .event-list-item .meta-primary i.event-list-location, .news-list-item .news-sub-heading .news-date .view-ding-event .view-content > .list > .event-list-item i.event-list-location, .view-ding-event .view-content > .list > .event-list-item .news-list-item .news-sub-heading .news-date i.event-list-location, .meta-secondary .view-ding-event .view-content > .list > .event-list-item i.event-list-location, .view-ding-event .view-content > .list > .event-list-item .meta-secondary i.event-list-location, .meta-location .view-ding-event .view-content > .list > .event-list-item i.event-list-location, .view-ding-event .view-content > .list > .event-list-item .meta-location i.event-list-location, .library-ref .view-ding-event .view-content > .list > .event-list-item i.event-list-location, .view-ding-event .view-content > .list > .event-list-item .library-ref i.event-list-location, .view-ding-event .view-content > .list > .event-list-item .event-list-location i.event-list-location, .news-list-item .news-sub-heading .news-author .view-ding-event .view-content > .list > .event-list-item i.event-list-location, .view-ding-event .view-content > .list > .event-list-item .news-list-item .news-sub-heading .news-author i.event-list-location, .view-ding-event .view-content > .list > .event-list-item .event-list-time i.event-list-location, .view-ding-event .view-content > .list > .event-list-item .event-list-price i.event-list-location, .meta-primary .view-ding-event .view-content > .list > .event-list-item i.event-list-time, .view-ding-event .view-content > .list > .event-list-item .meta-primary i.event-list-time, .news-list-item .news-sub-heading .news-date .view-ding-event .view-content > .list > .event-list-item i.event-list-time, .view-ding-event .view-content > .list > .event-list-item .news-list-item .news-sub-heading .news-date i.event-list-time, .meta-secondary .view-ding-event .view-content > .list > .event-list-item i.event-list-time, .view-ding-event .view-content > .list > .event-list-item .meta-secondary i.event-list-time, .meta-location .view-ding-event .view-content > .list > .event-list-item i.event-list-time, .view-ding-event .view-content > .list > .event-list-item .meta-location i.event-list-time, .library-ref .view-ding-event .view-content > .list > .event-list-item i.event-list-time, .view-ding-event .view-content > .list > .event-list-item .library-ref i.event-list-time, .view-ding-event .view-content > .list > .event-list-item .event-list-location i.event-list-time, .news-list-item .news-sub-heading .news-author .view-ding-event .view-content > .list > .event-list-item i.event-list-time, .view-ding-event .view-content > .list > .event-list-item .news-list-item .news-sub-heading .news-author i.event-list-time, .view-ding-event .view-content > .list > .event-list-item .event-list-time i.event-list-time, .view-ding-event .view-content > .list > .event-list-item .event-list-price i.event-list-time, .meta-primary span, .news-list-item .news-sub-heading .news-date span, .meta-secondary span, .meta-location span, .library-ref span, .view-ding-event .view-content > .list > .event-list-item .event-list-location span, .event-tags .library-ref a span, .news-list-item .news-sub-heading .news-author span, .view-ding-event .view-content > .list > .event-list-item .event-list-time span, .view-ding-event .view-content > .list > .event-list-item .event-list-price span {
+  margin-right: 4px;
+  text-align: center;
+  min-width: 12px;
+}
+
+.meta-form, html body .site-header .header-wrapper #user-login-form label {
+  font-size: 12px;
+  color: #b1b1ad;
+  line-height: 16px;
+  display: inline-block;
+  margin: 6px 0 0 0;
+}
+
+.meta-primary, .meta-primary a, .news-list-item .news-sub-heading .news-date {
+  font-weight: 600;
+  color: #00b38a;
+}
+
+.meta-primary a, .news-list-item .news-sub-heading .news-date a {
+  margin-right: 0;
+}
+.meta-primary a:hover, .news-list-item .news-sub-heading .news-date a:hover {
+  color: #009a76;
+}
+
+.meta-secondary, .meta-secondary a, .meta-location a, .library-ref a, .view-ding-event .view-content > .list > .event-list-item .event-list-location a, .meta-location, .library-ref, .view-ding-event .view-content > .list > .event-list-item .event-list-location, .event-tags .library-ref a, .news-list-item .news-sub-heading .news-author, .view-ding-event .view-content > .list > .event-list-item .event-list-time, .view-ding-event .view-content > .list > .event-list-item .event-list-price {
+  color: #b1b1ad;
+}
+
+.meta-secondary a, .meta-location a, .library-ref a, .view-ding-event .view-content > .list > .event-list-item .event-list-location a, .event-tags .library-ref a a, .news-list-item .news-sub-heading .news-author a, .view-ding-event .view-content > .list > .event-list-item .event-list-time a, .view-ding-event .view-content > .list > .event-list-item .event-list-price a, .meta-location a, .library-ref a, .view-ding-event .view-content > .list > .event-list-item .event-list-location a, .event-tags .library-ref a a {
+  margin-right: 0;
+}
+.meta-secondary a:hover, .meta-location a:hover, .library-ref a:hover, .view-ding-event .view-content > .list > .event-list-item .event-list-location a:hover, .news-list-item .news-sub-heading .news-author a:hover, .view-ding-event .view-content > .list > .event-list-item .event-list-time a:hover, .view-ding-event .view-content > .list > .event-list-item .event-list-price a:hover, .meta-location a:hover, .library-ref a:hover, .view-ding-event .view-content > .list > .event-list-item .event-list-location a:hover {
+  color: #989893;
+}
+
+.meta-strong, .view-ding-event .view-content > .list > .event-list-item .event-list-price {
+  font-weight: 600;
+}
+
+.tags, .news-tags, .event-tags .event-tags {
+  display: inline-block;
+}
+@media only screen and (max-width: 480px) {
+  .tags, .news-tags, .event-tags .event-tags {
+    margin-bottom: 24px;
+  }
+}
+
+.tag, .news-list-item .news-label a,
+.news-list-item .views-field-field-ding-news-tags a, .news-tags a, .event-tags .event-tags a {
+  display: inline-block;
+  padding: 5px 16px;
+  margin-bottom: 14px;
+  font-weight: normal;
+  line-height: 24px;
+  text-align: center;
+  white-space: nowrap;
+  vertical-align: middle;
+  cursor: pointer;
+  background-image: none;
+  border: 1px solid transparent;
+  border-radius: 4px;
+  outline: 0;
+  color: white;
+  font-size: 16px;
+  margin-right: 4px;
+  -moz-box-sizing: border-box;
+  box-sizing: border-box;
+  background-color: #00b38a;
+  box-shadow: 0px 1px 2px #004d3b;
+  font-size: 12px;
+  line-height: 22px;
+  padding: 0px 6px;
+  background-color: #b1b1ad;
+  box-shadow: 0px 1px 2px #656560;
+  display: inline-block;
+}
+.tag span.glyphicon, .news-list-item .news-label a span.glyphicon,
+.news-list-item .views-field-field-ding-news-tags a span.glyphicon, .news-tags a span.glyphicon, .event-tags .event-tags a span.glyphicon, .tag i.fa, .news-list-item .news-label a i.fa,
+.news-list-item .views-field-field-ding-news-tags a i.fa, .news-tags a i.fa, .event-tags .event-tags a i.fa, .tag .library-list i.opening-hours-toggle:after, .library-list .tag i.opening-hours-toggle:after, .news-list-item .news-label a .library-list i.opening-hours-toggle:after, .library-list .news-list-item .news-label a i.opening-hours-toggle:after,
+.news-list-item .views-field-field-ding-news-tags a .library-list i.opening-hours-toggle:after,
+.library-list .news-list-item .views-field-field-ding-news-tags a i.opening-hours-toggle:after, .news-tags a .library-list i.opening-hours-toggle:after, .library-list .news-tags a i.opening-hours-toggle:after, .event-tags .event-tags a .library-list i.opening-hours-toggle:after, .library-list .event-tags .event-tags a i.opening-hours-toggle:after,
+.tag #ding-library-front .primary-content i.opening-hours-toggle:after,
+#ding-library-front .primary-content .tag i.opening-hours-toggle:after,
+.news-list-item .news-label a #ding-library-front .primary-content i.opening-hours-toggle:after,
+#ding-library-front .primary-content .news-list-item .news-label a i.opening-hours-toggle:after,
+.news-list-item .views-field-field-ding-news-tags a #ding-library-front .primary-content i.opening-hours-toggle:after,
+#ding-library-front .primary-content .news-list-item .views-field-field-ding-news-tags a i.opening-hours-toggle:after,
+.news-tags a #ding-library-front .primary-content i.opening-hours-toggle:after,
+#ding-library-front .primary-content .news-tags a i.opening-hours-toggle:after,
+.event-tags .event-tags a #ding-library-front .primary-content i.opening-hours-toggle:after,
+#ding-library-front .primary-content .event-tags .event-tags a i.opening-hours-toggle:after, .tag .view-ding-event .view-content > .list > .event-list-item i.event-list-location, .view-ding-event .view-content > .list > .event-list-item .tag i.event-list-location, .news-list-item .news-label a .view-ding-event .view-content > .list > .event-list-item i.event-list-location, .view-ding-event .view-content > .list > .event-list-item .news-list-item .news-label a i.event-list-location,
+.news-list-item .views-field-field-ding-news-tags a .view-ding-event .view-content > .list > .event-list-item i.event-list-location,
+.view-ding-event .view-content > .list > .event-list-item .news-list-item .views-field-field-ding-news-tags a i.event-list-location, .news-tags a .view-ding-event .view-content > .list > .event-list-item i.event-list-location, .view-ding-event .view-content > .list > .event-list-item .news-tags a i.event-list-location, .event-tags .event-tags a .view-ding-event .view-content > .list > .event-list-item i.event-list-location, .view-ding-event .view-content > .list > .event-list-item .event-tags .event-tags a i.event-list-location, .tag .view-ding-event .view-content > .list > .event-list-item i.event-list-time, .view-ding-event .view-content > .list > .event-list-item .tag i.event-list-time, .news-list-item .news-label a .view-ding-event .view-content > .list > .event-list-item i.event-list-time, .view-ding-event .view-content > .list > .event-list-item .news-list-item .news-label a i.event-list-time,
+.news-list-item .views-field-field-ding-news-tags a .view-ding-event .view-content > .list > .event-list-item i.event-list-time,
+.view-ding-event .view-content > .list > .event-list-item .news-list-item .views-field-field-ding-news-tags a i.event-list-time, .news-tags a .view-ding-event .view-content > .list > .event-list-item i.event-list-time, .view-ding-event .view-content > .list > .event-list-item .news-tags a i.event-list-time, .event-tags .event-tags a .view-ding-event .view-content > .list > .event-list-item i.event-list-time, .view-ding-event .view-content > .list > .event-list-item .event-tags .event-tags a i.event-list-time {
+  color: black;
+  -moz-opacity: 0.25;
+  opacity: .25;
+  filter: alpha(opacity=25);
+  top: 4px;
+  margin-right: 8px;
+  display: inline-block;
+}
+.tag:active, .news-list-item .news-label a:active,
+.news-list-item .views-field-field-ding-news-tags a:active, .news-tags a:active, .event-tags .event-tags a:active, .tag.pseudo-class-active, .news-list-item .news-label a.pseudo-class-active,
+.news-list-item .views-field-field-ding-news-tags a.pseudo-class-active, .news-tags a.pseudo-class-active, .event-tags .event-tags a.pseudo-class-active {
+  padding: 4px 16px 6px 16px;
+  box-shadow: inset 1px 1px 4px #008063;
+  color: #d8f3ed;
+}
+.tag:hover, .news-list-item .news-label a:hover,
+.news-list-item .views-field-field-ding-news-tags a:hover, .news-tags a:hover, .event-tags .event-tags a:hover, .tag.pseudo-class-hover, .news-list-item .news-label a.pseudo-class-hover,
+.news-list-item .views-field-field-ding-news-tags a.pseudo-class-hover, .news-tags a.pseudo-class-hover, .event-tags .event-tags a.pseudo-class-hover {
+  color: white;
+  background-color: #00a982;
+}
+.tag.btn-right, .news-list-item .news-label a.btn-right,
+.news-list-item .views-field-field-ding-news-tags a.btn-right, .news-tags a.btn-right, .event-tags .event-tags a.btn-right {
+  float: right;
+  margin-bottom: 0;
+}
+@media only screen and (max-width: 480px) {
+  .tag, .news-list-item .news-label a,
+  .news-list-item .views-field-field-ding-news-tags a, .news-tags a, .event-tags .event-tags a {
+    width: 100%;
+  }
+  .tag.btn-right, .news-list-item .news-label a.btn-right,
+  .news-list-item .views-field-field-ding-news-tags a.btn-right, .news-tags a.btn-right, .event-tags .event-tags a.btn-right {
+    float: none;
+  }
+}
+.tag:active, .news-list-item .news-label a:active,
+.news-list-item .views-field-field-ding-news-tags a:active, .news-tags a:active, .event-tags .event-tags a:active {
+  padding: 0px 6px 1px 6px;
+  line-height: 21px;
+}
+.tag:hover, .news-list-item .news-label a:hover,
+.news-list-item .views-field-field-ding-news-tags a:hover, .news-tags a:hover, .event-tags .event-tags a:hover, .tag.pseudo-class-hover, .news-list-item .news-label a.pseudo-class-hover,
+.news-list-item .views-field-field-ding-news-tags a.pseudo-class-hover, .news-tags a.pseudo-class-hover, .event-tags .event-tags a.pseudo-class-hover {
+  background-color: #a7a7a3;
+}
+.tag:active, .news-list-item .news-label a:active,
+.news-list-item .views-field-field-ding-news-tags a:active, .news-tags a:active, .event-tags .event-tags a:active, .tag.pseudo-class-active, .news-list-item .news-label a.pseudo-class-active,
+.news-list-item .views-field-field-ding-news-tags a.pseudo-class-active, .news-tags a.pseudo-class-active, .event-tags .event-tags a.pseudo-class-active {
+  box-shadow: inset 1px 1px 4px #8c8c86;
+  color: #efefee;
+}
+
+@media only screen and (max-width: 480px) {
+  body .tag, body .news-list-item .news-label a, .news-list-item .news-label body a,
+  body .news-list-item .views-field-field-ding-news-tags a,
+  .news-list-item .views-field-field-ding-news-tags body a, body .news-tags a, .news-tags body a, body .event-tags .event-tags a, .event-tags .event-tags body a {
+    width: auto;
+  }
+}
+
+.inline-block {
+  display: inline-block;
+}
+
+.center, .more {
+  text-align: center;
+}
+
+.left {
+  text-align: left;
+}
+
+.right {
+  text-align: right;
+}
+
+.more {
+  display: block;
+  clear: both;
+  margin-top: -8px;
+  margin-bottom: 24px;
+}
+
 /*
 Dropdown
 
@@ -3158,7 +3227,7 @@ select {
   outline: 0;
 }
 select.select, .pane-library-list select,
-.taxonomy-dropdown select, select.select-multiple {
+.taxonomy-dropdown select, #views-exposed-form-ding-eresource-ding-eresource-list select, select.select-multiple {
   color: #798881;
   display: block;
   width: 100%;
@@ -3813,31 +3882,11 @@ Styleguide 99.2
 .modal-footer:after {
   clear: both;
 }
-.modal-footer .btn + .btn, .modal-footer .tag + .btn, .modal-footer .news-list-item .news-label a + .btn, .news-list-item .news-label .modal-footer a + .btn,
-.modal-footer .news-list-item .views-field-field-ding-news-tags a + .btn,
-.news-list-item .views-field-field-ding-news-tags .modal-footer a + .btn, .modal-footer .news-tags a + .btn, .news-tags .modal-footer a + .btn, .modal-footer .event-tags .event-tags a + .btn, .event-tags .event-tags .modal-footer a + .btn, .modal-footer .btn + .tag, .modal-footer .tag + .tag, .modal-footer .news-list-item .news-label a + .tag, .news-list-item .news-label .modal-footer a + .tag,
-.modal-footer .news-list-item .views-field-field-ding-news-tags a + .tag,
-.news-list-item .views-field-field-ding-news-tags .modal-footer a + .tag, .modal-footer .news-tags a + .tag, .news-tags .modal-footer a + .tag, .modal-footer .event-tags .event-tags a + .tag, .event-tags .event-tags .modal-footer a + .tag, .modal-footer .news-list-item .news-label .btn + a, .news-list-item .news-label .modal-footer .btn + a, .modal-footer .news-list-item .news-label .tag + a, .news-list-item .news-label .modal-footer .tag + a, .modal-footer .news-list-item .news-label a + a, .news-list-item .news-label .modal-footer a + a,
-.modal-footer .news-list-item .views-field-field-ding-news-tags .btn + a,
-.news-list-item .views-field-field-ding-news-tags .modal-footer .btn + a,
-.modal-footer .news-list-item .views-field-field-ding-news-tags .tag + a,
-.news-list-item .views-field-field-ding-news-tags .modal-footer .tag + a,
-.modal-footer .news-list-item .views-field-field-ding-news-tags a + a,
-.news-list-item .views-field-field-ding-news-tags .modal-footer a + a, .modal-footer .news-tags .btn + a, .news-tags .modal-footer .btn + a, .modal-footer .news-tags .tag + a, .news-tags .modal-footer .tag + a, .modal-footer .news-tags a + a, .news-tags .modal-footer a + a, .modal-footer .event-tags .event-tags .btn + a, .event-tags .event-tags .modal-footer .btn + a, .modal-footer .event-tags .event-tags .tag + a, .event-tags .event-tags .modal-footer .tag + a, .modal-footer .event-tags .event-tags a + a, .event-tags .event-tags .modal-footer a + a {
+.modal-footer .btn + .btn {
   margin-left: 5px;
   margin-bottom: 0;
 }
-.modal-footer .btn-group .btn + .btn, .modal-footer .btn-group .tag + .btn, .modal-footer .btn-group .news-list-item .news-label a + .btn, .news-list-item .news-label .modal-footer .btn-group a + .btn,
-.modal-footer .btn-group .news-list-item .views-field-field-ding-news-tags a + .btn,
-.news-list-item .views-field-field-ding-news-tags .modal-footer .btn-group a + .btn, .modal-footer .btn-group .news-tags a + .btn, .news-tags .modal-footer .btn-group a + .btn, .modal-footer .btn-group .event-tags .event-tags a + .btn, .event-tags .event-tags .modal-footer .btn-group a + .btn, .modal-footer .btn-group .btn + .tag, .modal-footer .btn-group .tag + .tag, .modal-footer .btn-group .news-list-item .news-label a + .tag, .news-list-item .news-label .modal-footer .btn-group a + .tag,
-.modal-footer .btn-group .news-list-item .views-field-field-ding-news-tags a + .tag,
-.news-list-item .views-field-field-ding-news-tags .modal-footer .btn-group a + .tag, .modal-footer .btn-group .news-tags a + .tag, .news-tags .modal-footer .btn-group a + .tag, .modal-footer .btn-group .event-tags .event-tags a + .tag, .event-tags .event-tags .modal-footer .btn-group a + .tag, .modal-footer .btn-group .news-list-item .news-label .btn + a, .news-list-item .news-label .modal-footer .btn-group .btn + a, .modal-footer .btn-group .news-list-item .news-label .tag + a, .news-list-item .news-label .modal-footer .btn-group .tag + a, .modal-footer .btn-group .news-list-item .news-label a + a, .news-list-item .news-label .modal-footer .btn-group a + a,
-.modal-footer .btn-group .news-list-item .views-field-field-ding-news-tags .btn + a,
-.news-list-item .views-field-field-ding-news-tags .modal-footer .btn-group .btn + a,
-.modal-footer .btn-group .news-list-item .views-field-field-ding-news-tags .tag + a,
-.news-list-item .views-field-field-ding-news-tags .modal-footer .btn-group .tag + a,
-.modal-footer .btn-group .news-list-item .views-field-field-ding-news-tags a + a,
-.news-list-item .views-field-field-ding-news-tags .modal-footer .btn-group a + a, .modal-footer .btn-group .news-tags .btn + a, .news-tags .modal-footer .btn-group .btn + a, .modal-footer .btn-group .news-tags .tag + a, .news-tags .modal-footer .btn-group .tag + a, .modal-footer .btn-group .news-tags a + a, .news-tags .modal-footer .btn-group a + a, .modal-footer .btn-group .event-tags .event-tags .btn + a, .event-tags .event-tags .modal-footer .btn-group .btn + a, .modal-footer .btn-group .event-tags .event-tags .tag + a, .event-tags .event-tags .modal-footer .btn-group .tag + a, .modal-footer .btn-group .event-tags .event-tags a + a, .event-tags .event-tags .modal-footer .btn-group a + a {
+.modal-footer .btn-group .btn + .btn {
   margin-left: -1px;
 }
 .modal-footer .btn-block + .btn-block {
@@ -3972,9 +4021,7 @@ h6 .alert a {
   border-color: #ff0c11;
   color: #ff0c11;
 }
-.alert .btn, .alert .tag, .alert .news-list-item .news-label a, .news-list-item .news-label .alert a,
-.alert .news-list-item .views-field-field-ding-news-tags a,
-.news-list-item .views-field-field-ding-news-tags .alert a, .alert .news-tags a, .news-tags .alert a, .alert .event-tags .event-tags a, .event-tags .event-tags .alert a {
+.alert .btn {
   margin: 10px 0 3px 0;
 }
 .alert p {
@@ -4416,7 +4463,7 @@ Markup: <h1>Temaer</h1>
 
 Styleguide 80.3
 */
-ul.content-list, ul.groups-list {
+ul.content-list {
   list-style: none;
   margin: 0;
   padding: 0;
@@ -4424,7 +4471,7 @@ ul.content-list, ul.groups-list {
   width: 100%;
 }
 
-.content-box, ul.content-list li, ul.groups-list li {
+.content-box, ul.content-list li {
   display: inline-block;
   width: 100%;
   -moz-box-sizing: border-box;
@@ -4436,7 +4483,7 @@ ul.content-list, ul.groups-list {
   border: 1px solid #e8e8d7;
 }
 @media only screen and (max-width: 480px) {
-  .content-box, ul.content-list li, ul.groups-list li {
+  .content-box, ul.content-list li {
     padding: 20px 10px 20px 10px;
   }
 }
@@ -7083,8 +7130,7 @@ body.front .site-header .topbar {
   margin-bottom: 24px;
 }
 
-.pane-menu-title .pane-title,
-.ding-library-contact .pane-title {
+.panel-pane .pane-title {
   font-family: 'merriweatherbold', serif;
   font-weight: normal;
   font-size: 20px;
@@ -7664,4 +7710,359 @@ html body .site-header .header-wrapper #user-login-form .taxonomy-dropdown input
 .groups-list .groups-arrow-link a i:before {
   content: 'Læs mere';
   font-weight: bold;
+}
+
+.group-blocks--inner {
+  margin: -20px;
+}
+
+.group-blocks--first .inner-div,
+.group-blocks--second .inner-div,
+.group-blocks--third .inner-div,
+.group-blocks--fourth .inner-div {
+  display: inline-block;
+  width: 100%;
+  -moz-box-sizing: border-box;
+  box-sizing: border-box;
+  margin: 0px 0 16px 0;
+  padding: 16px;
+  border-radius: 4px;
+  background-color: #f7f7f1;
+  border: 1px solid #e8e8d7;
+}
+@media only screen and (max-width: 480px) {
+  .group-blocks--first .inner-div,
+  .group-blocks--second .inner-div,
+  .group-blocks--third .inner-div,
+  .group-blocks--fourth .inner-div {
+    padding: 20px 10px 20px 10px;
+  }
+}
+.group-blocks--first .group-link a,
+.group-blocks--second .group-link a,
+.group-blocks--third .group-link a,
+.group-blocks--fourth .group-link a {
+  display: inline-block;
+  padding: 5px 16px;
+  margin-bottom: 14px;
+  font-weight: normal;
+  line-height: 24px;
+  text-align: center;
+  white-space: nowrap;
+  vertical-align: middle;
+  cursor: pointer;
+  background-image: none;
+  border: 1px solid transparent;
+  border-radius: 4px;
+  outline: 0;
+  color: white;
+  font-size: 16px;
+  margin-right: 4px;
+  -moz-box-sizing: border-box;
+  box-sizing: border-box;
+  background-color: #00b38a;
+  box-shadow: 0px 1px 2px #004d3b;
+}
+.group-blocks--first .group-link a span.glyphicon, .group-blocks--first .group-link a i.fa, .group-blocks--first .group-link a .library-list i.opening-hours-toggle:after, .library-list .group-blocks--first .group-link a i.opening-hours-toggle:after,
+.group-blocks--first .group-link a #ding-library-front .primary-content i.opening-hours-toggle:after,
+#ding-library-front .primary-content .group-blocks--first .group-link a i.opening-hours-toggle:after, .group-blocks--first .group-link a .view-ding-event .view-content > .list > .event-list-item i.event-list-location, .view-ding-event .view-content > .list > .event-list-item .group-blocks--first .group-link a i.event-list-location, .group-blocks--first .group-link a .view-ding-event .view-content > .list > .event-list-item i.event-list-time, .view-ding-event .view-content > .list > .event-list-item .group-blocks--first .group-link a i.event-list-time,
+.group-blocks--second .group-link a span.glyphicon,
+.group-blocks--second .group-link a i.fa,
+.group-blocks--second .group-link a .library-list i.opening-hours-toggle:after,
+.library-list .group-blocks--second .group-link a i.opening-hours-toggle:after,
+.group-blocks--second .group-link a #ding-library-front .primary-content i.opening-hours-toggle:after,
+#ding-library-front .primary-content .group-blocks--second .group-link a i.opening-hours-toggle:after,
+.group-blocks--second .group-link a .view-ding-event .view-content > .list > .event-list-item i.event-list-location,
+.view-ding-event .view-content > .list > .event-list-item .group-blocks--second .group-link a i.event-list-location,
+.group-blocks--second .group-link a .view-ding-event .view-content > .list > .event-list-item i.event-list-time,
+.view-ding-event .view-content > .list > .event-list-item .group-blocks--second .group-link a i.event-list-time,
+.group-blocks--third .group-link a span.glyphicon,
+.group-blocks--third .group-link a i.fa,
+.group-blocks--third .group-link a .library-list i.opening-hours-toggle:after,
+.library-list .group-blocks--third .group-link a i.opening-hours-toggle:after,
+.group-blocks--third .group-link a #ding-library-front .primary-content i.opening-hours-toggle:after,
+#ding-library-front .primary-content .group-blocks--third .group-link a i.opening-hours-toggle:after,
+.group-blocks--third .group-link a .view-ding-event .view-content > .list > .event-list-item i.event-list-location,
+.view-ding-event .view-content > .list > .event-list-item .group-blocks--third .group-link a i.event-list-location,
+.group-blocks--third .group-link a .view-ding-event .view-content > .list > .event-list-item i.event-list-time,
+.view-ding-event .view-content > .list > .event-list-item .group-blocks--third .group-link a i.event-list-time,
+.group-blocks--fourth .group-link a span.glyphicon,
+.group-blocks--fourth .group-link a i.fa,
+.group-blocks--fourth .group-link a .library-list i.opening-hours-toggle:after,
+.library-list .group-blocks--fourth .group-link a i.opening-hours-toggle:after,
+.group-blocks--fourth .group-link a #ding-library-front .primary-content i.opening-hours-toggle:after,
+#ding-library-front .primary-content .group-blocks--fourth .group-link a i.opening-hours-toggle:after,
+.group-blocks--fourth .group-link a .view-ding-event .view-content > .list > .event-list-item i.event-list-location,
+.view-ding-event .view-content > .list > .event-list-item .group-blocks--fourth .group-link a i.event-list-location,
+.group-blocks--fourth .group-link a .view-ding-event .view-content > .list > .event-list-item i.event-list-time,
+.view-ding-event .view-content > .list > .event-list-item .group-blocks--fourth .group-link a i.event-list-time {
+  color: black;
+  -moz-opacity: 0.25;
+  opacity: .25;
+  filter: alpha(opacity=25);
+  top: 4px;
+  margin-right: 8px;
+  display: inline-block;
+}
+.group-blocks--first .group-link a:active, .group-blocks--first .group-link a.pseudo-class-active,
+.group-blocks--second .group-link a:active,
+.group-blocks--second .group-link a.pseudo-class-active,
+.group-blocks--third .group-link a:active,
+.group-blocks--third .group-link a.pseudo-class-active,
+.group-blocks--fourth .group-link a:active,
+.group-blocks--fourth .group-link a.pseudo-class-active {
+  padding: 4px 16px 6px 16px;
+  box-shadow: inset 1px 1px 4px #008063;
+  color: #d8f3ed;
+}
+.group-blocks--first .group-link a:hover, .group-blocks--first .group-link a.pseudo-class-hover,
+.group-blocks--second .group-link a:hover,
+.group-blocks--second .group-link a.pseudo-class-hover,
+.group-blocks--third .group-link a:hover,
+.group-blocks--third .group-link a.pseudo-class-hover,
+.group-blocks--fourth .group-link a:hover,
+.group-blocks--fourth .group-link a.pseudo-class-hover {
+  color: white;
+  background-color: #00a982;
+}
+.group-blocks--first .group-link a.btn-right,
+.group-blocks--second .group-link a.btn-right,
+.group-blocks--third .group-link a.btn-right,
+.group-blocks--fourth .group-link a.btn-right {
+  float: right;
+  margin-bottom: 0;
+}
+@media only screen and (max-width: 480px) {
+  .group-blocks--first .group-link a,
+  .group-blocks--second .group-link a,
+  .group-blocks--third .group-link a,
+  .group-blocks--fourth .group-link a {
+    width: 100%;
+  }
+  .group-blocks--first .group-link a.btn-right,
+  .group-blocks--second .group-link a.btn-right,
+  .group-blocks--third .group-link a.btn-right,
+  .group-blocks--fourth .group-link a.btn-right {
+    float: none;
+  }
+}
+
+.eresource-list {
+  padding-left: 0;
+}
+.eresource-list > li {
+  display: inline-block;
+  width: 100%;
+  -moz-box-sizing: border-box;
+  box-sizing: border-box;
+  margin: 0px 0 16px 0;
+  padding: 16px;
+  border-radius: 4px;
+  background-color: #f7f7f1;
+  border: 1px solid #e8e8d7;
+  position: relative;
+}
+@media only screen and (max-width: 480px) {
+  .eresource-list > li {
+    padding: 20px 10px 20px 10px;
+  }
+}
+.eresource-list > li .views-field-title a {
+  font-family: 'merriweatherbold', serif;
+  font-weight: normal;
+  font-size: 20px;
+  color: #313233;
+  line-height: 24px;
+  margin-top: 0px;
+  margin-bottom: 24px;
+}
+.eresource-list > li .eresource-image-wrapper {
+  width: 150px;
+  position: absolute;
+  margin-left: -170px;
+}
+@media only screen and (max-width: 768px) {
+  .eresource-list > li .eresource-image-wrapper {
+    display: none;
+  }
+}
+.eresource-list > li > * {
+  margin-left: 170px;
+}
+@media only screen and (max-width: 768px) {
+  .eresource-list > li > * {
+    margin-left: 0;
+  }
+}
+
+ul.eresource-index {
+  padding-left: 0;
+}
+ul.eresource-index li {
+  display: inline-block;
+  padding-right: 10px;
+}
+
+.pane-ding-eresource-categories ul.sub-menu li:before {
+  content: '';
+}
+
+/**
+ * Single view of a resource.
+ **/
+.node-type-ding-eresource .field-ding-eresource-category a {
+  display: inline-block;
+  padding: 5px 16px;
+  margin-bottom: 14px;
+  font-weight: normal;
+  line-height: 24px;
+  text-align: center;
+  white-space: nowrap;
+  vertical-align: middle;
+  cursor: pointer;
+  background-image: none;
+  border: 1px solid transparent;
+  border-radius: 4px;
+  outline: 0;
+  color: white;
+  font-size: 16px;
+  margin-right: 4px;
+  -moz-box-sizing: border-box;
+  box-sizing: border-box;
+  background-color: #00b38a;
+  box-shadow: 0px 1px 2px #004d3b;
+}
+.node-type-ding-eresource .field-ding-eresource-category a span.glyphicon, .node-type-ding-eresource .field-ding-eresource-category a i.fa, .node-type-ding-eresource .field-ding-eresource-category a .library-list i.opening-hours-toggle:after, .library-list .node-type-ding-eresource .field-ding-eresource-category a i.opening-hours-toggle:after,
+.node-type-ding-eresource .field-ding-eresource-category a #ding-library-front .primary-content i.opening-hours-toggle:after,
+#ding-library-front .primary-content .node-type-ding-eresource .field-ding-eresource-category a i.opening-hours-toggle:after, .node-type-ding-eresource .field-ding-eresource-category a .view-ding-event .view-content > .list > .event-list-item i.event-list-location, .view-ding-event .view-content > .list > .event-list-item .node-type-ding-eresource .field-ding-eresource-category a i.event-list-location, .node-type-ding-eresource .field-ding-eresource-category a .view-ding-event .view-content > .list > .event-list-item i.event-list-time, .view-ding-event .view-content > .list > .event-list-item .node-type-ding-eresource .field-ding-eresource-category a i.event-list-time {
+  color: black;
+  -moz-opacity: 0.25;
+  opacity: .25;
+  filter: alpha(opacity=25);
+  top: 4px;
+  margin-right: 8px;
+  display: inline-block;
+}
+.node-type-ding-eresource .field-ding-eresource-category a:active, .node-type-ding-eresource .field-ding-eresource-category a.pseudo-class-active {
+  padding: 4px 16px 6px 16px;
+  box-shadow: inset 1px 1px 4px #008063;
+  color: #d8f3ed;
+}
+.node-type-ding-eresource .field-ding-eresource-category a:hover, .node-type-ding-eresource .field-ding-eresource-category a.pseudo-class-hover {
+  color: white;
+  background-color: #00a982;
+}
+.node-type-ding-eresource .field-ding-eresource-category a.btn-right {
+  float: right;
+  margin-bottom: 0;
+}
+@media only screen and (max-width: 480px) {
+  .node-type-ding-eresource .field-ding-eresource-category a {
+    width: 100%;
+  }
+  .node-type-ding-eresource .field-ding-eresource-category a.btn-right {
+    float: none;
+  }
+}
+.node-type-ding-eresource .field-name-field-ding-eresource-list-image {
+  float: right;
+  margin-left: 10px;
+  margin-bottom: 10px;
+}
+.node-type-ding-eresource .field-name-field-ding-eresource-lead {
+  font-weight: bold;
+}
+.node-type-ding-eresource .field-type-link-field .field-label {
+  margin-right: 30px;
+}
+.node-type-ding-eresource .field-name-field-ding-eresource-link {
+  display: block;
+}
+.node-type-ding-eresource .field-name-field-ding-eresource-link:after {
+  display: none;
+  clear: none !important;
+  content: '' !important;
+}
+.node-type-ding-eresource .field-name-field-ding-eresource-link .field-item {
+  margin-right: 20px;
+}
+.node-type-ding-eresource .field-ding-eresource-access a {
+  background-color: transparent;
+  color: #7cbf9e;
+  text-shadow: none;
+  font-size: 16px;
+}
+.node-type-ding-eresource .field-ding-eresource-tags strong {
+  display: none;
+}
+.node-type-ding-eresource .field-ding-eresource-tags a {
+  display: inline-block;
+  padding: 5px 16px;
+  margin-bottom: 14px;
+  font-weight: normal;
+  line-height: 24px;
+  text-align: center;
+  white-space: nowrap;
+  vertical-align: middle;
+  cursor: pointer;
+  background-image: none;
+  border: 1px solid transparent;
+  border-radius: 4px;
+  outline: 0;
+  color: white;
+  font-size: 16px;
+  margin-right: 4px;
+  -moz-box-sizing: border-box;
+  box-sizing: border-box;
+  background-color: #00b38a;
+  box-shadow: 0px 1px 2px #004d3b;
+  font-size: 12px;
+  line-height: 22px;
+  padding: 0px 6px;
+  background-color: #b1b1ad;
+  box-shadow: 0px 1px 2px #656560;
+  display: inline-block;
+}
+.node-type-ding-eresource .field-ding-eresource-tags a span.glyphicon, .node-type-ding-eresource .field-ding-eresource-tags a i.fa, .node-type-ding-eresource .field-ding-eresource-tags a .library-list i.opening-hours-toggle:after, .library-list .node-type-ding-eresource .field-ding-eresource-tags a i.opening-hours-toggle:after,
+.node-type-ding-eresource .field-ding-eresource-tags a #ding-library-front .primary-content i.opening-hours-toggle:after,
+#ding-library-front .primary-content .node-type-ding-eresource .field-ding-eresource-tags a i.opening-hours-toggle:after, .node-type-ding-eresource .field-ding-eresource-tags a .view-ding-event .view-content > .list > .event-list-item i.event-list-location, .view-ding-event .view-content > .list > .event-list-item .node-type-ding-eresource .field-ding-eresource-tags a i.event-list-location, .node-type-ding-eresource .field-ding-eresource-tags a .view-ding-event .view-content > .list > .event-list-item i.event-list-time, .view-ding-event .view-content > .list > .event-list-item .node-type-ding-eresource .field-ding-eresource-tags a i.event-list-time {
+  color: black;
+  -moz-opacity: 0.25;
+  opacity: .25;
+  filter: alpha(opacity=25);
+  top: 4px;
+  margin-right: 8px;
+  display: inline-block;
+}
+.node-type-ding-eresource .field-ding-eresource-tags a:active, .node-type-ding-eresource .field-ding-eresource-tags a.pseudo-class-active {
+  padding: 4px 16px 6px 16px;
+  box-shadow: inset 1px 1px 4px #008063;
+  color: #d8f3ed;
+}
+.node-type-ding-eresource .field-ding-eresource-tags a:hover, .node-type-ding-eresource .field-ding-eresource-tags a.pseudo-class-hover {
+  color: white;
+  background-color: #00a982;
+}
+.node-type-ding-eresource .field-ding-eresource-tags a.btn-right {
+  float: right;
+  margin-bottom: 0;
+}
+@media only screen and (max-width: 480px) {
+  .node-type-ding-eresource .field-ding-eresource-tags a {
+    width: 100%;
+  }
+  .node-type-ding-eresource .field-ding-eresource-tags a.btn-right {
+    float: none;
+  }
+}
+.node-type-ding-eresource .field-ding-eresource-tags a:active {
+  padding: 0px 6px 1px 6px;
+  line-height: 21px;
+}
+.node-type-ding-eresource .field-ding-eresource-tags a:hover, .node-type-ding-eresource .field-ding-eresource-tags a.pseudo-class-hover {
+  background-color: #a7a7a3;
+}
+.node-type-ding-eresource .field-ding-eresource-tags a:active, .node-type-ding-eresource .field-ding-eresource-tags a.pseudo-class-active {
+  box-shadow: inset 1px 1px 4px #8c8c86;
+  color: #efefee;
 }
