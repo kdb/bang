@@ -99,6 +99,8 @@ html {
             font-size: 0;
             margin: 0;
             background: transparent;
+            border: 0 none;
+            @include box-shadow(none);
 
           }
         }
@@ -125,10 +127,11 @@ html {
             }
             min-height: 0;
             &.form-submit {
-              // @extend .btn;
-              // @extend .btn-secondary;
+               @include btn;
+               @include btn-secondary;
               margin-top: 0;
               min-width: 0;
+              margin-right: 28px;
             }
           }
         }

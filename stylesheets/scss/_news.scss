@@ -27,6 +27,10 @@
   }
   .news-label,
   .views-field-field-ding-news-tags {
+
+    &:hover {
+      background-color: transparent;
+    }
     // Want to extend .news-list-content, but the sass is already included by
     // DDBasic.
     margin-left: 170px;
@@ -91,7 +95,7 @@ h1.page-title {
 
 
 .news-category a{
-  // @extend .btn;
+   @include btn;
 }
 
 .sub-menu-wrapper {

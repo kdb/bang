@@ -1,0 +1,37 @@
+.page-search-ting,
+.page-search-node {
+  .form-item-search-block-form{
+    .field-prefix i {
+      z-index: 10;
+    }
+  }
+  .form-submit {
+    background-color: transparent;
+    color: transparent;
+    background-image: none;
+    @include box-shadow(none);
+  }
+  .form-select {
+    @extend .select;
+  }
+  .pane-search-backends a:visited, .pane-ding-facetbrowser a:visited {
+    color: #7cbf9e;
+  }
+  // Single search element.
+  .search-results .search-result {
+    @include content-box;
+    // In order to override background texture.
+    background: lighten($color-sand, 3) !important;
+    &.list-item .field-type-taxonomy-term-reference a.label-info {
+      @include tag;
+    }
+    .news-link a {
+      @include btn;
+    }
+    .view-mode-teaser {
+      background-color: transparent;
+      padding: 10px;
+    }
+  }
+
+}
