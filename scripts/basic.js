@@ -15,4 +15,17 @@
       });
     }
   };
+
+  Drupal.behaviors.fixCollapsibleOnTingObjects = {
+    attach: function (context) {
+      var wrappers = $('.page-ting-object .ting-object-inner-wrapper', context);
+
+      wrappers.each(function(){
+        if (!$('.field-group-format-toggler', this).get(0)) {
+          $(this).addClass('content-box');
+        }
+      });
+    }
+  };
+
 })(jQuery);

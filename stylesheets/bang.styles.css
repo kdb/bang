@@ -1804,8 +1804,12 @@ html body footer.footer .panel-pane h6,
   padding: 0;
 }
 .vertical-list ul li p, html body footer.footer .panel-pane ul li p, .sub-menu-wrapper ul li p, .pane-ding-eresource-categories ul li p, .pane-ting-ting-collection-types ul li p, .page-ting-object .pane-ting-ting-object-types ul li p,
-.page-ting-object .pane-ting-ting-relation-anchors ul li p, .vertical-list ol li p, html body footer.footer .panel-pane ol li p, .sub-menu-wrapper ol li p, .pane-ding-eresource-categories ol li p, .pane-ting-ting-collection-types ol li p, .page-ting-object .pane-ting-ting-object-types ol li p,
-.page-ting-object .pane-ting-ting-relation-anchors ol li p {
+.page-ting-object .pane-ting-ting-relation-anchors ul li p, .vertical-list ul li .page-ting-object .ting-object-wrapper .field-group-format-toggler a, .page-ting-object .ting-object-wrapper .field-group-format-toggler .vertical-list ul li a, html body footer.footer .panel-pane ul li .page-ting-object .ting-object-wrapper .field-group-format-toggler a, .page-ting-object .ting-object-wrapper .field-group-format-toggler html body footer.footer .panel-pane ul li a, .sub-menu-wrapper ul li .page-ting-object .ting-object-wrapper .field-group-format-toggler a, .page-ting-object .ting-object-wrapper .field-group-format-toggler .sub-menu-wrapper ul li a, .pane-ding-eresource-categories ul li .page-ting-object .ting-object-wrapper .field-group-format-toggler a, .page-ting-object .ting-object-wrapper .field-group-format-toggler .pane-ding-eresource-categories ul li a, .pane-ting-ting-collection-types ul li .page-ting-object .ting-object-wrapper .field-group-format-toggler a, .page-ting-object .ting-object-wrapper .field-group-format-toggler .pane-ting-ting-collection-types ul li a, .page-ting-object .pane-ting-ting-object-types ul li .ting-object-wrapper .field-group-format-toggler a, .page-ting-object .ting-object-wrapper .field-group-format-toggler .pane-ting-ting-object-types ul li a,
+.page-ting-object .pane-ting-ting-relation-anchors ul li .ting-object-wrapper .field-group-format-toggler a,
+.page-ting-object .ting-object-wrapper .field-group-format-toggler .pane-ting-ting-relation-anchors ul li a, .vertical-list ol li p, html body footer.footer .panel-pane ol li p, .sub-menu-wrapper ol li p, .pane-ding-eresource-categories ol li p, .pane-ting-ting-collection-types ol li p, .page-ting-object .pane-ting-ting-object-types ol li p,
+.page-ting-object .pane-ting-ting-relation-anchors ol li p, .vertical-list ol li .page-ting-object .ting-object-wrapper .field-group-format-toggler a, .page-ting-object .ting-object-wrapper .field-group-format-toggler .vertical-list ol li a, html body footer.footer .panel-pane ol li .page-ting-object .ting-object-wrapper .field-group-format-toggler a, .page-ting-object .ting-object-wrapper .field-group-format-toggler html body footer.footer .panel-pane ol li a, .sub-menu-wrapper ol li .page-ting-object .ting-object-wrapper .field-group-format-toggler a, .page-ting-object .ting-object-wrapper .field-group-format-toggler .sub-menu-wrapper ol li a, .pane-ding-eresource-categories ol li .page-ting-object .ting-object-wrapper .field-group-format-toggler a, .page-ting-object .ting-object-wrapper .field-group-format-toggler .pane-ding-eresource-categories ol li a, .pane-ting-ting-collection-types ol li .page-ting-object .ting-object-wrapper .field-group-format-toggler a, .page-ting-object .ting-object-wrapper .field-group-format-toggler .pane-ting-ting-collection-types ol li a, .page-ting-object .pane-ting-ting-object-types ol li .ting-object-wrapper .field-group-format-toggler a, .page-ting-object .ting-object-wrapper .field-group-format-toggler .pane-ting-ting-object-types ol li a,
+.page-ting-object .pane-ting-ting-relation-anchors ol li .ting-object-wrapper .field-group-format-toggler a,
+.page-ting-object .ting-object-wrapper .field-group-format-toggler .pane-ting-ting-relation-anchors ol li a {
   margin: 0;
   padding: 0;
 }
@@ -1859,7 +1863,9 @@ html body footer.footer .panel-pane h6,
   padding-right: 11px;
 }
 .vertical-list ul.vertical-list-icons li p, html body footer.footer .panel-pane ul.vertical-list-icons li p, .sub-menu-wrapper ul.vertical-list-icons li p, .pane-ding-eresource-categories ul.vertical-list-icons li p, .pane-ting-ting-collection-types ul.vertical-list-icons li p, .page-ting-object .pane-ting-ting-object-types ul.vertical-list-icons li p,
-.page-ting-object .pane-ting-ting-relation-anchors ul.vertical-list-icons li p {
+.page-ting-object .pane-ting-ting-relation-anchors ul.vertical-list-icons li p, .vertical-list ul.vertical-list-icons li .page-ting-object .ting-object-wrapper .field-group-format-toggler a, .page-ting-object .ting-object-wrapper .field-group-format-toggler .vertical-list ul.vertical-list-icons li a, html body footer.footer .panel-pane ul.vertical-list-icons li .page-ting-object .ting-object-wrapper .field-group-format-toggler a, .page-ting-object .ting-object-wrapper .field-group-format-toggler html body footer.footer .panel-pane ul.vertical-list-icons li a, .sub-menu-wrapper ul.vertical-list-icons li .page-ting-object .ting-object-wrapper .field-group-format-toggler a, .page-ting-object .ting-object-wrapper .field-group-format-toggler .sub-menu-wrapper ul.vertical-list-icons li a, .pane-ding-eresource-categories ul.vertical-list-icons li .page-ting-object .ting-object-wrapper .field-group-format-toggler a, .page-ting-object .ting-object-wrapper .field-group-format-toggler .pane-ding-eresource-categories ul.vertical-list-icons li a, .pane-ting-ting-collection-types ul.vertical-list-icons li .page-ting-object .ting-object-wrapper .field-group-format-toggler a, .page-ting-object .ting-object-wrapper .field-group-format-toggler .pane-ting-ting-collection-types ul.vertical-list-icons li a, .page-ting-object .pane-ting-ting-object-types ul.vertical-list-icons li .ting-object-wrapper .field-group-format-toggler a, .page-ting-object .ting-object-wrapper .field-group-format-toggler .pane-ting-ting-object-types ul.vertical-list-icons li a,
+.page-ting-object .pane-ting-ting-relation-anchors ul.vertical-list-icons li .ting-object-wrapper .field-group-format-toggler a,
+.page-ting-object .ting-object-wrapper .field-group-format-toggler .pane-ting-ting-relation-anchors ul.vertical-list-icons li a {
   padding-left: 25px;
 }
 .vertical-list ul.vertical-list-bullet, html body footer.footer .panel-pane ul.vertical-list-bullet, .sub-menu-wrapper ul.vertical-list-bullet, .pane-ding-eresource-categories ul.vertical-list-bullet, .pane-ting-ting-collection-types ul.vertical-list-bullet, .page-ting-object .pane-ting-ting-object-types ul.vertical-list-bullet,
@@ -2167,7 +2173,7 @@ Styleguide 4.3
   padding: 6px 10px 6px 10px;
   border: 0px;
 }
-.table > tbody > tr > td > p, .table > thead > tr > td > p {
+.table > tbody > tr > td > p, .page-ting-object .ting-object-wrapper .field-group-format-toggler .table > tbody > tr > td > a, .table > thead > tr > td > p, .page-ting-object .ting-object-wrapper .field-group-format-toggler .table > thead > tr > td > a {
   margin: 0;
   padding: 0;
 }
@@ -2264,26 +2270,26 @@ Styleguide 99.1
   line-height: 21px;
 }
 
-.btn-secondary, .dropdown .dropdown-title.secondary, .page-ting-object .ting-object-wrapper .field-group-format-toggler.secondary, .page-ting-object .ting-object-wrapper .collapsed .field-group-format-toggler.secondary {
+.btn-secondary, .dropdown .dropdown-title.secondary, .page-ting-object .ting-object-wrapper .field-group-format-toggler a.secondary, .page-ting-object .ting-object-wrapper .collapsed .field-group-format-toggler a.secondary {
   background-color: #b1b1ad;
   box-shadow: 0px 1px 2px #656560;
 }
-.btn-secondary:hover, .dropdown .dropdown-title.secondary:hover, .page-ting-object .ting-object-wrapper .field-group-format-toggler.secondary:hover, .btn-secondary.pseudo-class-hover, .dropdown .pseudo-class-hover.dropdown-title.secondary, .page-ting-object .ting-object-wrapper .pseudo-class-hover.field-group-format-toggler.secondary {
+.btn-secondary:hover, .dropdown .dropdown-title.secondary:hover, .page-ting-object .ting-object-wrapper .field-group-format-toggler a.secondary:hover, .btn-secondary.pseudo-class-hover, .dropdown .pseudo-class-hover.dropdown-title.secondary, .page-ting-object .ting-object-wrapper .field-group-format-toggler a.pseudo-class-hover.secondary {
   background-color: #a7a7a3;
 }
-.btn-secondary:active, .dropdown .dropdown-title.secondary:active, .page-ting-object .ting-object-wrapper .field-group-format-toggler.secondary:active, .btn-secondary.pseudo-class-active, .dropdown .pseudo-class-active.dropdown-title.secondary, .page-ting-object .ting-object-wrapper .pseudo-class-active.field-group-format-toggler.secondary {
+.btn-secondary:active, .dropdown .dropdown-title.secondary:active, .page-ting-object .ting-object-wrapper .field-group-format-toggler a.secondary:active, .btn-secondary.pseudo-class-active, .dropdown .pseudo-class-active.dropdown-title.secondary, .page-ting-object .ting-object-wrapper .field-group-format-toggler a.pseudo-class-active.secondary {
   box-shadow: inset 1px 1px 4px #8c8c86;
   color: #efefee;
 }
 
-.btn-danger, .dropdown .dropdown-title.danger, .page-ting-object .ting-object-wrapper .field-group-format-toggler.danger, .page-ting-object .ting-object-wrapper .collapsed .field-group-format-toggler.danger {
+.btn-danger, .dropdown .dropdown-title.danger, .page-ting-object .ting-object-wrapper .field-group-format-toggler a.danger, .page-ting-object .ting-object-wrapper .collapsed .field-group-format-toggler a.danger {
   background-color: #ff7275;
   box-shadow: 0px 1px 2px #d80005;
 }
-.btn-danger:hover, .dropdown .dropdown-title.danger:hover, .page-ting-object .ting-object-wrapper .field-group-format-toggler.danger:hover, .btn-danger.pseudo-class-hover, .dropdown .pseudo-class-hover.dropdown-title.danger, .page-ting-object .ting-object-wrapper .pseudo-class-hover.field-group-format-toggler.danger {
+.btn-danger:hover, .dropdown .dropdown-title.danger:hover, .page-ting-object .ting-object-wrapper .field-group-format-toggler a.danger:hover, .btn-danger.pseudo-class-hover, .dropdown .pseudo-class-hover.dropdown-title.danger, .page-ting-object .ting-object-wrapper .field-group-format-toggler a.pseudo-class-hover.danger {
   background-color: #ff5e61;
 }
-.btn-danger:active, .dropdown .dropdown-title.danger:active, .page-ting-object .ting-object-wrapper .field-group-format-toggler.danger:active, .btn-danger.pseudo-class-active, .dropdown .pseudo-class-active.dropdown-title.danger, .page-ting-object .ting-object-wrapper .pseudo-class-active.field-group-format-toggler.danger {
+.btn-danger:active, .dropdown .dropdown-title.danger:active, .page-ting-object .ting-object-wrapper .field-group-format-toggler a.danger:active, .btn-danger.pseudo-class-active, .dropdown .pseudo-class-active.dropdown-title.danger, .page-ting-object .ting-object-wrapper .field-group-format-toggler a.pseudo-class-active.danger {
   box-shadow: inset 1px 1px 4px #ff252a;
   color: #ffe2e3;
 }
@@ -2490,13 +2496,13 @@ body, html body {
 
 h1, h1 a, h1 a:hover, h1.page-title, h2, h2 a, h2 a:hover, h3, h3 a, h3 a:hover, .popover h3, html body footer.footer h2, html body footer.footer h2 a, h2 html body footer.footer a, h4, h4 a, h4 a:hover,
 h5 a, h5 a:hover,
-h6 a, h6 a:hover, h5, h6, p, a {
+h6 a, h6 a:hover, h5, h6, p, .page-ting-object .ting-object-wrapper .field-group-format-toggler a, a {
   margin: 0;
   padding: 0;
 }
 h1.underline, h1 a.underline, h2.underline, h2 a.underline, h3.underline, h3 a.underline, html body footer.footer h2.underline, html body footer.footer h2 a.underline, h2 html body footer.footer a.underline, h4.underline, h4 a.underline,
 h5 a.underline,
-h6 a.underline, h5.underline, h6.underline, p.underline, a.underline {
+h6 a.underline, h5.underline, h6.underline, p.underline, .page-ting-object .ting-object-wrapper .field-group-format-toggler a.underline, a.underline {
   margin-top: 24px;
   padding-bottom: 16px;
 }
@@ -2584,7 +2590,7 @@ h3, h3 a, h3 a:hover, .popover h3, html body footer.footer h2, html body footer.
   font-weight: bold;
 }
 
-p {
+p, .page-ting-object .ting-object-wrapper .field-group-format-toggler a {
   font-family: "proxima-nova";
   font-size: 16px;
   font-weight: 300;
@@ -2593,10 +2599,10 @@ p {
   margin-top: 0px;
   margin-bottom: 24px;
 }
-p.light {
+p.light, .page-ting-object .ting-object-wrapper .field-group-format-toggler a.light {
   color: #b1b1ad;
 }
-p a {
+p a, .page-ting-object .ting-object-wrapper .field-group-format-toggler a a {
   display: inline;
   line-height: inherit;
   margin-top: 0;
@@ -3096,7 +3102,7 @@ Styleguide 90.3
   list-style: none;
   cursor: pointer;
 }
-.dropdown ul.dropdown-list > li > a, .dropdown ul.dropdown-list > li > p {
+.dropdown ul.dropdown-list > li > a, .dropdown ul.dropdown-list > li > p, .dropdown .page-ting-object .ting-object-wrapper .field-group-format-toggler ul.dropdown-list > li > a, .page-ting-object .ting-object-wrapper .field-group-format-toggler .dropdown ul.dropdown-list > li > a {
   margin: 0;
   padding: 0;
 }
@@ -4019,11 +4025,11 @@ h6 .alert a {
 .alert .alert-link {
   font-weight: bold;
 }
-.alert > p,
+.alert > p, .page-ting-object .ting-object-wrapper .field-group-format-toggler .alert > a,
 .alert > ul {
   margin-bottom: 0;
 }
-.alert > p + p {
+.alert > p + p, .page-ting-object .ting-object-wrapper .field-group-format-toggler .alert > a + p, .page-ting-object .ting-object-wrapper .field-group-format-toggler .alert > p + a, .page-ting-object .ting-object-wrapper .field-group-format-toggler .alert > a + a {
   margin-top: 5px;
 }
 
@@ -4094,7 +4100,7 @@ h6 .alert a {
 .alert .btn {
   margin: 10px 0 3px 0;
 }
-.alert p {
+.alert p, .alert .page-ting-object .ting-object-wrapper .field-group-format-toggler a, .page-ting-object .ting-object-wrapper .field-group-format-toggler .alert a {
   color: white;
 }
 
@@ -4128,7 +4134,7 @@ h6 .alert a {
 .alert.alert-infomation h5 a,
 h5 .alert.alert-infomation a,
 .alert.alert-infomation h6 a,
-h6 .alert.alert-infomation a, .alert.alert-infomation p {
+h6 .alert.alert-infomation a, .alert.alert-infomation p, .alert.alert-infomation .page-ting-object .ting-object-wrapper .field-group-format-toggler a, .page-ting-object .ting-object-wrapper .field-group-format-toggler .alert.alert-infomation a {
   color: white;
 }
 .alert.alert-infomation .close {
@@ -8926,7 +8932,11 @@ ul.eresource-index li {
   box-shadow: inset 1px 1px 4px #8c8c86;
   color: #efefee;
 }
-.page-ting-object .ting-object-wrapper:first-child .ting-object-inner-wrapper, .page-ting-object .ting-object-wrapper:last-child .ting-object-inner-wrapper {
+.page-ting-object .ting-object-wrapper .ting-object-inner-wrapper {
+  padding: 0;
+  background-color: transparent;
+}
+.page-ting-object .ting-object-wrapper .content-box.ting-object-inner-wrapper, .page-ting-object .ting-object-wrapper ul.content-list li.ting-object-inner-wrapper, ul.content-list .page-ting-object .ting-object-wrapper li.ting-object-inner-wrapper {
   display: inline-block;
   width: 100%;
   -moz-box-sizing: border-box;
@@ -8938,80 +8948,11 @@ ul.eresource-index li {
   border: 1px solid #e8e8d7;
 }
 @media only screen and (max-width: 480px) {
-  .page-ting-object .ting-object-wrapper:first-child .ting-object-inner-wrapper, .page-ting-object .ting-object-wrapper:last-child .ting-object-inner-wrapper {
+  .page-ting-object .ting-object-wrapper .content-box.ting-object-inner-wrapper, .page-ting-object .ting-object-wrapper ul.content-list li.ting-object-inner-wrapper, ul.content-list .page-ting-object .ting-object-wrapper li.ting-object-inner-wrapper {
     padding: 20px 10px 20px 10px;
   }
 }
-.page-ting-object .ting-object-wrapper .ting-object-inner-wrapper {
-  background-color: transparent;
-  padding: 0;
-}
-.page-ting-object .ting-object-wrapper .field-group-format-toggler {
-  position: relative;
-  width: 100%;
-  display: block;
-  padding: 3px 8px;
-  text-align: left;
-  white-space: nowrap;
-  vertical-align: middle;
-  cursor: pointer;
-  background-image: none;
-  border: 1px solid transparent;
-  border-radius: 4px;
-  outline: 0;
-  color: white;
-  background-color: #00b38a;
-  box-shadow: 0px 1px 2px #004d3b;
-  padding: 2px 8px 4px 8px;
-  box-shadow: inset 1px 1px 4px #008063;
-  color: #d8f3ed;
-}
-.page-ting-object .ting-object-wrapper .field-group-format-toggler i.fa, .page-ting-object .ting-object-wrapper .field-group-format-toggler .library-list i.opening-hours-toggle:after, .library-list .page-ting-object .ting-object-wrapper .field-group-format-toggler i.opening-hours-toggle:after,
-.page-ting-object .ting-object-wrapper .field-group-format-toggler #ding-library-front .primary-content i.opening-hours-toggle:after,
-#ding-library-front .primary-content .page-ting-object .ting-object-wrapper .field-group-format-toggler i.opening-hours-toggle:after, .page-ting-object .ting-object-wrapper .field-group-format-toggler .view-ding-event .view-content > .list > .event-list-item i.event-list-location, .view-ding-event .view-content > .list > .event-list-item .page-ting-object .ting-object-wrapper .field-group-format-toggler i.event-list-location, .page-ting-object .ting-object-wrapper .field-group-format-toggler .view-ding-event .view-content > .list > .event-list-item i.event-list-time, .view-ding-event .view-content > .list > .event-list-item .page-ting-object .ting-object-wrapper .field-group-format-toggler i.event-list-time, .page-ting-object .ting-object-wrapper .field-group-format-toggler span.glyphicon {
-  -webkit-transition: all 0.5s ease 0.1s;
-  transition: all 0.5s ease 0.1s;
-  position: absolute;
-  color: black;
-  -moz-opacity: 0.25;
-  opacity: .25;
-  filter: alpha(opacity=25);
-  top: 7px;
-  right: 17px;
-  display: inline-block;
-}
-.page-ting-object .ting-object-wrapper .field-group-format-toggler:active, .page-ting-object .ting-object-wrapper .field-group-format-toggler.active {
-  padding: 2px 8px 4px 8px;
-  box-shadow: inset 1px 1px 4px #008063;
-  color: #d8f3ed;
-}
-.page-ting-object .ting-object-wrapper .field-group-format-toggler:active i.fa, .page-ting-object .ting-object-wrapper .field-group-format-toggler:active .library-list i.opening-hours-toggle:after, .library-list .page-ting-object .ting-object-wrapper .field-group-format-toggler:active i.opening-hours-toggle:after,
-.page-ting-object .ting-object-wrapper .field-group-format-toggler:active #ding-library-front .primary-content i.opening-hours-toggle:after,
-#ding-library-front .primary-content .page-ting-object .ting-object-wrapper .field-group-format-toggler:active i.opening-hours-toggle:after, .page-ting-object .ting-object-wrapper .field-group-format-toggler:active .view-ding-event .view-content > .list > .event-list-item i.event-list-location, .view-ding-event .view-content > .list > .event-list-item .page-ting-object .ting-object-wrapper .field-group-format-toggler:active i.event-list-location, .page-ting-object .ting-object-wrapper .field-group-format-toggler:active .view-ding-event .view-content > .list > .event-list-item i.event-list-time, .view-ding-event .view-content > .list > .event-list-item .page-ting-object .ting-object-wrapper .field-group-format-toggler:active i.event-list-time, .page-ting-object .ting-object-wrapper .field-group-format-toggler:active span.glyphicon, .page-ting-object .ting-object-wrapper .field-group-format-toggler.active i.fa, .page-ting-object .ting-object-wrapper .field-group-format-toggler.active .library-list i.opening-hours-toggle:after, .library-list .page-ting-object .ting-object-wrapper .field-group-format-toggler.active i.opening-hours-toggle:after,
-.page-ting-object .ting-object-wrapper .field-group-format-toggler.active #ding-library-front .primary-content i.opening-hours-toggle:after,
-#ding-library-front .primary-content .page-ting-object .ting-object-wrapper .field-group-format-toggler.active i.opening-hours-toggle:after, .page-ting-object .ting-object-wrapper .field-group-format-toggler.active .view-ding-event .view-content > .list > .event-list-item i.event-list-location, .view-ding-event .view-content > .list > .event-list-item .page-ting-object .ting-object-wrapper .field-group-format-toggler.active i.event-list-location, .page-ting-object .ting-object-wrapper .field-group-format-toggler.active .view-ding-event .view-content > .list > .event-list-item i.event-list-time, .view-ding-event .view-content > .list > .event-list-item .page-ting-object .ting-object-wrapper .field-group-format-toggler.active i.event-list-time, .page-ting-object .ting-object-wrapper .field-group-format-toggler.active span.glyphicon {
-  -webkit-transform: rotate(180deg);
-  -moz-transform: rotate(180deg);
-  -ms-transform: rotate(180deg);
-  -o-transform: rotate(180deg);
-  transform: rotate(180deg);
-  top: 6px;
-}
-.page-ting-object .ting-object-wrapper .field-group-format-toggler:hover {
-  color: white;
-  background-color: #00a982;
-}
-.page-ting-object .ting-object-wrapper .field-group-format-toggler i.fa, .page-ting-object .ting-object-wrapper .field-group-format-toggler .library-list i.opening-hours-toggle:after, .library-list .page-ting-object .ting-object-wrapper .field-group-format-toggler i.opening-hours-toggle:after,
-.page-ting-object .ting-object-wrapper .field-group-format-toggler #ding-library-front .primary-content i.opening-hours-toggle:after,
-#ding-library-front .primary-content .page-ting-object .ting-object-wrapper .field-group-format-toggler i.opening-hours-toggle:after, .page-ting-object .ting-object-wrapper .field-group-format-toggler .view-ding-event .view-content > .list > .event-list-item i.event-list-location, .view-ding-event .view-content > .list > .event-list-item .page-ting-object .ting-object-wrapper .field-group-format-toggler i.event-list-location, .page-ting-object .ting-object-wrapper .field-group-format-toggler .view-ding-event .view-content > .list > .event-list-item i.event-list-time, .view-ding-event .view-content > .list > .event-list-item .page-ting-object .ting-object-wrapper .field-group-format-toggler i.event-list-time, .page-ting-object .ting-object-wrapper .field-group-format-toggler span.glyphicon {
-  -webkit-transform: rotate(180deg);
-  -moz-transform: rotate(180deg);
-  -ms-transform: rotate(180deg);
-  -o-transform: rotate(180deg);
-  transform: rotate(180deg);
-  top: 6px;
-}
-.page-ting-object .ting-object-wrapper .collapsed .field-group-format-toggler {
+.page-ting-object .ting-object-wrapper .field-group-format-toggler a {
   display: inline-block;
   padding: 5px 16px;
   margin-bottom: 14px;
@@ -9047,10 +8988,12 @@ ul.eresource-index li {
   color: white;
   background-color: #00b38a;
   box-shadow: 0px 1px 2px #004d3b;
+  box-shadow: inset 1px 1px 4px #008063;
+  color: #d8f3ed;
 }
-.page-ting-object .ting-object-wrapper .collapsed .field-group-format-toggler span.glyphicon, .page-ting-object .ting-object-wrapper .collapsed .field-group-format-toggler i.fa, .page-ting-object .ting-object-wrapper .collapsed .field-group-format-toggler .library-list i.opening-hours-toggle:after, .library-list .page-ting-object .ting-object-wrapper .collapsed .field-group-format-toggler i.opening-hours-toggle:after,
-.page-ting-object .ting-object-wrapper .collapsed .field-group-format-toggler #ding-library-front .primary-content i.opening-hours-toggle:after,
-#ding-library-front .primary-content .page-ting-object .ting-object-wrapper .collapsed .field-group-format-toggler i.opening-hours-toggle:after, .page-ting-object .ting-object-wrapper .collapsed .field-group-format-toggler .view-ding-event .view-content > .list > .event-list-item i.event-list-location, .view-ding-event .view-content > .list > .event-list-item .page-ting-object .ting-object-wrapper .collapsed .field-group-format-toggler i.event-list-location, .page-ting-object .ting-object-wrapper .collapsed .field-group-format-toggler .view-ding-event .view-content > .list > .event-list-item i.event-list-time, .view-ding-event .view-content > .list > .event-list-item .page-ting-object .ting-object-wrapper .collapsed .field-group-format-toggler i.event-list-time {
+.page-ting-object .ting-object-wrapper .field-group-format-toggler a span.glyphicon, .page-ting-object .ting-object-wrapper .field-group-format-toggler a i.fa, .page-ting-object .ting-object-wrapper .field-group-format-toggler a .library-list i.opening-hours-toggle:after, .library-list .page-ting-object .ting-object-wrapper .field-group-format-toggler a i.opening-hours-toggle:after,
+.page-ting-object .ting-object-wrapper .field-group-format-toggler a #ding-library-front .primary-content i.opening-hours-toggle:after,
+#ding-library-front .primary-content .page-ting-object .ting-object-wrapper .field-group-format-toggler a i.opening-hours-toggle:after, .page-ting-object .ting-object-wrapper .field-group-format-toggler a .view-ding-event .view-content > .list > .event-list-item i.event-list-location, .view-ding-event .view-content > .list > .event-list-item .page-ting-object .ting-object-wrapper .field-group-format-toggler a i.event-list-location, .page-ting-object .ting-object-wrapper .field-group-format-toggler a .view-ding-event .view-content > .list > .event-list-item i.event-list-time, .view-ding-event .view-content > .list > .event-list-item .page-ting-object .ting-object-wrapper .field-group-format-toggler a i.event-list-time {
   color: black;
   -moz-opacity: 0.25;
   opacity: .25;
@@ -9059,30 +9002,30 @@ ul.eresource-index li {
   margin-right: 8px;
   display: inline-block;
 }
-.page-ting-object .ting-object-wrapper .collapsed .field-group-format-toggler:active, .page-ting-object .ting-object-wrapper .collapsed .field-group-format-toggler.pseudo-class-active {
+.page-ting-object .ting-object-wrapper .field-group-format-toggler a:active, .page-ting-object .ting-object-wrapper .field-group-format-toggler a.pseudo-class-active {
   padding: 4px 16px 6px 16px;
   box-shadow: inset 1px 1px 4px #008063;
   color: #d8f3ed;
 }
-.page-ting-object .ting-object-wrapper .collapsed .field-group-format-toggler:hover, .page-ting-object .ting-object-wrapper .collapsed .field-group-format-toggler.pseudo-class-hover {
+.page-ting-object .ting-object-wrapper .field-group-format-toggler a:hover, .page-ting-object .ting-object-wrapper .field-group-format-toggler a.pseudo-class-hover {
   color: white;
   background-color: #00a982;
 }
-.page-ting-object .ting-object-wrapper .collapsed .field-group-format-toggler.btn-right {
+.page-ting-object .ting-object-wrapper .field-group-format-toggler a.btn-right {
   float: right;
   margin-bottom: 0;
 }
 @media only screen and (max-width: 480px) {
-  .page-ting-object .ting-object-wrapper .collapsed .field-group-format-toggler {
+  .page-ting-object .ting-object-wrapper .field-group-format-toggler a {
     width: 100%;
   }
-  .page-ting-object .ting-object-wrapper .collapsed .field-group-format-toggler.btn-right {
+  .page-ting-object .ting-object-wrapper .field-group-format-toggler a.btn-right {
     float: none;
   }
 }
-.page-ting-object .ting-object-wrapper .collapsed .field-group-format-toggler i.fa, .page-ting-object .ting-object-wrapper .collapsed .field-group-format-toggler .library-list i.opening-hours-toggle:after, .library-list .page-ting-object .ting-object-wrapper .collapsed .field-group-format-toggler i.opening-hours-toggle:after,
-.page-ting-object .ting-object-wrapper .collapsed .field-group-format-toggler #ding-library-front .primary-content i.opening-hours-toggle:after,
-#ding-library-front .primary-content .page-ting-object .ting-object-wrapper .collapsed .field-group-format-toggler i.opening-hours-toggle:after, .page-ting-object .ting-object-wrapper .collapsed .field-group-format-toggler .view-ding-event .view-content > .list > .event-list-item i.event-list-location, .view-ding-event .view-content > .list > .event-list-item .page-ting-object .ting-object-wrapper .collapsed .field-group-format-toggler i.event-list-location, .page-ting-object .ting-object-wrapper .collapsed .field-group-format-toggler .view-ding-event .view-content > .list > .event-list-item i.event-list-time, .view-ding-event .view-content > .list > .event-list-item .page-ting-object .ting-object-wrapper .collapsed .field-group-format-toggler i.event-list-time, .page-ting-object .ting-object-wrapper .collapsed .field-group-format-toggler span.glyphicon {
+.page-ting-object .ting-object-wrapper .field-group-format-toggler a i.fa, .page-ting-object .ting-object-wrapper .field-group-format-toggler a .library-list i.opening-hours-toggle:after, .library-list .page-ting-object .ting-object-wrapper .field-group-format-toggler a i.opening-hours-toggle:after,
+.page-ting-object .ting-object-wrapper .field-group-format-toggler a #ding-library-front .primary-content i.opening-hours-toggle:after,
+#ding-library-front .primary-content .page-ting-object .ting-object-wrapper .field-group-format-toggler a i.opening-hours-toggle:after, .page-ting-object .ting-object-wrapper .field-group-format-toggler a .view-ding-event .view-content > .list > .event-list-item i.event-list-location, .view-ding-event .view-content > .list > .event-list-item .page-ting-object .ting-object-wrapper .field-group-format-toggler a i.event-list-location, .page-ting-object .ting-object-wrapper .field-group-format-toggler a .view-ding-event .view-content > .list > .event-list-item i.event-list-time, .view-ding-event .view-content > .list > .event-list-item .page-ting-object .ting-object-wrapper .field-group-format-toggler a i.event-list-time, .page-ting-object .ting-object-wrapper .field-group-format-toggler a span.glyphicon {
   -webkit-transition: all 0.5s ease 0.1s;
   transition: all 0.5s ease 0.1s;
   position: absolute;
@@ -9094,16 +9037,16 @@ ul.eresource-index li {
   right: 17px;
   display: inline-block;
 }
-.page-ting-object .ting-object-wrapper .collapsed .field-group-format-toggler:active, .page-ting-object .ting-object-wrapper .collapsed .field-group-format-toggler.active {
+.page-ting-object .ting-object-wrapper .field-group-format-toggler a:active, .page-ting-object .ting-object-wrapper .field-group-format-toggler a.active {
   padding: 2px 8px 4px 8px;
   box-shadow: inset 1px 1px 4px #008063;
   color: #d8f3ed;
 }
-.page-ting-object .ting-object-wrapper .collapsed .field-group-format-toggler:active i.fa, .page-ting-object .ting-object-wrapper .collapsed .field-group-format-toggler:active .library-list i.opening-hours-toggle:after, .library-list .page-ting-object .ting-object-wrapper .collapsed .field-group-format-toggler:active i.opening-hours-toggle:after,
-.page-ting-object .ting-object-wrapper .collapsed .field-group-format-toggler:active #ding-library-front .primary-content i.opening-hours-toggle:after,
-#ding-library-front .primary-content .page-ting-object .ting-object-wrapper .collapsed .field-group-format-toggler:active i.opening-hours-toggle:after, .page-ting-object .ting-object-wrapper .collapsed .field-group-format-toggler:active .view-ding-event .view-content > .list > .event-list-item i.event-list-location, .view-ding-event .view-content > .list > .event-list-item .page-ting-object .ting-object-wrapper .collapsed .field-group-format-toggler:active i.event-list-location, .page-ting-object .ting-object-wrapper .collapsed .field-group-format-toggler:active .view-ding-event .view-content > .list > .event-list-item i.event-list-time, .view-ding-event .view-content > .list > .event-list-item .page-ting-object .ting-object-wrapper .collapsed .field-group-format-toggler:active i.event-list-time, .page-ting-object .ting-object-wrapper .collapsed .field-group-format-toggler:active span.glyphicon, .page-ting-object .ting-object-wrapper .collapsed .field-group-format-toggler.active i.fa, .page-ting-object .ting-object-wrapper .collapsed .field-group-format-toggler.active .library-list i.opening-hours-toggle:after, .library-list .page-ting-object .ting-object-wrapper .collapsed .field-group-format-toggler.active i.opening-hours-toggle:after,
-.page-ting-object .ting-object-wrapper .collapsed .field-group-format-toggler.active #ding-library-front .primary-content i.opening-hours-toggle:after,
-#ding-library-front .primary-content .page-ting-object .ting-object-wrapper .collapsed .field-group-format-toggler.active i.opening-hours-toggle:after, .page-ting-object .ting-object-wrapper .collapsed .field-group-format-toggler.active .view-ding-event .view-content > .list > .event-list-item i.event-list-location, .view-ding-event .view-content > .list > .event-list-item .page-ting-object .ting-object-wrapper .collapsed .field-group-format-toggler.active i.event-list-location, .page-ting-object .ting-object-wrapper .collapsed .field-group-format-toggler.active .view-ding-event .view-content > .list > .event-list-item i.event-list-time, .view-ding-event .view-content > .list > .event-list-item .page-ting-object .ting-object-wrapper .collapsed .field-group-format-toggler.active i.event-list-time, .page-ting-object .ting-object-wrapper .collapsed .field-group-format-toggler.active span.glyphicon {
+.page-ting-object .ting-object-wrapper .field-group-format-toggler a:active i.fa, .page-ting-object .ting-object-wrapper .field-group-format-toggler a:active .library-list i.opening-hours-toggle:after, .library-list .page-ting-object .ting-object-wrapper .field-group-format-toggler a:active i.opening-hours-toggle:after,
+.page-ting-object .ting-object-wrapper .field-group-format-toggler a:active #ding-library-front .primary-content i.opening-hours-toggle:after,
+#ding-library-front .primary-content .page-ting-object .ting-object-wrapper .field-group-format-toggler a:active i.opening-hours-toggle:after, .page-ting-object .ting-object-wrapper .field-group-format-toggler a:active .view-ding-event .view-content > .list > .event-list-item i.event-list-location, .view-ding-event .view-content > .list > .event-list-item .page-ting-object .ting-object-wrapper .field-group-format-toggler a:active i.event-list-location, .page-ting-object .ting-object-wrapper .field-group-format-toggler a:active .view-ding-event .view-content > .list > .event-list-item i.event-list-time, .view-ding-event .view-content > .list > .event-list-item .page-ting-object .ting-object-wrapper .field-group-format-toggler a:active i.event-list-time, .page-ting-object .ting-object-wrapper .field-group-format-toggler a:active span.glyphicon, .page-ting-object .ting-object-wrapper .field-group-format-toggler a.active i.fa, .page-ting-object .ting-object-wrapper .field-group-format-toggler a.active .library-list i.opening-hours-toggle:after, .library-list .page-ting-object .ting-object-wrapper .field-group-format-toggler a.active i.opening-hours-toggle:after,
+.page-ting-object .ting-object-wrapper .field-group-format-toggler a.active #ding-library-front .primary-content i.opening-hours-toggle:after,
+#ding-library-front .primary-content .page-ting-object .ting-object-wrapper .field-group-format-toggler a.active i.opening-hours-toggle:after, .page-ting-object .ting-object-wrapper .field-group-format-toggler a.active .view-ding-event .view-content > .list > .event-list-item i.event-list-location, .view-ding-event .view-content > .list > .event-list-item .page-ting-object .ting-object-wrapper .field-group-format-toggler a.active i.event-list-location, .page-ting-object .ting-object-wrapper .field-group-format-toggler a.active .view-ding-event .view-content > .list > .event-list-item i.event-list-time, .view-ding-event .view-content > .list > .event-list-item .page-ting-object .ting-object-wrapper .field-group-format-toggler a.active i.event-list-time, .page-ting-object .ting-object-wrapper .field-group-format-toggler a.active span.glyphicon {
   -webkit-transform: rotate(180deg);
   -moz-transform: rotate(180deg);
   -ms-transform: rotate(180deg);
@@ -9111,9 +9054,85 @@ ul.eresource-index li {
   transform: rotate(180deg);
   top: 6px;
 }
-.page-ting-object .ting-object-wrapper .collapsed .field-group-format-toggler:hover {
+.page-ting-object .ting-object-wrapper .field-group-format-toggler a:hover {
   color: white;
   background-color: #00a982;
+}
+.page-ting-object .ting-object-wrapper .field-group-format-toggler a:before {
+  display: none;
+}
+.page-ting-object .ting-object-wrapper .field-group-format-toggler a:after {
+  -webkit-transition: all 0.5s ease 0.1s;
+  transition: all 0.5s ease 0.1s;
+  -webkit-transform: rotate(180deg);
+  -ms-transform: rotate(180deg);
+  transform: rotate(180deg);
+  opacity: 0.25;
+  filter: alpha(opacity=25);
+  position: absolute;
+  color: #000;
+  top: 7px;
+  right: 17px;
+  display: inline-block;
+  content: "\f078";
+  font-family: FontAwesome;
+}
+.page-ting-object .ting-object-wrapper .collapsed .field-group-format-toggler a {
+  position: relative;
+  width: 100%;
+  display: block;
+  padding: 3px 8px;
+  text-align: left;
+  white-space: nowrap;
+  vertical-align: middle;
+  cursor: pointer;
+  background-image: none;
+  border: 1px solid transparent;
+  border-radius: 4px;
+  outline: 0;
+  color: white;
+  background-color: #00b38a;
+  box-shadow: 0px 1px 2px #004d3b;
+}
+.page-ting-object .ting-object-wrapper .collapsed .field-group-format-toggler a i.fa, .page-ting-object .ting-object-wrapper .collapsed .field-group-format-toggler a .library-list i.opening-hours-toggle:after, .library-list .page-ting-object .ting-object-wrapper .collapsed .field-group-format-toggler a i.opening-hours-toggle:after,
+.page-ting-object .ting-object-wrapper .collapsed .field-group-format-toggler a #ding-library-front .primary-content i.opening-hours-toggle:after,
+#ding-library-front .primary-content .page-ting-object .ting-object-wrapper .collapsed .field-group-format-toggler a i.opening-hours-toggle:after, .page-ting-object .ting-object-wrapper .collapsed .field-group-format-toggler a .view-ding-event .view-content > .list > .event-list-item i.event-list-location, .view-ding-event .view-content > .list > .event-list-item .page-ting-object .ting-object-wrapper .collapsed .field-group-format-toggler a i.event-list-location, .page-ting-object .ting-object-wrapper .collapsed .field-group-format-toggler a .view-ding-event .view-content > .list > .event-list-item i.event-list-time, .view-ding-event .view-content > .list > .event-list-item .page-ting-object .ting-object-wrapper .collapsed .field-group-format-toggler a i.event-list-time, .page-ting-object .ting-object-wrapper .collapsed .field-group-format-toggler a span.glyphicon {
+  -webkit-transition: all 0.5s ease 0.1s;
+  transition: all 0.5s ease 0.1s;
+  position: absolute;
+  color: black;
+  -moz-opacity: 0.25;
+  opacity: .25;
+  filter: alpha(opacity=25);
+  top: 7px;
+  right: 17px;
+  display: inline-block;
+}
+.page-ting-object .ting-object-wrapper .collapsed .field-group-format-toggler a:active, .page-ting-object .ting-object-wrapper .collapsed .field-group-format-toggler a.active {
+  padding: 2px 8px 4px 8px;
+  box-shadow: inset 1px 1px 4px #008063;
+  color: #d8f3ed;
+}
+.page-ting-object .ting-object-wrapper .collapsed .field-group-format-toggler a:active i.fa, .page-ting-object .ting-object-wrapper .collapsed .field-group-format-toggler a:active .library-list i.opening-hours-toggle:after, .library-list .page-ting-object .ting-object-wrapper .collapsed .field-group-format-toggler a:active i.opening-hours-toggle:after,
+.page-ting-object .ting-object-wrapper .collapsed .field-group-format-toggler a:active #ding-library-front .primary-content i.opening-hours-toggle:after,
+#ding-library-front .primary-content .page-ting-object .ting-object-wrapper .collapsed .field-group-format-toggler a:active i.opening-hours-toggle:after, .page-ting-object .ting-object-wrapper .collapsed .field-group-format-toggler a:active .view-ding-event .view-content > .list > .event-list-item i.event-list-location, .view-ding-event .view-content > .list > .event-list-item .page-ting-object .ting-object-wrapper .collapsed .field-group-format-toggler a:active i.event-list-location, .page-ting-object .ting-object-wrapper .collapsed .field-group-format-toggler a:active .view-ding-event .view-content > .list > .event-list-item i.event-list-time, .view-ding-event .view-content > .list > .event-list-item .page-ting-object .ting-object-wrapper .collapsed .field-group-format-toggler a:active i.event-list-time, .page-ting-object .ting-object-wrapper .collapsed .field-group-format-toggler a:active span.glyphicon, .page-ting-object .ting-object-wrapper .collapsed .field-group-format-toggler a.active i.fa, .page-ting-object .ting-object-wrapper .collapsed .field-group-format-toggler a.active .library-list i.opening-hours-toggle:after, .library-list .page-ting-object .ting-object-wrapper .collapsed .field-group-format-toggler a.active i.opening-hours-toggle:after,
+.page-ting-object .ting-object-wrapper .collapsed .field-group-format-toggler a.active #ding-library-front .primary-content i.opening-hours-toggle:after,
+#ding-library-front .primary-content .page-ting-object .ting-object-wrapper .collapsed .field-group-format-toggler a.active i.opening-hours-toggle:after, .page-ting-object .ting-object-wrapper .collapsed .field-group-format-toggler a.active .view-ding-event .view-content > .list > .event-list-item i.event-list-location, .view-ding-event .view-content > .list > .event-list-item .page-ting-object .ting-object-wrapper .collapsed .field-group-format-toggler a.active i.event-list-location, .page-ting-object .ting-object-wrapper .collapsed .field-group-format-toggler a.active .view-ding-event .view-content > .list > .event-list-item i.event-list-time, .view-ding-event .view-content > .list > .event-list-item .page-ting-object .ting-object-wrapper .collapsed .field-group-format-toggler a.active i.event-list-time, .page-ting-object .ting-object-wrapper .collapsed .field-group-format-toggler a.active span.glyphicon {
+  -webkit-transform: rotate(180deg);
+  -moz-transform: rotate(180deg);
+  -ms-transform: rotate(180deg);
+  -o-transform: rotate(180deg);
+  transform: rotate(180deg);
+  top: 6px;
+}
+.page-ting-object .ting-object-wrapper .collapsed .field-group-format-toggler a:hover {
+  color: white;
+  background-color: #00a982;
+}
+.page-ting-object .ting-object-wrapper .collapsed .field-group-format-toggler a:after {
+  -webkit-transform: rotate(0deg);
+  -ms-transform: rotate(0deg);
+  transform: rotate(0deg);
 }
 .page-ting-object .ting-object-wrapper .field-group-format-wrapper {
   display: inline-block;

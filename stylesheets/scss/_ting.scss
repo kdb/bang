@@ -68,33 +68,53 @@
     .field-name-ting-subjects a {
       @include tag;
     }
-    &:first-child .ting-object-inner-wrapper,
-    &:last-child .ting-object-inner-wrapper {
-      @include content-box;
-    }
-    .ting-object-inner-wrapper {
+
+    & .ting-object-inner-wrapper {
+      padding: 0;
       background-color: transparent;
-      padding:0;
+    }
+    .content-box.ting-object-inner-wrapper {
+      @include content-box;
     }
 
     // Fix dropdowns...
 
-    .field-group-format-toggler {
+    .field-group-format-toggler a {
+      @include btn;
       @include dropdown-title;
-      padding: 2px unit(1) 4px unit(1);
+
       box-shadow:inset 1px 1px 4px darken($color-mint-green, 10);
       color: tint($color-mint-green, 85);
 
-      i.fa, span.glyphicon{
-        @include transform(rotate(180deg));
-        top:6px;
-      }
+      @extend p;
+
+
+        &:before {
+          display: none;
+        }
+        &:after {
+          @include transition(all .5s ease .1s);
+          @include rotate(180deg);
+          @include opacity(.25);
+          position: absolute;
+          color: #000;
+          top: 7px;
+          right: 17px;
+          display: inline-block;
+          content: "\f078";
+          font-family: FontAwesome;
+
+        }
+
     }
 
     .collapsed {
-      .field-group-format-toggler {
-        @include btn;
+      .field-group-format-toggler a {
+
         @include dropdown-title;
+        &:after {
+          @include rotate(0deg);
+        }
       }
     }
     .field-group-format-wrapper {
