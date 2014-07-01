@@ -6971,6 +6971,7 @@ html body .site-header .logo img {
 }
 html body .site-header .topbar {
   text-align: right;
+  background: transparent;
 }
 html body .site-header .rs-carousel .rs-carousel-inner {
   background-color: transparent;
@@ -7143,11 +7144,23 @@ html body footer.footer .panel-pane li a {
 /**
  * Header color handling.
  **/
-body.front .site-header {
+body.theme-red .site-header {
+  background-color: #ff7275;
+}
+body.theme-purple .site-header {
   background-color: #696092;
 }
-body.front .site-header .topbar {
-  background: transparent;
+body.theme-blue .site-header {
+  background-color: #278fb5;
+}
+body.theme-yellow .site-header {
+  background-color: #ffba48;
+}
+body.theme-green .site-header {
+  background-color: #7cbf9e;
+}
+body.theme-pink .site-header {
+  background-color: #dc90b5;
 }
 
 .pane-ding-library-ding-library-libraries-list .library-list {

@@ -29,6 +29,7 @@ html {
         // All things in header is positioned except from the menus,
         // which should be aligned right.
         text-align: right;
+        background: transparent;
       }
       // Resetting the background and other parts of the carousel since it was
       // moved from the content container to the top.
@@ -185,16 +186,23 @@ html body footer.footer {
  * Header color handling.
  **/
 body{
-  &.front{
-    .site-header {
-      .topbar {
-        background: transparent;
-      }
-      ul.topbar-menu {
-
-      }
-      background-color: $color-purple;
-    }
+  &.theme-red .site-header {
+    background-color: $color-red;
+  }
+  &.theme-purple .site-header {
+    background-color: $color-purple;
+  }
+  &.theme-blue .site-header {
+    background-color: $color-blue;
+  }
+  &.theme-yellow .site-header {
+    background-color: $color-yellow;
+  }
+  &.theme-green .site-header {
+    background-color: $color-green;
+  }
+  &.theme-pink .site-header {
+    background-color: $color-pink;
   }
 }
 
