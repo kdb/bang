@@ -7123,6 +7123,28 @@ html body .site-header .header-wrapper #user-login-form input.form-submit:active
   color: #efefee;
 }
 
+html body .site-header .topbar.has-promotion {
+  background-position: top center;
+  background-repeat: no-repeat;
+}
+html body .site-header .topbar.has-promotion .promotion {
+  margin-top: 40px;
+  height: 290px;
+}
+@media only screen and (max-width: 768px) {
+  html body .site-header .topbar.has-promotion .promotion {
+    display: none;
+  }
+}
+html body .site-header .topbar.has-promotion .promotion ul {
+  padding: 0;
+  text-align: left;
+}
+html body .site-header .topbar.has-promotion .promotion ul li {
+  display: inline-block;
+  margin-right: 30px;
+}
+
 html body footer.footer .panel-pane .pane-title {
   border-bottom: none;
 }

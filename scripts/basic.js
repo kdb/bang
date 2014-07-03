@@ -28,4 +28,35 @@
     }
   };
 
+
+
+  Drupal.behaviors.frontpagePromotions = {
+    attach: function (context) {
+      var promotion = $('.promotion');
+      $(promotion).once('innerdivs', function() {
+
+        var background = promotion.attr('style');
+        promotion.removeAttr('style');
+        promotion.parents('.topbar').attr('style', background).addClass('has-promotion');
+        //
+
+        var items = $('.element-hidden .field-name-field-links > .field-items > .field-item', promotion);
+
+        items.each(function () {
+          var item = $('<li>');
+
+          item.append($(this).find('.field-name-field-link a').html($('.field-name-field-image img', this)));
+          $('ul', promotion).append(item);
+        });
+      });
+    }
+  };
+
+
+
+
+
+
+
+
 })(jQuery);
