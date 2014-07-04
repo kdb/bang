@@ -1721,7 +1721,9 @@ html body footer.footer .page-ting-object .pane-ting-ting-relation-anchors h2, .
 .page-ting-object .pane-ting-ting-relation-anchors html body footer.footer h2 a,
 html body footer.footer h2 .page-ting-object .pane-ting-ting-relation-anchors a, .vertical-list h2 html body footer.footer a, h2 html body footer.footer .vertical-list a, h2 html body footer.footer .panel-pane a, .sub-menu-wrapper h2 html body footer.footer a, h2 html body footer.footer .sub-menu-wrapper a, .pane-ding-eresource-categories h2 html body footer.footer a, h2 html body footer.footer .pane-ding-eresource-categories a, .pane-ting-ting-collection-types h2 html body footer.footer a, h2 html body footer.footer .pane-ting-ting-collection-types a, .page-ting-object .pane-ting-ting-object-types h2 html body footer.footer a, h2 html body footer.footer .page-ting-object .pane-ting-ting-object-types a,
 .page-ting-object .pane-ting-ting-relation-anchors h2 html body footer.footer a,
-h2 html body footer.footer .page-ting-object .pane-ting-ting-relation-anchors a {
+h2 html body footer.footer .page-ting-object .pane-ting-ting-relation-anchors a, .vertical-list .view-kkb-service-notice .views-field-title a, .view-kkb-service-notice .views-field-title .vertical-list a, html body footer.footer .panel-pane .view-kkb-service-notice .views-field-title a, .view-kkb-service-notice .views-field-title html body footer.footer .panel-pane a, .sub-menu-wrapper .view-kkb-service-notice .views-field-title a, .view-kkb-service-notice .views-field-title .sub-menu-wrapper a, .pane-ding-eresource-categories .view-kkb-service-notice .views-field-title a, .view-kkb-service-notice .views-field-title .pane-ding-eresource-categories a, .pane-ting-ting-collection-types .view-kkb-service-notice .views-field-title a, .view-kkb-service-notice .views-field-title .pane-ting-ting-collection-types a, .page-ting-object .pane-ting-ting-object-types .view-kkb-service-notice .views-field-title a, .view-kkb-service-notice .views-field-title .page-ting-object .pane-ting-ting-object-types a,
+.page-ting-object .pane-ting-ting-relation-anchors .view-kkb-service-notice .views-field-title a,
+.view-kkb-service-notice .views-field-title .page-ting-object .pane-ting-ting-relation-anchors a {
   margin-top: 0;
 }
 .vertical-list h4, html body footer.footer .panel-pane h4, .sub-menu-wrapper h4, .pane-ding-eresource-categories h4, .pane-ting-ting-collection-types h4, .page-ting-object .pane-ting-ting-object-types h4,
@@ -2494,13 +2496,13 @@ body, html body {
   line-height: 24px;
 }
 
-h1, h1 a, h1 a:hover, h1.page-title, h2, h2 a, h2 a:hover, h3, h3 a, h3 a:hover, .popover h3, html body footer.footer h2, html body footer.footer h2 a, h2 html body footer.footer a, h4, h4 a, h4 a:hover,
+h1, h1 a, h1 a:hover, h1.page-title, h2, h2 a, h2 a:hover, h3, h3 a, h3 a:hover, .popover h3, html body footer.footer h2, html body footer.footer h2 a, h2 html body footer.footer a, .view-kkb-service-notice .views-field-title a, h4, h4 a, h4 a:hover,
 h5 a, h5 a:hover,
 h6 a, h6 a:hover, h5, h6, p, .page-ting-object .ting-object-wrapper .field-group-format-toggler a, a {
   margin: 0;
   padding: 0;
 }
-h1.underline, h1 a.underline, h2.underline, h2 a.underline, h3.underline, h3 a.underline, html body footer.footer h2.underline, html body footer.footer h2 a.underline, h2 html body footer.footer a.underline, h4.underline, h4 a.underline,
+h1.underline, h1 a.underline, h2.underline, h2 a.underline, h3.underline, h3 a.underline, html body footer.footer h2.underline, html body footer.footer h2 a.underline, h2 html body footer.footer a.underline, .view-kkb-service-notice .views-field-title a.underline, h4.underline, h4 a.underline,
 h5 a.underline,
 h6 a.underline, h5.underline, h6.underline, p.underline, .page-ting-object .ting-object-wrapper .field-group-format-toggler a.underline, a.underline {
   margin-top: 24px;
@@ -2539,7 +2541,7 @@ h2, h2 a, h2 a:hover {
   margin-bottom: 24px;
 }
 
-h3, h3 a, h3 a:hover, .popover h3, html body footer.footer h2, html body footer.footer h2 a, h2 html body footer.footer a {
+h3, h3 a, h3 a:hover, .popover h3, html body footer.footer h2, html body footer.footer h2 a, h2 html body footer.footer a, .view-kkb-service-notice .views-field-title a {
   font-family: 'Merriweather', serif;
   font-weight: 300;
   font-size: 18px;
@@ -2548,7 +2550,7 @@ h3, h3 a, h3 a:hover, .popover h3, html body footer.footer h2, html body footer.
   margin-top: 0px;
   margin-bottom: 24px;
 }
-h3.title, h3 a.title, html body footer.footer h2.title, html body footer.footer h2 a.title, h2 html body footer.footer a.title {
+h3.title, h3 a.title, html body footer.footer h2.title, html body footer.footer h2 a.title, h2 html body footer.footer a.title, .view-kkb-service-notice .views-field-title a.title {
   min-height: 48px;
   padding-top: 21px;
   padding-bottom: 3px;
@@ -2578,12 +2580,12 @@ h1, h1 a, h1 a:hover, h1.page-title, h1 a, h1 a:hover a, h1.page-title a, h1 a:h
   font-weight: normal;
 }
 
-h3, h3 a, h3 a:hover, .popover h3, html body footer.footer h2, html body footer.footer h2 a, h2 html body footer.footer a, h3 a, h3 a:hover a, .popover h3 a, html body footer.footer h2 a, h2 html body footer.footer a a, h3 a:hover, html body footer.footer h2 a:hover, h2 html body footer.footer a a:hover {
+h3, h3 a, h3 a:hover, .popover h3, html body footer.footer h2, html body footer.footer h2 a, h2 html body footer.footer a, .view-kkb-service-notice .views-field-title a, h3 a, h3 a:hover a, .popover h3 a, html body footer.footer h2 a, h2 html body footer.footer a a, .view-kkb-service-notice .views-field-title a a, h3 a:hover, html body footer.footer h2 a:hover, h2 html body footer.footer a a:hover, .view-kkb-service-notice .views-field-title a a:hover {
   font-family: 'merriweatherlight', serif;
   font-weight: normal;
 }
 
-.windows.firefox h1, .windows.firefox h1 a, h1 .windows.firefox a, .windows.firefox h1 a, h1 .windows.firefox a a, .windows.firefox h1 a:hover, h1 .windows.firefox a a:hover, .windows.firefox h2, .windows.firefox h2 a, h2 .windows.firefox a, .windows.firefox h2 a, h2 .windows.firefox a a, .windows.firefox h2 a:hover, h2 .windows.firefox a a:hover, .windows.firefox h3, .windows.firefox h3 a, h3 .windows.firefox a, .windows.firefox html body footer.footer h2, html body footer.footer .windows.firefox h2, .windows.firefox html body footer.footer h2 a, html body footer.footer h2 .windows.firefox a, .windows.firefox h2 html body footer.footer a, h2 html body footer.footer .windows.firefox a, .windows.firefox h3 a, h3 .windows.firefox a a, .windows.firefox html body footer.footer h2 a, html body footer.footer .windows.firefox h2 a, html body footer.footer h2 .windows.firefox a a, .windows.firefox h2 html body footer.footer a a, h2 html body footer.footer .windows.firefox a a, .windows.firefox h3 a:hover, h3 .windows.firefox a a:hover, .windows.firefox html body footer.footer h2 a:hover, html body footer.footer .windows.firefox h2 a:hover, html body footer.footer h2 .windows.firefox a a:hover, .windows.firefox h2 html body footer.footer a a:hover, h2 html body footer.footer .windows.firefox a a:hover {
+.windows.firefox h1, .windows.firefox h1 a, h1 .windows.firefox a, .windows.firefox h1 a, h1 .windows.firefox a a, .windows.firefox h1 a:hover, h1 .windows.firefox a a:hover, .windows.firefox h2, .windows.firefox h2 a, h2 .windows.firefox a, .windows.firefox h2 a, h2 .windows.firefox a a, .windows.firefox h2 a:hover, h2 .windows.firefox a a:hover, .windows.firefox h3, .windows.firefox h3 a, h3 .windows.firefox a, .windows.firefox html body footer.footer h2, html body footer.footer .windows.firefox h2, .windows.firefox html body footer.footer h2 a, html body footer.footer h2 .windows.firefox a, .windows.firefox h2 html body footer.footer a, h2 html body footer.footer .windows.firefox a, .windows.firefox .view-kkb-service-notice .views-field-title a, .view-kkb-service-notice .views-field-title .windows.firefox a, .windows.firefox h3 a, h3 .windows.firefox a a, .windows.firefox html body footer.footer h2 a, html body footer.footer .windows.firefox h2 a, html body footer.footer h2 .windows.firefox a a, .windows.firefox h2 html body footer.footer a a, h2 html body footer.footer .windows.firefox a a, .windows.firefox .view-kkb-service-notice .views-field-title a a, .view-kkb-service-notice .views-field-title .windows.firefox a a, .windows.firefox h3 a:hover, h3 .windows.firefox a a:hover, .windows.firefox html body footer.footer h2 a:hover, html body footer.footer .windows.firefox h2 a:hover, html body footer.footer h2 .windows.firefox a a:hover, .windows.firefox h2 html body footer.footer a a:hover, h2 html body footer.footer .windows.firefox a a:hover, .windows.firefox .view-kkb-service-notice .views-field-title a a:hover, .view-kkb-service-notice .views-field-title .windows.firefox a a:hover {
   font-family: Georgia, serif;
 }
 .windows.firefox h1, .windows.firefox h1 a, h1 .windows.firefox a, .windows.firefox h1 a, h1 .windows.firefox a a, .windows.firefox h1 a:hover, h1 .windows.firefox a a:hover, .windows.firefox h2, .windows.firefox h2 a, h2 .windows.firefox a, .windows.firefox h2 a, h2 .windows.firefox a a, .windows.firefox h2 a:hover, h2 .windows.firefox a a:hover {
@@ -3828,7 +3830,7 @@ right - Right placement
 
 Styleguide 99.2
 */
-.popover h3 a, h3 .popover a, .popover h3, .popover html body footer.footer h2, html body footer.footer .popover h2, .popover html body footer.footer h2 a, html body footer.footer h2 .popover a, .popover h2 html body footer.footer a, h2 html body footer.footer .popover a {
+.popover h3 a, h3 .popover a, .popover h3, .popover html body footer.footer h2, html body footer.footer .popover h2, .popover html body footer.footer h2 a, html body footer.footer h2 .popover a, .popover h2 html body footer.footer a, h2 html body footer.footer .popover a, .popover .view-kkb-service-notice .views-field-title a, .view-kkb-service-notice .views-field-title .popover a {
   border-bottom: none;
   border-radius: 4px;
   background-color: transparent;
@@ -4130,7 +4132,7 @@ h6 .alert a {
   border-radius: 0;
   color: white;
 }
-.alert.alert-infomation h1, .alert.alert-infomation h1 a, h1 .alert.alert-infomation a, .alert.alert-infomation h2, .alert.alert-infomation h2 a, h2 .alert.alert-infomation a, .alert.alert-infomation h3, .alert.alert-infomation h3 a, h3 .alert.alert-infomation a, .alert.alert-infomation html body footer.footer h2, html body footer.footer .alert.alert-infomation h2, .alert.alert-infomation html body footer.footer h2 a, html body footer.footer h2 .alert.alert-infomation a, .alert.alert-infomation h2 html body footer.footer a, h2 html body footer.footer .alert.alert-infomation a, .alert.alert-infomation h4, .alert.alert-infomation h4 a, h4 .alert.alert-infomation a,
+.alert.alert-infomation h1, .alert.alert-infomation h1 a, h1 .alert.alert-infomation a, .alert.alert-infomation h2, .alert.alert-infomation h2 a, h2 .alert.alert-infomation a, .alert.alert-infomation h3, .alert.alert-infomation h3 a, h3 .alert.alert-infomation a, .alert.alert-infomation html body footer.footer h2, html body footer.footer .alert.alert-infomation h2, .alert.alert-infomation html body footer.footer h2 a, html body footer.footer h2 .alert.alert-infomation a, .alert.alert-infomation h2 html body footer.footer a, h2 html body footer.footer .alert.alert-infomation a, .alert.alert-infomation .view-kkb-service-notice .views-field-title a, .view-kkb-service-notice .views-field-title .alert.alert-infomation a, .alert.alert-infomation h4, .alert.alert-infomation h4 a, h4 .alert.alert-infomation a,
 .alert.alert-infomation h5 a,
 h5 .alert.alert-infomation a,
 .alert.alert-infomation h6 a,
@@ -6887,6 +6889,10 @@ html body .pager li {
 }
 
 .navigation-wrapper {
+  background-color: #313233;
+}
+.navigation-wrapper .main-menu-wrapper,
+.navigation-wrapper .secondary-menu-wrapper {
   display: none;
 }
 
@@ -7159,8 +7165,13 @@ html body footer.footer .panel-pane li a {
 }
 
 .default-layout .layout-wrapper,
-.layout-wrapper {
+.layout-wrapper,
+.frontpage-layout .layout-wrapper {
   background-color: transparent;
+  margin-left: 0;
+  margin-right: 0;
+  padding-left: 0;
+  padding-right: 0;
 }
 
 /**
@@ -7667,6 +7678,17 @@ html body .site-header .header-wrapper #user-login-form .taxonomy-dropdown input
   font-weight: bold;
 }
 
+/** Service messages **/
+.view-kkb-service-notice {
+  padding: 30px 10px;
+  color: #fff;
+}
+.view-kkb-service-notice .views-field-title a {
+  color: #fff;
+  margin-bottom: 20px;
+  display: block;
+}
+
 .view-ding-event .view-content .event-list-leaf .event-list-fulldate {
   font-family: 'merriweatherbold', serif;
   font-weight: normal;
@@ -7792,14 +7814,14 @@ html body .site-header .header-wrapper #user-login-form .taxonomy-dropdown input
     display: none;
   }
 }
-.pane-ding-event-ding-event-list .event-list-item h3.event-list-heading, .pane-ding-event-ding-event-list .event-list-item h3 a.event-list-heading, h3 .pane-ding-event-ding-event-list .event-list-item a.event-list-heading, .pane-ding-event-ding-event-list .event-list-item html body footer.footer h2.event-list-heading, html body footer.footer .pane-ding-event-ding-event-list .event-list-item h2.event-list-heading, .pane-ding-event-ding-event-list .event-list-item html body footer.footer h2 a.event-list-heading, html body footer.footer h2 .pane-ding-event-ding-event-list .event-list-item a.event-list-heading, .pane-ding-event-ding-event-list .event-list-item h2 html body footer.footer a.event-list-heading, h2 html body footer.footer .pane-ding-event-ding-event-list .event-list-item a.event-list-heading,
+.pane-ding-event-ding-event-list .event-list-item h3.event-list-heading, .pane-ding-event-ding-event-list .event-list-item h3 a.event-list-heading, h3 .pane-ding-event-ding-event-list .event-list-item a.event-list-heading, .pane-ding-event-ding-event-list .event-list-item html body footer.footer h2.event-list-heading, html body footer.footer .pane-ding-event-ding-event-list .event-list-item h2.event-list-heading, .pane-ding-event-ding-event-list .event-list-item html body footer.footer h2 a.event-list-heading, html body footer.footer h2 .pane-ding-event-ding-event-list .event-list-item a.event-list-heading, .pane-ding-event-ding-event-list .event-list-item h2 html body footer.footer a.event-list-heading, h2 html body footer.footer .pane-ding-event-ding-event-list .event-list-item a.event-list-heading, .pane-ding-event-ding-event-list .event-list-item .view-kkb-service-notice .views-field-title a.event-list-heading, .view-kkb-service-notice .views-field-title .pane-ding-event-ding-event-list .event-list-item a.event-list-heading,
 .pane-ding-event-ding-event-list .event-list-item .event-list-description,
 .pane-ding-event-ding-event-list .event-list-item .event-list-location,
 .pane-ding-event-ding-event-list .event-list-item .event-list-time {
   margin-left: 170px !important;
 }
 @media only screen and (max-width: 768px) {
-  .pane-ding-event-ding-event-list .event-list-item h3.event-list-heading, .pane-ding-event-ding-event-list .event-list-item h3 a.event-list-heading, h3 .pane-ding-event-ding-event-list .event-list-item a.event-list-heading, .pane-ding-event-ding-event-list .event-list-item html body footer.footer h2.event-list-heading, html body footer.footer .pane-ding-event-ding-event-list .event-list-item h2.event-list-heading, .pane-ding-event-ding-event-list .event-list-item html body footer.footer h2 a.event-list-heading, html body footer.footer h2 .pane-ding-event-ding-event-list .event-list-item a.event-list-heading, .pane-ding-event-ding-event-list .event-list-item h2 html body footer.footer a.event-list-heading, h2 html body footer.footer .pane-ding-event-ding-event-list .event-list-item a.event-list-heading,
+  .pane-ding-event-ding-event-list .event-list-item h3.event-list-heading, .pane-ding-event-ding-event-list .event-list-item h3 a.event-list-heading, h3 .pane-ding-event-ding-event-list .event-list-item a.event-list-heading, .pane-ding-event-ding-event-list .event-list-item html body footer.footer h2.event-list-heading, html body footer.footer .pane-ding-event-ding-event-list .event-list-item h2.event-list-heading, .pane-ding-event-ding-event-list .event-list-item html body footer.footer h2 a.event-list-heading, html body footer.footer h2 .pane-ding-event-ding-event-list .event-list-item a.event-list-heading, .pane-ding-event-ding-event-list .event-list-item h2 html body footer.footer a.event-list-heading, h2 html body footer.footer .pane-ding-event-ding-event-list .event-list-item a.event-list-heading, .pane-ding-event-ding-event-list .event-list-item .view-kkb-service-notice .views-field-title a.event-list-heading, .view-kkb-service-notice .views-field-title .pane-ding-event-ding-event-list .event-list-item a.event-list-heading,
   .pane-ding-event-ding-event-list .event-list-item .event-list-description,
   .pane-ding-event-ding-event-list .event-list-item .event-list-location,
   .pane-ding-event-ding-event-list .event-list-item .event-list-time {

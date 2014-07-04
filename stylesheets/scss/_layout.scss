@@ -200,8 +200,13 @@ html body footer.footer {
 // Theming of content area.
 
 .default-layout .layout-wrapper,
-.layout-wrapper {
+.layout-wrapper,
+.frontpage-layout .layout-wrapper {
   background-color: transparent;
+  margin-left: 0;
+  margin-right: 0;
+  padding-left: 0;
+  padding-right: 0;
 }
 
 

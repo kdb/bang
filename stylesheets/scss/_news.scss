@@ -132,3 +132,16 @@ h1.page-title {
     font-weight: bold;
   }
 }
+/** Service messages **/
+
+.view-kkb-service-notice {
+  padding: 30px 10px;
+  color: #fff;
+  .views-field-title a{
+    @extend h3;
+    color: #fff;
+    margin-bottom: 20px;
+    display: block;
+  }
+}
+

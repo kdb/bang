@@ -32,7 +32,12 @@ html body .pager {
   display: block;
 }
 .navigation-wrapper {
-  display: none;
+
+  background-color: $color-black;
+  .main-menu-wrapper,
+  .secondary-menu-wrapper {
+    display: none;
+  }
 }
 .topbar-menu i[class^="icon-"]{
   margin-right: 0;
