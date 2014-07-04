@@ -65,9 +65,13 @@ html {
           &.active {
             // The color was set to 50% in the styleguide, but overridden
             // somehow.
-            background-color: rgba(0, 0, 0, .2);
+            border-bottom: 5px solid white;
+            background: transparent;
           }
-
+        }
+        .topbar-link-search a,
+        .topbar-link-user a {
+          @include border-radius(4px 4px 0 0);
         }
       }
       // This is the block that contains the search and the login bar.
@@ -78,7 +82,7 @@ html {
         // Somehow the height is set here. Should be set by size of content
         // instead.
         height: auto;
-        background-color: rgba(0, 0, 0, .2);
+        //background-color: rgba(0, 0, 0, .2);
         form input[type='text']{
           font-family: $proxima-nova-font-name;
           font-size: 100%;
@@ -214,24 +218,103 @@ html body footer.footer {
 /**
  * Header color handling.
  **/
+
 body{
   &.theme-red .site-header {
     background-color: $color-red;
+    .header-wrapper {
+      background-color: $red-dark;
+    }
+    .topbar-link-search a,
+    .topbar-link-user a {
+      &.active {
+        background: $red-dark;
+        border-bottom: 5px solid $red-dark;
+        &:hover {
+          border-bottom: 5px solid $red-dark;
+        }
+      }
+    }
   }
   &.theme-purple .site-header {
     background-color: $color-purple;
+    .header-wrapper {
+      background-color: $purple-dark;
+    }
+    .topbar-link-search a,
+    .topbar-link-user a {
+      &.active {
+        background: $purple-dark;
+        border-bottom: 5px solid $purple-dark;
+        &:hover {
+          border-bottom: 5px solid $purple-dark;
+        }
+      }
+    }
   }
   &.theme-blue .site-header {
     background-color: $color-blue;
+    .header-wrapper {
+      background-color: $blue-dark;
+    }
+    .topbar-link-search a,
+    .topbar-link-user a {
+      &.active {
+        background: $blue-dark;
+        border-bottom: 5px solid $blue-dark;
+        &:hover {
+          border-bottom: 5px solid $blue-dark;
+        }
+      }
+    }
   }
   &.theme-yellow .site-header {
     background-color: $color-yellow;
+    .header-wrapper {
+      background-color: $yellow-dark;
+    }
+    .topbar-link-search a,
+    .topbar-link-user a {
+      &.active {
+        background: $yellow-dark;
+        border-bottom: 5px solid $yellow-dark;
+        &:hover {
+          border-bottom: 5px solid $yellow-dark;
+        }
+      }
+    }
   }
   &.theme-green .site-header {
     background-color: $color-green;
+    .header-wrapper {
+      background-color: $green-dark;
+    }
+    .topbar-link-search a,
+    .topbar-link-user a {
+      &.active {
+        background: $green-dark;
+        border-bottom: 5px solid $green-dark;
+        &:hover {
+          border-bottom: 5px solid $green-dark;
+        }
+      }
+    }
   }
   &.theme-pink .site-header {
     background-color: $color-pink;
+    .header-wrapper {
+      background-color: $pink-dark;
+    }
+    .topbar-link-search a,
+    .topbar-link-user a {
+      &.active {
+        background: $pink-dark;
+        border-bottom: 5px solid $pink-dark;
+        &:hover {
+          border-bottom: 5px solid $pink-dark;
+        }
+      }
+    }
   }
 }
 
