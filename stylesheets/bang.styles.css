@@ -7324,14 +7324,27 @@ body.theme-pink .site-header .topbar-link-user a.active:hover {
 .pane-ding-library-ding-library-libraries-list .library-list > li.views-row.views-row-odd > div {
   padding-right: 10px;
 }
+@media only screen and (max-width: 768px) {
+  .pane-ding-library-ding-library-libraries-list .library-list > li.views-row.views-row-odd > div {
+    padding-right: 0;
+  }
+}
 .pane-ding-library-ding-library-libraries-list .library-list > li.views-row.views-row-even > div {
   padding-left: 10px;
+}
+@media only screen and (max-width: 768px) {
+  .pane-ding-library-ding-library-libraries-list .library-list > li.views-row.views-row-even > div {
+    padding-left: 0;
+  }
 }
 .pane-ding-library-ding-library-libraries-list .library-list .field-type-link-field a {
   white-space: nowrap;
   text-overflow: ellipsis;
   overflow: hidden;
   display: block;
+}
+.pane-ding-library-ding-library-libraries-list .library-list .field-name-field-ding-library-list-image {
+  margin-bottom: 10px;
 }
 
 .library-list .opening-hours-toggle,

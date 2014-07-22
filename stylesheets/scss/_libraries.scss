@@ -40,10 +40,17 @@
         }
       }
       &.views-row-odd > div {
+
         padding-right: 10px;
+        @include small-medium {
+          padding-right: 0;
+        }
       }
       &.views-row-even > div {
         padding-left: 10px;
+        @include small-medium {
+          padding-left: 0;
+        }
       }
     }
     // The links can become pretty long and confusing to read anyway, so
@@ -53,6 +60,9 @@
       text-overflow: ellipsis;
       overflow: hidden;
       display: block;
+    }
+    .field-name-field-ding-library-list-image {
+      margin-bottom: 10px;
     }
   }
 }
