@@ -13,6 +13,13 @@
 
       font-size: 16px;
       width: 50%;
+      @include small-medium {
+        width: 100%;
+        .libraries {
+          // Declared later, so important here.
+          min-height: 0 !important;
+        }
+      }
       display: inline-block;
       padding: 0;
       background-color: transparent;
