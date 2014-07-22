@@ -1,3 +1,9 @@
+.event .event-content {
+  @include small-medium{
+    padding-top: 10px;
+  }
+}
+
 .view-ding-event {
   .view-content {
 
@@ -44,7 +50,6 @@
 
       .event-arrow-link {
         position: static;
-
         float: right;
         a{
           @include btn;
@@ -56,6 +61,14 @@
               content : 'Læs mere';
               font-weight: bold;
             }
+          }
+        }
+        @include small-medium{
+          display: block;
+          margin-top: 10px;
+          float: none;
+          a{
+            margin-bottom: 0 !important;
           }
         }
       }

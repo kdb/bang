@@ -7771,6 +7771,12 @@ html body .site-header .header-wrapper #user-login-form .taxonomy-dropdown input
   display: block;
 }
 
+@media only screen and (max-width: 768px) {
+  .event .event-content {
+    padding-top: 10px;
+  }
+}
+
 .view-ding-event .view-content .event-list-leaf .event-list-fulldate {
   font-family: 'merriweatherbold', serif;
   font-weight: normal;
@@ -7885,6 +7891,16 @@ html body .site-header .header-wrapper #user-login-form .taxonomy-dropdown input
 .view-ding-event .view-content > .list > .event-list-item .event-arrow-link a i:before, .view-ding-event .view-content > .list > .event-list-item .groups-list .groups-arrow-link a i:before, .groups-list .view-ding-event .view-content > .list > .event-list-item .groups-arrow-link a i:before {
   content: 'Læs mere';
   font-weight: bold;
+}
+@media only screen and (max-width: 768px) {
+  .view-ding-event .view-content > .list > .event-list-item .event-arrow-link, .view-ding-event .view-content > .list > .event-list-item .groups-list .groups-arrow-link, .groups-list .view-ding-event .view-content > .list > .event-list-item .groups-arrow-link {
+    display: block;
+    margin-top: 10px;
+    float: none;
+  }
+  .view-ding-event .view-content > .list > .event-list-item .event-arrow-link a, .view-ding-event .view-content > .list > .event-list-item .groups-list .groups-arrow-link a, .groups-list .view-ding-event .view-content > .list > .event-list-item .groups-arrow-link a {
+    margin-bottom: 0 !important;
+  }
 }
 
 .pane-ding-event-ding-event-list .event-list-item .event-image-wrapper {
