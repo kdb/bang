@@ -121,6 +121,10 @@ html {
             font-weight: normal;
             font-family: $proxima-nova-font-name;
           }
+          i {
+            // Remove icons for input fields.
+            display: none;
+          }
           input {
             font-family: $proxima-nova-font-name;
             border-radius:$border-radius;
