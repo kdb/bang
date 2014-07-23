@@ -163,3 +163,31 @@
     @include heading2;
   }
 }
+
+.library-ref {
+  margin-top: 20px;
+  line-height: 1;
+  padding: 0;
+  background-color: transparent;
+  span,
+  &:hover {
+    background: none;
+    line-height: 1;
+    padding: 0;
+  }
+  a:link,
+  a:visited,
+  a:hover,{
+    background: transparent;
+
+    color: $color-grey-light;
+    text-shadow: none;
+    @extend .meta-location;
+    @extend .fa;
+    &:before {
+      content: "\f041";
+      margin-right: 10px;
+    }
+    display: block;
+  }
+}

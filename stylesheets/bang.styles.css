@@ -2645,22 +2645,60 @@ a.link-danger:hover, a.link-danger:active {
   display: inline-block;
 }
 
-.meta-primary, .meta-primary a, .news-list-item .news-sub-heading .news-date, .meta-secondary, .meta-secondary a, .meta-location a, .library-ref a, .view-ding-event .view-content > .list > .event-list-item .event-list-location a, .meta-location, .library-ref, .view-ding-event .view-content > .list > .event-list-item .event-list-location, .event-tags .library-ref a, .news-list-item .news-sub-heading .news-author, .view-ding-event .view-content > .list > .event-list-item .event-list-time, .view-ding-event .view-content > .list > .event-list-item .event-list-price {
+.meta-primary, .meta-primary a, .news-list-item .news-sub-heading .news-date, .meta-secondary, .meta-secondary a, .meta-location a, .library-ref a:link a,
+.library-ref a:visited a,
+.library-ref a:hover a, .library-ref a, .view-ding-event .view-content > .list > .event-list-item .event-list-location a, .meta-location, .library-ref a:link,
+.library-ref a:visited,
+.library-ref a:hover, .library-ref, .view-ding-event .view-content > .list > .event-list-item .event-list-location, .news-list-item .news-sub-heading .news-author, .view-ding-event .view-content > .list > .event-list-item .event-list-time, .view-ding-event .view-content > .list > .event-list-item .event-list-price {
   font-size: 12px;
   line-height: 16px;
   text-transform: uppercase;
   display: inline-block;
   margin-right: 4px;
 }
-.meta-primary i.fa, .news-list-item .news-sub-heading .news-date i.fa, .meta-secondary i.fa, .meta-location i.fa, .library-ref i.fa, .view-ding-event .view-content > .list > .event-list-item .event-list-location i.fa, .news-list-item .news-sub-heading .news-author i.fa, .view-ding-event .view-content > .list > .event-list-item .event-list-time i.fa, .view-ding-event .view-content > .list > .event-list-item .event-list-price i.fa, .meta-primary .library-list i.opening-hours-toggle:after, .library-list .meta-primary i.opening-hours-toggle:after, .news-list-item .news-sub-heading .news-date .library-list i.opening-hours-toggle:after, .library-list .news-list-item .news-sub-heading .news-date i.opening-hours-toggle:after, .meta-secondary .library-list i.opening-hours-toggle:after, .library-list .meta-secondary i.opening-hours-toggle:after, .meta-location .library-list i.opening-hours-toggle:after, .library-list .meta-location i.opening-hours-toggle:after, .library-ref .library-list i.opening-hours-toggle:after, .library-list .library-ref i.opening-hours-toggle:after, .view-ding-event .view-content > .list > .event-list-item .event-list-location .library-list i.opening-hours-toggle:after, .library-list .view-ding-event .view-content > .list > .event-list-item .event-list-location i.opening-hours-toggle:after, .news-list-item .news-sub-heading .news-author .library-list i.opening-hours-toggle:after, .library-list .news-list-item .news-sub-heading .news-author i.opening-hours-toggle:after, .view-ding-event .view-content > .list > .event-list-item .event-list-time .library-list i.opening-hours-toggle:after, .library-list .view-ding-event .view-content > .list > .event-list-item .event-list-time i.opening-hours-toggle:after, .view-ding-event .view-content > .list > .event-list-item .event-list-price .library-list i.opening-hours-toggle:after, .library-list .view-ding-event .view-content > .list > .event-list-item .event-list-price i.opening-hours-toggle:after,
+.meta-primary i.fa, .meta-primary a i.fa, .news-list-item .news-sub-heading .news-date i.fa, .meta-secondary i.fa, .meta-secondary a i.fa, .meta-location a i.fa, .library-ref a:link a i.fa,
+.library-ref a:visited a i.fa,
+.library-ref a:hover a i.fa, .library-ref a i.fa, .view-ding-event .view-content > .list > .event-list-item .event-list-location a i.fa, .meta-location i.fa, .library-ref a:link i.fa,
+.library-ref a:visited i.fa,
+.library-ref a:hover i.fa, .library-ref i.fa, .view-ding-event .view-content > .list > .event-list-item .event-list-location i.fa, .news-list-item .news-sub-heading .news-author i.fa, .view-ding-event .view-content > .list > .event-list-item .event-list-time i.fa, .view-ding-event .view-content > .list > .event-list-item .event-list-price i.fa, .meta-primary .library-list i.opening-hours-toggle:after, .library-list .meta-primary i.opening-hours-toggle:after, .meta-primary a .library-list i.opening-hours-toggle:after, .library-list .meta-primary a i.opening-hours-toggle:after, .news-list-item .news-sub-heading .news-date .library-list i.opening-hours-toggle:after, .library-list .news-list-item .news-sub-heading .news-date i.opening-hours-toggle:after, .meta-secondary .library-list i.opening-hours-toggle:after, .library-list .meta-secondary i.opening-hours-toggle:after, .meta-secondary a .library-list i.opening-hours-toggle:after, .library-list .meta-secondary a i.opening-hours-toggle:after, .meta-location a .library-list i.opening-hours-toggle:after, .library-list .meta-location a i.opening-hours-toggle:after, .library-ref a:link a .library-list i.opening-hours-toggle:after, .library-list .library-ref a:link a i.opening-hours-toggle:after,
+.library-ref a:visited a .library-list i.opening-hours-toggle:after,
+.library-list .library-ref a:visited a i.opening-hours-toggle:after,
+.library-ref a:hover a .library-list i.opening-hours-toggle:after,
+.library-list .library-ref a:hover a i.opening-hours-toggle:after, .library-ref a .library-list i.opening-hours-toggle:after, .library-list .library-ref a i.opening-hours-toggle:after, .view-ding-event .view-content > .list > .event-list-item .event-list-location a .library-list i.opening-hours-toggle:after, .library-list .view-ding-event .view-content > .list > .event-list-item .event-list-location a i.opening-hours-toggle:after, .meta-location .library-list i.opening-hours-toggle:after, .library-list .meta-location i.opening-hours-toggle:after, .library-ref a:link .library-list i.opening-hours-toggle:after, .library-list .library-ref a:link i.opening-hours-toggle:after,
+.library-ref a:visited .library-list i.opening-hours-toggle:after,
+.library-list .library-ref a:visited i.opening-hours-toggle:after,
+.library-ref a:hover .library-list i.opening-hours-toggle:after,
+.library-list .library-ref a:hover i.opening-hours-toggle:after, .library-ref .library-list i.opening-hours-toggle:after, .library-list .library-ref i.opening-hours-toggle:after, .view-ding-event .view-content > .list > .event-list-item .event-list-location .library-list i.opening-hours-toggle:after, .library-list .view-ding-event .view-content > .list > .event-list-item .event-list-location i.opening-hours-toggle:after, .news-list-item .news-sub-heading .news-author .library-list i.opening-hours-toggle:after, .library-list .news-list-item .news-sub-heading .news-author i.opening-hours-toggle:after, .view-ding-event .view-content > .list > .event-list-item .event-list-time .library-list i.opening-hours-toggle:after, .library-list .view-ding-event .view-content > .list > .event-list-item .event-list-time i.opening-hours-toggle:after, .view-ding-event .view-content > .list > .event-list-item .event-list-price .library-list i.opening-hours-toggle:after, .library-list .view-ding-event .view-content > .list > .event-list-item .event-list-price i.opening-hours-toggle:after,
 .meta-primary #ding-library-front .primary-content i.opening-hours-toggle:after,
 #ding-library-front .primary-content .meta-primary i.opening-hours-toggle:after,
+.meta-primary a #ding-library-front .primary-content i.opening-hours-toggle:after,
+#ding-library-front .primary-content .meta-primary a i.opening-hours-toggle:after,
 .news-list-item .news-sub-heading .news-date #ding-library-front .primary-content i.opening-hours-toggle:after,
 #ding-library-front .primary-content .news-list-item .news-sub-heading .news-date i.opening-hours-toggle:after,
 .meta-secondary #ding-library-front .primary-content i.opening-hours-toggle:after,
 #ding-library-front .primary-content .meta-secondary i.opening-hours-toggle:after,
+.meta-secondary a #ding-library-front .primary-content i.opening-hours-toggle:after,
+#ding-library-front .primary-content .meta-secondary a i.opening-hours-toggle:after,
+.meta-location a #ding-library-front .primary-content i.opening-hours-toggle:after,
+#ding-library-front .primary-content .meta-location a i.opening-hours-toggle:after,
+.library-ref a:link a #ding-library-front .primary-content i.opening-hours-toggle:after,
+#ding-library-front .primary-content .library-ref a:link a i.opening-hours-toggle:after,
+.library-ref a:visited a #ding-library-front .primary-content i.opening-hours-toggle:after,
+#ding-library-front .primary-content .library-ref a:visited a i.opening-hours-toggle:after,
+.library-ref a:hover a #ding-library-front .primary-content i.opening-hours-toggle:after,
+#ding-library-front .primary-content .library-ref a:hover a i.opening-hours-toggle:after,
+.library-ref a #ding-library-front .primary-content i.opening-hours-toggle:after,
+#ding-library-front .primary-content .library-ref a i.opening-hours-toggle:after,
+.view-ding-event .view-content > .list > .event-list-item .event-list-location a #ding-library-front .primary-content i.opening-hours-toggle:after,
+#ding-library-front .primary-content .view-ding-event .view-content > .list > .event-list-item .event-list-location a i.opening-hours-toggle:after,
 .meta-location #ding-library-front .primary-content i.opening-hours-toggle:after,
 #ding-library-front .primary-content .meta-location i.opening-hours-toggle:after,
+.library-ref a:link #ding-library-front .primary-content i.opening-hours-toggle:after,
+#ding-library-front .primary-content .library-ref a:link i.opening-hours-toggle:after,
+.library-ref a:visited #ding-library-front .primary-content i.opening-hours-toggle:after,
+#ding-library-front .primary-content .library-ref a:visited i.opening-hours-toggle:after,
+.library-ref a:hover #ding-library-front .primary-content i.opening-hours-toggle:after,
+#ding-library-front .primary-content .library-ref a:hover i.opening-hours-toggle:after,
 .library-ref #ding-library-front .primary-content i.opening-hours-toggle:after,
 #ding-library-front .primary-content .library-ref i.opening-hours-toggle:after,
 .view-ding-event .view-content > .list > .event-list-item .event-list-location #ding-library-front .primary-content i.opening-hours-toggle:after,
@@ -2670,7 +2708,25 @@ a.link-danger:hover, a.link-danger:active {
 .view-ding-event .view-content > .list > .event-list-item .event-list-time #ding-library-front .primary-content i.opening-hours-toggle:after,
 #ding-library-front .primary-content .view-ding-event .view-content > .list > .event-list-item .event-list-time i.opening-hours-toggle:after,
 .view-ding-event .view-content > .list > .event-list-item .event-list-price #ding-library-front .primary-content i.opening-hours-toggle:after,
-#ding-library-front .primary-content .view-ding-event .view-content > .list > .event-list-item .event-list-price i.opening-hours-toggle:after, .meta-primary .view-ding-event .view-content > .list > .event-list-item i.event-list-location, .view-ding-event .view-content > .list > .event-list-item .meta-primary i.event-list-location, .news-list-item .news-sub-heading .news-date .view-ding-event .view-content > .list > .event-list-item i.event-list-location, .view-ding-event .view-content > .list > .event-list-item .news-list-item .news-sub-heading .news-date i.event-list-location, .meta-secondary .view-ding-event .view-content > .list > .event-list-item i.event-list-location, .view-ding-event .view-content > .list > .event-list-item .meta-secondary i.event-list-location, .meta-location .view-ding-event .view-content > .list > .event-list-item i.event-list-location, .view-ding-event .view-content > .list > .event-list-item .meta-location i.event-list-location, .library-ref .view-ding-event .view-content > .list > .event-list-item i.event-list-location, .view-ding-event .view-content > .list > .event-list-item .library-ref i.event-list-location, .view-ding-event .view-content > .list > .event-list-item .event-list-location i.event-list-location, .news-list-item .news-sub-heading .news-author .view-ding-event .view-content > .list > .event-list-item i.event-list-location, .view-ding-event .view-content > .list > .event-list-item .news-list-item .news-sub-heading .news-author i.event-list-location, .view-ding-event .view-content > .list > .event-list-item .event-list-time i.event-list-location, .view-ding-event .view-content > .list > .event-list-item .event-list-price i.event-list-location, .meta-primary .view-ding-event .view-content > .list > .event-list-item i.event-list-time, .view-ding-event .view-content > .list > .event-list-item .meta-primary i.event-list-time, .news-list-item .news-sub-heading .news-date .view-ding-event .view-content > .list > .event-list-item i.event-list-time, .view-ding-event .view-content > .list > .event-list-item .news-list-item .news-sub-heading .news-date i.event-list-time, .meta-secondary .view-ding-event .view-content > .list > .event-list-item i.event-list-time, .view-ding-event .view-content > .list > .event-list-item .meta-secondary i.event-list-time, .meta-location .view-ding-event .view-content > .list > .event-list-item i.event-list-time, .view-ding-event .view-content > .list > .event-list-item .meta-location i.event-list-time, .library-ref .view-ding-event .view-content > .list > .event-list-item i.event-list-time, .view-ding-event .view-content > .list > .event-list-item .library-ref i.event-list-time, .view-ding-event .view-content > .list > .event-list-item .event-list-location i.event-list-time, .news-list-item .news-sub-heading .news-author .view-ding-event .view-content > .list > .event-list-item i.event-list-time, .view-ding-event .view-content > .list > .event-list-item .news-list-item .news-sub-heading .news-author i.event-list-time, .view-ding-event .view-content > .list > .event-list-item .event-list-time i.event-list-time, .view-ding-event .view-content > .list > .event-list-item .event-list-price i.event-list-time, .meta-primary span, .news-list-item .news-sub-heading .news-date span, .meta-secondary span, .meta-location span, .library-ref span, .view-ding-event .view-content > .list > .event-list-item .event-list-location span, .event-tags .library-ref a span, .news-list-item .news-sub-heading .news-author span, .view-ding-event .view-content > .list > .event-list-item .event-list-time span, .view-ding-event .view-content > .list > .event-list-item .event-list-price span {
+#ding-library-front .primary-content .view-ding-event .view-content > .list > .event-list-item .event-list-price i.opening-hours-toggle:after, .meta-primary .view-ding-event .view-content > .list > .event-list-item i.event-list-location, .view-ding-event .view-content > .list > .event-list-item .meta-primary i.event-list-location, .meta-primary a .view-ding-event .view-content > .list > .event-list-item i.event-list-location, .view-ding-event .view-content > .list > .event-list-item .meta-primary a i.event-list-location, .news-list-item .news-sub-heading .news-date .view-ding-event .view-content > .list > .event-list-item i.event-list-location, .view-ding-event .view-content > .list > .event-list-item .news-list-item .news-sub-heading .news-date i.event-list-location, .meta-secondary .view-ding-event .view-content > .list > .event-list-item i.event-list-location, .view-ding-event .view-content > .list > .event-list-item .meta-secondary i.event-list-location, .meta-secondary a .view-ding-event .view-content > .list > .event-list-item i.event-list-location, .view-ding-event .view-content > .list > .event-list-item .meta-secondary a i.event-list-location, .meta-location a .view-ding-event .view-content > .list > .event-list-item i.event-list-location, .view-ding-event .view-content > .list > .event-list-item .meta-location a i.event-list-location, .library-ref a:link a .view-ding-event .view-content > .list > .event-list-item i.event-list-location, .view-ding-event .view-content > .list > .event-list-item .library-ref a:link a i.event-list-location,
+.library-ref a:visited a .view-ding-event .view-content > .list > .event-list-item i.event-list-location,
+.view-ding-event .view-content > .list > .event-list-item .library-ref a:visited a i.event-list-location,
+.library-ref a:hover a .view-ding-event .view-content > .list > .event-list-item i.event-list-location,
+.view-ding-event .view-content > .list > .event-list-item .library-ref a:hover a i.event-list-location, .library-ref a .view-ding-event .view-content > .list > .event-list-item i.event-list-location, .view-ding-event .view-content > .list > .event-list-item .library-ref a i.event-list-location, .view-ding-event .view-content > .list > .event-list-item .event-list-location a i.event-list-location, .meta-location .view-ding-event .view-content > .list > .event-list-item i.event-list-location, .view-ding-event .view-content > .list > .event-list-item .meta-location i.event-list-location, .library-ref a:link .view-ding-event .view-content > .list > .event-list-item i.event-list-location, .view-ding-event .view-content > .list > .event-list-item .library-ref a:link i.event-list-location,
+.library-ref a:visited .view-ding-event .view-content > .list > .event-list-item i.event-list-location,
+.view-ding-event .view-content > .list > .event-list-item .library-ref a:visited i.event-list-location,
+.library-ref a:hover .view-ding-event .view-content > .list > .event-list-item i.event-list-location,
+.view-ding-event .view-content > .list > .event-list-item .library-ref a:hover i.event-list-location, .library-ref .view-ding-event .view-content > .list > .event-list-item i.event-list-location, .view-ding-event .view-content > .list > .event-list-item .library-ref i.event-list-location, .view-ding-event .view-content > .list > .event-list-item .event-list-location i.event-list-location, .news-list-item .news-sub-heading .news-author .view-ding-event .view-content > .list > .event-list-item i.event-list-location, .view-ding-event .view-content > .list > .event-list-item .news-list-item .news-sub-heading .news-author i.event-list-location, .view-ding-event .view-content > .list > .event-list-item .event-list-time i.event-list-location, .view-ding-event .view-content > .list > .event-list-item .event-list-price i.event-list-location, .meta-primary .view-ding-event .view-content > .list > .event-list-item i.event-list-time, .view-ding-event .view-content > .list > .event-list-item .meta-primary i.event-list-time, .meta-primary a .view-ding-event .view-content > .list > .event-list-item i.event-list-time, .view-ding-event .view-content > .list > .event-list-item .meta-primary a i.event-list-time, .news-list-item .news-sub-heading .news-date .view-ding-event .view-content > .list > .event-list-item i.event-list-time, .view-ding-event .view-content > .list > .event-list-item .news-list-item .news-sub-heading .news-date i.event-list-time, .meta-secondary .view-ding-event .view-content > .list > .event-list-item i.event-list-time, .view-ding-event .view-content > .list > .event-list-item .meta-secondary i.event-list-time, .meta-secondary a .view-ding-event .view-content > .list > .event-list-item i.event-list-time, .view-ding-event .view-content > .list > .event-list-item .meta-secondary a i.event-list-time, .meta-location a .view-ding-event .view-content > .list > .event-list-item i.event-list-time, .view-ding-event .view-content > .list > .event-list-item .meta-location a i.event-list-time, .library-ref a:link a .view-ding-event .view-content > .list > .event-list-item i.event-list-time, .view-ding-event .view-content > .list > .event-list-item .library-ref a:link a i.event-list-time,
+.library-ref a:visited a .view-ding-event .view-content > .list > .event-list-item i.event-list-time,
+.view-ding-event .view-content > .list > .event-list-item .library-ref a:visited a i.event-list-time,
+.library-ref a:hover a .view-ding-event .view-content > .list > .event-list-item i.event-list-time,
+.view-ding-event .view-content > .list > .event-list-item .library-ref a:hover a i.event-list-time, .library-ref a .view-ding-event .view-content > .list > .event-list-item i.event-list-time, .view-ding-event .view-content > .list > .event-list-item .library-ref a i.event-list-time, .view-ding-event .view-content > .list > .event-list-item .event-list-location a i.event-list-time, .meta-location .view-ding-event .view-content > .list > .event-list-item i.event-list-time, .view-ding-event .view-content > .list > .event-list-item .meta-location i.event-list-time, .library-ref a:link .view-ding-event .view-content > .list > .event-list-item i.event-list-time, .view-ding-event .view-content > .list > .event-list-item .library-ref a:link i.event-list-time,
+.library-ref a:visited .view-ding-event .view-content > .list > .event-list-item i.event-list-time,
+.view-ding-event .view-content > .list > .event-list-item .library-ref a:visited i.event-list-time,
+.library-ref a:hover .view-ding-event .view-content > .list > .event-list-item i.event-list-time,
+.view-ding-event .view-content > .list > .event-list-item .library-ref a:hover i.event-list-time, .library-ref .view-ding-event .view-content > .list > .event-list-item i.event-list-time, .view-ding-event .view-content > .list > .event-list-item .library-ref i.event-list-time, .view-ding-event .view-content > .list > .event-list-item .event-list-location i.event-list-time, .news-list-item .news-sub-heading .news-author .view-ding-event .view-content > .list > .event-list-item i.event-list-time, .view-ding-event .view-content > .list > .event-list-item .news-list-item .news-sub-heading .news-author i.event-list-time, .view-ding-event .view-content > .list > .event-list-item .event-list-time i.event-list-time, .view-ding-event .view-content > .list > .event-list-item .event-list-price i.event-list-time, .meta-primary span, .news-list-item .news-sub-heading .news-date span, .meta-secondary span, .meta-location span, .library-ref a:link span,
+.library-ref a:visited span,
+.library-ref a:hover span, .library-ref span, .view-ding-event .view-content > .list > .event-list-item .event-list-location span, .news-list-item .news-sub-heading .news-author span, .view-ding-event .view-content > .list > .event-list-item .event-list-time span, .view-ding-event .view-content > .list > .event-list-item .event-list-price span {
   margin-right: 4px;
   text-align: center;
   min-width: 12px;
@@ -2696,11 +2752,19 @@ a.link-danger:hover, a.link-danger:active {
   color: #009a76;
 }
 
-.meta-secondary, .meta-secondary a, .meta-location a, .library-ref a, .view-ding-event .view-content > .list > .event-list-item .event-list-location a, .meta-location, .library-ref, .view-ding-event .view-content > .list > .event-list-item .event-list-location, .event-tags .library-ref a, .news-list-item .news-sub-heading .news-author, .view-ding-event .view-content > .list > .event-list-item .event-list-time, .view-ding-event .view-content > .list > .event-list-item .event-list-price {
+.meta-secondary, .meta-secondary a, .meta-location a, .library-ref a:link a,
+.library-ref a:visited a,
+.library-ref a:hover a, .library-ref a, .view-ding-event .view-content > .list > .event-list-item .event-list-location a, .meta-location, .library-ref a:link,
+.library-ref a:visited,
+.library-ref a:hover, .library-ref, .view-ding-event .view-content > .list > .event-list-item .event-list-location, .news-list-item .news-sub-heading .news-author, .view-ding-event .view-content > .list > .event-list-item .event-list-time, .view-ding-event .view-content > .list > .event-list-item .event-list-price {
   color: #b1b1ad;
 }
 
-.meta-secondary a, .meta-location a, .library-ref a, .view-ding-event .view-content > .list > .event-list-item .event-list-location a, .event-tags .library-ref a a, .news-list-item .news-sub-heading .news-author a, .view-ding-event .view-content > .list > .event-list-item .event-list-time a, .view-ding-event .view-content > .list > .event-list-item .event-list-price a, .meta-location a, .library-ref a, .view-ding-event .view-content > .list > .event-list-item .event-list-location a, .event-tags .library-ref a a {
+.meta-secondary a, .meta-location a, .library-ref a:link a,
+.library-ref a:visited a,
+.library-ref a:hover a, .library-ref a, .view-ding-event .view-content > .list > .event-list-item .event-list-location a, .news-list-item .news-sub-heading .news-author a, .view-ding-event .view-content > .list > .event-list-item .event-list-time a, .view-ding-event .view-content > .list > .event-list-item .event-list-price a, .meta-location a, .library-ref a:link a,
+.library-ref a:visited a,
+.library-ref a:hover a, .library-ref a, .view-ding-event .view-content > .list > .event-list-item .event-list-location a {
   margin-right: 0;
 }
 .meta-secondary a:hover, .meta-location a:hover, .library-ref a:hover, .view-ding-event .view-content > .list > .event-list-item .event-list-location a:hover, .news-list-item .news-sub-heading .news-author a:hover, .view-ding-event .view-content > .list > .event-list-item .event-list-time a:hover, .view-ding-event .view-content > .list > .event-list-item .event-list-price a:hover, .meta-location a:hover, .library-ref a:hover, .view-ding-event .view-content > .list > .event-list-item .event-list-location a:hover {
@@ -5085,7 +5149,9 @@ pre code {
   font-style: normal;
 }
 .fa, .library-list .opening-hours-toggle:after,
-#ding-library-front .primary-content .opening-hours-toggle:after, .view-ding-event .view-content > .list > .event-list-item .event-list-location, .view-ding-event .view-content > .list > .event-list-item .event-list-time, .event-tags .library-ref a {
+#ding-library-front .primary-content .opening-hours-toggle:after, .library-ref a:link,
+.library-ref a:visited,
+.library-ref a:hover, .view-ding-event .view-content > .list > .event-list-item .event-list-location, .view-ding-event .view-content > .list > .event-list-item .event-list-time {
   display: inline-block;
   font-family: FontAwesome;
   font-style: normal;
@@ -5158,11 +5224,15 @@ pre code {
 }
 
 .fa.pull-left, .library-list .pull-left.opening-hours-toggle:after,
-#ding-library-front .primary-content .pull-left.opening-hours-toggle:after, .view-ding-event .view-content > .list > .event-list-item .pull-left.event-list-location, .view-ding-event .view-content > .list > .event-list-item .pull-left.event-list-time, .event-tags .library-ref a.pull-left {
+#ding-library-front .primary-content .pull-left.opening-hours-toggle:after, .library-ref a.pull-left:link,
+.library-ref a.pull-left:visited,
+.library-ref a.pull-left:hover, .view-ding-event .view-content > .list > .event-list-item .pull-left.event-list-location, .view-ding-event .view-content > .list > .event-list-item .pull-left.event-list-time {
   margin-right: .3em;
 }
 .fa.pull-right, .library-list .pull-right.opening-hours-toggle:after,
-#ding-library-front .primary-content .pull-right.opening-hours-toggle:after, .view-ding-event .view-content > .list > .event-list-item .pull-right.event-list-location, .view-ding-event .view-content > .list > .event-list-item .pull-right.event-list-time, .event-tags .library-ref a.pull-right {
+#ding-library-front .primary-content .pull-right.opening-hours-toggle:after, .library-ref a.pull-right:link,
+.library-ref a.pull-right:visited,
+.library-ref a.pull-right:hover, .view-ding-event .view-content > .list > .event-list-item .pull-right.event-list-location, .view-ding-event .view-content > .list > .event-list-item .pull-right.event-list-time {
   margin-left: .3em;
 }
 
@@ -7460,6 +7530,32 @@ body.theme-pink .site-header .topbar-link-user a.active:hover {
   margin-bottom: 24px;
 }
 
+.library-ref {
+  margin-top: 20px;
+  line-height: 1;
+  padding: 0;
+  background-color: transparent;
+}
+.library-ref span, .library-ref:hover {
+  background: none;
+  line-height: 1;
+  padding: 0;
+}
+.library-ref a:link,
+.library-ref a:visited,
+.library-ref a:hover {
+  background: transparent;
+  color: #b1b1ad;
+  text-shadow: none;
+  display: block;
+}
+.library-ref a:link:before,
+.library-ref a:visited:before,
+.library-ref a:hover:before {
+  content: "\f041";
+  margin-right: 10px;
+}
+
 .layout-wrapper ul.list.news-list .news-list-item {
   display: inline-block;
   width: 100%;
@@ -7596,6 +7692,10 @@ body.theme-pink .site-header .topbar-link-user a.active:hover {
 .library-ref span a:link {
   color: #b1b1ad;
   text-shadow: none;
+}
+
+.news-tags {
+  display: block;
 }
 
 .news-category a {
@@ -8005,16 +8105,9 @@ html body .site-header .header-wrapper #user-login-form .taxonomy-dropdown input
     float: none;
   }
 }
-.event-tags .library-ref {
-  background-color: transparent;
-}
-.event-tags .library-ref a {
-  text-shadow: none;
+.event-tags .event-tags {
+  margin-bottom: 0;
   display: block;
-}
-.event-tags .library-ref a:before {
-  content: "\f041";
-  margin-right: 10px;
 }
 
 .groups-list .groups-list-item {

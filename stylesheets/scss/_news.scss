@@ -84,6 +84,7 @@ h1.page-title {
 }
 .news-tags{
   @extend .tags;
+  display: block;
   a {
     @extend .tag;
   }

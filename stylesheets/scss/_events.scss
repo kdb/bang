@@ -97,26 +97,16 @@
 }
 
 .event-tags {
+
   .event-category a {
     @include btn;
   }
   .event-tags {
+    margin-bottom: 0;
     @extend .tags;
+    display: block;
     a {
       @extend .tag;
-    }
-  }
-  .library-ref {
-    background-color: transparent;
-    a {
-      text-shadow: none;
-      @extend .meta-location;
-      @extend .fa;
-      &:before {
-        content: "\f041";
-        margin-right: 10px;
-      }
-      display: block;
     }
   }
 }
