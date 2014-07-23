@@ -123,3 +123,9 @@
     }
   }
 }
+.field-name-ting-subjects {
+  @extend .tags;
+  .subject {
+    @extend .tag;
+  }
+}

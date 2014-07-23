@@ -2775,17 +2775,17 @@ a.link-danger:hover, a.link-danger:active {
   font-weight: 600;
 }
 
-.tags, .news-tags, .event-tags .event-tags {
+.tags, .news-tags, .event-tags .event-tags, .field-name-ting-subjects {
   display: inline-block;
 }
 @media only screen and (max-width: 480px) {
-  .tags, .news-tags, .event-tags .event-tags {
+  .tags, .news-tags, .event-tags .event-tags, .field-name-ting-subjects {
     margin-bottom: 24px;
   }
 }
 
 .tag, .news-list-item .news-label a,
-.news-list-item .views-field-field-ding-news-tags a, .news-tags a, .event-tags .event-tags a {
+.news-list-item .views-field-field-ding-news-tags a, .news-tags a, .event-tags .event-tags a, .field-name-ting-subjects .subject {
   display: inline-block;
   padding: 5px 16px;
   margin-bottom: 14px;
@@ -2814,10 +2814,10 @@ a.link-danger:hover, a.link-danger:active {
   display: inline-block;
 }
 .tag span.glyphicon, .news-list-item .news-label a span.glyphicon,
-.news-list-item .views-field-field-ding-news-tags a span.glyphicon, .news-tags a span.glyphicon, .event-tags .event-tags a span.glyphicon, .tag i.fa, .news-list-item .news-label a i.fa,
-.news-list-item .views-field-field-ding-news-tags a i.fa, .news-tags a i.fa, .event-tags .event-tags a i.fa, .tag .library-list i.opening-hours-toggle:after, .library-list .tag i.opening-hours-toggle:after, .news-list-item .news-label a .library-list i.opening-hours-toggle:after, .library-list .news-list-item .news-label a i.opening-hours-toggle:after,
+.news-list-item .views-field-field-ding-news-tags a span.glyphicon, .news-tags a span.glyphicon, .event-tags .event-tags a span.glyphicon, .field-name-ting-subjects .subject span.glyphicon, .tag i.fa, .news-list-item .news-label a i.fa,
+.news-list-item .views-field-field-ding-news-tags a i.fa, .news-tags a i.fa, .event-tags .event-tags a i.fa, .field-name-ting-subjects .subject i.fa, .tag .library-list i.opening-hours-toggle:after, .library-list .tag i.opening-hours-toggle:after, .news-list-item .news-label a .library-list i.opening-hours-toggle:after, .library-list .news-list-item .news-label a i.opening-hours-toggle:after,
 .news-list-item .views-field-field-ding-news-tags a .library-list i.opening-hours-toggle:after,
-.library-list .news-list-item .views-field-field-ding-news-tags a i.opening-hours-toggle:after, .news-tags a .library-list i.opening-hours-toggle:after, .library-list .news-tags a i.opening-hours-toggle:after, .event-tags .event-tags a .library-list i.opening-hours-toggle:after, .library-list .event-tags .event-tags a i.opening-hours-toggle:after,
+.library-list .news-list-item .views-field-field-ding-news-tags a i.opening-hours-toggle:after, .news-tags a .library-list i.opening-hours-toggle:after, .library-list .news-tags a i.opening-hours-toggle:after, .event-tags .event-tags a .library-list i.opening-hours-toggle:after, .library-list .event-tags .event-tags a i.opening-hours-toggle:after, .field-name-ting-subjects .subject .library-list i.opening-hours-toggle:after, .library-list .field-name-ting-subjects .subject i.opening-hours-toggle:after,
 .tag #ding-library-front .primary-content i.opening-hours-toggle:after,
 #ding-library-front .primary-content .tag i.opening-hours-toggle:after,
 .news-list-item .news-label a #ding-library-front .primary-content i.opening-hours-toggle:after,
@@ -2827,11 +2827,13 @@ a.link-danger:hover, a.link-danger:active {
 .news-tags a #ding-library-front .primary-content i.opening-hours-toggle:after,
 #ding-library-front .primary-content .news-tags a i.opening-hours-toggle:after,
 .event-tags .event-tags a #ding-library-front .primary-content i.opening-hours-toggle:after,
-#ding-library-front .primary-content .event-tags .event-tags a i.opening-hours-toggle:after, .tag .view-ding-event .view-content > .list > .event-list-item i.event-list-location, .view-ding-event .view-content > .list > .event-list-item .tag i.event-list-location, .news-list-item .news-label a .view-ding-event .view-content > .list > .event-list-item i.event-list-location, .view-ding-event .view-content > .list > .event-list-item .news-list-item .news-label a i.event-list-location,
+#ding-library-front .primary-content .event-tags .event-tags a i.opening-hours-toggle:after,
+.field-name-ting-subjects .subject #ding-library-front .primary-content i.opening-hours-toggle:after,
+#ding-library-front .primary-content .field-name-ting-subjects .subject i.opening-hours-toggle:after, .tag .view-ding-event .view-content > .list > .event-list-item i.event-list-location, .view-ding-event .view-content > .list > .event-list-item .tag i.event-list-location, .news-list-item .news-label a .view-ding-event .view-content > .list > .event-list-item i.event-list-location, .view-ding-event .view-content > .list > .event-list-item .news-list-item .news-label a i.event-list-location,
 .news-list-item .views-field-field-ding-news-tags a .view-ding-event .view-content > .list > .event-list-item i.event-list-location,
-.view-ding-event .view-content > .list > .event-list-item .news-list-item .views-field-field-ding-news-tags a i.event-list-location, .news-tags a .view-ding-event .view-content > .list > .event-list-item i.event-list-location, .view-ding-event .view-content > .list > .event-list-item .news-tags a i.event-list-location, .event-tags .event-tags a .view-ding-event .view-content > .list > .event-list-item i.event-list-location, .view-ding-event .view-content > .list > .event-list-item .event-tags .event-tags a i.event-list-location, .tag .view-ding-event .view-content > .list > .event-list-item i.event-list-time, .view-ding-event .view-content > .list > .event-list-item .tag i.event-list-time, .news-list-item .news-label a .view-ding-event .view-content > .list > .event-list-item i.event-list-time, .view-ding-event .view-content > .list > .event-list-item .news-list-item .news-label a i.event-list-time,
+.view-ding-event .view-content > .list > .event-list-item .news-list-item .views-field-field-ding-news-tags a i.event-list-location, .news-tags a .view-ding-event .view-content > .list > .event-list-item i.event-list-location, .view-ding-event .view-content > .list > .event-list-item .news-tags a i.event-list-location, .event-tags .event-tags a .view-ding-event .view-content > .list > .event-list-item i.event-list-location, .view-ding-event .view-content > .list > .event-list-item .event-tags .event-tags a i.event-list-location, .field-name-ting-subjects .subject .view-ding-event .view-content > .list > .event-list-item i.event-list-location, .view-ding-event .view-content > .list > .event-list-item .field-name-ting-subjects .subject i.event-list-location, .tag .view-ding-event .view-content > .list > .event-list-item i.event-list-time, .view-ding-event .view-content > .list > .event-list-item .tag i.event-list-time, .news-list-item .news-label a .view-ding-event .view-content > .list > .event-list-item i.event-list-time, .view-ding-event .view-content > .list > .event-list-item .news-list-item .news-label a i.event-list-time,
 .news-list-item .views-field-field-ding-news-tags a .view-ding-event .view-content > .list > .event-list-item i.event-list-time,
-.view-ding-event .view-content > .list > .event-list-item .news-list-item .views-field-field-ding-news-tags a i.event-list-time, .news-tags a .view-ding-event .view-content > .list > .event-list-item i.event-list-time, .view-ding-event .view-content > .list > .event-list-item .news-tags a i.event-list-time, .event-tags .event-tags a .view-ding-event .view-content > .list > .event-list-item i.event-list-time, .view-ding-event .view-content > .list > .event-list-item .event-tags .event-tags a i.event-list-time {
+.view-ding-event .view-content > .list > .event-list-item .news-list-item .views-field-field-ding-news-tags a i.event-list-time, .news-tags a .view-ding-event .view-content > .list > .event-list-item i.event-list-time, .view-ding-event .view-content > .list > .event-list-item .news-tags a i.event-list-time, .event-tags .event-tags a .view-ding-event .view-content > .list > .event-list-item i.event-list-time, .view-ding-event .view-content > .list > .event-list-item .event-tags .event-tags a i.event-list-time, .field-name-ting-subjects .subject .view-ding-event .view-content > .list > .event-list-item i.event-list-time, .view-ding-event .view-content > .list > .event-list-item .field-name-ting-subjects .subject i.event-list-time {
   color: black;
   -moz-opacity: 0.25;
   opacity: .25;
@@ -2841,46 +2843,46 @@ a.link-danger:hover, a.link-danger:active {
   display: inline-block;
 }
 .tag:active, .news-list-item .news-label a:active,
-.news-list-item .views-field-field-ding-news-tags a:active, .news-tags a:active, .event-tags .event-tags a:active, .tag.pseudo-class-active, .news-list-item .news-label a.pseudo-class-active,
-.news-list-item .views-field-field-ding-news-tags a.pseudo-class-active, .news-tags a.pseudo-class-active, .event-tags .event-tags a.pseudo-class-active {
+.news-list-item .views-field-field-ding-news-tags a:active, .news-tags a:active, .event-tags .event-tags a:active, .field-name-ting-subjects .subject:active, .tag.pseudo-class-active, .news-list-item .news-label a.pseudo-class-active,
+.news-list-item .views-field-field-ding-news-tags a.pseudo-class-active, .news-tags a.pseudo-class-active, .event-tags .event-tags a.pseudo-class-active, .field-name-ting-subjects .pseudo-class-active.subject {
   padding: 4px 16px 6px 16px;
   box-shadow: inset 1px 1px 4px #008063;
   color: #d8f3ed;
 }
 .tag:hover, .news-list-item .news-label a:hover,
-.news-list-item .views-field-field-ding-news-tags a:hover, .news-tags a:hover, .event-tags .event-tags a:hover, .tag.pseudo-class-hover, .news-list-item .news-label a.pseudo-class-hover,
-.news-list-item .views-field-field-ding-news-tags a.pseudo-class-hover, .news-tags a.pseudo-class-hover, .event-tags .event-tags a.pseudo-class-hover {
+.news-list-item .views-field-field-ding-news-tags a:hover, .news-tags a:hover, .event-tags .event-tags a:hover, .field-name-ting-subjects .subject:hover, .tag.pseudo-class-hover, .news-list-item .news-label a.pseudo-class-hover,
+.news-list-item .views-field-field-ding-news-tags a.pseudo-class-hover, .news-tags a.pseudo-class-hover, .event-tags .event-tags a.pseudo-class-hover, .field-name-ting-subjects .pseudo-class-hover.subject {
   color: white;
   background-color: #00a982;
 }
 .tag.btn-right, .news-list-item .news-label a.btn-right,
-.news-list-item .views-field-field-ding-news-tags a.btn-right, .news-tags a.btn-right, .event-tags .event-tags a.btn-right {
+.news-list-item .views-field-field-ding-news-tags a.btn-right, .news-tags a.btn-right, .event-tags .event-tags a.btn-right, .field-name-ting-subjects .btn-right.subject {
   float: right;
   margin-bottom: 0;
 }
 @media only screen and (max-width: 480px) {
   .tag, .news-list-item .news-label a,
-  .news-list-item .views-field-field-ding-news-tags a, .news-tags a, .event-tags .event-tags a {
+  .news-list-item .views-field-field-ding-news-tags a, .news-tags a, .event-tags .event-tags a, .field-name-ting-subjects .subject {
     width: 100%;
   }
   .tag.btn-right, .news-list-item .news-label a.btn-right,
-  .news-list-item .views-field-field-ding-news-tags a.btn-right, .news-tags a.btn-right, .event-tags .event-tags a.btn-right {
+  .news-list-item .views-field-field-ding-news-tags a.btn-right, .news-tags a.btn-right, .event-tags .event-tags a.btn-right, .field-name-ting-subjects .btn-right.subject {
     float: none;
   }
 }
 .tag:active, .news-list-item .news-label a:active,
-.news-list-item .views-field-field-ding-news-tags a:active, .news-tags a:active, .event-tags .event-tags a:active {
+.news-list-item .views-field-field-ding-news-tags a:active, .news-tags a:active, .event-tags .event-tags a:active, .field-name-ting-subjects .subject:active {
   padding: 0px 6px 1px 6px;
   line-height: 21px;
 }
 .tag:hover, .news-list-item .news-label a:hover,
-.news-list-item .views-field-field-ding-news-tags a:hover, .news-tags a:hover, .event-tags .event-tags a:hover, .tag.pseudo-class-hover, .news-list-item .news-label a.pseudo-class-hover,
-.news-list-item .views-field-field-ding-news-tags a.pseudo-class-hover, .news-tags a.pseudo-class-hover, .event-tags .event-tags a.pseudo-class-hover {
+.news-list-item .views-field-field-ding-news-tags a:hover, .news-tags a:hover, .event-tags .event-tags a:hover, .field-name-ting-subjects .subject:hover, .tag.pseudo-class-hover, .news-list-item .news-label a.pseudo-class-hover,
+.news-list-item .views-field-field-ding-news-tags a.pseudo-class-hover, .news-tags a.pseudo-class-hover, .event-tags .event-tags a.pseudo-class-hover, .field-name-ting-subjects .pseudo-class-hover.subject {
   background-color: #a7a7a3;
 }
 .tag:active, .news-list-item .news-label a:active,
-.news-list-item .views-field-field-ding-news-tags a:active, .news-tags a:active, .event-tags .event-tags a:active, .tag.pseudo-class-active, .news-list-item .news-label a.pseudo-class-active,
-.news-list-item .views-field-field-ding-news-tags a.pseudo-class-active, .news-tags a.pseudo-class-active, .event-tags .event-tags a.pseudo-class-active {
+.news-list-item .views-field-field-ding-news-tags a:active, .news-tags a:active, .event-tags .event-tags a:active, .field-name-ting-subjects .subject:active, .tag.pseudo-class-active, .news-list-item .news-label a.pseudo-class-active,
+.news-list-item .views-field-field-ding-news-tags a.pseudo-class-active, .news-tags a.pseudo-class-active, .event-tags .event-tags a.pseudo-class-active, .field-name-ting-subjects .pseudo-class-active.subject {
   box-shadow: inset 1px 1px 4px #8c8c86;
   color: #efefee;
 }
@@ -2888,7 +2890,7 @@ a.link-danger:hover, a.link-danger:active {
 @media only screen and (max-width: 480px) {
   body .tag, body .news-list-item .news-label a, .news-list-item .news-label body a,
   body .news-list-item .views-field-field-ding-news-tags a,
-  .news-list-item .views-field-field-ding-news-tags body a, body .news-tags a, .news-tags body a, body .event-tags .event-tags a, .event-tags .event-tags body a {
+  .news-list-item .views-field-field-ding-news-tags body a, body .news-tags a, .news-tags body a, body .event-tags .event-tags a, .event-tags .event-tags body a, body .field-name-ting-subjects .subject, .field-name-ting-subjects body .subject {
     width: auto;
   }
 }
