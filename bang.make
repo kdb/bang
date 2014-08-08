@@ -1,3 +1,6 @@
+core = 7.x
+api = 2
+
 ; Add the styleguide as a library to be included in bang theme.
 libraries[kkb_styleguide][download][type] = "git"
 libraries[kkb_styleguide][download][url] = "git@github.com:reload/kkb-styleguide.git"
