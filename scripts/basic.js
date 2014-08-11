@@ -1,6 +1,17 @@
 
 (function ($) {
 
+  // Change title of opening hours toggle.
+  $(document).ready(function($) {
+    $('.opening-hours-toggle').each(function() {
+      try {
+        $(this).text($(this).next('.js-opening-hours-toggle-element')[0].getAttribute('data-title'));
+      } catch (e) {
+        // Ignore errors - probably there was no title.
+      }
+    });
+  })($);
+
   Drupal.behaviors.fixGroupsOnFrontpage = {
     attach: function (context) {
       var wrapper = $('body.front .group-blocks--wrapper', context).get(0);
