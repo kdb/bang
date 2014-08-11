@@ -131,6 +131,7 @@
     background-color: #fff;
     border-radius: 4px;
     box-shadow: 0 1px 2px #b1b1ad;
+    @include clearfix;
   }
 
   .libraries {
@@ -145,6 +146,7 @@
     }
 
     .ding-library-aside,
+    .view-id-page_opening_hours,
     .field-name-opening-hours-week {
       @include zen-clear();
       @include zen-grid-item(1, 1);
