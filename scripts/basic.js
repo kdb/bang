@@ -1,4 +1,3 @@
-
 (function ($) {
 
   // Change title of opening hours toggle.
@@ -39,8 +38,6 @@
     }
   };
 
-
-
   Drupal.behaviors.frontpagePromotions = {
     attach: function (context) {
       var promotion = $('.promotion');
@@ -62,12 +59,5 @@
       });
     }
   };
-
-
-
-
-
-
-
 
 })(jQuery);
