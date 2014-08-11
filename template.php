@@ -1,6 +1,11 @@
 <?php
 
 /**
+ * @file
+ * Template.php for bang theme.
+ */
+
+/**
  * Implements template_preprocess_html().
  */
 function bang_preprocess_html(&$vars) {
@@ -10,7 +15,6 @@ function bang_preprocess_html(&$vars) {
   $data = 'try{Typekit.load();}catch (e){}';
   drupal_add_js($data, array('type' => 'inline'));
 }
-
 
 
 /**
@@ -60,7 +64,6 @@ function bang_menu_link__menu_tabs_menu($vars) {
       $element['#localized_options']['attributes']['class'][] = 'default-override';
 
     case 'user':
-      //$title_prefix = '<i class="icon-user"></i>';
       // If a user is logged in we change the menu item title.
       if (user_is_logged_in()) {
         $element['#title'] = t('My Account');
@@ -74,7 +77,6 @@ function bang_menu_link__menu_tabs_menu($vars) {
       break;
 
     case 'user/logout':
-      //$title_prefix = '<i class="icon-signout"></i>';
       $element['#localized_options']['attributes']['class'][] = 'topbar-link-signout';
       $element['#attributes']['class'][] = 'topbar-link-signout';
 
@@ -83,7 +85,6 @@ function bang_menu_link__menu_tabs_menu($vars) {
       break;
 
     default:
-      //$title_prefix = '<i class="icon-align-justify"></i>';
       $element['#localized_options']['attributes']['class'][] = 'topbar-link-menu';
       $element['#attributes']['class'][] = 'topbar-link-menu';
       break;
