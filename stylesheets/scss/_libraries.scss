@@ -143,6 +143,7 @@
 
     .ding-library-right {
       @include zen-grid-item(0.75, 1.25);
+      min-height: 24ex;
     }
 
     .ding-library-aside,
