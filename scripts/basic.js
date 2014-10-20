@@ -9,7 +9,7 @@
         // Ignore errors - probably there was no title.
       }
     });
-  })($);
+  });
 
   Drupal.behaviors.fixGroupsOnFrontpage = {
     attach: function (context) {
