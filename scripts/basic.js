@@ -19,8 +19,10 @@
           '.group-blocks--second',
           '.group-blocks--third',
           '.group-blocks--fourth']).each(function(){
-          var el = $('<div>', {'class' : 'inner-div'}).html($(this.toString()).html());
-          $(this.toString()).html(el);
+          $(this.toString()).each(function() {
+            var el = $('<div>', {'class' : 'inner-div'}).html($(this).html());
+            $(this).html(el);
+          });
         });
       });
     }
