@@ -178,6 +178,12 @@
       @include heading2;
     }
   }
+
+  .ding-library-files {
+    // Address and contact information floats so clear the
+    // following files pane.
+    clear: both;
+  }
 }
 .pane-menu-title,
 .ding-library-contact {
