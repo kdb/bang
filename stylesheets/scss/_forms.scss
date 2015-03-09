@@ -1,0 +1,122 @@
+/**
+ * Basic form elements.
+ */
+input[type="text"],
+input[type="password"],
+input[type="date"],
+input[type="datetime"],
+input[type="email"],
+input[type="number"],
+input[type="search"],
+input[type="tel"],
+input[type="time"],
+input[type="url"],
+input[type="file"],
+textarea {
+  @extend input;
+  font-family: $proxima-nova-font-name;
+}
+
+label {
+  font-family: $proxima-nova-font-name;
+}
+
+select {
+  @extend .select;
+}
+
+.form-submit {
+  @extend .btn;
+}
+
+input[type="file"].form-file {
+  // No shadow needed here.
+  box-shadow: none;
+}
+
+.form-managed-file {
+  // Make all form elements appear on a single line.
+  .form-file,
+  .form-submit {
+    display: inline-block;
+  }
+
+  .file-icon {
+    // ddbasic bottom-aligns images. That looks silly here.
+    vertical-align: middle;
+  }
+}
+
+/**
+ * Special styling of checkboxes and radiobuttons.
+ *
+ * This is largely taken from lines 220 to 275 in _forms.scss in the style guide.
+ * The selectors here are so specific that they cannot use @extends. Instead the
+ * styling is copy/pasted with some classes (.input, .label) removed as DDB CMS
+ * does not contain these.
+ */
+input[type="checkbox"], input[type="submit"], input[type="radio"] {
+  width:auto;
+  margin-right: 15px;
+}
+
+input[type="radio"],
+input[type="checkbox"] {
+  display: none;
+}
+
+input[type="radio"] + label, input[type="checkbox"] + label {
+  display:inline-block;
+  cursor:pointer;
+  position:relative;
+  padding-left:30px;
+
+  &:before{
+    content: "";
+    display: inline-block;
+    width: 16px;
+    height: 16px;
+    position: absolute;
+    top:3px; left: 0;
+    background-color: white;
+    border-radius:3px;
+    box-shadow:inset 0px 1px 2px $color-grey-light;
+  }
+}
+
+input[type="radio"] + label:before {
+  border-radius: 8px;
+}
+
+input[type="radio"]:checked + label:before,
+input[type="checkbox"]:checked + label:before {
+  background-color: $color-mint-green;
+  box-shadow:0px 1px 1px darken($color-grey-light, 20);
+  color:white;
+  text-align: center;
+}
+
+input[type="radio"]:checked + label:before {
+  content: "\2022";
+  font-size: 22px;
+  line-height: 15px;
+
+}
+input[type="checkbox"]:checked + label:before {
+  content: "";
+  background-image: inline-image("checkmark2_small.svg");
+  background-position: 3px center;
+  background-repeat: no-repeat;
+}
+
+/**
+ * Webform specific styling.
+ */
+.webform-datepicker select,
+.webform-datepicker input {
+  // A date element works best if all selects and picker appears on a single line.
+  width: auto;
+  min-width: 0;
+  display: inline-block;
+}
+
