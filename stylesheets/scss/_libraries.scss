@@ -10,6 +10,8 @@
       // In order not for elements to cling to each other, we set spacing and
       // min height.
       margin-top: 20px;
+      // Remove bottom margin from ddbasic.
+      margin-bottom: 0;
 
       font-size: 16px;
       width: 50%;
@@ -25,11 +27,15 @@
       background-color: transparent;
       vertical-align: top;
       position: static;
+      // Remove line height to avoid adding additional vertical space when using
+      // display: inline-block.
+      line-height: 0;
       & > div {
-        //@extend .content-box;
-        //Clearfix kills shadow on opening hours toggle.
-        padding-bottom: 3px;
-
+        @extend .content-box;
+        // Reestablish line-height.
+        line-height: 24px;
+        margin-bottom: 0;
+        // Clearfix kills shadow on opening hours toggle.
         .libraries {
           float: none;
           width: auto;
@@ -40,14 +46,15 @@
         }
       }
       &.views-row-odd > div {
-
-        padding-right: 10px;
+        // Add right margin which matches top margin.
+        margin-right: 20px;
         @include small-medium {
           padding-right: 0;
         }
       }
       &.views-row-even > div {
-        padding-left: 10px;
+        // Left margin matches right margin.
+        margin-left: 20px;
         @include small-medium {
           padding-left: 0;
         }
