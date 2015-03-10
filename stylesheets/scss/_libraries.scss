@@ -15,6 +15,10 @@
 
       font-size: 16px;
       width: 50%;
+      // Use border box to maintain total width while adding padding across
+      // browsers.
+      box-sizing: border-box;
+
       @include small-medium {
         width: 100%;
         .libraries {
@@ -45,18 +49,23 @@
           min-height: 180px;
         }
       }
-      &.views-row-odd > div {
-        // Add right margin which matches top margin.
-        margin-right: 20px;
-        @include small-medium {
-          padding-right: 0;
+
+      &.views-row-odd {
+        // Add right padding which matches half the top margin.
+        padding-right: 10px;
+        & > div {
+          @include small-medium {
+            padding-right: 0;
+          }
         }
       }
-      &.views-row-even > div {
-        // Left margin matches right margin.
-        margin-left: 20px;
-        @include small-medium {
-          padding-left: 0;
+      &.views-row-even {
+        // Add right padding which matches the other half the top margin.
+        padding-left: 10px;
+        & > div {
+          @include small-medium {
+            padding-left: 0;
+          }
         }
       }
     }
