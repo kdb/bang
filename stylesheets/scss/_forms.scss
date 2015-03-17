@@ -55,7 +55,7 @@ input[type="file"].form-file {
  * styling is copy/pasted with some classes (.input, .label) removed as DDB CMS
  * does not contain these.
  */
-input[type="checkbox"], input[type="submit"], input[type="radio"] {
+input[type="checkbox"], input[type="radio"] {
   width:auto;
   margin-right: 15px;
 }
