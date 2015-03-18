@@ -207,6 +207,10 @@ html body footer.footer {
       a {
         color: $color-grey-light !important;
       }
+      a:hover {
+        // Important for the link color so important for the hover as well.
+        color: $color-mint-green !important;
+      }
     }
   }
 }
