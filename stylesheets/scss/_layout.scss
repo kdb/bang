@@ -177,9 +177,14 @@ html body .site-header .topbar.has-promotion {
 
 // Theming for the site footer.
 html body footer.footer {
+  margin-top: 48px;
+  padding-top: 48px;
+  padding-bottom: 60px;
+
   h2 {
     @extend h3;
   }
+
   // In order to strengthen the selector for vertical-list since it was vague
   // and easily overriden by DDBasic.
   .panel-pane {
