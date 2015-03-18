@@ -194,6 +194,8 @@ html body footer.footer {
     }
     .pane-title {
       border-bottom: none;
+      // We do not have a variable for white so plain colors here.
+      color: white;
       &:before {
         display: none;
       }
