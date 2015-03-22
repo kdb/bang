@@ -162,6 +162,103 @@ html {
           }
         }
       }
+
+      @include small-medium() {
+
+        // Restyle the menu for mobile usage. There are lots of overrides
+        // from DDBasic and style guide here.
+        // The menu differs quite a bit from DDBasic and the style guide
+        // has a different structure from the actual implementation.
+        ul.topbar-menu {
+          // The menu appears in full width.
+          float: none;
+
+          a.menu-item {
+            // Menu item visibility and spacing is switched between inner spans
+            // and outer links.
+            display: none;
+            margin-left: 0 !important;
+            padding: 0;
+
+            span {
+              display: block;
+              padding: 10px;
+            }
+
+            &.default-override {
+              // The menu item to toggle the menu should always be visible.
+              display: block;
+
+              span {
+                // Remove the text.
+                text-indent: -9999px;
+
+                // Add a menu icon
+                &::after {
+                  display: block;
+                  width: 24px;
+                  height: 24px;
+                  float: right;
+                  border: 1px solid white;
+                  @include border-radius(4px);
+                  text-align: center;
+                  text-indent: 0;
+
+                  content: $fa-var-bars;
+                  font-family: FontAwesome;
+                  // These attributes are the same as the ones FontAwesome
+                  // would normally apply to HTML elements with the
+                  // .fa .fa-bars classes.
+                  text-rendering: auto;
+                  -webkit-font-smoothing: antialiased;
+                  -moz-osx-font-smoothing: grayscale;
+                  transform: translate(0, 0);
+                }
+              }
+            }
+          }
+
+          // The search menu item should never be visible.
+          .topbar-link-search {
+            display: none;
+          }
+
+          // Reimplement hover states. Menu items should appear on a white
+          // background on hover. The styleguide and structure of the top menu
+          // differs here so we have to reimplement the styling on the menu
+          // links instead of the list items.
+          li {
+            &:hover {
+              background-color: transparent;
+            }
+
+            a:hover {
+              background-color: white;
+            }
+
+            // The menu item to toggle the menu has a white bottom border when
+            // opened. We expect it to be the first menu item.
+            a.default-override.active,
+            a.default-override.active:hover {
+              background-color: transparent;
+              border-bottom: 1px solid white;
+            }
+
+            // The menu item to toggle the menu should not change text nor
+            // background color hover. Instead we shade the menu icon
+            // background.
+            a.default-override:hover {
+              background-color: transparent;
+
+              span::after {
+                color: white;
+                background-color: rgba(255, 255, 255, 0.5);
+              }
+            }
+          }
+
+        }
+      }
     }
   }
 }
