@@ -164,6 +164,33 @@ html {
       }
 
       @include small-medium() {
+        .topbar {
+          // There is no need to include the promotion background image on
+          // on mobile devices. It is set using a style attribute so nuke
+          // it with important.
+          background-image: none !important;
+        }
+
+        // Restyle the header on small screens.
+        // To simplify things all sizing and positioning is removed from
+        // outer elements and reapplied to the logo link to make it a nice
+        // clickable target.
+        .topbar-inner {
+          padding-top: 0;
+
+        }
+
+        .logo {
+          // Reposition logo to the center of screen on mobile devices.
+          position: static;
+
+          a {
+            display: block;
+            width: 100%;
+            padding: 40px 0;
+            text-align: center;
+          }
+        }
 
         // Restyle the menu for mobile usage. There are lots of overrides
         // from DDBasic and style guide here.
