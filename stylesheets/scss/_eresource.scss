@@ -52,6 +52,10 @@ ul.eresource-index {
  **/
 
 .node-type-ding-eresource {
+  .field {
+    margin-bottom: 24px;
+  }
+
   // Category
   .field-ding-eresource-category a {
     @include btn;
@@ -65,11 +69,8 @@ ul.eresource-index {
     font-weight: bold;
   }
   // Links.
-  .field-type-link-field {
-    .field-label {
-      margin-right:30px;
-    }
-
+  .field-type-link-field a {
+    margin-left: 0;
   }
   // Unset clearfix.
   .field-name-field-ding-eresource-link {

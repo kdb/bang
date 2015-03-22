@@ -38,9 +38,8 @@
  * @see theme_field()
  */
 
-
 ?>
-<div class="<?php print $field_name_css ?>">
+<div class="<?php print $field_name_css ?> <?php print $classes ?>" <?php print $attributes; ?>>
 <?php if (!$label_hidden): ?>
   <strong><?php print $label ?>:</strong>
 <?php endif; ?>
