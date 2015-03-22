@@ -95,7 +95,8 @@ html {
             display: none;
           }
           form input[type='text']{
-            margin-left: 120px;
+            box-sizing: border-box;
+            padding-left: 120px;
             height: 72px;
           }
           .icon-search {
