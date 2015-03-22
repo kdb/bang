@@ -250,6 +250,12 @@ body{
         }
       }
     }
+
+    @include small-medium{
+      .topbar-menu {
+        background-color: $red-light;
+      }
+    }
   }
   &.theme-purple .site-header {
     background-color: $color-purple;
@@ -264,6 +270,12 @@ body{
         &:hover {
           border-bottom: 5px solid $purple-dark;
         }
+      }
+    }
+
+    @include small-medium{
+      .topbar-menu {
+        background-color: $purple-light;
       }
     }
   }
@@ -282,6 +294,12 @@ body{
         }
       }
     }
+
+    @include small-medium{
+      .topbar-menu {
+        background-color: $blue-light;
+      }
+    }
   }
   &.theme-yellow .site-header {
     background-color: $color-yellow;
@@ -296,6 +314,12 @@ body{
         &:hover {
           border-bottom: 5px solid $yellow-dark;
         }
+      }
+    }
+
+    @include small-medium{
+      .topbar-menu {
+        background-color: $yellow-light;
       }
     }
   }
@@ -314,6 +338,12 @@ body{
         }
       }
     }
+
+    @include small-medium{
+      .topbar-menu {
+        background-color: $green-light;
+      }
+    }
   }
   &.theme-pink .site-header {
     background-color: $color-pink;
@@ -329,6 +359,12 @@ body{
           border-bottom: 5px solid $pink-dark;
         }
       }
+    }
+  }
+
+  @include small-medium{
+    .topbar-menu {
+      background-color: $pink-light;
     }
   }
 }
