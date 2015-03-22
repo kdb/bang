@@ -96,6 +96,10 @@ html {
           }
           form input[type='text']{
             margin-left: 120px;
+            height: 72px;
+          }
+          .icon-search {
+            bottom: 20px;
           }
           .form-submit {
             // The form submit button is not visible in styleguide.
@@ -108,6 +112,19 @@ html {
             @include box-shadow(none);
 
           }
+
+          // Jump through more hoops to remve the submit button for mobile devices.
+          // without using display: none. Why do we do this?
+          @include small-medium() {
+            .form-actions {
+              height: 0;
+            }
+
+            .form-submit {
+              min-height: 0;
+            }
+          }
+
         }
         // Login pane specific resets.
         .user {
