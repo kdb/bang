@@ -35,3 +35,9 @@
   }
 
 }
+
+#ting-search-backend-engines-form legend {
+  // Toggling search backends is especially important so improve visibility
+  // of the legend a bit.
+  font-weight: bold;
+}
