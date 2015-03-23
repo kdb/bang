@@ -41,10 +41,13 @@
     &.available {
       @include btn;
     }
-    &.unavailable.not-reservable {
+    &.unavailable {
       display: inline-block;
-      @include btn;
       @include btn-danger;
+    }
+    &.not-reservable {
+      // Do not display the button if the user cannot interact with it.
+      display: none;
     }
   }
   &.delete-reservations {
