@@ -47,6 +47,21 @@
       @include btn-danger;
     }
   }
+  &.delete-reservations {
+    @include btn-danger;
+  }
+}
+
+// Override styling of buttons within an .action-button div
+body.html .action-button .form-submit,
+body.html .action-button .form-submit:hover{
+  padding: 0;
+  margin: 0;
+  background-image: none;
+  background-color: transparent;
+  border: 0 none;
+  @include border-radius(0);
+  @include box-shadow(none);
 }
 
 .page-ting-object {
