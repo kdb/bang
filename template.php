@@ -95,6 +95,21 @@ function bang_menu_link__menu_tabs_menu($vars) {
 }
 
 /**
+ * Implements hook_preprocess_field().
+ */
+function bang_preprocess_field(&$vars) {
+  $element = $vars['element'];
+  if ($element['#field_name'] == 'field_ding_eresource_access') {
+    // Remove the clearfix class from ding_eresource_access field.
+    // It messes with our floating of the logo.
+    $clearfix_index = array_search('clearfix', $vars['classes_array']);
+    if ($clearfix_index !== FALSE) {
+      unset($vars['classes_array'][$clearfix_index]);
+    }
+  }
+}
+
+/**
  * Implements hook_js_alter().
  */
 function bang_js_alter(&$js) {
