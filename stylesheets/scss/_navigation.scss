@@ -1,0 +1,17 @@
+// Make the menu appear as vertical list nav
+// There does not seem to be a way to pull this in using SCSS.
+.sub-menu>li {
+  a {
+    margin-left: 0;
+    padding-left: 0;
+
+    color: $color-grey-light;
+
+    &:hover {
+      color: $color-green;
+    }
+  }
+  &:before {
+    display: none;
+  }
+}

@@ -53,6 +53,14 @@ html body .pager {
 
 .system-messages {
   float: none;
+
+  .error {
+    @extend .alert;
+
+    &:before {
+      display: none;
+    }
+  }
 }
 
 fieldset input {

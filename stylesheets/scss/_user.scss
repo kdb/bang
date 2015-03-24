@@ -1,0 +1,21 @@
+.user-status,
+.user-status:link,
+.user-status:link:hover {
+  @extend .alert;
+  font-family: $proxima-nova-font-name;
+}
+.user-status-debt {
+  // This just uses the colors from alerts.
+}
+
+.user-status-ready-pickup {
+  @extend .alert-success;
+}
+
+.user-status-reservation {
+  @extend .alert-info;
+}
+
+.pane-debts .pay-button .form-submit {
+  @extend .btn;
+}
