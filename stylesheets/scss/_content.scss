@@ -1,0 +1,19 @@
+// Single element in list.
+// Search result lists are used across the site. Both in actual search results
+// but also in tag content lists and potentially also other places.
+// html class is used to add specificity.
+.html .search-results .search-result {
+  @include content-box;
+  // In order to override background texture.
+  background: lighten($color-sand, 3) !important;
+  &.list-item .field-type-taxonomy-term-reference a.label-info {
+    @include tag;
+  }
+  .news-link a {
+    @include btn;
+  }
+  .view-mode-teaser {
+    background-color: transparent;
+    padding: 10px;
+  }
+}

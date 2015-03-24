@@ -17,23 +17,6 @@
   .pane-search-backends a:visited, .pane-ding-facetbrowser a:visited {
     color: #7cbf9e;
   }
-  // Single search element.
-  .search-results .search-result {
-    @include content-box;
-    // In order to override background texture.
-    background: lighten($color-sand, 3) !important;
-    &.list-item .field-type-taxonomy-term-reference a.label-info {
-      @include tag;
-    }
-    .news-link a {
-      @include btn;
-    }
-    .view-mode-teaser {
-      background-color: transparent;
-      padding: 10px;
-    }
-  }
-
 }
 
 #ting-search-backend-engines-form legend {
