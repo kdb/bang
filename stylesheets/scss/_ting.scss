@@ -32,6 +32,8 @@
 }
 
 .button-see-online:link,
+.button-see-online:focus,
+.button-see-online:visited,
 .action-button {
   @include btn;
   &.bookmark-button{
