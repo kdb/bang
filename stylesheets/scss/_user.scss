@@ -16,6 +16,7 @@
   @extend .alert-info;
 }
 
-.pane-debts .pay-button .form-submit {
+.pane-debts .pay-button .form-submit,
+.pane-debts .pay-button .form-submit:hover {
   @extend .btn;
 }
