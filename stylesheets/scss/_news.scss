@@ -18,7 +18,7 @@
       @extend .meta-secondary;
       a {
         font-size: 12px;
-        color: #b1b1ad;
+        color: $color-grey-light;
       }
     }
     @include small-medium {
