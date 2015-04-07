@@ -1,21 +1,15 @@
 
-
-
-
 /**
  * Standard links
  */
 
-  a:link,
-  a:visited {
-    color: $color-mint-green;
-    &:hover {
-      color: darken($color-mint-green, 5);
-    }
+a:link,
+a:visited {
+  color: $color-mint-green-dark;
+  &:hover {
+    color: darken($color-mint-green-dark, 5);
   }
-
-
-
+}
 
 /**
  * Pager reset.
