@@ -113,9 +113,14 @@ html {
 
           }
 
-          // Jump through more hoops to remve the submit button for mobile devices.
-          // without using display: none. Why do we do this?
           @include small-medium() {
+            form input[type='text']{
+              padding-left: 80px;
+              padding-right: 10px;
+            }
+
+            // Jump through more hoops to remve the submit button for mobile devices.
+            // without using display: none. Why do we do this?
             .form-actions {
               height: 0;
             }
