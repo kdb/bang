@@ -211,6 +211,7 @@ html {
             display: none;
             margin-left: 0 !important;
             padding: 0;
+            border-bottom: 0 none;
 
             span {
               display: block;
@@ -265,6 +266,7 @@ html {
             }
 
             a:hover {
+              color: $color-black;
               background-color: white;
             }
 
@@ -289,6 +291,38 @@ html {
             }
           }
 
+        }
+
+        // Style the mobile user menu. Structure here is a bit different
+        // than navigational menu and we also need to override different
+        // parts of DDBasic sp we cannot use existing styling.
+        .navigation-wrapper {
+          border-top: 1px solid #fff;
+          padding: 0;
+
+          .sub-menu {
+            li {
+              border-bottom: 0 none;
+
+              &:before {
+                content: none;
+              }
+            }
+
+            .menu-item {
+              display: block;
+              box-sizing: border-box;
+              width: 100%;
+              padding: 10px;
+              margin: 0;
+
+              &:hover {
+                font-family: $proxima-nova-font-name;
+                color: $color-black;
+                background-color: #fff;
+              }
+            }
+          }
         }
       }
     }
@@ -387,7 +421,8 @@ body{
       background-color: $red-dark;
     }
     .topbar-link-search a,
-    .topbar-link-user a {
+    .topbar-link-user a,
+    .pane-user-menu a {
       &.active {
         background: $red-dark;
         border-bottom: 5px solid $red-dark;
@@ -398,7 +433,8 @@ body{
     }
 
     @include small-medium{
-      .topbar-menu {
+      .topbar-menu,
+      .navigation-wrapper {
         background-color: $red-light;
       }
     }
@@ -420,7 +456,8 @@ body{
     }
 
     @include small-medium{
-      .topbar-menu {
+      .topbar-menu,
+      .navigation-wrapper {
         background-color: $purple-light;
       }
     }
@@ -442,7 +479,8 @@ body{
     }
 
     @include small-medium{
-      .topbar-menu {
+      .topbar-menu,
+      .navigation-wrapper {
         background-color: $blue-light;
       }
     }
@@ -464,7 +502,8 @@ body{
     }
 
     @include small-medium{
-      .topbar-menu {
+      .topbar-menu,
+      .navigation-wrapper {
         background-color: $yellow-light;
       }
     }
@@ -486,7 +525,8 @@ body{
     }
 
     @include small-medium{
-      .topbar-menu {
+      .topbar-menu,
+      .navigation-wrapper {
         background-color: $green-light;
       }
     }
@@ -509,7 +549,8 @@ body{
   }
 
   @include small-medium{
-    .topbar-menu {
+    .topbar-menu,
+    .navigation-wrapper {
       background-color: $pink-light;
     }
   }
