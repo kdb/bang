@@ -45,15 +45,22 @@ html body .pager {
   }
 }
 
-.system-messages {
+.system-messages,
+.messages {
   float: none;
+
+  &:before {
+    display: none;
+  }
 
   .error {
     @extend .alert;
 
-    &:before {
-      display: none;
-    }
+  }
+
+  .status {
+    @extend .alert;
+    @extend .alert-info;
   }
 }
 
