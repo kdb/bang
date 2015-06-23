@@ -102,14 +102,18 @@ html {
             bottom: 20px;
           }
           .form-submit {
-            // The form submit button is not visible in styleguide.
-            height: 0;
-            width: 0;
-            font-size: 0;
-            margin: 0;
+            // The form submit button is not visible in styleguide, but we want it anyway.
+            // override default-btn
+            // colors differ dependent on color-theme, see color-theming for that
+            @include btn;
             background: transparent;
-            border: 0 none;
-            @include box-shadow(none);
+            margin-top: 19px;
+            margin-right: 12px;
+            padding: 5px 16px;
+            min-width: inherit;
+            min-height: inherit;
+            font-size: 16px;
+            border-radius: 4px;
 
           }
 
@@ -419,6 +423,15 @@ body{
     background-color: $color-red;
     .header-wrapper {
       background-color: $red-dark;
+
+      .search .form-submit{
+        border: 1px solid $color-red;
+        @include box-shadow(0px 1px 2px $color-red);
+
+        &:hover{
+          background-color: $color-red;
+        }
+      }
     }
     .topbar-link-search a,
     .topbar-link-user a,
@@ -443,6 +456,15 @@ body{
     background-color: $color-purple;
     .header-wrapper {
       background-color: $purple-dark;
+
+      .search .form-submit{
+        @include box-shadow(0px 1px 2px $color-purple);
+        border: 1px solid $color-purple;
+
+        &:hover{
+          background-color: $color-purple;
+        }
+      }
     }
     .topbar-link-search a,
     .topbar-link-user a {
@@ -466,6 +488,15 @@ body{
     background-color: $color-blue;
     .header-wrapper {
       background-color: $blue-dark;
+
+      .search .form-submit{
+        @include box-shadow(0px 1px 2px $color-blue);
+        border: 1px solid $color-blue;
+
+        &:hover{
+          background-color: $color-blue;
+        }
+      }
     }
     .topbar-link-search a,
     .topbar-link-user a {
@@ -489,6 +520,15 @@ body{
     background-color: $color-yellow;
     .header-wrapper {
       background-color: $yellow-dark;
+
+      .search .form-submit{
+        @include box-shadow(0px 1px 2px $color-yellow);
+        border: 1px solid $color-yellow;
+
+        &:hover{
+          background-color: $color-yellow;
+        }
+      }
     }
     .topbar-link-search a,
     .topbar-link-user a {
@@ -512,6 +552,15 @@ body{
     background-color: $color-green;
     .header-wrapper {
       background-color: $green-dark;
+
+      .search .form-submit{
+        border: 1px solid $color-green;
+        @include box-shadow(0px 1px 2px $color-green);
+
+        &:hover{
+          background-color: $color-green;
+        }
+      }
     }
     .topbar-link-search a,
     .topbar-link-user a {
@@ -535,6 +584,15 @@ body{
     background-color: $color-pink;
     .header-wrapper {
       background-color: $pink-dark;
+
+      .search .form-submit{
+        border: 1px solid $color-pink;
+        @include box-shadow(0px 1px 2px $color-pink);
+
+        &:hover{
+          background-color: $color-pink;
+        }
+      }
     }
     .topbar-link-search a,
     .topbar-link-user a {
