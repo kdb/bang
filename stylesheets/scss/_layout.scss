@@ -394,7 +394,7 @@ html body footer.footer {
   }
 
   // In order to strengthen the selector for vertical-list since it was vague
-  // and easily overriden by DDBasic.
+  // and easily overridden by DDBasic.
   .panel-pane {
     @extend .vertical-list;
     ul {
@@ -413,7 +413,7 @@ html body footer.footer {
         display: none;
       }
       a {
-        color: $color-grey-light !important;
+        color: $footer-color-text !important;
       }
       a:hover {
         // Important for the link color so important for the hover as well.
