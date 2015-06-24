@@ -116,13 +116,13 @@ function bang_preprocess_form_element(&$vars) {
   $element = &$vars['element'];
 
 
-  if (empty($element['#attributes']['class'])) {
-    $element['#attributes']['class'] = array();
+  if (empty($element['#wrapper_attributes'])) {
+    $element['#wrapper_attributes'] = array();
   }
 
   // Add class to form item if it has a label.
   if (!empty($element['#title'])) {
-    $element['#attributes']['class'][] = 'form-item-has-label';
+    $element['#wrapper_attributes']['class'][] = 'form-item-has-label';
   }
 }
 
@@ -152,7 +152,7 @@ function bang_form_element($variables) {
   // This is where changes have been introduced.
   // Base attributes on the #attributes value for the element and remember to
   // initialize the classes array.
-  $attributes = $element['#attributes'];
+  $attributes = $element['#wrapper_attributes'];
   if (!isset($attributes['class'])) {
     $attributes['class'] = array();
   }
