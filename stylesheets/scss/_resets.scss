@@ -87,6 +87,13 @@ div.instance:hover {
   background-color: $color-grey-light;
 }
 
+// we don't want any hover-effect for opening-hours for libraries, because it does confuse more than improve
+// In order to ensure the hover-effect from above (div.instance:hover) is only removed from
+// from opening-hours for libraries, use a more specific selector.
+div.libraries-opening-hours div.instance:hover {
+  background: none;
+}
+
 
 
 /**
