@@ -123,24 +123,24 @@ html {
               padding-right: 10px;
             }
 
-            .form-actions{
+            .form-actions {
               clear: none;
               position: absolute;
             }
 
-            .form-item{
+            .form-item {
               width: 80%;
             }
           }
 
-          @include small{
+          @include small {
             // Jump through more hoops to remove the submit button for mobile devices.
             // without using display: none. Why do we do this?
             .form-actions {
               height: 0;
             }
 
-            .form-item{
+            .form-item {
               width: 100%;
             }
 
@@ -366,7 +366,7 @@ html body .site-header .topbar.has-promotion {
   .promotion {
     margin-top: 40px;
     height: 290px;
-    @include small-medium{
+    @include small-medium {
       display: none;
     }
     ul {
@@ -469,7 +469,7 @@ body{
       }
     }
 
-    @include small-medium{
+    @include small-medium {
       .topbar-menu,
       .navigation-wrapper {
         background-color: $red-light;
@@ -481,11 +481,11 @@ body{
     .header-wrapper {
       background-color: $purple-dark;
 
-      .search .form-submit{
+      .search .form-submit {
         @include box-shadow(0px 1px 2px $color-purple);
         border: 1px solid $color-purple;
 
-        &:hover{
+        &:hover {
           background-color: $color-purple;
         }
       }
@@ -501,7 +501,7 @@ body{
       }
     }
 
-    @include small-medium{
+    @include small-medium {
       .topbar-menu,
       .navigation-wrapper {
         background-color: $purple-light;
@@ -513,11 +513,11 @@ body{
     .header-wrapper {
       background-color: $blue-dark;
 
-      .search .form-submit{
+      .search .form-submit {
         @include box-shadow(0px 1px 2px $color-blue);
         border: 1px solid $color-blue;
 
-        &:hover{
+        &:hover {
           background-color: $color-blue;
         }
       }
@@ -533,7 +533,7 @@ body{
       }
     }
 
-    @include small-medium{
+    @include small-medium {
       .topbar-menu,
       .navigation-wrapper {
         background-color: $blue-light;
@@ -545,7 +545,7 @@ body{
     .header-wrapper {
       background-color: $yellow-dark;
 
-      .search .form-submit{
+      .search .form-submit {
         @include box-shadow(0px 1px 2px $color-yellow);
         border: 1px solid $color-yellow;
 
@@ -565,7 +565,7 @@ body{
       }
     }
 
-    @include small-medium{
+    @include small-medium {
       .topbar-menu,
       .navigation-wrapper {
         background-color: $yellow-light;
@@ -577,11 +577,11 @@ body{
     .header-wrapper {
       background-color: $green-dark;
 
-      .search .form-submit{
+      .search .form-submit {
         border: 1px solid $color-green;
         @include box-shadow(0px 1px 2px $color-green);
 
-        &:hover{
+        &:hover {
           background-color: $color-green;
         }
       }
@@ -597,7 +597,7 @@ body{
       }
     }
 
-    @include small-medium{
+    @include small-medium {
       .topbar-menu,
       .navigation-wrapper {
         background-color: $green-light;
@@ -609,11 +609,11 @@ body{
     .header-wrapper {
       background-color: $pink-dark;
 
-      .search .form-submit{
+      .search .form-submit {
         border: 1px solid $color-pink;
         @include box-shadow(0px 1px 2px $color-pink);
 
-        &:hover{
+        &:hover {
           background-color: $color-pink;
         }
       }
@@ -630,7 +630,7 @@ body{
     }
   }
 
-  @include small-medium{
+  @include small-medium {
     .topbar-menu,
     .navigation-wrapper {
       background-color: $pink-light;
