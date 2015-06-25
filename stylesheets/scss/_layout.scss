@@ -423,6 +423,12 @@ html body footer.footer {
   }
 }
 
+// Theming for bottom area of site (where address is displayed).
+// Give it the same color as in footer.
+html body div.bottom .pane-content p {
+  color: $footer-color-text;
+}
+
 
 // Theming of content area.
 
@@ -442,7 +448,7 @@ html body footer.footer {
  * Header color handling.
  **/
 
-body{
+body {
   &.theme-red .site-header {
     background-color: $color-red;
     .header-wrapper {
