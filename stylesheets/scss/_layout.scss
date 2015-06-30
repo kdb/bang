@@ -132,31 +132,8 @@ html {
               width: 80%;
             }
           }
-
-          @include small {
-            // Jump through more hoops to remove the submit button for mobile devices.
-            // without using display: none. Why do we do this?
-            .form-actions {
-              height: 0;
-            }
-
-            .form-item {
-              width: 100%;
-            }
-
-            .form-submit {
-              min-height: 0;
-              height: 0;
-              width: 0;
-              font-size: 0;
-              margin: 0;
-              border: 0 none;
-              @include box-shadow(none);
-              display: none;
-            }
-          }
-
         }
+
         // Login pane specific resets.
         .user {
           padding: 0;
