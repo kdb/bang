@@ -25,7 +25,7 @@ html {
           height: auto;
         }
         // Align logo with menu on x-large screen sizes.
-        @include x-large(){
+        @include x-large() {
           top: 40px;
         }
       }
