@@ -622,3 +622,20 @@ body {
 }
 
 
+// IE-fix.
+// In order to display the icon also in IE, .notice-star must be visible.
+// Because we only want to display the icon and not the * we make it transparent.
+.opening-hours-week {
+  .notice-star {
+    visibility: visible;
+    font-size: 0;
+    margin-right: -16px;
+
+    // Icon placement and font-face.
+    &::before {
+      font-size: 16px;
+    }
+  }
+}
+
+
