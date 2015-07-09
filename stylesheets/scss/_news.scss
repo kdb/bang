@@ -42,6 +42,9 @@
     }
   }
   .news-label {
+    // Move label above news-heading.
+    position: absolute;
+    top: 16px;
     padding: 0;
     background: transparent;
     margin-left: 0;
@@ -59,9 +62,11 @@
     a {
       @include heading2;
     }
-    margin-left: 170px;
+    margin: 40px 0 0 170px;
+
     @include small-medium {
       margin-left: 0;
+      margin-top: 0;
     }
   }
 }
