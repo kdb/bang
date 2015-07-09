@@ -18,12 +18,17 @@ html {
         float:none;
         width: auto;
         margin: 0;
+        // Prevent menu from colliding with the logo on screen sizes less than x-large.
+        top: 10px;
         img {
           width: auto;
           height: auto;
         }
+        // Align logo with menu on x-large screen sizes.
+        @include x-large(){
+          top: 40px;
+        }
       }
-
       .topbar {
         // Reset the menus in the header and inherit from styleguide.
         // All things in header is positioned except from the menus,
