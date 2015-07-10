@@ -46,3 +46,17 @@
     @include btn;
   }
 }
+
+.group-blocks--inner .group-blocks--first {
+  padding-left: 10px;
+}
+
+.group-blocks--inner .group-blocks--fourth {
+  padding-right: 10px;
+}
+
+.field-name-field-related-links .field-collection-view {
+  padding: 0;
+  margin: 0;
+  border: none;
+}
