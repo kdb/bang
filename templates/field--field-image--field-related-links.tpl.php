@@ -51,6 +51,9 @@
   // allowing 1 entry. Therefore we can safely address the data we want through
   // index 0.
   $items[0]['#path']['path'] = $field_collection_item->field_link->url->value();
+  // Ensure that path options are present, so that the field formatter doesn't
+  // croak, if no link is present the begin with.
+  $items[0]['#path']['options'] = isset($items[0]['#path']['options']) ? $items[0]['#path']['options'] : array();
 ?>
 
 <div class="<?php print $classes; ?>"<?php print $attributes; ?>>
