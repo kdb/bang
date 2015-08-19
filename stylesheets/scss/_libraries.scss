@@ -240,5 +240,55 @@
 }
 
 .library-opening-hours {
-  background-image: url("../images/bib_online_300x300px_transperant.png");
+  // General theming of the library opening hours box.
+  @include content-box;
+
+  background-color: $blue-dark;
+  background-image: url("../images/biblioteket-online.png");
+  background-position: left center;
+  background-repeat: no-repeat;
+
+  // Set relative to control the readmore button.
+  position: relative;
+  // Make some distance to the map above.
+  margin-top: 20px;
+  margin-bottom: 0;
+  min-height: 86px;
+  *, a {
+    color: #fff;
+  }
+  h1 {
+    display: none;
+  }
+  p:last-child {
+    margin: 0;
+  }
+  // Make space for the button and the background image.
+  .text {
+    margin-left: 250px;
+    margin-right: 120px;
+  }
+  @include small-medium {
+    // Move the image to the top and reset text margins.
+    background-position: center 10px;
+    .text{
+      margin-left: 0;
+      margin-top: 80px;
+    }
+  }
+  @include small{
+    .text {
+      // The button is now below the text.
+      margin-right: 0;
+      margin-bottom: 50px;
+    }
+  }
+  .readmore-container {
+    position: absolute;
+    right: 20px;
+    bottom: 10px;
+    a {
+      @include btn;
+    }
+  }
 }
