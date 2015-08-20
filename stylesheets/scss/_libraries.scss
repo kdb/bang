@@ -8,8 +8,7 @@
 
     & > li.views-row {
       // In order not for elements to cling to each other, we set spacing and
-      // min height.
-      margin-top: 20px;
+      // min height.  rgin-top: 20px;
       // Remove bottom margin from ddbasic.
       margin-bottom: 0;
 
@@ -256,9 +255,6 @@
   min-height: 86px;
   *, a {
     color: #fff;
-  }
-  h1 {
-    display: none;
   }
   p:last-child {
     margin: 0;
