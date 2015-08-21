@@ -8,7 +8,8 @@
 
     & > li.views-row {
       // In order not for elements to cling to each other, we set spacing and
-      // min height.  rgin-top: 20px;
+      // min height.
+      margin-top: 20px;
       // Remove bottom margin from ddbasic.
       margin-bottom: 0;
 
