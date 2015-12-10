@@ -4,7 +4,10 @@
   $(document).ready(function($) {
     $('.opening-hours-toggle').each(function() {
       try {
-        $(this).text($(this).next('.js-opening-hours-toggle-element')[0].getAttribute('data-title'));
+        var title = $(this).next('.js-opening-hours-toggle-element')[0].getAttribute('data-title');
+        if (title) {
+          $(this).text(title);
+        }
       } catch (e) {
         // Ignore errors - probably there was no title.
       }
