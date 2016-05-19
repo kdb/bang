@@ -23,3 +23,10 @@
     margin-bottom: 0px;
   }
 }
+
+// Taxonomy terms.
+.html {
+  .field-type-taxonomy-term-reference a.label-info {
+    @include tag;
+  }
+}
