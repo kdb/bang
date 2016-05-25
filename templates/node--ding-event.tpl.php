@@ -94,11 +94,9 @@
 ?>
 <article class="event">
   <header class="page-header">
-    <div class="super-heading">
-      <section class="event-tags">
-        <span class="event-category label"><?php print render($content['field_ding_event_category']); ?></span>
-      </section>
-    </div>
+    <section class="event-tags">
+      <span class="event-category"><?php print render($content['field_ding_event_category']); ?></span>
+    </section>
   </header>
   <h1 class="page-title"><?php print $title; ?></h1>
 
@@ -113,18 +111,24 @@
       <p><i class="icon-time"></i> <?php print $ddbasic_event_time; ?></p>
     <?php endif; ?>
 
-    <?php if (isset($ddbasic_event_location)): ?>
-      <p><i class="icon-map-marker"></i> <?php print render($ddbasic_event_location); ?></p>
+    <?php if (isset($ddbasic_event_locations)): ?>
+      <?php foreach($ddbasic_event_locations as $location): ?>
+        <p><i class="icon-map-marker"></i> <?php print render($location); ?></p>
+      <?php endforeach; ?>
     <?php endif; ?>
 
     <?php if (isset($content['field_ding_event_target'])): ?>
-      <p><i class="icon-user"></i> <?php print render($content['field_ding_event_target']); ?></p>
+      <p><i class="icon-user"></i><?php print strip_tags(render($content['field_ding_event_target'])); ?></p>
     <?php endif; ?>
 
     <?php if (isset($content['field_ding_event_price'])): ?>
       <p><i class="icon-tag"></i> <?php print render($content['field_ding_event_price']); ?></p>
     <?php endif; ?>
   </div>
+  <?php
+  // Hide materials so that we can render it later.
+  hide($content['field_ding_event_materials']);
+  ?>
   <div class="event-content">
     <?php if (isset($content['field_ding_event_title_image'])) : ?>
       <div class="event-image">
@@ -154,20 +158,17 @@
 
     print render($content);
     ?>
-  </div>
-
-  <footer class="event-footer">
     <section class="event-tags">
       <?php if (isset($content['field_ding_event_tags'])) : ?>
         <span class="event-tags"><?php print render($content['field_ding_event_tags']); ?></span>
       <?php endif; ?>
-      <?php if (isset($content['og_group_ref']['#items'])) : ?>
-        <span class="library-ref label label-info"><?php print render($content['og_group_ref']); ?></span>
-      <?php endif; ?>
-      <?php if (isset($content['ding_event_groups_ref']['#items'])) : ?>
-        <span class="groups-ref"><?php print render($content['ding_event_groups_ref']); ?></span>
-      <?php endif; ?>
     </section>
+    <?php if (isset($content['field_ding_event_materials'])): ?>
+      <span class="event-materials"><?php print render($content['field_ding_event_materials']); ?></span>
+    <?php endif; ?>
+  </div>
+
+  <footer class="event-footer">
 
     <?php if ($display_submitted) : ?>
       <div class="signature">
