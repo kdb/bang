@@ -8,4 +8,10 @@
   a {
     @include tag;
   }
+  .field-name-field-ding-faq-category a {
+    @include btn;
+  }
+  .field-name-field-ding-faq-lead {
+    font-weight: bold;
+  }
 }
