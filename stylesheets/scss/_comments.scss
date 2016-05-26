@@ -4,3 +4,10 @@
     padding: 1.5em;
   }
 }
+.comment-wrapper {
+  .comment-content {
+    .comment {
+      background-color: $comment-list-color;
+    }
+  }
+}
