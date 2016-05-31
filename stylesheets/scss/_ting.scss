@@ -33,8 +33,7 @@
 
 .button-see-online:link,
 .button-see-online:focus,
-.button-see-online:visited,
-.action-button {
+.button-see-online:visited {
   @include btn;
   &.bookmark-button{
     @include btn-secondary;
@@ -57,16 +56,161 @@
   }
 }
 
-// Override styling of buttons within an .action-button div
+// Override styling of buttons within an .action-button div to reset styling.
 body.html .action-button .form-submit,
-body.html .action-button .form-submit:hover{
-  padding: 0;
-  margin: 0;
+body.html .action-button .form-submit:hover,
+.action-button.form-submit {
+  padding: 5px 16px;
   background-image: none;
-  background-color: transparent;
-  border: 0 none;
+  border: 0;
+  @include border-radius(4px);
+  @include box-shadow(0);
+}
+.action-buttons {
+  .update-reservations,
+  .delete-reservations,
+  .delete-bookmarks {
+    padding: 0;
+    border: 0;
+    .form-submit {
+      border-radius: 4px !important;
+      padding: 9px 16px !important;
+      line-height: 100%; //24px;
+      margin: 0;
+      border: 0;
+      @include box-shadow(none);
+    }
+  }
+}
+.action-button:link {
+  border-radius: 4px !important;
+  padding: 9px 16px !important;
+  line-height: 100%; //24px;
+  margin: 0;
+  border: 0;
   @include border-radius(0);
   @include box-shadow(none);
+}
+
+// Set overflow to visible to show shadow on links in material lists.
+.material-item {
+  .item-information-list {
+    overflow: visible;
+    .item-information {
+      overflow: visible;
+    }
+  }
+}
+
+// Styling on active-button links.
+// This styling overrides styling from DDBasic.
+.field-name-ding-entity-buttons .action-button,
+.material-item .action-button {
+  &.bookmark-button:link,
+  &.reserve-button.available:link,
+  &.reserve-button.unavailable:link,
+  &.reserve-button.reservable:link,
+  &.reserve-button.unavailable.reservable:link,
+  &.delete-reservations {
+    margin-left: 10px;
+    vertical-align: middle;
+    display: inline-block;
+    color: white;
+    background: $color-mint-green;
+    @include box-shadow(0 1px 2px 0 $color-mint-green-shadow);
+    &:hover {
+      color: white;
+      background: $color-mint-green-hover;
+      opacity: 1;
+    }
+    &:active {
+      @include box-shadow(inset 1px 1px 4px $color-mint-green-shadow);
+    }
+  }
+  &.delete-reservations.unavailable:link,
+  &.reserve-button.unavailable:link {
+    margin-left: 10px;
+    vertical-align: middle;
+    display: inline-block;
+    color: white;
+    background: $color-red;
+    @include box-shadow(0 1px 2px 0 darken($color-red-shadow, 4));
+    &:hover {
+      background-color: $color-red-dark;
+      opacity: 1;
+    }
+    &:active {
+      @include box-shadow(inset 1px 1px 4px $color-mint-green-shadow);
+    }
+  }
+  &.not-reservable {
+    // Do not display the button if the user cannot interact with it.
+    display: none;
+  }
+}
+
+// Styling for action buttons in different forms.
+// This is basically the same as the styling for links, but with some div/input specific stylings.
+// There is also styling for disabled buttons.
+// The styling here overrides styling from DDBasic.
+#ding-reservation-reservations-notready-form,
+#ding-bookmark-remove-form {
+  // Styling for disabled buttons.
+  .action-buttons {
+    div.delete-bookmarks,
+    div.delete-reservations,
+    div.update-reservations {
+      .form-submit {
+        &:disabled {
+          background-color: $color-disabled-grey;
+          opacity: 1;
+          @include box-shadow(0 1px 2px 0 $color-disabled-shadow);
+          &:hover {
+            background: darken($color-disabled-grey, 4);
+            opacity: 1;
+          }
+        }
+      }
+    }
+    div.delete-bookmarks {
+      .form-submit {
+        background: $color-mint-green;
+        @include box-shadow(0 1px 2px 0 $color-mint-green-shadow);
+        &:hover {
+          background: $color-mint-green-hover;
+        }
+        &:active {
+          @include box-shadow(inset 1px 1px 4px $color-mint-green-shadow);
+        }
+      }
+    }
+    div.delete-reservations {
+      .form-submit {
+        background: $color-red;
+        @include box-shadow(0 1px 2px 0 darken($color-red-shadow, 4));
+        &:hover {
+          background-color: $color-red-dark;
+          opacity: 1;
+        }
+        &:active {
+          @include box-shadow(inset 1px 1px 4px $color-red-shadow);
+        }
+      }
+    }
+    div.update-reservations {
+      .form-submit {
+        background: $color-mint-green;
+        @include box-shadow(0 1px 2px 0 $color-mint-green-shadow);
+        &:hover {
+          background-color: $color-mint-green-hover;
+          opacity: 1;
+        }
+        &:active {
+          @include box-shadow(inset 1px 1px 4px $color-mint-green-shadow);
+        }
+      }
+    }
+  }
 }
 
 .page-ting-object {
