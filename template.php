@@ -212,3 +212,14 @@ function bang_form_element($variables) {
   return $output;
 }
 
+/**
+ * Implements hook_preprocess_node().
+ *
+ * Override or insert variables into the node templates.
+ */
+function bang_preprocess_node(&$variables, $hook) {
+  // Create single event locations to make them appear with an icon each.
+  foreach (element_children($variables['ddbasic_event_location']) as $index) {
+    $variables['ddbasic_event_locations'][] = $variables['ddbasic_event_location'][$index];
+  }
+}
