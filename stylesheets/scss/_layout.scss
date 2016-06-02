@@ -369,7 +369,7 @@ html body .site-header .topbar.has-promotion {
 html body footer.footer {
   margin-top: 48px;
   padding-top: 48px;
-  padding-bottom: 60px;
+  padding-bottom: 22px;
 
   h2 {
     @extend h3;
@@ -378,6 +378,8 @@ html body footer.footer {
   // In order to strengthen the selector for vertical-list since it was vague
   // and easily overridden by DDBasic.
   .panel-pane {
+    margin-bottom: 2em;
+
     @extend .vertical-list;
     ul {
       @extend .vertical-list-nav;

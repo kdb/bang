@@ -20,3 +20,9 @@
 .pane-debts .pay-button .form-submit:hover {
   @extend .btn;
 }
+
+#user-profile-form {
+  .form-submit {
+    margin-top: 1em;
+  }
+}
