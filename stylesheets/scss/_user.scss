@@ -26,3 +26,8 @@
     margin-top: 1em;
   }
 }
+
+// Add some space after field.
+.field-name-field-alma-reservation-pause {
+  @extend .form-group;
+}
