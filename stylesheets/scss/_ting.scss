@@ -82,6 +82,8 @@ body.html .action-button .form-submit:hover,
     }
   }
 }
+#edit-cancel:link,
+#edit-delete:link,
 .action-button:link {
   border-radius: 4px !important;
   padding: 9px 16px !important;
@@ -99,6 +101,36 @@ body.html .action-button .form-submit:hover,
     .item-information {
       overflow: visible;
     }
+  }
+}
+
+// Generic form links.
+#edit-cancel:link,
+#edit-delete:link {
+  margin-top: 10px;
+  margin-left: 10px;
+  vertical-align: middle;
+  display: inline-block;
+  color: white;
+  background: $color-mint-green;
+  @include box-shadow(0 1px 2px 0 $color-mint-green-shadow);
+  &:hover {
+    color: white;
+    background: $color-mint-green-hover;
+    opacity: 1;
+  }
+  &:active {
+    @include box-shadow(inset 1px 1px 4px $color-mint-green-shadow);
+  }
+}
+#edit-cancel:link {
+  background: $color-disabled-grey-dark;
+  @include box-shadow(0 1px 2px 0 darken($color-disabled-grey-dark, 20));
+  &:hover {
+    background: darken($color-disabled-grey-dark, 4);
+  }
+  &:active {
+    @include box-shadow(inset 1px 1px 4px darken($color-disabled-grey-dark, 20));
   }
 }
 
