@@ -93,6 +93,13 @@
  */
 ?>
 <article class="event">
+  <header class="page-header">
+    <div class="super-heading">
+      <section class="event-tags">
+        <span class="event-category label"><?php print render($content['field_ding_event_category']); ?></span>
+      </section>
+    </div>
+  </header>
   <h1 class="page-title"><?php print $title; ?></h1>
 
   <div class="event-lead">
@@ -151,7 +158,6 @@
 
   <footer class="event-footer">
     <section class="event-tags">
-      <span class="event-category"><?php print render($content['field_ding_event_category']); ?></span>
       <?php if (isset($content['field_ding_event_tags'])) : ?>
         <span class="event-tags"><?php print render($content['field_ding_event_tags']); ?></span>
       <?php endif; ?>
