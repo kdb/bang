@@ -105,9 +105,10 @@ body.html .action-button .form-submit:hover,
 }
 
 // Generic form links.
+.pane-profile2-form .form-submit,
 #edit-cancel:link,
 #edit-delete:link {
-  margin-top: 10px;
+  margin-top: 15px;
   margin-left: 10px;
   vertical-align: middle;
   display: inline-block;
@@ -132,6 +133,11 @@ body.html .action-button .form-submit:hover,
   &:active {
     @include box-shadow(inset 1px 1px 4px darken($color-disabled-grey-dark, 20));
   }
+}
+
+// No left margin on submit button on profile form.
+.pane-profile2-form .form-submit {
+  margin-left: 0;
 }
 
 // Styling on active-button links.
