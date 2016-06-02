@@ -90,7 +90,7 @@
   <header class="faq-question-header">
     <?php print render($content['field_ding_faq_category']); ?>
   </header>
-  <h1 class="page-title"><a href="<?php print $node_url; ?>"><?php print $title; ?></a></h1>
+  <h1 class="page-title"><?php print $title; ?></h1>
 
   <div class="content"<?php print $content_attributes; ?>>
     <?php print render($content); ?>
