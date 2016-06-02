@@ -112,6 +112,7 @@ body.html .action-button .form-submit:hover,
   &.reserve-button.reservable:link,
   &.reserve-button.unavailable.reservable:link,
   &.delete-reservations {
+    margin-top: 10px;
     margin-left: 10px;
     vertical-align: middle;
     display: inline-block;
@@ -129,6 +130,7 @@ body.html .action-button .form-submit:hover,
   }
   &.delete-reservations.unavailable:link,
   &.reserve-button.unavailable:link {
+    margin-top: 10px;
     margin-left: 10px;
     vertical-align: middle;
     display: inline-block;
@@ -153,25 +155,13 @@ body.html .action-button .form-submit:hover,
 // This is basically the same as the styling for links, but with some div/input specific stylings.
 // There is also styling for disabled buttons.
 // The styling here overrides styling from DDBasic.
+.pane-loans,
+.pane-reservations,
+.pane-bookmarks,
 #ding-reservation-reservations-notready-form,
+#ding-reservation-reservations-ready-form,
 #ding-bookmark-remove-form {
-  // Styling for disabled buttons.
   .action-buttons {
-    div.delete-bookmarks,
-    div.delete-reservations,
-    div.update-reservations {
-      .form-submit {
-        &:disabled {
-          background-color: $color-disabled-grey;
-          opacity: 1;
-          @include box-shadow(0 1px 2px 0 $color-disabled-shadow);
-          &:hover {
-            background: darken($color-disabled-grey, 4);
-            opacity: 1;
-          }
-        }
-      }
-    }
     div.delete-bookmarks {
       .form-submit {
         background: $color-mint-green;
@@ -207,6 +197,23 @@ body.html .action-button .form-submit:hover,
         }
         &:active {
           @include box-shadow(inset 1px 1px 4px $color-mint-green-shadow);
+        }
+      }
+    }
+
+    // Styling for disabled buttons.
+    div.delete-bookmarks,
+    div.delete-reservations,
+    div.update-reservations {
+      .form-submit {
+        &:disabled {
+          background-color: $color-disabled-grey;
+          opacity: 1;
+          @include box-shadow(0 1px 2px 0 $color-disabled-shadow);
+          &:hover {
+            background: darken($color-disabled-grey, 4);
+            opacity: 1;
+          }
         }
       }
     }
