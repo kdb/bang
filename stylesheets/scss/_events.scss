@@ -107,6 +107,22 @@
     display: block;
     a {
       @extend .tag;
+      display: inline-block;
+      color: white;
+      background-color: $color-disabled-grey;
+      @include text-shadow(none);
+      @include box-shadow(0 1px 2px $color-disabled-shadow);
+      &:active {
+        @include box-shadow(inset 1px 1px 4px $color-disabled-shadow-alternative);
+        line-height: 21px;
+      }
+      &:link:visited {
+        color: white;
+      }
+      &:link:hover {
+        color: white;
+        background-color: $color-disabled-hover-grey;
+      }
     }
   }
 }
