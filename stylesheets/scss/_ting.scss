@@ -67,6 +67,7 @@ body.html .action-button .form-submit:hover,
   @include box-shadow(0);
 }
 .action-buttons {
+  .renew-loan-button,
   .update-reservations,
   .delete-reservations,
   .delete-bookmarks {
@@ -200,6 +201,8 @@ body.html .action-button .form-submit:hover,
 #ding-reservation-reservations-ready-form,
 #ding-bookmark-remove-form {
   .action-buttons {
+    div.renew-loan-button,
+    div.update-reservations,
     div.delete-bookmarks {
       .form-submit {
         background: $color-mint-green;
@@ -225,21 +228,9 @@ body.html .action-button .form-submit:hover,
         }
       }
     }
-    div.update-reservations {
-      .form-submit {
-        background: $color-mint-green;
-        @include box-shadow(0 1px 2px 0 $color-mint-green-shadow);
-        &:hover {
-          background-color: $color-mint-green-hover;
-          opacity: 1;
-        }
-        &:active {
-          @include box-shadow(inset 1px 1px 4px $color-mint-green-shadow);
-        }
-      }
-    }
 
     // Styling for disabled buttons.
+    div.renew-loan-button,
     div.delete-bookmarks,
     div.delete-reservations,
     div.update-reservations {
