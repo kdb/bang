@@ -112,7 +112,7 @@
     @extend .tag;
     display: inline-block;
     color: white;
-    background-color: $color-grey;
+    background-color: $color-button-grey;
     @include text-shadow(none);
     @include box-shadow(0 1px 2px $color-shadow);
     &:active {
