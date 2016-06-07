@@ -11,6 +11,7 @@
     display: none;
   }
   .field-name-ting-subjects {
+    float: left;
     a {
       @include tag;
     }
@@ -167,7 +168,6 @@ body.html .action-button .form-submit:hover,
   &.reserve-button.reservable:link,
   &.reserve-button.unavailable.reservable:link,
   &.delete-reservations {
-    margin-top: 10px;
     margin-left: 10px;
     vertical-align: middle;
     display: inline-block;
@@ -184,7 +184,6 @@ body.html .action-button .form-submit:hover,
   }
   &.delete-reservations.unavailable:link,
   &.reserve-button.unavailable:link {
-    margin-top: 10px;
     margin-left: 10px;
     vertical-align: middle;
     display: inline-block;
@@ -202,6 +201,15 @@ body.html .action-button .form-submit:hover,
   &.not-reservable {
     // Do not display the button if the user cannot interact with it.
     display: none;
+  }
+}
+
+// Add some margin to
+.pane-bookmarks {
+  .item-information-data {
+    a {
+      margin-top: 15px;
+    }
   }
 }
 
