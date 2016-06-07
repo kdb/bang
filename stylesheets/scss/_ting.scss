@@ -151,15 +151,15 @@ body.html .action-button .form-submit:hover,
     vertical-align: middle;
     display: inline-block;
     color: white;
-    background: $color-disabled-grey;
-    @include box-shadow(0 1px 2px 0 $color-disabled-shadow);
+    background: $color-grey;
+    @include box-shadow(0 1px 2px 0 $color-shadow);
     &:hover {
       color: white;
-      background: $color-disabled-hover-grey;
+      background: $color-hover-grey;
       opacity: 1;
     }
     &:active {
-      @include box-shadow(inset 1px 1px 4px $color-disabled-shadow);
+      @include box-shadow(inset 1px 1px 4px $color-shadow);
     }
   }
   &.reserve-button.available:link,
@@ -171,7 +171,6 @@ body.html .action-button .form-submit:hover,
     margin-left: 10px;
     vertical-align: middle;
     display: inline-block;
-    color: white;
     background: $color-mint-green;
     @include box-shadow(0 1px 2px 0 $color-mint-green-shadow);
     &:hover {
@@ -252,13 +251,7 @@ body.html .action-button .form-submit:hover,
     div.update-reservations {
       .form-submit {
         &:disabled {
-          background-color: $color-disabled-grey;
-          opacity: 1;
-          @include box-shadow(0 1px 2px 0 $color-disabled-shadow);
-          &:hover {
-            background: darken($color-disabled-grey, 4);
-            opacity: 1;
-          }
+          opacity: .7;
         }
       }
     }
