@@ -196,6 +196,10 @@ body.html .action-button .form-submit:hover,
     &:active {
       @include box-shadow(inset 1px 1px 4px $color-mint-green-shadow);
     }
+    &.available.not-reservable {
+      // Do not display the button if the user cannot interact with it.
+      display: none;
+    }
   }
   &.delete-reservations.unavailable:link,
   &.reserve-button.unavailable:link {
