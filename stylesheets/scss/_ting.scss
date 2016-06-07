@@ -5,6 +5,16 @@
   }
 }
 
+.pane-ting-collection {
+  .ting-collection-inner-wrapper {
+    .view-mode-collection-list {
+      &:last-child {
+        padding-bottom: 20px;
+      }
+    }
+  }
+}
+
 .view-mode-collection-list {
   @include content-box;
   .field-type-ting-type {
@@ -20,10 +30,9 @@
 
 .pane-ting-collection .ting-collection-wrapper,
 .pane-ting-object .ting-collection-wrapper {
-   background-image:  none;
+  background-image:  none;
   padding: 0;
   margin: 0;
-
 }
 .pane-ting-collection .ting-collection-inner-wrapper,
 .pane-ting-object .ting-collection-inner-wrapper {
