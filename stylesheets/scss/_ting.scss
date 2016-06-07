@@ -126,13 +126,13 @@ body.html .action-button .form-submit:hover,
   }
 }
 #edit-cancel:link {
-  background: $color-disabled-grey-dark;
-  @include box-shadow(0 1px 2px 0 darken($color-disabled-grey-dark, 20));
+  background: $color-grey-dark;
+  @include box-shadow(0 1px 2px 0 darken($color-grey-dark, 20));
   &:hover {
-    background: darken($color-disabled-grey-dark, 4);
+    background: darken($color-grey-dark, 4);
   }
   &:active {
-    @include box-shadow(inset 1px 1px 4px darken($color-disabled-grey-dark, 20));
+    @include box-shadow(inset 1px 1px 4px darken($color-grey-dark, 20));
   }
 }
 

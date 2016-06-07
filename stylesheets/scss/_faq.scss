@@ -8,15 +8,15 @@
     display: block;
     a {
       @include tag;
-      background-color: $color-disabled-grey;
+      background-color: $color-grey;
       @include text-shadow(none);
-      @include box-shadow(0 1px 2px $color-disabled-shadow);
+      @include box-shadow(0 1px 2px $color-shadow);
       &:active {
-        @include box-shadow(inset 1px 1px 4px $color-disabled-shadow-alternative);
+        @include box-shadow(inset 1px 1px 4px $color-shadow-alternative);
         line-height: 21px;
       }
       &:hover {
-        background-color: $color-disabled-hover-grey;
+        background-color: $color-hover-grey;
       }
     }
   }
