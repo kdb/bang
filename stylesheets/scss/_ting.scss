@@ -145,7 +145,23 @@ body.html .action-button .form-submit:hover,
 // This styling overrides styling from DDBasic.
 .field-name-ding-entity-buttons .action-button,
 .material-item .action-button {
-  &.bookmark-button:link,
+  &.bookmark-button:link {
+    margin-top: 10px;
+    margin-left: 10px;
+    vertical-align: middle;
+    display: inline-block;
+    color: white;
+    background: $color-disabled-grey;
+    @include box-shadow(0 1px 2px 0 $color-disabled-shadow);
+    &:hover {
+      color: white;
+      background: $color-disabled-hover-grey;
+      opacity: 1;
+    }
+    &:active {
+      @include box-shadow(inset 1px 1px 4px $color-disabled-shadow);
+    }
+  }
   &.reserve-button.available:link,
   &.reserve-button.unavailable:link,
   &.reserve-button.reservable:link,
