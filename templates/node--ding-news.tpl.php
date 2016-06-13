@@ -115,6 +115,11 @@
 
       print render($content);
     ?>
+    <?php if (isset($content['field_ding_news_tags'])) : ?>
+      <span class="news-tags label">
+            <?php print render($content['field_ding_news_tags']); ?>
+          </span>
+    <?php endif; ?>
   </section>
 
   <footer class="news-footer">
@@ -127,11 +132,6 @@
           <p><span class="signature-label"><?php print t("Last updated:"); ?></span><?php print $ddbasic_updated ?></p>
         </div>
       </section>
-    <?php endif; ?>
-    <?php if (isset($content['field_ding_news_tags'])) : ?>
-      <span class="news-tags label">
-            <?php print render($content['field_ding_news_tags']); ?>
-          </span>
     <?php endif; ?>
 
     <?php
