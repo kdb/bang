@@ -11,18 +11,24 @@
     display: none;
   }
   .field-name-ting-subjects {
+    display: inline-block;
     a {
       @include tag;
     }
   }
 }
 
+.ting-object-inner-wrapper {
+  .field-type-ting-subjects {
+    float: left;
+  }
+}
+
 .pane-ting-collection .ting-collection-wrapper,
 .pane-ting-object .ting-collection-wrapper {
-   background-image:  none;
+  background-image:  none;
   padding: 0;
   margin: 0;
-
 }
 .pane-ting-collection .ting-collection-inner-wrapper,
 .pane-ting-object .ting-collection-inner-wrapper {
@@ -75,7 +81,7 @@ body.html .action-button .form-submit:hover,
     border: 0;
     .form-submit {
       border-radius: 4px !important;
-      padding: 9px 16px !important;
+      padding: 10px 17px !important;
       line-height: 100%; //24px;
       margin: 0;
       border: 0;
@@ -87,9 +93,9 @@ body.html .action-button .form-submit:hover,
 #edit-delete:link,
 .action-button:link {
   border-radius: 4px !important;
-  padding: 9px 16px !important;
+  padding: 10px 17px !important;
   line-height: 100%; //24px;
-  margin: 0;
+  margin: 0 4px 14px 0;
   border: 0;
   @include border-radius(0);
   @include box-shadow(none);
@@ -167,7 +173,6 @@ body.html .action-button .form-submit:hover,
   &.reserve-button.reservable:link,
   &.reserve-button.unavailable.reservable:link,
   &.delete-reservations {
-    margin-top: 10px;
     margin-left: 10px;
     vertical-align: middle;
     display: inline-block;
@@ -181,10 +186,13 @@ body.html .action-button .form-submit:hover,
     &:active {
       @include box-shadow(inset 1px 1px 4px $color-mint-green-shadow);
     }
+    &.available.not-reservable {
+      // Do not display the button if the user cannot interact with it.
+      display: none;
+    }
   }
   &.delete-reservations.unavailable:link,
   &.reserve-button.unavailable:link {
-    margin-top: 10px;
     margin-left: 10px;
     vertical-align: middle;
     display: inline-block;
@@ -202,6 +210,15 @@ body.html .action-button .form-submit:hover,
   &.not-reservable {
     // Do not display the button if the user cannot interact with it.
     display: none;
+  }
+}
+
+// Add some margin to
+.pane-bookmarks {
+  .item-information-data {
+    a {
+      margin-top: 15px;
+    }
   }
 }
 
