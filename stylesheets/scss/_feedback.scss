@@ -38,3 +38,9 @@
     color: white;
   }
 }
+@media screen and (max-width: $screen-xs) {
+  #feedback_simple a {
+    bottom: 0;
+    top: inherit !important;
+  }
+}
