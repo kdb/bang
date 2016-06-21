@@ -1,0 +1,40 @@
+/* Styling for feedback_simple link button. */
+.feedback_simple-text:link {
+  padding: 15px 14px;
+  line-height: 100%; //24px;
+  margin: 0;
+  border: 0;
+  @include box-shadow(none);
+}
+.feedback_simple-left {
+  border-radius: 0 4px 4px 0;
+}
+.feedback_simple-right {
+  border-radius: 4px 0 0 4px;
+}
+#feedback_simple {
+  .feedback_simple-text:link {
+    font-size: 18px;
+    font-weight: 700;
+    margin: 0;
+    vertical-align: middle;
+    display: inline-block;
+    color: white;
+    background: $color-black;
+    @include box-shadow(0 1px 2px 0 darken($color-black, 20));
+    &:hover {
+      color: white;
+      background: darken($color-black, 4);
+      opacity: 1;
+      &:visited {
+        color: white;
+      }
+    }
+    &:active {
+      @include box-shadow(inset 1px 1px 4px darken($color-black, 20));
+    }
+  }
+  .feedback_simple-text:visited {
+    color: white;
+  }
+}
