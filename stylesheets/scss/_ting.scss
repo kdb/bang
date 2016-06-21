@@ -153,7 +153,6 @@ body.html .action-button .form-submit:hover,
 .field-name-ding-entity-buttons .action-button,
 .material-item .action-button {
   &.bookmark-button:link {
-    margin-top: 10px;
     margin-left: 10px;
     vertical-align: middle;
     display: inline-block;
@@ -175,7 +174,6 @@ body.html .action-button .form-submit:hover,
   &.reserve-button.reservable:link,
   &.reserve-button.unavailable.reservable:link,
   &.delete-reservations {
-    margin-top: 10px;
     margin-left: 10px;
     vertical-align: middle;
     display: inline-block;
