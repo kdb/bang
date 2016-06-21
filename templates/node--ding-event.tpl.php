@@ -124,6 +124,10 @@
     <?php if (isset($content['field_ding_event_price'])): ?>
       <p><i class="icon-tag"></i> <?php print render($content['field_ding_event_price']); ?></p>
     <?php endif; ?>
+
+    <?php if (isset($content['field_place2book_tickets'])): ?>
+      <?php print render($content['field_place2book_tickets']); ?>
+    <?php endif; ?>
   </div>
   <?php
   // Hide materials so that we can render it later.
