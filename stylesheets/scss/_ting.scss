@@ -89,6 +89,7 @@ body.html .action-button .form-submit:hover,
     }
   }
 }
+.ticket-available,
 #edit-cancel:link,
 #edit-delete:link,
 .action-button:link {
@@ -149,6 +150,7 @@ body.html .action-button .form-submit:hover,
 
 // Styling on active-button links.
 // This styling overrides styling from DDBasic.
+.ticket-available,
 .field-name-ding-entity-buttons .button-see-online,
 .field-name-ding-entity-buttons .action-button,
 .material-item .action-button {
@@ -168,6 +170,7 @@ body.html .action-button .form-submit:hover,
       @include box-shadow(inset 1px 1px 4px $color-shadow);
     }
   }
+  &.ticket-available,
   &.button-see-online,
   &.reserve-button.available:link,
   &.reserve-button.unavailable:link,
