@@ -12,6 +12,13 @@
 .feedback_simple-right {
   border-radius: 4px 0 0 4px;
 }
+/* Specific IE styling. */
+@media screen and (-ms-high-contrast: active), (-ms-high-contrast: none) {
+  .feedback_simple-left,
+  .feedback_simple-right {
+    border-radius: 0 0 4px 4px;
+  }
+}
 #feedback_simple {
   .feedback_simple-text:link {
     font-size: 18px;
