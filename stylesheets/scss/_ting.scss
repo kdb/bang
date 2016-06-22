@@ -195,6 +195,9 @@ body.html .action-button .form-submit:hover,
       display: none;
     }
   }
+  &.ticket-available {
+    margin-top: 15px;
+  }
   &.delete-reservations.unavailable:link,
   &.reserve-button.unavailable:link {
     margin-left: 10px;
