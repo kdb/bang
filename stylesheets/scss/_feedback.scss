@@ -6,9 +6,19 @@
   border: 0;
   @include box-shadow(none);
 }
-.feedback_simple-left,
-.feedback_simple-right {
+.feedback_simple-left.feedback_simple-text {
   border-radius: 0 0 4px 4px;
+
+  transform-origin: 24px 24px;
+  -webkit-transform-origin: 24px 24px;
+  -ms-transform-origin: 24px 24px;
+}
+.feedback_simple-right.feedback_simple-text {
+  border-radius: 0 0 4px 4px;
+
+  -webkit-transform-origin: calc(100% - 24px) calc(100% - 24px);
+  -ms-transform-origin: calc(100% - 24px) calc(100% - 24px);
+  transform-origin: calc(100% - 24px) calc(100% - 24px);
 }
 #feedback_simple {
   .feedback_simple-text:link {
