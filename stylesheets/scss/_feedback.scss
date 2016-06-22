@@ -58,8 +58,27 @@
   }
 }
 @media screen and (max-width: $screen-xs) {
-  #feedback_simple a {
-    bottom: 0;
-    top: inherit !important;
+  #feedback_simple {
+    .feedback_simple-text:link {
+      border-radius: 4px 4px;
+      bottom: 0;
+      top: inherit !important;
+      transform: none;
+
+      div {
+        transform: none;
+      }
+      &.feedback_simple-left,
+      &.feedback_simple-right {
+        @include box-shadow(0 1px 2px 0 darken($color-black, 20));
+      }
+
+      &:active {
+        &.feedback_simple-left,
+        &.feedback_simple-right {
+          @include box-shadow(inset 1px 1px 4px $color-black);
+        }
+      }
+    }
   }
 }
