@@ -55,6 +55,9 @@
   }
   .feedback_simple-text:visited {
     color: white;
+    // Repeat background color for visited links. If not then IE11 makes the
+    // backfground transparent.
+    background: $color-black;
   }
 }
 /* Button should be horisontal for small screens. */
