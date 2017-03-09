@@ -1,3 +1,4 @@
+@charset "UTF-8";
 @mixin placeholder {
   &::-webkit-input-placeholder {@content}
   &:-moz-placeholder           {@content}
