@@ -32,3 +32,29 @@
 .field-name-field-alma-reservation-pause {
   @extend .form-group;
 }
+
+// Override and adjust the wayf-wrapper position.
+.wayf-wrapper {
+  margin-right: -10px;
+  margin-bottom: 5px;
+}
+
+// In DDBasic the submit button is detached from the pin inputfield. In this case
+// We do not want that.
+.user .form-actions {
+  @include small-medium {
+    position: static;
+  }
+  @include small {
+    position: static;
+  }
+}
+
+// Part of the DDBasic inputfield detachment described above is also considered here by setting the width and
+// adjusting the position.
+html body .site-header .header-wrapper #user-login-form input.form-submit {
+  @include small {
+    width: 100px;
+    top: 120px;
+  }
+}
