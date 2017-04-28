@@ -58,3 +58,10 @@ html body .site-header .header-wrapper #user-login-form input.form-submit {
     top: 120px;
   }
 }
+
+// Adjust ding_gatewayf buttons border radius to match ours.
+
+.pane-ding-gatewayf-login .ding-gatewayf--login-block,
+.pane-ding-gatewayf-registration-registration .ding-gatewayf--registration {
+  border-radius: 4px;
+}
