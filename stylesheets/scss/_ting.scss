@@ -93,7 +93,8 @@ body.html .action-button .form-submit:hover,
 .ticket-available,
 #edit-cancel:link,
 #edit-delete:link,
-.action-button:link {
+.action-button:link,
+.ding-list-add-button .trigger {
   border-radius: 4px !important;
   padding: 10px 17px !important;
   line-height: 100%; //24px;
@@ -154,7 +155,8 @@ body.html .action-button .form-submit:hover,
 .ticket-available,
 .field-name-ding-entity-buttons .button-see-online,
 .field-name-ding-entity-buttons .action-button,
-.material-item .action-button {
+.material-item .action-button,
+.ding-list-add-button {
   &.bookmark-button:link {
     margin-left: 10px;
     vertical-align: middle;
@@ -177,7 +179,8 @@ body.html .action-button .form-submit:hover,
   &.reserve-button.unavailable:link,
   &.reserve-button.reservable:link,
   &.reserve-button.unavailable.reservable:link,
-  &.delete-reservations {
+  &.delete-reservations,
+  .trigger {
     margin-left: 10px;
     vertical-align: middle;
     display: inline-block;
@@ -228,6 +231,17 @@ body.html .action-button .form-submit:hover,
       margin-top: 15px;
     }
   }
+}
+
+// Reset some of P2 styling.
+.ding-list-add-button.showing .trigger {
+  background: $color-mint-green-hover;
+}
+
+.dlab-breakout-button li a:hover {
+  text-decoration: none;
+  background-color: #ddd;
+  font-weight: normal;
 }
 
 // Styling for action buttons in different forms.
