@@ -65,3 +65,14 @@ html body .site-header .header-wrapper #user-login-form input.form-submit {
 .pane-ding-gatewayf-registration-registration .ding-gatewayf--registration {
   border-radius: 4px;
 }
+
+.ding-user-lists {
+  h3 {
+    @include heading2;
+    margin-top: 40px;
+  }
+
+  .bottom-links a {
+    @include btn;
+  }
+}
