@@ -72,6 +72,12 @@ html body .site-header .header-wrapper #user-login-form input.form-submit {
     margin-top: 40px;
   }
 
+  ul li .label {
+    border-radius: 4px;
+    @include box-shadow(0 1px 2px $color-shadow);
+    background: $color-mint-green;
+  }
+
   .bottom-links a {
     @include btn;
   }
