@@ -16,3 +16,8 @@
     display: none;
   }
 }
+
+// Fix up admin_menu's clash with the styleguide.
+.admin-menu .dropdown:after {
+  clear: none;
+}
