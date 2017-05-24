@@ -145,6 +145,12 @@ body.html .action-button .form-submit:hover,
   }
 }
 
+// Add padding to the submit button on the delete list confirm form,
+// to make it align with the cancel link.
+#ding-list-create-list-form #edit-submit {
+  margin-top: 15px;
+}
+
 // No left margin on submit button on profile form.
 .pane-profile2-form .form-submit {
   margin-left: 0;
