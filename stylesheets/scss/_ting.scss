@@ -371,9 +371,14 @@ body.html .action-button .form-submit:hover,
         }
       }
     }
+
     .field-group-format-wrapper {
       @include content-box;
       margin-top: 20px;
+    }
+
+    .field-name-ding-entity-rating-action {
+      margin-bottom: 20px;
     }
   }
 }
