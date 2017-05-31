@@ -96,6 +96,8 @@ fieldset input {
 .availability.reservable,
 .availability.available,
 .availability.available.reservable,
-.availability.available.not-reservable {
+.availability.available.not-reservable,
+.availability.unavailable.reservable,
+.availability.unavailable.not-reservable {
   color: $availability-link-all;
 }
