@@ -16,7 +16,6 @@ function bang_preprocess_html(&$vars) {
   drupal_add_js($data, array('type' => 'inline'));
 }
 
-
 /**
  * Implements theme_menu_link().
  *
@@ -115,7 +114,6 @@ function bang_preprocess_field(&$vars) {
 function bang_preprocess_form_element(&$vars) {
   $element = &$vars['element'];
 
-
   if (empty($element['#wrapper_attributes'])) {
     $element['#wrapper_attributes'] = array();
   }
@@ -168,7 +166,13 @@ function bang_form_element($variables) {
     $attributes['class'][] = 'form-type-' . strtr($element['#type'], '_', '-');
   }
   if (!empty($element['#name'])) {
-    $attributes['class'][] = 'form-item-' . strtr($element['#name'], array(' ' => '-', '_' => '-', '[' => '-', ']' => ''));
+    $attributes['class'][] = 'form-item-' . strtr($element['#name'],
+                             array(
+                               ' ' => '-',
+                               '_' => '-',
+                               '[' => '-',
+                               ']' => '',
+                             ));
   }
   // Add a class for disabled elements to facilitate cross-browser styling.
   if (!empty($element['#attributes']['disabled'])) {
