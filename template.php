@@ -224,7 +224,7 @@ function bang_preprocess_node(&$variables, $hook) {
       $variables['ddbasic_event_locations'][] = $variables['ddbasic_event_location'][$index];
     }
   }
-  else {
+  elseif (isset($variables['ddbasic_event_location'])) {
     $variables['ddbasic_event_locations'][] = $variables['ddbasic_event_location'];
   }
 }
