@@ -156,6 +156,12 @@ body.html .action-button .form-submit:hover,
   margin-left: 0;
 }
 
+// Use specificity to trump ding-list-add-button.css.
+body .ding-list-add-button {
+  // Remove margin, it's added on the contained a element.
+  margin: 0;
+}
+
 // Styling on active-button links.
 // This styling overrides styling from DDBasic.
 .ticket-available,
